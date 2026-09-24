@@ -1,1 +1,137 @@
-En construccion
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Imágenes y Postales | Encontrá qué decir y compartilo</title>
+  <meta name="description" content="Encontrá frases, imágenes y postales para saludar, felicitar, acompañar, agradecer y expresar lo que sentís. Personalizá, copiá, descargá y compartí.">
+  <link rel="canonical" href="https://imagenesypostales.com/">
+  <meta property="og:title" content="Imágenes y Postales">
+  <meta property="og:description" content="Qué querés decir y a quién. Encontrá una frase, personalizala y compartila.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://imagenesypostales.com/">
+  <meta name="theme-color" content="#0b57d0">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Imágenes y Postales, inicio">
+      <span class="brand-mark">IP</span>
+      <span>Imágenes y Postales</span>
+    </a>
+    <nav class="top-nav" aria-label="Navegación principal">
+      <a href="#explorar">Explorar</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#consciente">Frase consciente</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="explorar">
+      <p class="eyebrow">QUÉ QUERÉS DECIR Y A QUIÉN</p>
+      <h1>Encontrá las palabras. Hacelas tuyas. Compartilas.</h1>
+      <p class="hero-copy">Buscá por persona, situación o emoción. Podés copiar la frase, personalizarla y descargarla como postal.</p>
+
+      <form class="search-box" id="searchForm">
+        <label class="sr-only" for="searchInput">¿Qué querés decir hoy?</label>
+        <input id="searchInput" type="search" placeholder="Cumpleaños para mi hermana, ánimo para una amiga…" autocomplete="off">
+        <button type="submit">Buscar</button>
+      </form>
+
+      <div class="quick-grid" id="quickNeeds" aria-label="Necesidades frecuentes"></div>
+    </section>
+
+    <section class="filters-wrap" id="categorias">
+      <div>
+        <p class="eyebrow">AFINÁ SIN COMPLICARTE</p>
+        <h2>Elegí persona, tono y estilo</h2>
+      </div>
+      <button class="ghost" id="clearFilters" type="button">Limpiar filtros</button>
+      <div class="filters">
+        <label>¿Para quién?
+          <select id="recipientFilter">
+            <option value="">Cualquiera</option>
+            <option value="pareja">Pareja</option>
+            <option value="amiga">Amiga/o</option>
+            <option value="hermana">Hermana/o</option>
+            <option value="mama">Mamá</option>
+            <option value="familia">Familia</option>
+            <option value="para-mi">Para mí</option>
+          </select>
+        </label>
+        <label>¿Con qué tono?
+          <select id="toneFilter">
+            <option value="">Cualquiera</option>
+            <option value="tierno">Tierno</option>
+            <option value="sencillo">Sencillo</option>
+            <option value="gracioso">Gracioso</option>
+            <option value="profundo">Profundo</option>
+          </select>
+        </label>
+        <label>¿Qué estilo?
+          <select id="styleFilter">
+            <option value="">Cualquiera</option>
+            <option value="minimalista">Minimalista</option>
+            <option value="azul">Azul</option>
+            <option value="oscuro">Oscuro</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">LISTAS PARA USAR</p>
+          <h2 id="resultTitle">Postales para hoy</h2>
+        </div>
+        <p id="resultCount" class="muted"></p>
+      </div>
+      <div id="gallery" class="masonry" aria-live="polite"></div>
+      <p id="emptyState" class="empty" hidden>No encontré una coincidencia exacta. Probá con menos filtros o con otra forma de decirlo.</p>
+    </section>
+
+    <section class="conscious" id="consciente">
+      <div>
+        <p class="eyebrow">BIBLIOTECA CONSCIENTE</p>
+        <h2>Una frase nacida de tus libros, no de la nada</h2>
+        <p>La estructura queda preparada para que este módulo formule frases a partir de conceptos realmente extraídos de la biblioteca cargada. No se publicarán citas falsas ni atribuciones inventadas.</p>
+      </div>
+      <div class="conscious-box">
+        <label for="consciousIntent">¿Sobre qué necesitás una frase?</label>
+        <input id="consciousIntent" placeholder="Ej.: calma, fuerza, amor, transformación">
+        <button id="consciousButton" type="button">Preparar intención</button>
+        <p id="consciousResult" class="muted">Pendiente de cargar la base documental de los libros en el repositorio.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>imagenesypostales.com</strong>
+    <span>Encontrar, personalizar y compartir sin vueltas.</span>
+  </footer>
+
+  <dialog id="personalizeDialog">
+    <form method="dialog" class="dialog-card" id="personalizeForm">
+      <button class="dialog-close" value="cancel" aria-label="Cerrar">×</button>
+      <h2>Personalizá tu postal</h2>
+      <p id="dialogBasePhrase" class="preview-phrase"></p>
+      <label>Nombre
+        <input id="personName" maxlength="40" placeholder="Ej.: Sofía">
+      </label>
+      <label>Firma
+        <input id="signature" maxlength="50" placeholder="Ej.: Con cariño, Mauro">
+      </label>
+      <label>Mensaje extra
+        <textarea id="extraMessage" rows="3" maxlength="160" placeholder="Algo breve y personal"></textarea>
+      </label>
+      <div class="dialog-actions">
+        <button type="button" class="ghost" id="copyPersonalized">Copiar</button>
+        <button type="button" id="downloadPersonalized">Descargar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>
