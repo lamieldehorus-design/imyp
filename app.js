@@ -32,10 +32,22 @@ needs.forEach(n=>{const b=document.createElement("button");b.type="button";b.cla
 
 function normalize(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")}
 function filtered(){
- const q=normalize(state.q);
+ const q=normalize(state.q).trim();
+ const stop=new Set(["para","mi","un","una","de","del","la","el","los","las","con","a","al"]);
+ const aliases={
+   "cumple":"cumpleanos","cumpleanos":"cumpleanos","cumpleano":"cumpleanos",
+   "hermana":"hermana","hermano":"hermana",
+   "amigo":"amiga","amiga":"amiga",
+   "mama":"mama","madre":"mama",
+   "novia":"pareja","novio":"pareja","esposa":"pareja","esposo":"pareja",
+   "graciosa":"gracioso","gracioso":"gracioso","humor":"gracioso",
+   "profunda":"profundo","profundo":"profundo"
+ };
+ const tokens=q.split(/\s+/).filter(Boolean).filter(t=>!stop.has(t)).map(t=>aliases[t]||t);
  return items.filter(i=>{
-   const hay=[i.phrase,...i.tags,...i.recipients,i.need,...i.tones].map(normalize).join(" ");
-   return (!state.need||i.need===state.need)&&(!q||hay.includes(q))&&(!state.recipient||i.recipients.includes(state.recipient))&&(!state.tone||i.tones.includes(state.tone))&&(!state.style||i.style===state.style)
+   const hay=normalize([i.phrase,...i.tags,...i.recipients,i.need,...i.tones,i.style].join(" "));
+   const searchOk=!tokens.length||tokens.every(t=>hay.includes(t));
+   return (!state.need||i.need===state.need)&&searchOk&&(!state.recipient||i.recipients.includes(state.recipient))&&(!state.tone||i.tones.includes(state.tone))&&(!state.style||i.style===state.style)
  })
 }
 function card(i){
@@ -65,7 +77,9 @@ function downloadPostal(text,style="minimalista"){
 }
 function toast(msg){const t=document.createElement("div");t.textContent=msg;Object.assign(t.style,{position:"fixed",bottom:"20px",left:"50%",transform:"translateX(-50%)",background:"#15171a",color:"#fff",padding:"10px 16px",borderRadius:"12px",zIndex:99});document.body.appendChild(t);setTimeout(()=>t.remove(),1400)}
 
-$("#searchForm").onsubmit=e=>{e.preventDefault();state.q=$("#searchInput").value.trim();state.need="";render()};
+$("#searchForm").onsubmit=e=>{e.preventDefault();state.q=$("#searchInput").value.trim();state.need="";const params=new URLSearchParams(location.search);
+if(params.get("q")){$("#searchInput").value=params.get("q");state.q=params.get("q")}
+render();document.querySelector(".gallery-section")?.scrollIntoView({behavior:"smooth",block:"start"})};
 ["recipient","tone","style"].forEach(k=>{$("#"+k+"Filter").onchange=e=>{state[k]=e.target.value;render()}});
 $("#clearFilters").onclick=()=>{state.need=state.q=state.recipient=state.tone=state.style="";$("#searchInput").value="";["recipient","tone","style"].forEach(k=>$("#"+k+"Filter").value="");render()};
 
