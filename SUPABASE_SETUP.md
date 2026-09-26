@@ -1,68 +1,59 @@
 # Supabase para imagenesypostales.com
 
-La web pública sigue en GitHub Pages. Supabase queda como backend privado.
+La web pública sigue en GitHub Pages y Supabase guarda autenticación, PDFs, conocimiento, frases y métricas.
 
-## 1. Crear el proyecto
-En Supabase, crear un proyecto nuevo. No poner ninguna clave secreta en GitHub.
+## Motor actual: gratis y sin API de IA
 
-## 2. Base de datos
-Abrir **SQL Editor** y ejecutar:
+El sistema usa:
+- PostgreSQL Full Text Search con configuración `spanish`
+- extracción de texto PDF en el navegador del administrador
+- palabras clave calculadas localmente
+- plantillas de redacción
+- Supabase Auth, Storage y Postgres
 
-`supabase/migrations/202609260001_imyp_backend.sql`
+No necesita `OPENAI_API_KEY`.
 
-Luego crear tu usuario en **Authentication > Users** (o registrarte por email).
+## Migraciones
 
-Copiar el UUID de tu usuario y ejecutar en SQL Editor:
+Ejecutar en SQL Editor, en este orden:
 
-```sql
-insert into public.admin_users (user_id) values ('TU-UUID-DE-AUTH');
-```
+1. `supabase/migrations/202609260001_imyp_backend.sql`
+2. `supabase/migrations/202609260002_spanish_text_engine.sql`
 
-## 3. Configuración pública
-En **Project Settings > API**, copiar:
-- Project URL
-- Publishable key (o anon key si el proyecto usa las claves legacy)
+## Usuario administrador
 
-Esos dos valores son públicos por diseño y quedan protegidos por RLS. Colocarlos en `supabase-config.js`.
+El usuario debe existir en Supabase Authentication y su UUID debe estar en:
 
-Nunca colocar una secret key/service role key en el repositorio.
+`public.admin_users`
 
-## 4. Clave del modelo
-Las Edge Functions necesitan una clave privada del proveedor de IA. Configurar como secreto:
+## PDFs
 
-```bash
-supabase secrets set OPENAI_API_KEY=...
-supabase secrets set OPENAI_GENERATION_MODEL=gpt-5.6-luna
-supabase secrets set OPENAI_KNOWLEDGE_MODEL=gpt-5.6-terra
-supabase secrets set OPENAI_EMBEDDING_MODEL=text-embedding-3-small
-```
+Los PDFs se guardan en el bucket privado `books`.
 
-## 5. Desplegar funciones
+Desde `/admin/`:
+1. Detectar PDFs ya subidos.
+2. Elegir **Procesar**.
+3. El navegador autenticado descarga el PDF privado.
+4. Extrae el texto localmente.
+5. Lo divide en fragmentos.
+6. Calcula palabras clave.
+7. Guarda los nodos en `knowledge_nodes`.
+8. PostgreSQL crea el índice de búsqueda en español.
 
-```bash
-supabase functions deploy process-book
-supabase functions deploy generate-phrase
-supabase functions deploy track-event
-supabase functions deploy admin-api
-```
+Los PDFs y el texto fuente siguen privados.
 
-## 6. Flujo terminado
+## Generador público
 
-### Admin
-1. Entrar a `/admin/`.
-2. Iniciar sesión.
-3. Biblioteca -> subir PDF.
-4. Procesar.
-5. El backend crea nodos conceptuales y embeddings.
-6. Redactor -> generar variantes.
-7. Editar metadatos.
-8. Publicar.
+La web llama a la función SQL `generate_phrase_text`.
+Esta busca conocimiento relacionado y redacta mediante plantillas.
+Al visitante sólo se le devuelve la frase final.
 
-### Visitante
-1. Escribe una intención.
-2. El backend hace búsqueda semántica.
-3. Redacta una frase desde los conceptos recuperados.
-4. El visitante puede regenerar, copiar, personalizar, descargar o compartir.
-5. Se registran métricas agregadas de uso.
+## Fase siguiente: Google Images sin almacenar PNG
 
-Los PDFs y la relación libro -> concepto nunca se exponen en la web pública.
+Más adelante:
+- cada frase publicada tendrá una URL estable;
+- una ruta como `/imagen/frase-123.png` generará la imagen al vuelo;
+- el PNG no tendrá que almacenarse permanentemente;
+- la página publicada podrá exponer esa URL a buscadores.
+
+Esa fase se implementará después del motor de texto.
