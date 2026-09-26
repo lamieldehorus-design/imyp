@@ -104,15 +104,17 @@ $("#downloadPersonalized").onclick=()=>downloadPostal(personalizedText(),state.s
 const initialParams=new URLSearchParams(location.search);
 if(initialParams.get("q")){$("#searchInput").value=initialParams.get("q");state.q=initialParams.get("q")}
 
-let generatedPhrase="",generatedId=null,currentIntent="";
+let generatedPhrase="",generatedId=null,currentIntent="",generatedVariant=0,lastGeneratorIntent="";
 const generatorButton=$("#consciousButton"),generatorInput=$("#consciousIntent"),generatorOutput=$("#consciousOutput"),generatorResult=$("#consciousResult"),generatorStatus=$("#consciousStatus");
 
-async function generatePublicPhrase(){
+async function generatePublicPhrase(next=false){
   const intent=generatorInput.value.trim();
   if(!intent){generatorOutput.hidden=true;generatorStatus.textContent="Escribí primero una palabra, emoción o situación.";return}
+  if(intent!==lastGeneratorIntent){generatedVariant=0;lastGeneratorIntent=intent}
+  else if(next){generatedVariant++}
   currentIntent=intent;generatorButton.disabled=true;generatorStatus.textContent="Buscando una idea...";
   try{
-    const result=await window.PhraseEngine.generate(intent);
+    const result=await window.PhraseEngine.generate(intent,{variant:generatedVariant});
     if(!result?.phrase){generatorOutput.hidden=true;generatorStatus.textContent="Todavía no encontré suficiente material para esa idea. Probá con otra palabra.";return}
     generatedPhrase=result.phrase;generatedId=result.generationId||null;
     generatorResult.textContent=generatedPhrase;generatorOutput.hidden=false;generatorStatus.textContent="";
@@ -121,8 +123,8 @@ async function generatePublicPhrase(){
     generatorStatus.textContent=error?.status===429?"Hiciste muchas solicitudes seguidas. Probá de nuevo en un momento.":"El generador no está disponible en este momento.";
   }finally{generatorButton.disabled=false}
 }
-generatorButton.onclick=generatePublicPhrase;
-$("#regenerateGenerated").onclick=generatePublicPhrase;
+generatorButton.onclick=()=>generatePublicPhrase(false);
+$("#regenerateGenerated").onclick=()=>generatePublicPhrase(true);
 generatorInput.addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();generatePublicPhrase()}});
 $("#copyGenerated").onclick=()=>{if(generatedPhrase){window.PhraseEngine.track("copy",{generationId:generatedId,intent:currentIntent});copyText(generatedPhrase)}};
 $("#downloadGenerated").onclick=()=>{if(generatedPhrase){window.PhraseEngine.track("download",{generationId:generatedId,intent:currentIntent});downloadPostal(generatedPhrase,"azul")}};
