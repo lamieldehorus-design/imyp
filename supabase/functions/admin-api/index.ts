@@ -28,6 +28,43 @@ Deno.serve(async(req)=>{
       return json(req,{books:data||[]});
     }
 
+    if(action==="sync_storage"){
+      const existingRes=await auth.db.from("books").select("storage_path");
+      if(existingRes.error) throw existingRes.error;
+      const existing=new Set((existingRes.data||[]).map((x:any)=>x.storage_path));
+      const found:any[]=[];
+      let offset=0;
+      while(true){
+        const {data:list,error:listError}=await auth.db.storage.from("books").list("",{
+          limit:1000,offset,sortBy:{column:"name",order:"asc"}
+        });
+        if(listError) throw listError;
+        const batch=list||[];
+        for(const item of batch){
+          if(item.id && String(item.name||"").toLowerCase().endsWith(".pdf")){
+            found.push(item);
+          }
+        }
+        if(batch.length<1000) break;
+        offset+=1000;
+      }
+
+      const missing=found.filter((item:any)=>!existing.has(item.name));
+      if(missing.length){
+        const rows=missing.map((item:any)=>({
+          title:String(item.name).replace(/\.pdf$/i,""),
+          original_filename:item.name,
+          storage_path:item.name,
+          file_size:Number(item.metadata?.size||0)||null,
+          status:"uploaded",
+          created_by:auth.user.id
+        }));
+        const {error:insertError}=await auth.db.from("books").insert(rows);
+        if(insertError) throw insertError;
+      }
+      return json(req,{ok:true,found:found.length,added:missing.length});
+    }
+
     if(action==="stats"){
       const since=new Date(Date.now()-30*86400_000).toISOString();
       const [{data:intents,error:iErr},{data:events,error:eErr}]=await Promise.all([
