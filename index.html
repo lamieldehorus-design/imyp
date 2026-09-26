@@ -19,8 +19,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="/" aria-label="Imágenes y Postales, inicio">
-      <span class="brand-mark">IP</span>
-      <span>Imágenes y Postales</span>
+      <span class="brand-mark">IP</span><span>Imágenes y Postales</span>
     </a>
     <nav class="top-nav" aria-label="Navegación principal">
       <a href="#explorar">Explorar</a>
@@ -34,13 +33,11 @@
       <p class="eyebrow">QUÉ QUERÉS DECIR Y A QUIÉN</p>
       <h1>Encontrá las palabras. Hacelas tuyas. Compartilas.</h1>
       <p class="hero-copy">Buscá por persona, situación o emoción. Podés copiar la frase, personalizarla y descargarla como postal.</p>
-
       <form class="search-box" id="searchForm">
         <label class="sr-only" for="searchInput">¿Qué querés decir hoy?</label>
         <input id="searchInput" type="search" placeholder="Cumpleaños para mi hermana, ánimo para una amiga…" autocomplete="off">
         <button type="submit">Buscar</button>
       </form>
-
       <div class="quick-grid" id="quickNeeds" aria-label="Necesidades frecuentes"></div>
     </section>
 
@@ -60,38 +57,28 @@
     </section>
 
     <section class="filters-wrap" id="categorias">
-      <div>
-        <p class="eyebrow">AFINÁ SIN COMPLICARTE</p>
-        <h2>Elegí persona, tono y estilo</h2>
-      </div>
+      <div><p class="eyebrow">AFINÁ SIN COMPLICARTE</p><h2>Elegí persona, tono y estilo</h2></div>
       <button class="ghost" id="clearFilters" type="button">Limpiar filtros</button>
       <div class="filters">
         <label>¿Para quién?
           <select id="recipientFilter">
-            <option value="">Cualquiera</option>
-            <option value="pareja">Pareja</option>
-            <option value="amiga">Amiga/o</option>
-            <option value="hermana">Hermana/o</option>
-            <option value="mama">Mamá</option>
-            <option value="familia">Familia</option>
+            <option value="">Cualquiera</option><option value="pareja">Pareja</option>
+            <option value="amiga">Amiga/o</option><option value="hermana">Hermana/o</option>
+            <option value="mama">Mamá</option><option value="familia">Familia</option>
             <option value="para-mi">Para mí</option>
           </select>
         </label>
         <label>¿Con qué tono?
           <select id="toneFilter">
-            <option value="">Cualquiera</option>
-            <option value="tierno">Tierno</option>
-            <option value="sencillo">Sencillo</option>
-            <option value="gracioso">Gracioso</option>
+            <option value="">Cualquiera</option><option value="tierno">Tierno</option>
+            <option value="sencillo">Sencillo</option><option value="gracioso">Gracioso</option>
             <option value="profundo">Profundo</option>
           </select>
         </label>
         <label>¿Qué estilo?
           <select id="styleFilter">
-            <option value="">Cualquiera</option>
-            <option value="minimalista">Minimalista</option>
-            <option value="azul">Azul</option>
-            <option value="oscuro">Oscuro</option>
+            <option value="">Cualquiera</option><option value="minimalista">Minimalista</option>
+            <option value="azul">Azul</option><option value="oscuro">Oscuro</option>
           </select>
         </label>
       </div>
@@ -99,10 +86,7 @@
 
     <section class="gallery-section">
       <div class="section-heading">
-        <div>
-          <p class="eyebrow">LISTAS PARA USAR</p>
-          <h2 id="resultTitle">Postales para hoy</h2>
-        </div>
+        <div><p class="eyebrow">LISTAS PARA USAR</p><h2 id="resultTitle">Postales para hoy</h2></div>
         <p id="resultCount" class="muted"></p>
       </div>
       <div id="gallery" class="masonry" aria-live="polite"></div>
@@ -113,7 +97,7 @@
       <div>
         <p class="eyebrow">CREÁ ALGO TUYO</p>
         <h2>Generá una frase a partir de una idea</h2>
-        <p>Escribí una palabra, emoción o situación. El generador buscará la idea más cercana y construirá una frase breve para compartir.</p>
+        <p>Escribí una palabra, emoción o situación. Te proponemos una frase breve que después podés hacer tuya.</p>
       </div>
       <div class="conscious-box">
         <label for="consciousIntent">¿Sobre qué querés una frase?</label>
@@ -124,9 +108,11 @@
         <div id="consciousOutput" class="generated-output" hidden>
           <p id="consciousResult"></p>
           <div class="generated-actions">
+            <button id="regenerateGenerated" type="button" class="ghost">Otra frase</button>
             <button id="copyGenerated" type="button" class="ghost">Copiar</button>
             <button id="personalizeGenerated" type="button" class="ghost">Personalizar</button>
             <button id="downloadGenerated" type="button">Descargar</button>
+            <button id="shareGenerated" type="button">Compartir</button>
           </div>
         </div>
         <p id="consciousStatus" class="muted">Escribí una idea y generá una frase.</p>
@@ -134,25 +120,16 @@
     </section>
   </main>
 
-  <footer>
-    <strong>imagenesypostales.com</strong>
-    <span>Encontrar, personalizar y compartir sin vueltas.</span>
-  </footer>
+  <footer><strong>imagenesypostales.com</strong><span>Encontrar, personalizar y compartir sin vueltas.</span></footer>
 
   <dialog id="personalizeDialog">
     <form method="dialog" class="dialog-card" id="personalizeForm">
       <button class="dialog-close" value="cancel" aria-label="Cerrar">×</button>
       <h2>Personalizá tu postal</h2>
       <p id="dialogBasePhrase" class="preview-phrase"></p>
-      <label>Nombre
-        <input id="personName" maxlength="40" placeholder="Ej.: Sofía">
-      </label>
-      <label>Firma
-        <input id="signature" maxlength="50" placeholder="Ej.: Con cariño, Mauro">
-      </label>
-      <label>Mensaje extra
-        <textarea id="extraMessage" rows="3" maxlength="160" placeholder="Algo breve y personal"></textarea>
-      </label>
+      <label>Nombre<input id="personName" maxlength="40" placeholder="Ej.: Sofía"></label>
+      <label>Firma<input id="signature" maxlength="50" placeholder="Ej.: Con cariño, Mauro"></label>
+      <label>Mensaje extra<textarea id="extraMessage" rows="3" maxlength="160" placeholder="Algo breve y personal"></textarea></label>
       <div class="dialog-actions">
         <button type="button" class="ghost" id="copyPersonalized">Copiar</button>
         <button type="button" id="downloadPersonalized">Descargar</button>
@@ -160,6 +137,7 @@
     </form>
   </dialog>
 
+  <script src="/supabase-config.js" defer></script>
   <script src="/phrase-engine.js" defer></script>
   <script src="/app.js" defer></script>
 </body>
