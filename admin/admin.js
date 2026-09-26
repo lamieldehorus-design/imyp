@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);
 const cfg=()=>window.IMYP_CONFIG||{};
-let session=null,selectedGenerationId=null,currentIntent="",sb=null,pdfTools=null;
+let session=null,selectedGenerationId=null,currentIntent="",sb=null,pdfTools=null,bucketPdfCount=0;
 
 function configured(){
   return /^https:\/\//.test(cfg().supabaseUrl||"")&&String(cfg().supabasePublishableKey||"").length>10;
@@ -50,7 +50,10 @@ async function login(email,password){
 }
 function showApp(){
   $("#loginPanel").hidden=true;$("#adminApp").hidden=false;$("#logoutButton").hidden=false;
-  loadBooks();loadStats();loadPublished();
+  $("#bookStatus").textContent="Sincronizando biblioteca con Supabase Storage...";
+  syncStorage(true).catch(()=>loadBooks());
+  loadStats();
+  loadPublished();
 }
 function showLogin(){
   $("#loginPanel").hidden=false;$("#adminApp").hidden=true;$("#logoutButton").hidden=true;
@@ -112,9 +115,10 @@ async function uploadBook(){
 }
 $("#uploadBook").onclick=uploadBook;
 
-async function syncStorage(){
-  $("#syncBooks").disabled=true;
-  $("#bookStatus").textContent="Buscando PDFs existentes en Storage...";
+async function syncStorage(silent=false){
+  const syncButton=$("#syncBooks");
+  if(syncButton)syncButton.disabled=true;
+  if(!silent)$("#bookStatus").textContent="Buscando PDFs existentes en Storage...";
   try{
     const {data:existing,error:existingError}=await client().from("books").select("storage_path");
     if(existingError)throw existingError;
@@ -130,6 +134,7 @@ async function syncStorage(){
       offset+=batch.length;
     }while(batch.length===1000);
 
+    bucketPdfCount=found.length;
     const missing=found.filter(x=>!known.has(x.name));
     if(missing.length){
       const rows=missing.map(x=>({
@@ -143,13 +148,20 @@ async function syncStorage(){
       const {error}=await client().from("books").insert(rows);
       if(error)throw error;
     }
-    $("#bookStatus").textContent=`Encontrados ${found.length} PDFs. Agregados ${missing.length} a la biblioteca.`;
+    if(!silent){
+      $("#bookStatus").textContent=`Encontrados ${found.length} PDFs. Agregados ${missing.length} a la biblioteca.`;
+    }else{
+      $("#bookStatus").textContent=missing.length
+        ? `Biblioteca sincronizada: ${missing.length} PDF${missing.length===1?"":"s"} nuevo${missing.length===1?"":"s"} detectado${missing.length===1?"":"s"}.`
+        : `Biblioteca sincronizada con ${found.length} PDF${found.length===1?"":"s"}.`;
+    }
     await loadBooks();
   }catch(error){
     $("#bookStatus").textContent="Error al sincronizar: "+error.message;
-  }finally{$("#syncBooks").disabled=false}
+    throw error;
+  }finally{if(syncButton)syncButton.disabled=false}
 }
-$("#syncBooks").onclick=syncStorage;
+$("#syncBooks").onclick=()=>syncStorage(false);
 $("#refreshBooks").onclick=loadBooks;
 
 const STOP=new Set(("a al algo algunas algunos ante antes aquel aquella aquellas aquellos aqui asi aun aunque bajo bastante bien cada casi como con contra cual cuando de del desde donde dos durante e el ella ellas ellos en entre era erais eran eras eres es esa esas ese eso esos esta estaba estaban estar estas este esto estos fue fueron ha hace hacia hasta hay la las le les lo los mas me mi mientras muy ni no nos nosotros o os otra otras otro otros para pero poco por porque que quien se sea ser si sin sobre solo son su sus tambien te tiene todo tras tu tus un una unas uno unos y ya yo").split(" "));
@@ -272,6 +284,21 @@ async function deleteBook(book){
     await loadBooks();
   }catch(error){$("#bookStatus").textContent="Error al eliminar: "+error.message}
 }
+function renderLibraryStats(books){
+  const rows=books||[];
+  const ready=rows.filter(x=>x.status==="ready").length;
+  const failed=rows.filter(x=>x.status==="failed").length;
+  const processing=rows.filter(x=>x.status==="processing").length;
+  const uploaded=rows.filter(x=>x.status==="uploaded").length;
+  const pending=uploaded+processing;
+  const total=bucketPdfCount||rows.length;
+
+  $("#bucketCount").textContent=String(total);
+  $("#readyCount").textContent=String(ready);
+  $("#pendingCount").textContent=String(pending);
+  $("#failedCount").textContent=String(failed);
+}
+
 async function loadBooks(){
   if(!session)return;
   try{
@@ -280,6 +307,7 @@ async function loadBooks(){
       .order("created_at",{ascending:false});
     if(error)throw error;
     const root=$("#bookList");root.innerHTML="";
+    renderLibraryStats(data||[]);
     if(!data?.length){root.innerHTML='<p class="muted">Todavía no hay libros registrados.</p>';return}
     data.forEach(book=>{
       const row=document.createElement("div");row.className="admin-list-row";
