@@ -1,4 +1,4 @@
 window.IMYP_CONFIG = Object.freeze({
-  supabaseUrl: "",
+  supabaseUrl: "https://uevfyknyzfzgdemaoyci.supabase.co",
   supabasePublishableKey: ""
 });
