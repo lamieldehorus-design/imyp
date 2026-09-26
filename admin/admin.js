@@ -95,6 +95,17 @@ async function uploadBook(){
   finally{$("#uploadBook").disabled=false}
 }
 $("#uploadBook").onclick=uploadBook;
+$("#syncBooks").onclick=async()=>{
+  $("#syncBooks").disabled=true;
+  $("#bookStatus").textContent="Buscando PDFs existentes en Storage...";
+  try{
+    const result=await functionCall("admin-api",{action:"sync_storage"});
+    $("#bookStatus").textContent=`Encontrados ${result.found||0} PDFs. Agregados ${result.added||0} a la biblioteca.`;
+    await loadBooks();
+  }catch(error){
+    $("#bookStatus").textContent="Error al sincronizar: "+error.message;
+  }finally{$("#syncBooks").disabled=false}
+};
 $("#refreshBooks").onclick=loadBooks;
 
 async function pollBookStatus(bookId,attempt=0){
@@ -116,6 +127,23 @@ async function pollBookStatus(bookId,attempt=0){
   }catch{}
 }
 
+async function processExistingBook(book){
+  $("#bookStatus").textContent="Iniciando procesamiento de “"+book.title+"”...";
+  try{
+    const result=await functionCall("process-book",{
+      path:book.storage_path,
+      title:book.title,
+      originalFilename:book.original_filename,
+      fileSize:book.file_size
+    });
+    $("#bookStatus").textContent="Procesando en segundo plano...";
+    await loadBooks();
+    pollBookStatus(result.bookId);
+  }catch(error){
+    $("#bookStatus").textContent="Error al iniciar procesamiento: "+error.message;
+  }
+}
+
 async function loadBooks(){
   if(!session)return;
   try{
@@ -129,9 +157,17 @@ async function loadBooks(){
       const small=document.createElement("small");
       small.textContent=`${book.status} · ${book.node_count||0} nodos · ${book.concept_count||0} conceptos${book.error_message?" · "+book.error_message:""}`;
       info.append(strong,small);
+      const actions=document.createElement("div");actions.className="admin-actions";
+      if(book.status==="uploaded"||book.status==="failed"){
+        const process=document.createElement("button");process.type="button";
+        process.textContent=book.status==="failed"?"Reprocesar":"Procesar";
+        process.onclick=()=>processExistingBook(book);
+        actions.appendChild(process);
+      }
       const del=document.createElement("button");del.className="ghost";del.type="button";del.textContent="Eliminar";
       del.onclick=async()=>{if(!confirm("¿Eliminar este libro y sus conceptos?"))return;await functionCall("admin-api",{action:"delete_book",id:book.id});loadBooks()};
-      row.append(info,del);root.appendChild(row);
+      actions.appendChild(del);
+      row.append(info,actions);root.appendChild(row);
     });
   }catch(error){$("#bookStatus").textContent="No se pudo cargar la biblioteca: "+error.message}
 }
