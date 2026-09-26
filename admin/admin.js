@@ -1,48 +1,52 @@
 const $=s=>document.querySelector(s);
 const cfg=()=>window.IMYP_CONFIG||{};
-const SESSION_KEY="imyp_admin_session_v2";
 let session=null,selectedGenerationId=null,currentIntent="";
+let sb=null;
 
 function configured(){return /^https:\/\//.test(cfg().supabaseUrl||"")&&String(cfg().supabasePublishableKey||"").length>10}
 function base(){return String(cfg().supabaseUrl||"").replace(/\/$/,"")}
 function key(){return String(cfg().supabasePublishableKey||"")}
-function setSession(value){
-  session=value;
-  if(value)localStorage.setItem(SESSION_KEY,JSON.stringify(value));else localStorage.removeItem(SESSION_KEY);
-}
-function savedSession(){try{return JSON.parse(localStorage.getItem(SESSION_KEY)||"null")}catch{return null}}
-
-async function authCall(path,body){
-  const r=await fetch(base()+path,{method:"POST",headers:{"apikey":key(),"Content-Type":"application/json"},body:JSON.stringify(body)});
-  const data=await r.json().catch(()=>({}));
-  if(!r.ok)throw new Error(data.msg||data.error_description||data.error||"No se pudo iniciar sesión");
-  return data;
+function client(){
+  if(!sb){
+    if(!window.supabase?.createClient)throw new Error("No se pudo cargar el cliente de Supabase");
+    sb=window.supabase.createClient(base(),key(),{
+      auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}
+    });
+  }
+  return sb;
 }
 async function refreshSession(){
-  const saved=savedSession();
-  if(!saved?.refresh_token)return false;
-  try{
-    const data=await authCall("/auth/v1/token?grant_type=refresh_token",{refresh_token:saved.refresh_token});
-    setSession(data);return true;
-  }catch{setSession(null);return false}
+  const {data,error}=await client().auth.getSession();
+  if(error)throw error;
+  session=data.session||null;
+  return !!session;
 }
 async function functionCall(name,body){
-  if(!session?.access_token)throw new Error("Sesión no iniciada");
+  if(!session?.access_token){
+    await refreshSession();
+    if(!session?.access_token)throw new Error("Sesión no iniciada");
+  }
   const r=await fetch(base()+"/functions/v1/"+name,{
     method:"POST",
     headers:{"apikey":key(),"Authorization":"Bearer "+session.access_token,"Content-Type":"application/json"},
     body:JSON.stringify(body)
   });
   const data=await r.json().catch(()=>({}));
-  if(r.status===401&&await refreshSession())return functionCall(name,body);
+  if(r.status===401){
+    const {data:refreshed}=await client().auth.refreshSession();
+    session=refreshed.session||null;
+    if(session?.access_token)return functionCall(name,body);
+  }
   if(!r.ok)throw new Error(data.error||("HTTP "+r.status));
   return data;
 }
 function splitList(v){return v.split(",").map(x=>x.trim()).filter(Boolean)}
 
 async function login(email,password){
-  const data=await authCall("/auth/v1/token?grant_type=password",{email,password});
-  setSession(data);
+  const {data,error}=await client().auth.signInWithPassword({email,password});
+  if(error)throw error;
+  session=data.session||null;
+  if(!session)throw new Error("No se creó una sesión");
   await functionCall("admin-api",{action:"list_books"});
   showApp();
 }
@@ -57,9 +61,9 @@ function showLogin(){
 $("#loginForm").onsubmit=async e=>{
   e.preventDefault();$("#loginStatus").textContent="Entrando...";
   try{await login($("#adminEmail").value.trim(),$("#adminPassword").value);$("#loginStatus").textContent=""}
-  catch(error){setSession(null);$("#loginStatus").textContent=error.message}
+  catch(error){session=null;$("#loginStatus").textContent=error.message||"No se pudo iniciar sesión"}
 };
-$("#logoutButton").onclick=()=>{setSession(null);showLogin()};
+$("#logoutButton").onclick=async()=>{try{await client().auth.signOut()}catch{}session=null;showLogin()};
 
 document.querySelectorAll("[data-tab]").forEach(btn=>btn.onclick=()=>{
   document.querySelectorAll("[data-tab]").forEach(b=>{b.classList.toggle("active",b===btn);b.classList.toggle("ghost",b!==btn)});
@@ -267,8 +271,15 @@ async function loadPublished(){
   if(!configured()){
     $("#configWarning").hidden=false;$("#loginPanel").hidden=true;return;
   }
-  if(await refreshSession()){
-    try{await functionCall("admin-api",{action:"list_books"});showApp();return}catch{setSession(null)}
+  try{
+    if(await refreshSession()){
+      await functionCall("admin-api",{action:"list_books"});
+      showApp();
+      return;
+    }
+  }catch(error){
+    session=null;
+    $("#loginStatus").textContent=error.message||"No se pudo conectar con Supabase";
   }
   showLogin();
 })();
