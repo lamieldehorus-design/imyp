@@ -25,7 +25,7 @@
     <nav class="top-nav" aria-label="Navegación principal">
       <a href="#explorar">Explorar</a>
       <a href="#categorias">Categorías</a>
-      <a href="#consciente">Frase consciente</a>
+      <a href="#crear-frase">Crear frase</a>
     </nav>
   </header>
 
@@ -109,17 +109,27 @@
       <p id="emptyState" class="empty" hidden>No encontré una coincidencia exacta. Probá con menos filtros o con otra forma de decirlo.</p>
     </section>
 
-    <section class="conscious" id="consciente">
+    <section class="conscious" id="crear-frase">
       <div>
-        <p class="eyebrow">BIBLIOTECA CONSCIENTE</p>
-        <h2>Una frase nacida de tus libros, no de la nada</h2>
-        <p>La estructura queda preparada para que este módulo formule frases a partir de conceptos realmente extraídos de la biblioteca cargada. No se publicarán citas falsas ni atribuciones inventadas.</p>
+        <p class="eyebrow">CREÁ ALGO TUYO</p>
+        <h2>Generá una frase a partir de una idea</h2>
+        <p>Escribí una palabra, emoción o situación. El generador buscará la idea más cercana y construirá una frase breve para compartir.</p>
       </div>
       <div class="conscious-box">
-        <label for="consciousIntent">¿Sobre qué necesitás una frase?</label>
-        <input id="consciousIntent" placeholder="Ej.: calma, fuerza, amor, transformación">
-        <button id="consciousButton" type="button">Preparar intención</button>
-        <p id="consciousResult" class="muted">Pendiente de cargar la base documental de los libros en el repositorio.</p>
+        <label for="consciousIntent">¿Sobre qué querés una frase?</label>
+        <div class="generator-row">
+          <input id="consciousIntent" placeholder="Ej.: calma, fuerza, amor, transformación" autocomplete="off">
+          <button id="consciousButton" type="button">Generar frase</button>
+        </div>
+        <div id="consciousOutput" class="generated-output" hidden>
+          <p id="consciousResult"></p>
+          <div class="generated-actions">
+            <button id="copyGenerated" type="button" class="ghost">Copiar</button>
+            <button id="personalizeGenerated" type="button" class="ghost">Personalizar</button>
+            <button id="downloadGenerated" type="button">Descargar</button>
+          </div>
+        </div>
+        <p id="consciousStatus" class="muted">Escribí una idea y generá una frase.</p>
       </div>
     </section>
   </main>
@@ -150,6 +160,7 @@
     </form>
   </dialog>
 
+  <script src="/phrase-engine.js" defer></script>
   <script src="/app.js" defer></script>
 </body>
 </html>
