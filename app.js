@@ -77,9 +77,13 @@ function downloadPostal(text,style="minimalista"){
 }
 function toast(msg){const t=document.createElement("div");t.textContent=msg;Object.assign(t.style,{position:"fixed",bottom:"20px",left:"50%",transform:"translateX(-50%)",background:"#15171a",color:"#fff",padding:"10px 16px",borderRadius:"12px",zIndex:99});document.body.appendChild(t);setTimeout(()=>t.remove(),1400)}
 
-$("#searchForm").onsubmit=e=>{e.preventDefault();state.q=$("#searchInput").value.trim();state.need="";const params=new URLSearchParams(location.search);
-if(params.get("q")){$("#searchInput").value=params.get("q");state.q=params.get("q")}
-render();document.querySelector(".gallery-section")?.scrollIntoView({behavior:"smooth",block:"start"})};
+$("#searchForm").onsubmit=e=>{
+  e.preventDefault();
+  state.q=$("#searchInput").value.trim();
+  state.need="";
+  render();
+  document.querySelector(".gallery-section")?.scrollIntoView({behavior:"smooth",block:"start"});
+};
 ["recipient","tone","style"].forEach(k=>{$("#"+k+"Filter").onchange=e=>{state[k]=e.target.value;render()}});
 $("#clearFilters").onclick=()=>{state.need=state.q=state.recipient=state.tone=state.style="";$("#searchInput").value="";["recipient","tone","style"].forEach(k=>$("#"+k+"Filter").value="");render()};
 
@@ -91,5 +95,56 @@ function personalizedText(){
 function openPersonalize(i){state.selected=i;$("#dialogBasePhrase").textContent=i.phrase;$("#personName").value="";$("#signature").value="";$("#extraMessage").value="";dialog.showModal()}
 $("#copyPersonalized").onclick=()=>copyText(personalizedText());
 $("#downloadPersonalized").onclick=()=>downloadPostal(personalizedText(),state.selected?.style||"minimalista");
-$("#consciousButton").onclick=()=>{const v=$("#consciousIntent").value.trim();$("#consciousResult").textContent=v?`Intención guardada: “${v}”. Falta conectar la base documental de los libros para generar una frase fiel a esas fuentes.`:"Escribí primero una intención."};
+const initialParams=new URLSearchParams(location.search);
+if(initialParams.get("q")){
+  $("#searchInput").value=initialParams.get("q");
+  state.q=initialParams.get("q");
+}
+
+let generatedPhrase="";
+const generatorButton=$("#consciousButton");
+const generatorInput=$("#consciousIntent");
+const generatorOutput=$("#consciousOutput");
+const generatorResult=$("#consciousResult");
+const generatorStatus=$("#consciousStatus");
+
+async function generatePublicPhrase(){
+  const intent=generatorInput.value.trim();
+  if(!intent){
+    generatorOutput.hidden=true;
+    generatorStatus.textContent="Escribí primero una palabra, emoción o situación.";
+    return;
+  }
+  generatorButton.disabled=true;
+  generatorStatus.textContent="Buscando una idea...";
+  try{
+    const result=await window.PhraseEngine.generate(intent);
+    if(!result?.phrase){
+      generatorOutput.hidden=true;
+      generatorStatus.textContent="No encontré una frase para esa idea todavía. Probá con otra palabra.";
+      return;
+    }
+    generatedPhrase=result.phrase;
+    generatorResult.textContent=generatedPhrase;
+    generatorOutput.hidden=false;
+    generatorStatus.textContent="";
+  }catch(error){
+    generatorOutput.hidden=true;
+    generatorStatus.textContent="El generador no está disponible en este momento.";
+  }finally{
+    generatorButton.disabled=false;
+  }
+}
+
+generatorButton.onclick=generatePublicPhrase;
+generatorInput.addEventListener("keydown",e=>{
+  if(e.key==="Enter"){e.preventDefault();generatePublicPhrase()}
+});
+$("#copyGenerated").onclick=()=>generatedPhrase&&copyText(generatedPhrase);
+$("#downloadGenerated").onclick=()=>generatedPhrase&&downloadPostal(generatedPhrase,"azul");
+$("#personalizeGenerated").onclick=()=>{
+  if(!generatedPhrase)return;
+  openPersonalize({phrase:generatedPhrase,style:"azul"});
+};
+
 render();
