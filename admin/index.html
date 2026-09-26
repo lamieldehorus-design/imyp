@@ -10,57 +10,105 @@
 <body>
 <header class="site-header">
   <a class="brand" href="/"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a>
-  <nav class="top-nav"><a href="/">Ver sitio</a></nav>
+  <nav class="top-nav"><a href="/">Ver sitio</a><button id="logoutButton" class="ghost" type="button" hidden>Salir</button></nav>
 </header>
+
 <main class="admin-shell">
-  <div class="admin-head">
-    <p class="eyebrow">ADMINISTRACIÓN</p>
-    <h1>Generador de frases</h1>
-    <p class="hero-copy">Usá una palabra o intención para crear borradores. Los borradores quedan guardados sólo en este navegador hasta conectar el backend de publicación.</p>
-  </div>
+  <section id="configWarning" class="admin-panel admin-warning" hidden>
+    <h2>Falta conectar Supabase</h2>
+    <p>El panel ya está preparado. Cuando tengamos Project URL y Publishable Key se activará la conexión.</p>
+  </section>
 
-  <section class="admin-panel">
-    <div class="admin-grid">
-      <label>Palabra o intención
-        <input id="adminIntent" placeholder="Ej.: transformación, calma, amor">
-      </label>
-      <label>Tono
-        <select id="adminTone">
-          <option value="">Automático</option>
-          <option value="profundo">Profundo</option>
-          <option value="tierno">Tierno</option>
-          <option value="sencillo">Sencillo</option>
-          <option value="gracioso">Gracioso</option>
-        </select>
-      </label>
-    </div>
-    <div class="admin-actions">
-      <button id="adminGenerate" type="button">Generar frase</button>
-      <button id="adminRegenerate" type="button" class="ghost">Otra variante</button>
+  <section id="loginPanel" class="admin-panel admin-login">
+    <p class="eyebrow">ACCESO PRIVADO</p>
+    <h1>Administrador</h1>
+    <form id="loginForm" class="admin-grid">
+      <label>Email<input id="adminEmail" type="email" autocomplete="username" required></label>
+      <label>Contraseña<input id="adminPassword" type="password" autocomplete="current-password" required></label>
+      <div class="admin-actions"><button type="submit">Entrar</button></div>
+    </form>
+    <p id="loginStatus" class="admin-note"></p>
+  </section>
+
+  <div id="adminApp" hidden>
+    <div class="admin-head">
+      <p class="eyebrow">IMÁGENES Y POSTALES</p>
+      <h1>Centro de contenido</h1>
+      <p class="hero-copy">Biblioteca privada, redactor, publicación y radar de intenciones.</p>
     </div>
 
-    <div id="adminResult" class="admin-result" hidden>
-      <blockquote id="adminPhrase"></blockquote>
-      <div class="admin-actions">
-        <button id="adminCopy" type="button" class="ghost">Copiar</button>
-        <button id="adminSaveDraft" type="button">Guardar borrador</button>
+    <nav class="admin-tabs" aria-label="Secciones del administrador">
+      <button type="button" data-tab="library" class="active">Biblioteca</button>
+      <button type="button" data-tab="writer" class="ghost">Redactor</button>
+      <button type="button" data-tab="stats" class="ghost">Estadísticas</button>
+      <button type="button" data-tab="published" class="ghost">Publicadas</button>
+    </nav>
+
+    <section class="admin-panel" data-panel="library">
+      <p class="eyebrow">BIBLIOTECA PRIVADA</p><h2>Subir y procesar libros PDF</h2>
+      <div class="admin-grid">
+        <label>Título del libro<input id="bookTitle" placeholder="Se completa con el nombre del archivo si lo dejás vacío"></label>
+        <label>Archivo PDF<input id="bookFile" type="file" accept="application/pdf,.pdf"></label>
       </div>
-    </div>
+      <div class="admin-actions">
+        <button id="uploadBook" type="button">Subir y procesar</button>
+        <button id="refreshBooks" type="button" class="ghost">Actualizar lista</button>
+      </div>
+      <p id="bookStatus" class="admin-note"></p>
+      <div id="bookList" class="admin-list"></div>
+    </section>
 
-    <p id="adminStatus" class="admin-note">La base está preparada. Cuando carguemos el material, este generador empezará a producir frases a partir de ese contenido.</p>
-  </section>
+    <section class="admin-panel" data-panel="writer" hidden>
+      <p class="eyebrow">BOT REDACTOR</p><h2>Generar nuevas frases</h2>
+      <div class="admin-grid">
+        <label>Palabra, tema o intención<input id="adminIntent" placeholder="Ej.: transformación, distancia, hermana, calma"></label>
+        <label>Tono
+          <select id="adminTone"><option value="">Automático</option><option value="profundo">Profundo</option><option value="amoroso">Amoroso</option><option value="breve">Breve</option><option value="reflexivo">Reflexivo</option><option value="espiritual">Espiritual</option><option value="gracioso">Humor</option><option value="familiar">Familiar</option></select>
+        </label>
+        <label>Cantidad
+          <select id="adminCount"><option value="5">5 variantes</option><option value="10">10 variantes</option></select>
+        </label>
+      </div>
+      <div class="admin-actions"><button id="adminGenerate" type="button">Generar variantes</button></div>
+      <p id="adminStatus" class="admin-note"></p>
+      <div id="variantList" class="variant-list"></div>
 
-  <section class="admin-panel" style="margin-top:1rem">
-    <p class="eyebrow">BORRADORES LOCALES</p>
-    <h2>Frases guardadas</h2>
-    <div id="draftList" class="draft-list"></div>
-    <div class="admin-actions">
-      <button id="exportDrafts" type="button" class="ghost">Exportar JSON</button>
-      <button id="clearDrafts" type="button" class="ghost">Vaciar borradores</button>
-    </div>
-    <p class="admin-note">Todavía no hay publicación directa al sitio porque GitHub Pages no puede guardar una clave de administrador de forma segura. El siguiente paso será conectar autenticación + backend.</p>
-  </section>
+      <div id="publishEditor" class="admin-result" hidden>
+        <p class="eyebrow">EDITAR Y PUBLICAR</p>
+        <label>Frase<textarea id="publishPhrase"></textarea></label>
+        <div class="admin-grid">
+          <label>Categoría
+            <select id="publishCategory"><option value="saludar">Saludar</option><option value="cumpleanos">Cumpleaños</option><option value="carino">Cariño</option><option value="acompanar">Acompañar</option><option value="agradecer">Agradecer</option><option value="expresar" selected>Expresar</option><option value="familia">Familia</option><option value="viajes">Viajes</option><option value="humor">Humor</option></select>
+          </label>
+          <label>Destinatarios<input id="publishRecipients" placeholder="familia, amiga, pareja"></label>
+          <label>Tonos<input id="publishTones" placeholder="profundo, tierno"></label>
+          <label>Etiquetas<input id="publishTags" placeholder="calma, reflexión, vínculo"></label>
+          <label>Estilo<select id="publishStyle"><option value="azul">Azul</option><option value="minimalista">Minimalista</option><option value="oscuro">Oscuro</option></select></label>
+        </div>
+        <div class="admin-actions"><button id="publishButton" type="button">PUBLICAR</button></div>
+        <p id="publishStatus" class="admin-note"></p>
+      </div>
+    </section>
+
+    <section class="admin-panel" data-panel="stats" hidden>
+      <p class="eyebrow">RADAR EDITORIAL · ÚLTIMOS 30 DÍAS</p><h2>Qué intenta decir la gente</h2>
+      <div id="statCards" class="stat-grid"></div>
+      <div class="admin-grid admin-stats-grid">
+        <div><h3>Intenciones más buscadas</h3><div id="topIntents" class="metric-list"></div></div>
+        <div><h3>Sin buen resultado</h3><div id="missingIntents" class="metric-list"></div></div>
+      </div>
+      <h3>Acciones</h3><div id="funnelStats" class="stat-grid"></div>
+    </section>
+
+    <section class="admin-panel" data-panel="published" hidden>
+      <p class="eyebrow">CATÁLOGO</p><h2>Frases publicadas</h2>
+      <button id="refreshPublished" type="button" class="ghost">Actualizar</button>
+      <div id="publishedList" class="admin-list"></div>
+    </section>
+  </div>
 </main>
+
+<script src="/supabase-config.js"></script>
 <script src="/phrase-engine.js"></script>
 <script src="/admin/admin.js"></script>
 </body>
