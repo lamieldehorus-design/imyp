@@ -85,15 +85,36 @@ async function uploadBook(){
     });
     const data=await r.json().catch(()=>({}));
     if(!r.ok)throw new Error(data.message||data.error||"No se pudo subir el PDF");
-    $("#bookStatus").textContent="PDF subido. Procesando conceptos...";
+    $("#bookStatus").textContent="PDF subido. Iniciando procesamiento...";
     const result=await functionCall("process-book",{path,title,originalFilename:file.name,fileSize:file.size});
-    $("#bookStatus").textContent=`Procesado: ${result.nodeCount} nodos y ${result.conceptCount} conceptos.`;
-    $("#bookFile").value="";$("#bookTitle").value="";loadBooks();
+    $("#bookStatus").textContent="Procesando en segundo plano...";
+    $("#bookFile").value="";$("#bookTitle").value="";
+    loadBooks();
+    pollBookStatus(result.bookId);
   }catch(error){$("#bookStatus").textContent="Error: "+error.message;loadBooks()}
   finally{$("#uploadBook").disabled=false}
 }
 $("#uploadBook").onclick=uploadBook;
 $("#refreshBooks").onclick=loadBooks;
+
+async function pollBookStatus(bookId,attempt=0){
+  if(!bookId||attempt>50)return;
+  try{
+    const data=await functionCall("admin-api",{action:"list_books"});
+    const book=(data.books||[]).find(x=>x.id===bookId);
+    if(!book)return;
+    if(book.status==="ready"){
+      $("#bookStatus").textContent=`Procesado: ${book.node_count||0} nodos y ${book.concept_count||0} conceptos.`;
+      loadBooks();return;
+    }
+    if(book.status==="failed"){
+      $("#bookStatus").textContent="Error de procesamiento: "+(book.error_message||"sin detalle");
+      loadBooks();return;
+    }
+    $("#bookStatus").textContent="Procesando en segundo plano...";
+    setTimeout(()=>pollBookStatus(bookId,attempt+1),3000);
+  }catch{}
+}
 
 async function loadBooks(){
   if(!session)return;
