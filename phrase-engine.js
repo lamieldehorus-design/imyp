@@ -1,6 +1,4 @@
 (function(){
-  let cache=null;
-
   function config(){return window.IMYP_CONFIG||{}}
   function configured(){
     const c=config();
@@ -8,119 +6,55 @@
   }
   function base(){return String(config().supabaseUrl||"").replace(/\/$/,"")}
   function key(){return String(config().supabasePublishableKey||"")}
-
   function sessionId(){
     const storageKey="imyp_session_v1";
     let id=localStorage.getItem(storageKey);
     if(!id){
-      id=(crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2));
+      id=crypto.randomUUID?crypto.randomUUID():Date.now().toString(36)+Math.random().toString(36).slice(2);
       localStorage.setItem(storageKey,id);
     }
     return id;
   }
-
-  async function callFunction(name,body,authToken=""){
-    const headers={"Content-Type":"application/json","apikey":key()};
-    if(authToken) headers.Authorization="Bearer "+authToken;
-    const r=await fetch(base()+"/functions/v1/"+name,{
-      method:"POST",headers,body:JSON.stringify(body)
+  async function rpc(name,body){
+    const r=await fetch(base()+"/rest/v1/rpc/"+name,{
+      method:"POST",
+      headers:{"apikey":key(),"Content-Type":"application/json"},
+      body:JSON.stringify(body)
     });
-    let data={};
-    try{data=await r.json()}catch{}
+    const data=await r.json().catch(()=>null);
     if(!r.ok){
-      const err=new Error(data.error||("HTTP "+r.status));
-      err.code=data.error||"request_failed";
-      err.status=r.status;
-      throw err;
+      const error=new Error(data?.message||data?.hint||data?.details||("HTTP "+r.status));
+      error.status=r.status;
+      throw error;
     }
     return data;
   }
-
-  function normalize(value){
-    return (value||"").toLowerCase().normalize("NFD")
-      .replace(/[\u0300-\u036f]/g,"")
-      .replace(/[^a-z0-9ñ\s-]/g," ")
-      .replace(/\s+/g," ").trim();
-  }
-
-  async function loadKnowledge(){
-    if(cache)return cache;
-    const response=await fetch("/data/knowledge.json",{cache:"no-store"});
-    if(!response.ok)throw new Error("knowledge unavailable");
-    cache=await response.json();
-    return cache;
-  }
-
-  function scoreEntry(entry,tokens){
-    const keywords=(entry.keywords||[]).map(normalize);
-    const themes=(entry.themes||[]).map(normalize);
-    const text=normalize([entry.idea,entry.context,...keywords,...themes].filter(Boolean).join(" "));
-    let score=0;
-    for(const token of tokens){
-      if(keywords.includes(token))score+=6;
-      if(themes.includes(token))score+=4;
-      if(text.includes(token))score+=2;
-    }
-    return score;
-  }
-
-  function buildPhrase(entry,intent,variant=0){
-    const seeds=(entry.outputs||[]).filter(Boolean);
-    if(seeds.length)return seeds[variant%seeds.length];
-    const idea=(entry.idea||"").trim();
-    if(!idea)return "";
-    const topic=intent.trim().replace(/[.!?]+$/,"");
-    const templates=[
-      ()=>idea,
-      ()=>topic?topic.charAt(0).toUpperCase()+topic.slice(1)+": "+idea.charAt(0).toLowerCase()+idea.slice(1):idea,
-      ()=>idea.replace(/[.!?]+$/,"")+"."
-    ];
-    return templates[variant%templates.length]();
-  }
-
-  async function localGenerate(intent){
-    const db=await loadKnowledge();
-    const tokens=normalize(intent).split(" ").filter(t=>t.length>2);
-    if(!tokens.length||!Array.isArray(db.entries)||!db.entries.length)return null;
-    const ranked=db.entries.map(entry=>({entry,score:scoreEntry(entry,tokens)}))
-      .filter(x=>x.score>0).sort((a,b)=>b.score-a.score);
-    if(!ranked.length)return null;
-    const top=ranked[0].score;
-    const pool=ranked.filter(x=>x.score>=Math.max(1,top-2)).slice(0,5);
-    const pick=pool[Math.floor(Math.random()*pool.length)];
-    return {phrase:buildPhrase(pick.entry,intent,Math.floor(Math.random()*7)),generationId:null,phrases:[]};
-  }
-
   async function generate(intent,options={}){
-    if(!configured())return localGenerate(intent);
-    try{
-      return await callFunction("generate-phrase",{
-        intent,
-        tone:options.tone||"",
-        source:options.source||"public",
-        count:options.count||1,
-        sessionId:sessionId()
-      },options.authToken||"");
-    }catch(error){
-      if(error.code==="no_knowledge")return null;
-      throw error;
-    }
+    if(!configured())return null;
+    const data=await rpc("generate_phrase_text",{
+      p_intent:intent,
+      p_tone:options.tone||"",
+      p_variant:Number(options.variant||0),
+      p_session_id:sessionId()
+    });
+    const row=Array.isArray(data)?data[0]:data;
+    if(!row?.found||!row?.phrase)return null;
+    return {phrase:row.phrase,generationId:row.generation_id||null};
   }
-
   async function track(eventType,details={}){
-    if(!configured())return;
+    if(!configured())return false;
     try{
-      await callFunction("track-event",{
-        eventType,
-        generationId:details.generationId||null,
-        phraseId:details.phraseId||null,
-        intent:details.intent||null,
-        sessionId:sessionId(),
-        metadata:details.metadata||{}
+      await rpc("track_phrase_event",{
+        p_event_type:eventType,
+        p_generation_id:details.generationId||null,
+        p_phrase_id:details.phraseId||null,
+        p_intent:details.intent||null,
+        p_session_id:sessionId(),
+        p_metadata:details.metadata||{}
       });
-    }catch{}
+      return true;
+    }catch{return false}
   }
-
   async function loadPublished(){
     if(!configured())return [];
     const params=new URLSearchParams({
@@ -135,6 +69,5 @@
     if(!r.ok)return [];
     return r.json();
   }
-
-  window.PhraseEngine={generate,track,loadPublished,loadKnowledge,configured,sessionId};
+  window.PhraseEngine={generate,track,loadPublished,configured,sessionId};
 })();
