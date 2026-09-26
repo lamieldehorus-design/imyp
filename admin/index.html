@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Administrador | Imágenes y Postales</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a>
+  <nav class="top-nav"><a href="/">Ver sitio</a></nav>
+</header>
+<main class="admin-shell">
+  <div class="admin-head">
+    <p class="eyebrow">ADMINISTRACIÓN</p>
+    <h1>Generador de frases</h1>
+    <p class="hero-copy">Usá una palabra o intención para crear borradores. Los borradores quedan guardados sólo en este navegador hasta conectar el backend de publicación.</p>
+  </div>
+
+  <section class="admin-panel">
+    <div class="admin-grid">
+      <label>Palabra o intención
+        <input id="adminIntent" placeholder="Ej.: transformación, calma, amor">
+      </label>
+      <label>Tono
+        <select id="adminTone">
+          <option value="">Automático</option>
+          <option value="profundo">Profundo</option>
+          <option value="tierno">Tierno</option>
+          <option value="sencillo">Sencillo</option>
+          <option value="gracioso">Gracioso</option>
+        </select>
+      </label>
+    </div>
+    <div class="admin-actions">
+      <button id="adminGenerate" type="button">Generar frase</button>
+      <button id="adminRegenerate" type="button" class="ghost">Otra variante</button>
+    </div>
+
+    <div id="adminResult" class="admin-result" hidden>
+      <blockquote id="adminPhrase"></blockquote>
+      <div class="admin-actions">
+        <button id="adminCopy" type="button" class="ghost">Copiar</button>
+        <button id="adminSaveDraft" type="button">Guardar borrador</button>
+      </div>
+    </div>
+
+    <p id="adminStatus" class="admin-note">La base está preparada. Cuando carguemos el material, este generador empezará a producir frases a partir de ese contenido.</p>
+  </section>
+
+  <section class="admin-panel" style="margin-top:1rem">
+    <p class="eyebrow">BORRADORES LOCALES</p>
+    <h2>Frases guardadas</h2>
+    <div id="draftList" class="draft-list"></div>
+    <div class="admin-actions">
+      <button id="exportDrafts" type="button" class="ghost">Exportar JSON</button>
+      <button id="clearDrafts" type="button" class="ghost">Vaciar borradores</button>
+    </div>
+    <p class="admin-note">Todavía no hay publicación directa al sitio porque GitHub Pages no puede guardar una clave de administrador de forma segura. El siguiente paso será conectar autenticación + backend.</p>
+  </section>
+</main>
+<script src="/phrase-engine.js"></script>
+<script src="/admin/admin.js"></script>
+</body>
+</html>
