@@ -1,13 +1,1 @@
 project_id = "imagenesypostales"
-
-[functions.generate-phrase]
-verify_jwt = false
-
-[functions.track-event]
-verify_jwt = false
-
-[functions.process-book]
-verify_jwt = false
-
-[functions.admin-api]
-verify_jwt = false
