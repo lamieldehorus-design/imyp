@@ -47,6 +47,12 @@
     <section class="admin-panel" data-panel="library">
       <p class="eyebrow">BIBLIOTECA PRIVADA</p><h2>Subir y procesar libros PDF</h2>
       <p class="admin-note">El texto se extrae en tu navegador y se guarda de forma privada para la búsqueda en español. No usa una API de IA.</p>
+      <div id="libraryStats" class="stat-grid library-stats">
+        <div class="stat-card"><strong id="bucketCount">0</strong><span>PDFs en bucket</span></div>
+        <div class="stat-card"><strong id="readyCount">0</strong><span>Procesados</span></div>
+        <div class="stat-card"><strong id="pendingCount">0</strong><span>Pendientes</span></div>
+        <div class="stat-card"><strong id="failedCount">0</strong><span>Con error</span></div>
+      </div>
       <div class="admin-grid">
         <label>Título del libro<input id="bookTitle" placeholder="Se completa con el nombre del archivo si lo dejás vacío"></label>
         <label>Archivo PDF<input id="bookFile" type="file" accept="application/pdf,.pdf"></label>
