@@ -157,15 +157,22 @@ function normalizeWord(v){
   return v.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
     .replace(/[^a-zñ]/g,"");
 }
+function displayWord(v){
+  return v.toLowerCase().replace(/[^a-záéíóúüñ]/gi,"");
+}
 function keywords(text,limit=12){
   const freq=new Map();
   text.split(/\s+/).forEach(raw=>{
-    const w=normalizeWord(raw);
-    if(w.length<4||STOP.has(w))return;
-    freq.set(w,(freq.get(w)||0)+1);
+    const display=displayWord(raw);
+    const keyWord=normalizeWord(display);
+    if(keyWord.length<4||STOP.has(keyWord))return;
+    const current=freq.get(keyWord)||{count:0,display};
+    current.count++;
+    if(!current.display)current.display=display;
+    freq.set(keyWord,current);
   });
-  return [...freq.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]))
-    .slice(0,limit).map(x=>x[0]);
+  return [...freq.values()].sort((a,b)=>b.count-a.count||a.display.localeCompare(b.display))
+    .slice(0,limit).map(x=>x.display);
 }
 function chunksFromPages(pages,max=1900,overlap=220){
   const chunks=[];
