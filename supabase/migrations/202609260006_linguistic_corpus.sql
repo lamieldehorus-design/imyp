@@ -61,7 +61,17 @@ begin
     '\s+'
   );
   l := coalesce(array_length(words,1),0);
-  if l<2 then return 0; end if;
+  if l=0 then return 0; end if;
+
+  -- El diccionario aporta cobertura léxica: palabras reconocidas reciben un pequeño bonus.
+  for i in 1..l loop
+    select coalesce(sum(occurrences),0) into c
+    from public.lexicon_terms
+    where normalized=words[i];
+    total := total + (0.08*ln(1+c));
+  end loop;
+
+  if l<2 then return total; end if;
 
   for i in 1..l-1 loop
     g := words[i]||' '||words[i+1];
