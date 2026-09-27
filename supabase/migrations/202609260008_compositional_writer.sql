@@ -19,6 +19,60 @@ on public.writer_fragments for all to authenticated
 using(public.is_admin())
 with check(public.is_admin());
 
+
+create table if not exists public.writer_concept_blocks (
+  id uuid primary key default gen_random_uuid(),
+  concept text not null,
+  triggers text[] not null default '{}',
+  tone text not null default '',
+  text text not null,
+  active boolean not null default true,
+  score integer not null default 0,
+  created_at timestamptz not null default now(),
+  unique(concept,tone,text)
+);
+
+alter table public.writer_concept_blocks enable row level security;
+drop policy if exists "admins manage writer concept blocks" on public.writer_concept_blocks;
+create policy "admins manage writer concept blocks"
+on public.writer_concept_blocks for all to authenticated
+using(public.is_admin())
+with check(public.is_admin());
+
+insert into public.writer_concept_blocks(concept,triggers,tone,text) values
+('tiempo',array['tiempo','ciclo','espera','momento','proceso','etapa'],'','El tiempo no siempre resuelve las cosas, pero muchas veces cambia la forma en que podemos mirarlas.'),
+('tiempo',array['tiempo','ciclo','espera','momento','proceso','etapa'],'','Hay procesos que necesitan duración antes que explicaciones.'),
+('tiempo',array['tiempo','ciclo','espera','momento','proceso','etapa'],'profundo','Algunas comprensiones sólo aparecen cuando la experiencia tuvo tiempo de transformarnos.'),
+
+('cambio',array['cambio','transformacion','transformación','renacer','evolucion','evolución','crecimiento'],'','Cambiar no siempre significa dejar de ser quien eras; a veces significa responder de otra manera a lo mismo.'),
+('cambio',array['cambio','transformacion','transformación','renacer','evolucion','evolución','crecimiento'],'','Muchos cambios empiezan mucho antes de que puedan verse desde afuera.'),
+('cambio',array['cambio','transformacion','transformación','renacer','evolucion','evolución','crecimiento'],'profundo','Hay transformaciones que primero desordenan la forma conocida de entendernos.'),
+
+('vinculo',array['vinculo','vínculo','relacion','relación','familia','amor','amistad','pareja'],'','Los vínculos también se construyen con la forma en que escuchamos lo que no coincide con nosotros.'),
+('vinculo',array['vinculo','vínculo','relacion','relación','familia','amor','amistad','pareja'],'','Estar cerca no siempre significa pensar igual; muchas veces significa poder seguir hablando cuando no pensamos igual.'),
+('vinculo',array['vinculo','vínculo','relacion','relación','familia','amor','amistad','pareja'],'amoroso','A veces cuidar un vínculo es dejar de intentar ganar cada conversación.'),
+
+('miedo',array['miedo','temor','peligro','inseguridad','ansiedad','preocupacion','preocupación'],'','El miedo puede señalar algo importante sin tener que convertirse en quien toma todas las decisiones.'),
+('miedo',array['miedo','temor','peligro','inseguridad','ansiedad','preocupacion','preocupación'],'','Sentir temor y estar en peligro no siempre son la misma cosa.'),
+('miedo',array['miedo','temor','peligro','inseguridad','ansiedad','preocupacion','preocupación'],'reflexivo','Distinguir lo que está ocurriendo de lo que imaginamos que podría ocurrir puede cambiar bastante la experiencia.'),
+
+('conciencia',array['conciencia','mente','percepcion','percepción','observar','observacion','observación'],'','Observar lo que pasa dentro de nosotros ya cambia la relación que tenemos con eso.'),
+('conciencia',array['conciencia','mente','percepcion','percepción','observar','observacion','observación'],'','A veces notar un patrón es el primer momento en que deja de funcionar completamente en automático.'),
+('conciencia',array['conciencia','mente','percepcion','percepción','observar','observacion','observación'],'espiritual','Mirar con atención no siempre da respuestas, pero suele revelar cosas que el apuro oculta.'),
+
+('libertad',array['libertad','elegir','eleccion','elección','decision','decisión','voluntad'],'','La libertad también aparece en el pequeño espacio entre lo que sentimos y lo que decidimos hacer con eso.'),
+('libertad',array['libertad','elegir','eleccion','elección','decision','decisión','voluntad'],'','No siempre podemos elegir lo que ocurre, pero muchas veces sí podemos revisar cómo queremos responder.'),
+('libertad',array['libertad','elegir','eleccion','elección','decision','decisión','voluntad'],'profundo','Elegir también implica renunciar a algunas posibilidades para poder habitar otras de verdad.'),
+
+('equilibrio',array['equilibrio','calma','armonia','armonía','serenidad','paz'],'','El equilibrio no siempre es quietud; a veces es poder moverse sin perderse por completo.'),
+('equilibrio',array['equilibrio','calma','armonia','armonía','serenidad','paz'],'','La calma no exige que todo esté resuelto; muchas veces empieza cuando dejamos de reaccionar a todo al mismo tiempo.'),
+('equilibrio',array['equilibrio','calma','armonia','armonía','serenidad','paz'],'reflexivo','Buscar equilibrio también implica reconocer qué cosas estamos sosteniendo más de lo necesario.'),
+
+('dolor',array['dolor','perdida','pérdida','tristeza','duelo','sufrimiento'],'','El dolor no siempre trae una enseñanza inmediata, pero sí puede mostrar cuánto significaba aquello que nos tocó.'),
+('dolor',array['dolor','perdida','pérdida','tristeza','duelo','sufrimiento'],'','Hay cosas que no necesitan convertirse rápido en una lección para poder ser atravesadas.'),
+('dolor',array['dolor','perdida','pérdida','tristeza','duelo','sufrimiento'],'amoroso','A veces acompañar el dolor significa no pedirle que desaparezca antes de tiempo.')
+on conflict(concept,tone,text) do update set active=true;
+
 insert into public.writer_fragments(tone,role,text) values
 ('', 'opening', 'A veces, pensar en {about} cambia cuando bajamos un poco el ruido.'),
 ('', 'opening', 'Hay momentos en los que {subject} aparece sin pedir permiso.'),
@@ -181,6 +235,8 @@ declare
   v_mode text:=lower(trim(coalesce(p_mode,'public')));
   v_query tsquery;
   v_node_ids bigint[];
+  v_knowledge_terms text;
+  v_concept_core text;
   v_topic record;
   v_subject text;
   v_about text;
@@ -259,6 +315,29 @@ begin
     return;
   end if;
 
+  select lower(extensions.unaccent(string_agg(
+    coalesce(k.idea,'')||' '||
+    array_to_string(coalesce(k.themes,'{}'::text[]),' ')||' '||
+    array_to_string(coalesce(k.keywords,'{}'::text[]),' '),
+    ' '
+  ))) into v_knowledge_terms
+  from public.knowledge_nodes k
+  where k.id=any(v_node_ids);
+
+  select cb.text into v_concept_core
+  from public.writer_concept_blocks cb
+  where cb.active=true
+    and (cb.tone='' or cb.tone=v_tone)
+    and exists(
+      select 1 from unnest(cb.triggers) tr
+      where coalesce(v_knowledge_terms,'') like '%'||lower(extensions.unaccent(tr))||'%'
+    )
+  order by
+    case when cb.tone=v_tone and v_tone<>'' then 0 else 1 end,
+    cb.score desc,
+    md5(cb.id::text||':'||v_variant::text)
+  limit 1;
+
   select t.* into v_topic
   from public.writer_topics t
   where t.active=true
@@ -305,12 +384,16 @@ begin
     order by case when tone=v_tone and v_tone<>'' then 0 else 1 end,score desc,id
     offset oi limit 1;
 
-    select replace(replace(text,'{subject}',v_subject),'{about}',v_about)
-      into v_core
-    from public.writer_fragments
-    where active=true and role='core' and tone in (v_tone,'')
-    order by case when tone=v_tone and v_tone<>'' then 0 else 1 end,score desc,id
-    offset ci limit 1;
+    if v_concept_core is not null and ((v_variant+i) % 2)=0 then
+      v_core:=v_concept_core;
+    else
+      select replace(replace(text,'{subject}',v_subject),'{about}',v_about)
+        into v_core
+      from public.writer_fragments
+      where active=true and role='core' and tone in (v_tone,'')
+      order by case when tone=v_tone and v_tone<>'' then 0 else 1 end,score desc,id
+      offset ci limit 1;
+    end if;
 
     select replace(replace(text,'{subject}',v_subject),'{about}',v_about)
       into v_turn
