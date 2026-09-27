@@ -537,7 +537,11 @@ async function generateVariants(){
       return;
     }
     renderVariants(unique);
-    $("#adminStatus").textContent=`${unique.length} variantes listas.`;
+    const sample=unique[0]||{};
+    const corpusInfo=sample.corpusBooks
+      ? ` · biblioteca consultada: ${sample.corpusBooks} libros · ${sample.matchedBooks} con coincidencias · ${sample.matchedNodes} fragmentos relevantes`
+      :"";
+    $("#adminStatus").textContent=`${unique.length} variantes listas${corpusInfo}.`;
   }catch(error){$("#adminStatus").textContent="Error: "+error.message}
   finally{$("#adminGenerate").disabled=false}
 }
@@ -611,7 +615,11 @@ async function generateStudyVariants(){
       return;
     }
     renderStudyVariants(unique);
-    $("#studyStatus").textContent=`${unique.length} de ${count} variantes distintas listas para evaluar.`;
+    const sample=unique[0]||{};
+    const corpusInfo=sample.corpusBooks
+      ? ` · biblioteca consultada: ${sample.corpusBooks} libros · ${sample.matchedBooks} con coincidencias · ${sample.matchedNodes} fragmentos relevantes`
+      :"";
+    $("#studyStatus").textContent=`${unique.length} de ${count} variantes distintas listas para evaluar${corpusInfo}.`;
   }catch(error){
     $("#studyStatus").textContent="Error: "+error.message;
   }finally{
