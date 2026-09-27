@@ -104,6 +104,7 @@ async function uploadBook(){
     if(uploadError)throw uploadError;
     const {data:book,error:bookError}=await client().from("books").insert({
       title,original_filename:file.name,storage_path:path,file_size:file.size,
+      resource_type:$("#bookResourceType").value||"content",
       status:"uploaded",created_by:session.user.id
     }).select("*").single();
     if(bookError)throw bookError;
@@ -143,6 +144,7 @@ async function syncStorage(silent=false){
         original_filename:x.name,
         storage_path:x.name,
         file_size:Number(x.metadata?.size||0)||null,
+        resource_type:"content",
         status:"uploaded",
         created_by:session.user.id
       }));
@@ -304,7 +306,7 @@ async function loadBooks(){
   if(!session)return;
   try{
     const {data,error}=await client().from("books")
-      .select("id,title,original_filename,storage_path,file_size,status,node_count,concept_count,error_message,created_at,processed_at")
+      .select("id,title,original_filename,storage_path,file_size,resource_type,status,node_count,concept_count,error_message,created_at,processed_at")
       .order("created_at",{ascending:false});
     if(error)throw error;
     const root=$("#bookList");root.innerHTML="";
@@ -315,9 +317,26 @@ async function loadBooks(){
       const info=document.createElement("div");
       const strong=document.createElement("strong");strong.textContent=book.title;
       const small=document.createElement("small");
-      small.textContent=`${book.status} · ${book.node_count||0} fragmentos · ${book.concept_count||0} palabras clave${book.error_message?" · "+book.error_message:""}`;
+      const typeNames={content:"contenido",dictionary:"diccionario",grammar:"gramática",style:"estilo"};
+      small.textContent=`${typeNames[book.resource_type]||book.resource_type||"contenido"} · ${book.status} · ${book.node_count||0} fragmentos · ${book.concept_count||0} palabras clave${book.error_message?" · "+book.error_message:""}`;
       info.append(strong,small);
+
+      const typeSelect=document.createElement("select");
+      typeSelect.className="book-type-select";
+      [["content","Contenido"],["dictionary","Diccionario"],["grammar","Gramática"],["style","Estilo"]].forEach(([value,label])=>{
+        const o=document.createElement("option");o.value=value;o.textContent=label;
+        if((book.resource_type||"content")===value)o.selected=true;
+        typeSelect.appendChild(o);
+      });
+      typeSelect.onchange=async()=>{
+        const {error}=await client().from("books").update({resource_type:typeSelect.value}).eq("id",book.id);
+        if(error){$("#bookStatus").textContent="No se pudo cambiar el tipo: "+error.message;return}
+        book.resource_type=typeSelect.value;
+        $("#bookStatus").textContent="Tipo de recurso actualizado.";
+      };
+
       const actions=document.createElement("div");actions.className="admin-actions";
+      actions.appendChild(typeSelect);
       if(book.status==="uploaded"||book.status==="failed"){
         const process=document.createElement("button");process.type="button";
         process.textContent=book.status==="failed"?"Reprocesar":"Procesar";
