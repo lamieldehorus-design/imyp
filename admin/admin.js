@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);
 const cfg=()=>window.IMYP_CONFIG||{};
-let session=null,selectedGenerationId=null,currentIntent="",sb=null,pdfTools=null,bucketPdfCount=0;
+let session=null,selectedGenerationId=null,currentIntent="",sb=null,pdfTools=null,bucketPdfCount=0,studySelected=null;
 
 function configured(){
   return /^https:\/\//.test(cfg().supabaseUrl||"")&&String(cfg().supabasePublishableKey||"").length>10;
@@ -79,6 +79,7 @@ document.querySelectorAll("[data-tab]").forEach(btn=>btn.onclick=()=>{
     b.classList.toggle("ghost",b!==btn);
   });
   document.querySelectorAll("[data-panel]").forEach(p=>p.hidden=p.dataset.panel!==btn.dataset.tab);
+  if(btn.dataset.tab==="studio")loadStudyStats();
   if(btn.dataset.tab==="stats")loadStats();
   if(btn.dataset.tab==="published")loadPublished();
 });
@@ -341,7 +342,7 @@ async function generateVariants(){
     const tone=$("#adminTone").value;
     const results=[];
     for(let i=0;i<count;i++){
-      const result=await window.PhraseEngine.generate(intent,{tone,variant:i});
+      const result=await window.PhraseEngine.generate(intent,{tone,variant:i,mode:"admin"});
       if(result?.phrase)results.push(result);
     }
     const unique=[...new Map(results.map(x=>[x.phrase,x])).values()];
@@ -355,6 +356,158 @@ async function generateVariants(){
   }catch(error){$("#adminStatus").textContent="Error: "+error.message}
   finally{$("#adminGenerate").disabled=false}
 }
+
+async function loadStudyStats(){
+  try{
+    const [feedbackRes,examplesRes,templatesRes]=await Promise.all([
+      client().from("writer_feedback").select("approved"),
+      client().from("writer_examples").select("id",{count:"exact"}),
+      client().from("writer_templates").select("id,tone,template,score,approvals,rejections,active").eq("active",true)
+    ]);
+    if(feedbackRes.error)throw feedbackRes.error;
+    if(examplesRes.error)throw examplesRes.error;
+    if(templatesRes.error)throw templatesRes.error;
+
+    const feedback=feedbackRes.data||[];
+    $("#studyApprovals").textContent=String(feedback.filter(x=>x.approved).length);
+    $("#studyRejections").textContent=String(feedback.filter(x=>!x.approved).length);
+    $("#studyExamples").textContent=String(examplesRes.count||0);
+
+    const ranking=(templatesRes.data||[]).slice().sort((a,b)=>
+      (b.score-a.score)||(b.approvals-a.approvals)||(a.rejections-b.rejections)
+    ).slice(0,12);
+
+    const root=$("#templateRanking");
+    root.innerHTML="";
+    if(!ranking.length){
+      root.innerHTML='<p class="muted">Todavía no hay datos de entrenamiento.</p>';
+      return;
+    }
+    ranking.forEach(t=>{
+      const row=document.createElement("div");
+      row.className="metric-row";
+      const text=document.createElement("span");
+      text.textContent=(t.tone?("["+t.tone+"] "):"")+t.template;
+      const score=document.createElement("strong");
+      score.textContent=`${t.score} · ✓${t.approvals} ✕${t.rejections}`;
+      row.append(text,score);
+      root.appendChild(row);
+    });
+  }catch(error){
+    $("#studyStatus").textContent="No se pudieron cargar los datos de entrenamiento: "+error.message;
+  }
+}
+
+$("#studyGenerate").onclick=generateStudyVariants;
+$("#studyIntent").addEventListener("keydown",e=>{
+  if(e.key==="Enter"){e.preventDefault();generateStudyVariants()}
+});
+
+async function generateStudyVariants(){
+  const intent=$("#studyIntent").value.trim();
+  if(!intent){$("#studyStatus").textContent="Escribí una intención para practicar.";return}
+
+  $("#studyGenerate").disabled=true;
+  $("#studyStatus").textContent="Generando ejemplos para estudiar...";
+  $("#studyVariants").innerHTML="";
+  $("#studyEditor").hidden=true;
+
+  try{
+    const tone=$("#studyTone").value;
+    const results=[];
+    for(let i=0;i<5;i++){
+      const result=await window.PhraseEngine.generate(intent,{tone,variant:i,mode:"study"});
+      if(result?.phrase&&result?.generationId)results.push(result);
+    }
+    const unique=[...new Map(results.map(x=>[x.phrase,x])).values()];
+    if(!unique.length){
+      $("#studyStatus").textContent="No encontré suficiente conocimiento procesado para esa intención.";
+      return;
+    }
+    renderStudyVariants(unique);
+    $("#studyStatus").textContent=`${unique.length} frases listas para evaluar.`;
+  }catch(error){
+    $("#studyStatus").textContent="Error: "+error.message;
+  }finally{
+    $("#studyGenerate").disabled=false;
+  }
+}
+
+function renderStudyVariants(list){
+  const root=$("#studyVariants");
+  root.innerHTML="";
+  list.forEach(item=>{
+    const row=document.createElement("div");
+    row.className="study-item";
+
+    const p=document.createElement("p");
+    p.textContent=item.phrase;
+
+    const actions=document.createElement("div");
+    actions.className="study-actions";
+
+    const good=document.createElement("button");
+    good.type="button";
+    good.textContent="✓ Buena";
+    good.onclick=()=>saveStudyFeedback(item,true);
+
+    const bad=document.createElement("button");
+    bad.type="button";
+    bad.className="ghost";
+    bad.textContent="✕ Mala";
+    bad.onclick=()=>openStudyCorrection(item);
+
+    actions.append(good,bad);
+    row.append(p,actions);
+    root.appendChild(row);
+  });
+}
+
+async function saveStudyFeedback(item,approved,correctedPhrase="",notes=""){
+  try{
+    const {error}=await client().rpc("record_writer_feedback",{
+      p_generation_id:item.generationId,
+      p_approved:approved,
+      p_corrected_phrase:correctedPhrase||null,
+      p_notes:notes||null
+    });
+    if(error)throw error;
+    $("#studyStatus").textContent=approved
+      ?"Marcada como buena. Esa plantilla ganó peso."
+      :"Corrección guardada. El redactor la usará como ejemplo para esta intención.";
+    $("#studyEditor").hidden=true;
+    studySelected=null;
+    await loadStudyStats();
+  }catch(error){
+    $("#studyStatus").textContent="No se pudo guardar el aprendizaje: "+error.message;
+  }
+}
+
+function openStudyCorrection(item){
+  studySelected=item;
+  $("#studyOriginal").textContent=item.phrase;
+  $("#studyCorrection").value=item.phrase;
+  $("#studyNotes").value="";
+  $("#studyEditor").hidden=false;
+  $("#studyCorrection").focus();
+}
+
+$("#saveStudyCorrection").onclick=async()=>{
+  if(!studySelected)return;
+  const corrected=$("#studyCorrection").value.trim();
+  const notes=$("#studyNotes").value.trim();
+  if(!corrected){
+    $("#studyStatus").textContent="Escribí una versión corregida.";
+    return;
+  }
+  await saveStudyFeedback(studySelected,false,corrected,notes);
+};
+
+$("#cancelStudyCorrection").onclick=()=>{
+  studySelected=null;
+  $("#studyEditor").hidden=true;
+};
+
 function renderVariants(list){
   const root=$("#variantList");root.innerHTML="";
   list.forEach((item,index)=>{
