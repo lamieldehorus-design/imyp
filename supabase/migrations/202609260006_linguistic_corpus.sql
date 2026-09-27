@@ -88,6 +88,82 @@ $$;
 grant execute on function public.writer_language_score(text)
 to anon,authenticated;
 
+
+-- Ampliación del banco para garantizar variedad suficiente por tono.
+insert into public.writer_templates(tone,template,active) values
+('profundo','Hay momentos en los que {subject} obliga a mirar más allá de la primera respuesta.',true),
+('profundo','Pensar en {about} puede cambiar cuando dejamos de buscar una explicación rápida.',true),
+('profundo','A veces {subject} revela algo que sólo aparece cuando dejamos de defendernos de lo que sentimos.',true),
+('profundo','No todo alrededor de {about} se entiende enseguida; algunas cosas necesitan experiencia antes que respuestas.',true),
+('profundo','Volver sobre {about} desde otro lugar puede mostrar algo que antes estaba oculto por la costumbre.',true),
+('profundo','Hay preguntas alrededor de {about} que valen más por lo que despiertan que por la respuesta que prometen.',true),
+('profundo','A veces {subject} cambia de sentido cuando cambia la persona que lo está mirando.',true),
+('profundo','Pensar en {about} también puede ser una forma de descubrir qué parte de vos está pidiendo atención.',true),
+
+('amoroso','Cuando aparece {subject}, cuidar puede empezar por no exigir que todo se explique de inmediato.',true),
+('amoroso','Pensar en {about} con cariño también implica dejar espacio para lo que todavía no sabemos cómo decir.',true),
+('amoroso','A veces {subject} necesita una presencia tranquila más que una respuesta perfecta.',true),
+('amoroso','Hay formas de acompañar {about} que empiezan simplemente por escuchar de verdad.',true),
+('amoroso','Cuidar lo que sentimos alrededor de {about} también puede ser una forma de cuidarnos entre nosotros.',true),
+('amoroso','Cuando {subject} ocupa mucho espacio, una presencia sincera puede hacerlo un poco más habitable.',true),
+('amoroso','Pensar en {about} con ternura no borra lo difícil, pero cambia la manera de atravesarlo.',true),
+('amoroso','A veces estar cerca de {about} significa no querer arreglarlo todo.',true),
+
+('tierno','Que {subject} encuentre hoy un poco de paciencia, compañía y descanso.',true),
+('tierno','Pensar en {about} también puede ser una forma de abrazar lo que todavía está buscando su lugar.',true),
+('tierno','Ojalá {subject} pese un poco menos cuando puedas compartirlo con alguien.',true),
+('tierno','Hay días en los que pensar en {about} necesita menos palabras y un poco más de cariño.',true),
+('tierno','Que alrededor de {about} también haya espacio para algo amable.',true),
+('tierno','A veces {subject} se vuelve más llevadero cuando dejamos de pedirnos tanto.',true),
+('tierno','Pensar en {about} con suavidad también puede cambiar la forma de sentirlo.',true),
+('tierno','Que {subject} no tape por completo las cosas pequeñas que todavía pueden hacerte bien.',true),
+
+('breve','Pensar en {about} también puede abrir otra puerta.',true),
+('breve','A veces {subject} cambia cuando lo mirás distinto.',true),
+('breve','No todo alrededor de {about} necesita una respuesta inmediata.',true),
+('breve','También podés darle tiempo a {about}.',true),
+('breve','Mirar {about} de otra manera también es avanzar.',true),
+('breve','A veces {subject} sólo necesita espacio.',true),
+('breve','No hace falta entender {about} todo de una vez.',true),
+('breve','También cuenta aprender de {about}.',true),
+
+('reflexivo','Preguntarte qué lugar ocupa {subject} en tu vida puede cambiar la forma de entenderlo.',true),
+('reflexivo','Pensar en {about} también implica revisar desde qué lugar lo estás mirando.',true),
+('reflexivo','A veces {subject} dice tanto sobre la situación como sobre nuestra forma de interpretarla.',true),
+('reflexivo','No siempre pensamos en {about} con las mismas preguntas, y eso también habla de cómo cambiamos.',true),
+('reflexivo','Mirar {about} con curiosidad puede ser más útil que juzgarlo demasiado rápido.',true),
+('reflexivo','Hay momentos en los que {subject} necesita contexto antes que conclusiones.',true),
+('reflexivo','Pensar en {about} también puede ayudarte a distinguir lo que sentís de lo que imaginás.',true),
+('reflexivo','A veces entender {about} empieza por reconocer qué parte depende de vos y cuál no.',true),
+
+('espiritual','A veces {subject} invita a escuchar algo que el ruido cotidiano deja en segundo plano.',true),
+('espiritual','Pensar en {about} también puede ser una forma de volver a una parte más silenciosa de vos.',true),
+('espiritual','Cuando {subject} aparece, quizá también esté señalando algo que necesita ser mirado con más presencia.',true),
+('espiritual','Hay experiencias alrededor de {about} que encuentran sentido cuando dejamos de querer controlarlas por completo.',true),
+('espiritual','A veces {subject} abre una pregunta interior que no se responde sólo con palabras.',true),
+('espiritual','Pensar en {about} puede convertirse en una pausa para escuchar qué está cambiando por dentro.',true),
+('espiritual','No todo alrededor de {about} necesita una explicación; algunas cosas primero necesitan conciencia.',true),
+('espiritual','Cuando hacés espacio para {about}, también puede aparecer una forma distinta de entenderte.',true),
+
+('gracioso','Con {subject}, a veces el plan B es admitir que nunca hubo plan A.',true),
+('gracioso','Pensar en {about} está perfecto, siempre que no termine necesitando una planilla de Excel.',true),
+('gracioso','Si {subject} viniera con tutorial, seguramente igual saltaríamos la introducción.',true),
+('gracioso','Hay días en los que {about} merece reflexión y otros en los que merece una merienda.',true),
+('gracioso','Con {subject}, la teoría suele durar hasta que aparece la vida real.',true),
+('gracioso','Pensar demasiado en {about} puede convertir una idea simple en una serie con demasiadas temporadas.',true),
+('gracioso','Si {subject} se pone complicado, siempre se puede fingir que era parte del aprendizaje.',true),
+('gracioso','A veces {about} no necesita una solución brillante; necesita que dejemos de complicarlo cinco minutos.',true),
+
+('familiar','Cuando aparece {subject}, compartir lo que sentimos puede acercarnos más que fingir que no pasa nada.',true),
+('familiar','Pensar en {about} con alguien que conoce tu historia puede cambiar mucho la perspectiva.',true),
+('familiar','A veces {subject} se hace más fácil cuando deja de ser un asunto que cada uno carga por separado.',true),
+('familiar','En familia, hablar de {about} también puede ser una forma de ordenar lo que todos sienten distinto.',true),
+('familiar','Cuando {subject} toca a quienes queremos, estar disponibles suele importar más que saber qué decir.',true),
+('familiar','Pensar juntos en {about} no obliga a estar de acuerdo; a veces alcanza con poder escucharse.',true),
+('familiar','Hay temas alrededor de {about} que se vuelven más claros cuando cada uno puede contar cómo los vive.',true),
+('familiar','A veces {subject} necesita menos opiniones y más espacio para que todos puedan hablar.',true)
+on conflict (tone,template) do update set active=true;
+
 drop function if exists public.generate_phrase_text(text,text,integer,text,text);
 
 create or replace function public.generate_phrase_text(
