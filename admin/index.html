@@ -135,10 +135,17 @@
             <option value="familiar">Familiar</option>
           </select>
         </label>
+        <label>Cantidad de práctica
+          <select id="studyCount">
+            <option value="5">5 frases</option>
+            <option value="10" selected>10 frases</option>
+            <option value="20">20 frases</option>
+          </select>
+        </label>
       </div>
 
       <div class="admin-actions">
-        <button id="studyGenerate" type="button">Generar 5 para estudiar</button>
+        <button id="studyGenerate" type="button">Generar para estudiar</button>
       </div>
       <p id="studyStatus" class="admin-note"></p>
       <div id="studyVariants" class="variant-list"></div>
