@@ -40,7 +40,13 @@
     });
     const row=Array.isArray(data)?data[0]:data;
     if(!row?.found||!row?.phrase)return null;
-    return {phrase:row.phrase,generationId:row.generation_id||null};
+    return {
+      phrase:row.phrase,
+      generationId:row.generation_id||null,
+      corpusBooks:Number(row.corpus_books||0),
+      matchedBooks:Number(row.matched_books||0),
+      matchedNodes:Number(row.matched_nodes||0)
+    };
   }
   async function track(eventType,details={}){
     if(!configured())return false;
