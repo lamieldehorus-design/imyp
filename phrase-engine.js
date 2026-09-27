@@ -35,7 +35,8 @@
       p_intent:intent,
       p_tone:options.tone||"",
       p_variant:Number(options.variant||0),
-      p_session_id:sessionId()
+      p_session_id:sessionId(),
+      p_mode:options.mode||"public"
     });
     const row=Array.isArray(data)?data[0]:data;
     if(!row?.found||!row?.phrase)return null;
