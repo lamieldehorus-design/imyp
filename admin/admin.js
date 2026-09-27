@@ -90,16 +90,20 @@ function safeName(name){
 }
 async function uploadBook(){
   const file=$("#bookFile").files[0];
-  if(!file){$("#bookStatus").textContent="Elegí un PDF.";return}
-  if(file.type&&file.type!=="application/pdf"&&!file.name.toLowerCase().endsWith(".pdf")){
-    $("#bookStatus").textContent="El archivo debe ser PDF.";return;
+  if(!file){$("#bookStatus").textContent="Elegí un archivo.";return}
+  const lowerName=file.name.toLowerCase();
+  const isPdf=lowerName.endsWith(".pdf")||file.type==="application/pdf";
+  const isText=lowerName.endsWith(".txt")||lowerName.endsWith(".csv")||file.type==="text/plain"||file.type==="text/csv";
+  if(!isPdf&&!isText){
+    $("#bookStatus").textContent="El archivo debe ser PDF, TXT o CSV.";return;
   }
   const title=$("#bookTitle").value.trim()||file.name.replace(/\.pdf$/i,"");
   const path=crypto.randomUUID()+"-"+safeName(file.name);
   $("#uploadBook").disabled=true;$("#bookStatus").textContent="Subiendo PDF...";
   try{
+    const uploadType=isPdf?"application/pdf":(lowerName.endsWith(".csv")?"text/csv":"text/plain");
     const {error:uploadError}=await client().storage.from("books").upload(path,file,{
-      contentType:"application/pdf",upsert:false
+      contentType:uploadType,upsert:false
     });
     if(uploadError)throw uploadError;
     const {data:book,error:bookError}=await client().from("books").insert({
@@ -132,7 +136,10 @@ async function syncStorage(silent=false){
       });
       if(result.error)throw result.error;
       batch=result.data||[];
-      found.push(...batch.filter(x=>x.id&&String(x.name||"").toLowerCase().endsWith(".pdf")));
+      found.push(...batch.filter(x=>{
+        const n=String(x.name||"").toLowerCase();
+        return x.id&&(n.endsWith(".pdf")||n.endsWith(".txt")||n.endsWith(".csv"));
+      }));
       offset+=batch.length;
     }while(batch.length===1000);
 
@@ -140,7 +147,7 @@ async function syncStorage(silent=false){
     const missing=found.filter(x=>!known.has(x.name));
     if(missing.length){
       const rows=missing.map(x=>({
-        title:String(x.name).replace(/\.pdf$/i,""),
+        title:String(x.name).replace(/\.(pdf|txt|csv)$/i,""),
         original_filename:x.name,
         storage_path:x.name,
         file_size:Number(x.metadata?.size||0)||null,
@@ -293,35 +300,59 @@ async function processExistingBook(book){
     await client().from("books").update({status:"processing",error_message:null}).eq("id",book.id);
     await loadBooks();
 
-    $("#bookStatus").textContent="Descargando PDF privado...";
+    $("#bookStatus").textContent="Descargando recurso privado...";
     const {data:blob,error:downloadError}=await client().storage.from("books").download(book.storage_path);
     if(downloadError)throw downloadError;
 
-    $("#bookStatus").textContent="Extrayendo texto en este navegador...";
-    const {extractText,getDocumentProxy}=await getPdfTools();
-    const bytes=new Uint8Array(await blob.arrayBuffer());
-    const pdf=await getDocumentProxy(bytes);
     const type=book.resource_type||"content";
+    const lowerPath=String(book.storage_path||book.original_filename||"").toLowerCase();
+    const isTextResource=lowerPath.endsWith(".txt")||lowerPath.endsWith(".csv");
 
     let nonEmpty=[];
     let streamedDictionary=null;
 
-    if(type==="dictionary"){
-      if(pdf.numPages>10000)throw new Error("El diccionario supera 10.000 páginas; conviene dividirlo en tomos.");
-      streamedDictionary=await buildDictionaryFromPdf(pdf,20000);
-      if(!streamedDictionary.length)throw new Error("No se encontró texto extraíble en el diccionario. Si está escaneado necesitaremos OCR.");
-    }else{
-      const limit=type==="grammar"||type==="style"?2500:1200;
-      if(pdf.numPages>limit){
-        throw new Error(`El PDF supera ${limit} páginas para este tipo de recurso; dividilo en partes.`);
-      }
-      const extracted=await extractText(pdf,{mergePages:false});
-      const pages=Array.isArray(extracted.text)?extracted.text:[String(extracted.text||"")];
-      nonEmpty=pages.filter(x=>String(x||"").trim().length>20);
-      if(!nonEmpty.length)throw new Error("No se encontró texto extraíble. Si es un PDF escaneado necesitaremos OCR.");
-    }
+    if(isTextResource){
+      $("#bookStatus").textContent="Leyendo texto del recurso...";
+      const raw=await blob.text();
+      if(!raw.trim())throw new Error("El archivo de texto está vacío.");
+      nonEmpty=raw.split(/\f|\n\s*\n/g).map(x=>x.trim()).filter(x=>x.length>20);
+      if(!nonEmpty.length)nonEmpty=[raw.trim()];
 
-    try{await pdf.destroy?.()}catch{}
+      if(type==="dictionary"){
+        streamedDictionary=buildLexicon(nonEmpty,20000);
+      }
+    }else{
+      $("#bookStatus").textContent="Extrayendo texto del PDF...";
+      const {extractText,getDocumentProxy}=await getPdfTools();
+      const bytes=new Uint8Array(await blob.arrayBuffer());
+      let pdf;
+      try{
+        pdf=await getDocumentProxy(bytes);
+      }catch(error){
+        const message=String(error?.message||error);
+        if(message.toLowerCase().includes("invalid pdf structure")){
+          throw new Error("Este archivo tiene una estructura PDF inválida. Reexportalo/Imprimilo como PDF nuevo o convertí el diccionario a TXT y volvé a subirlo.");
+        }
+        throw error;
+      }
+
+      if(type==="dictionary"){
+        if(pdf.numPages>10000)throw new Error("El diccionario supera 10.000 páginas; conviene dividirlo en tomos.");
+        streamedDictionary=await buildDictionaryFromPdf(pdf,20000);
+        if(!streamedDictionary.length)throw new Error("No se encontró texto extraíble en el diccionario. Si está escaneado necesitaremos OCR.");
+      }else{
+        const limit=type==="grammar"||type==="style"?2500:1200;
+        if(pdf.numPages>limit){
+          throw new Error(`El PDF supera ${limit} páginas para este tipo de recurso; dividilo en partes.`);
+        }
+        const extracted=await extractText(pdf,{mergePages:false});
+        const pages=Array.isArray(extracted.text)?extracted.text:[String(extracted.text||"")];
+        nonEmpty=pages.filter(x=>String(x||"").trim().length>20);
+        if(!nonEmpty.length)throw new Error("No se encontró texto extraíble. Si está escaneado necesitaremos OCR.");
+      }
+
+      try{await pdf.destroy?.()}catch{}
+    }
 
     await Promise.all([
       client().from("knowledge_nodes").delete().eq("book_id",book.id),
