@@ -215,6 +215,52 @@ async function getPdfTools(){
   pdfTools=await import("https://cdn.jsdelivr.net/npm/unpdf@1.8.1/+esm");
   return pdfTools;
 }
+function languageTokens(text){
+  return String(text||"").toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-zñ0-9]+/g," ").trim().split(/\s+/)
+    .filter(w=>w.length>1);
+}
+function buildLexicon(pages,limit=15000){
+  const map=new Map();
+  pages.join("\n").split(/\s+/).forEach(raw=>{
+    const display=displayWord(raw);
+    const normalized=normalizeWord(display);
+    if(normalized.length<2)return;
+    const row=map.get(normalized)||{normalized,display:display||normalized,occurrences:0};
+    row.occurrences++;
+    if(!row.display&&display)row.display=display;
+    map.set(normalized,row);
+  });
+  return [...map.values()]
+    .sort((a,b)=>b.occurrences-a.occurrences||a.normalized.localeCompare(b.normalized))
+    .slice(0,limit);
+}
+function buildNgrams(pages,resourceType,perSize=5000){
+  const tokens=languageTokens(pages.join(" "));
+  const rows=[];
+  for(const n of [2,3]){
+    const map=new Map();
+    for(let i=0;i<=tokens.length-n;i++){
+      const gram=tokens.slice(i,i+n).join(" ");
+      map.set(gram,(map.get(gram)||0)+1);
+    }
+    const selected=[...map.entries()]
+      .sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]))
+      .slice(0,perSize);
+    selected.forEach(([gram,occurrences])=>rows.push({n,gram,occurrences,resource_type:resourceType}));
+  }
+  return rows;
+}
+async function insertBatches(table,rows,label,batchSize=500){
+  for(let i=0;i<rows.length;i+=batchSize){
+    $("#bookStatus").textContent=`${label} ${Math.min(i+batchSize,rows.length)} / ${rows.length}...`;
+    const {error}=await client().from(table).insert(rows.slice(i,i+batchSize));
+    if(error)throw error;
+    await new Promise(r=>setTimeout(r,15));
+  }
+}
+
 async function processExistingBook(book){
   $("#bookStatus").textContent="Preparando “"+book.title+"”...";
   try{
@@ -233,41 +279,72 @@ async function processExistingBook(book){
     const extracted=await extractText(pdf,{mergePages:false});
     try{await pdf.destroy?.()}catch{}
     const pages=Array.isArray(extracted.text)?extracted.text:[String(extracted.text||"")];
-    const chunks=chunksFromPages(pages);
-    if(!chunks.length)throw new Error("No se encontró texto extraíble. Si es un PDF escaneado necesitaremos OCR.");
+    const nonEmpty=pages.filter(x=>String(x||"").trim().length>20);
+    if(!nonEmpty.length)throw new Error("No se encontró texto extraíble. Si es un PDF escaneado necesitaremos OCR.");
 
-    $("#bookStatus").textContent=`Preparando ${chunks.length} fragmentos de conocimiento...`;
-    const {error:deleteError}=await client().from("knowledge_nodes").delete().eq("book_id",book.id);
-    if(deleteError)throw deleteError;
+    const type=book.resource_type||"content";
 
-    const conceptSet=new Set();
-    const rows=chunks.map((chunk,index)=>{
-      const keys=keywords(chunk.text,12);
-      keys.forEach(k=>conceptSet.add(k));
-      return {
-        book_id:book.id,
-        node_index:index,
-        source_text:chunk.text,
-        idea:keys.slice(0,4).join(", ")||"concepto",
-        context:"Página "+chunk.page,
-        themes:keys.slice(0,6),
-        keywords:keys
-      };
+    await Promise.all([
+      client().from("knowledge_nodes").delete().eq("book_id",book.id),
+      client().from("lexicon_terms").delete().eq("book_id",book.id),
+      client().from("language_ngrams").delete().eq("book_id",book.id)
+    ]).then(results=>{
+      const failed=results.find(x=>x.error);
+      if(failed?.error)throw failed.error;
     });
 
-    for(let i=0;i<rows.length;i+=100){
-      $("#bookStatus").textContent=`Guardando conocimiento ${Math.min(i+100,rows.length)} / ${rows.length}...`;
-      const {error}=await client().from("knowledge_nodes").insert(rows.slice(i,i+100));
-      if(error)throw error;
-      await new Promise(r=>setTimeout(r,20));
+    let nodeCount=0,conceptCount=0,summary="";
+
+    if(type==="dictionary"){
+      $("#bookStatus").textContent="Construyendo léxico del diccionario...";
+      const lexicon=buildLexicon(nonEmpty).map(x=>({...x,book_id:book.id}));
+      if(!lexicon.length)throw new Error("No pude extraer vocabulario de este diccionario.");
+      await insertBatches("lexicon_terms",lexicon,"Guardando vocabulario");
+      nodeCount=lexicon.length;
+      conceptCount=lexicon.length;
+      summary=`${lexicon.length} palabras del diccionario`;
+    }else if(type==="grammar"||type==="style"){
+      $("#bookStatus").textContent=type==="grammar"
+        ?"Aprendiendo patrones de gramática..."
+        :"Aprendiendo patrones de estilo...";
+      const ngrams=buildNgrams(nonEmpty,type).map(x=>({...x,book_id:book.id}));
+      if(!ngrams.length)throw new Error("No pude extraer patrones lingüísticos de este PDF.");
+      await insertBatches("language_ngrams",ngrams,"Guardando patrones");
+      nodeCount=ngrams.length;
+      conceptCount=new Set(ngrams.map(x=>x.gram)).size;
+      summary=`${ngrams.length} patrones de lenguaje`;
+    }else{
+      const chunks=chunksFromPages(nonEmpty);
+      if(!chunks.length)throw new Error("No se encontraron fragmentos utilizables.");
+      $("#bookStatus").textContent=`Preparando ${chunks.length} fragmentos de conocimiento...`;
+
+      const conceptSet=new Set();
+      const rows=chunks.map((chunk,index)=>{
+        const keys=keywords(chunk.text,12);
+        keys.forEach(k=>conceptSet.add(k));
+        return {
+          book_id:book.id,
+          node_index:index,
+          source_text:chunk.text,
+          idea:keys.slice(0,4).join(", ")||"concepto",
+          context:"Página "+chunk.page,
+          themes:keys.slice(0,6),
+          keywords:keys
+        };
+      });
+      await insertBatches("knowledge_nodes",rows,"Guardando conocimiento",100);
+      nodeCount=rows.length;
+      conceptCount=conceptSet.size;
+      summary=`${rows.length} fragmentos y ${conceptSet.size} palabras clave`;
     }
 
     const {error:updateError}=await client().from("books").update({
-      status:"ready",node_count:rows.length,concept_count:conceptSet.size,
+      status:"ready",node_count:nodeCount,concept_count:conceptCount,
       processed_at:new Date().toISOString(),error_message:null
     }).eq("id",book.id);
     if(updateError)throw updateError;
-    $("#bookStatus").textContent=`Listo: ${rows.length} fragmentos y ${conceptSet.size} palabras clave.`;
+
+    $("#bookStatus").textContent="Listo: "+summary+".";
     await loadBooks();
   }catch(error){
     await client().from("books").update({
@@ -329,10 +406,15 @@ async function loadBooks(){
         typeSelect.appendChild(o);
       });
       typeSelect.onchange=async()=>{
-        const {error}=await client().from("books").update({resource_type:typeSelect.value}).eq("id",book.id);
+        const {error}=await client().from("books").update({
+          resource_type:typeSelect.value,status:"uploaded",node_count:0,concept_count:0,
+          processed_at:null,error_message:null
+        }).eq("id",book.id);
         if(error){$("#bookStatus").textContent="No se pudo cambiar el tipo: "+error.message;return}
         book.resource_type=typeSelect.value;
-        $("#bookStatus").textContent="Tipo de recurso actualizado.";
+        book.status="uploaded";
+        $("#bookStatus").textContent="Tipo actualizado. Reprocesá el PDF para aplicar su nueva función.";
+        await loadBooks();
       };
 
       const actions=document.createElement("div");actions.className="admin-actions";
@@ -434,7 +516,8 @@ async function generateStudyVariants(){
   try{
     const tone=$("#studyTone").value;
     const results=[];
-    for(let i=0;i<5;i++){
+    const count=Number($("#studyCount")?.value||5);
+    for(let i=0;i<count;i++){
       const result=await window.PhraseEngine.generate(intent,{tone,variant:i,mode:"study"});
       if(result?.phrase&&result?.generationId)results.push(result);
     }
@@ -444,7 +527,7 @@ async function generateStudyVariants(){
       return;
     }
     renderStudyVariants(unique);
-    $("#studyStatus").textContent=`${unique.length} frases listas para evaluar.`;
+    $("#studyStatus").textContent=`${unique.length} de ${count} variantes distintas listas para evaluar.`;
   }catch(error){
     $("#studyStatus").textContent="Error: "+error.message;
   }finally{
