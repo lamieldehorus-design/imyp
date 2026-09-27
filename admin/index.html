@@ -40,6 +40,7 @@
     <nav class="admin-tabs" aria-label="Secciones del administrador">
       <button type="button" data-tab="library" class="active">Biblioteca</button>
       <button type="button" data-tab="writer" class="ghost">Redactor</button>
+      <button type="button" data-tab="studio" class="ghost">Estudio del redactor</button>
       <button type="button" data-tab="stats" class="ghost">Estadísticas</button>
       <button type="button" data-tab="published" class="ghost">Publicadas</button>
     </nav>
@@ -95,6 +96,64 @@
         </div>
         <div class="admin-actions"><button id="publishButton" type="button">PUBLICAR</button></div>
         <p id="publishStatus" class="admin-note"></p>
+      </div>
+    </section>
+
+    <section class="admin-panel" data-panel="studio" hidden>
+      <p class="eyebrow">ENTRENAMIENTO DEL REDACTOR</p>
+      <h2>Practicar, corregir y aprender</h2>
+      <p class="admin-note">Los libros sirven para encontrar contexto. Acá entrenás la forma de escribir: marcás frases buenas, rechazás las malas y guardás correcciones para que el motor prefiera mejores plantillas en el futuro.</p>
+
+      <div id="studyStats" class="stat-grid">
+        <div class="stat-card"><strong id="studyApprovals">0</strong><span>Aprobadas</span></div>
+        <div class="stat-card"><strong id="studyRejections">0</strong><span>Rechazadas</span></div>
+        <div class="stat-card"><strong id="studyExamples">0</strong><span>Correcciones guardadas</span></div>
+      </div>
+
+      <div class="admin-grid">
+        <label>Intención de práctica
+          <input id="studyIntent" placeholder="Ej.: calma, amor, soledad, cumpleaños">
+        </label>
+        <label>Tono
+          <select id="studyTone">
+            <option value="">Automático</option>
+            <option value="profundo">Profundo</option>
+            <option value="amoroso">Amoroso</option>
+            <option value="tierno">Tierno</option>
+            <option value="breve">Breve</option>
+            <option value="reflexivo">Reflexivo</option>
+            <option value="espiritual">Espiritual</option>
+            <option value="gracioso">Humor</option>
+            <option value="familiar">Familiar</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="admin-actions">
+        <button id="studyGenerate" type="button">Generar 5 para estudiar</button>
+      </div>
+      <p id="studyStatus" class="admin-note"></p>
+      <div id="studyVariants" class="variant-list"></div>
+
+      <div id="studyEditor" class="admin-result" hidden>
+        <p class="eyebrow">CORREGIR EJEMPLO</p>
+        <p id="studyOriginal" class="preview-phrase"></p>
+        <label>Versión corregida
+          <textarea id="studyCorrection" rows="3"></textarea>
+        </label>
+        <label>Qué estaba mal / qué querés enseñar
+          <textarea id="studyNotes" rows="2" placeholder="Ej.: no meter términos del libro fuera de contexto; más natural; menos solemne"></textarea>
+        </label>
+        <div class="admin-actions">
+          <button id="saveStudyCorrection" type="button">Guardar enseñanza</button>
+          <button id="cancelStudyCorrection" type="button" class="ghost">Cancelar</button>
+        </div>
+      </div>
+
+      <div class="admin-result">
+        <p class="eyebrow">PLANTILLAS</p>
+        <h3>Qué estilos están funcionando mejor</h3>
+        <div id="templateRanking" class="metric-list"></div>
       </div>
     </section>
 
