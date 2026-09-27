@@ -117,6 +117,8 @@ declare
   v_node_id bigint;
   v_example record;
   v_template record;
+  v_template_id uuid := null;
+  v_template_count integer := 0;
   v_phrase text;
   v_generation uuid;
   v_recent integer := 0;
@@ -191,8 +193,17 @@ begin
 
   if v_example.id is not null then
     v_phrase := v_example.improved_phrase;
-    v_template.id := null;
+    v_template_id := null;
   else
+    select count(*) into v_template_count
+    from public.writer_templates t
+    where t.active=true
+      and (
+        (v_tone<>'' and t.tone in (v_tone,''))
+        or
+        (v_tone='' and t.tone='')
+      );
+
     select t.* into v_template
     from public.writer_templates t
     where t.active=true
@@ -204,7 +215,10 @@ begin
     order by
       case when v_tone<>'' and t.tone=v_tone then 0 else 1 end,
       t.score desc,
-      md5(t.id::text||':'||v_variant::text)
+      t.approvals desc,
+      t.rejections asc,
+      t.id
+    offset (v_variant % greatest(v_template_count,1))
     limit 1;
 
     if v_template.id is null then
@@ -212,6 +226,7 @@ begin
       return;
     end if;
 
+    v_template_id := v_template.id;
     v_phrase := replace(v_template.template,'{intent}',lower(v_intent));
     v_phrase := upper(left(v_phrase,1))||substr(v_phrase,2);
   end if;
@@ -222,7 +237,7 @@ begin
   values(
     v_intent,nullif(v_tone,''),v_phrase,
     case when v_mode='admin' or v_mode='study' then 'admin' else 'public' end,
-    true,array[v_node_id],v_template.id
+    true,array[v_node_id],v_template_id
   )
   returning id into v_generation;
 
