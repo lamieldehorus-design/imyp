@@ -184,9 +184,14 @@ begin
   select e.* into v_example
   from public.writer_examples e
   where e.active=true
-    and e.normalized_intent=v_norm
     and (e.tone='' or e.tone=v_tone)
+    and (
+      e.normalized_intent=v_norm
+      or to_tsvector('spanish',e.intent_pattern) @@ websearch_to_tsquery('spanish',v_intent)
+      or to_tsvector('spanish',v_intent) @@ websearch_to_tsquery('spanish',e.intent_pattern)
+    )
   order by
+    case when e.normalized_intent=v_norm then 0 else 1 end,
     case when e.tone=v_tone and v_tone<>'' then 0 else 1 end,
     md5(e.id::text||':'||v_variant::text)
   limit 1;
