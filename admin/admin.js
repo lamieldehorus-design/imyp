@@ -382,10 +382,19 @@ function renderLibraryStats(books){
 async function loadBooks(){
   if(!session)return;
   try{
-    const {data,error}=await client().from("books")
-      .select("id,title,original_filename,storage_path,file_size,resource_type,status,node_count,concept_count,error_message,created_at,processed_at")
-      .order("created_at",{ascending:false});
-    if(error)throw error;
+    const [booksRes,lexiconRes,ngramRes]=await Promise.all([
+      client().from("books")
+        .select("id,title,original_filename,storage_path,file_size,resource_type,status,node_count,concept_count,error_message,created_at,processed_at")
+        .order("created_at",{ascending:false}),
+      client().from("lexicon_terms").select("*",{count:"exact",head:true}),
+      client().from("language_ngrams").select("*",{count:"exact",head:true})
+    ]);
+    const {data,error}=booksRes
+          if(error)throw error;
+    if(lexiconRes.error)throw lexiconRes.error;
+    if(ngramRes.error)throw ngramRes.error;
+    $("#lexiconCount").textContent=String(lexiconRes.count||0);
+    $("#ngramCount").textContent=String(ngramRes.count||0);
     const root=$("#bookList");root.innerHTML="";
     renderLibraryStats(data||[]);
     if(!data?.length){root.innerHTML='<p class="muted">Todavía no hay libros registrados.</p>';return}
