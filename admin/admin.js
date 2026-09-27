@@ -455,9 +455,15 @@ function renderStudyVariants(list){
     bad.type="button";
     bad.className="ghost";
     bad.textContent="✕ Mala";
-    bad.onclick=()=>openStudyCorrection(item);
+    bad.onclick=()=>saveStudyFeedback(item,false);
 
-    actions.append(good,bad);
+    const correct=document.createElement("button");
+    correct.type="button";
+    correct.className="ghost";
+    correct.textContent="✎ Corregir";
+    correct.onclick=()=>openStudyCorrection(item);
+
+    actions.append(good,bad,correct);
     row.append(p,actions);
     root.appendChild(row);
   });
@@ -474,7 +480,9 @@ async function saveStudyFeedback(item,approved,correctedPhrase="",notes=""){
     if(error)throw error;
     $("#studyStatus").textContent=approved
       ?"Marcada como buena. Esa plantilla ganó peso."
-      :"Corrección guardada. El redactor la usará como ejemplo para esta intención.";
+      :(correctedPhrase
+        ?"Corrección guardada. El redactor la usará como ejemplo para esta intención."
+        :"Marcada como mala. Esa plantilla perdió peso.");
     $("#studyEditor").hidden=true;
     studySelected=null;
     await loadStudyStats();
