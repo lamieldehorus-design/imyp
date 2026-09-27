@@ -2,6 +2,8 @@
 -- Corrige la generación mecánica y agrega aprendizaje por feedback del administrador.
 -- Ejecutar después de 202609260002_spanish_text_engine.sql.
 
+create extension if not exists unaccent with schema extensions;
+
 create table if not exists public.writer_templates (
   id uuid primary key default gen_random_uuid(),
   tone text not null default '',
@@ -128,7 +130,7 @@ begin
     v_intent := left(v_intent,300);
   end if;
 
-  v_norm := lower(regexp_replace(unaccent(v_intent),'[^a-z0-9ñ]+',' ','g'));
+  v_norm := lower(regexp_replace(extensions.unaccent(v_intent),'[^a-z0-9ñ]+',' ','g'));
   v_norm := trim(regexp_replace(v_norm,'\s+',' ','g'));
 
   if v_mode='public' and p_session_id is not null and p_session_id<>'' then
@@ -288,7 +290,7 @@ begin
   end if;
 
   if v_corrected<>'' then
-    v_norm := lower(regexp_replace(unaccent(g.intent),'[^a-z0-9ñ]+',' ','g'));
+    v_norm := lower(regexp_replace(extensions.unaccent(g.intent),'[^a-z0-9ñ]+',' ','g'));
     v_norm := trim(regexp_replace(v_norm,'\s+',' ','g'));
 
     insert into public.writer_examples(
