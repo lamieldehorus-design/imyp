@@ -261,6 +261,32 @@ async function insertBatches(table,rows,label,batchSize=500){
   }
 }
 
+async function buildDictionaryFromPdf(pdf,limit=20000){
+  const map=new Map();
+  for(let pageNum=1;pageNum<=pdf.numPages;pageNum++){
+    if(pageNum===1||pageNum%25===0||pageNum===pdf.numPages){
+      $("#bookStatus").textContent=`Leyendo diccionario página ${pageNum} / ${pdf.numPages}...`;
+    }
+    const page=await pdf.getPage(pageNum);
+    const content=await page.getTextContent();
+    const text=(content.items||[]).map(item=>item.str||"").join(" ");
+    text.split(/\s+/).forEach(raw=>{
+      const display=displayWord(raw);
+      const normalized=normalizeWord(display);
+      if(normalized.length<2)return;
+      const row=map.get(normalized)||{normalized,display:display||normalized,occurrences:0};
+      row.occurrences++;
+      if(!row.display&&display)row.display=display;
+      map.set(normalized,row);
+    });
+    try{page.cleanup?.()}catch{}
+    if(pageNum%50===0)await new Promise(r=>setTimeout(r,0));
+  }
+  return [...map.values()]
+    .sort((a,b)=>b.occurrences-a.occurrences||a.normalized.localeCompare(b.normalized))
+    .slice(0,limit);
+}
+
 async function processExistingBook(book){
   $("#bookStatus").textContent="Preparando “"+book.title+"”...";
   try{
@@ -275,14 +301,27 @@ async function processExistingBook(book){
     const {extractText,getDocumentProxy}=await getPdfTools();
     const bytes=new Uint8Array(await blob.arrayBuffer());
     const pdf=await getDocumentProxy(bytes);
-    if(pdf.numPages>1200)throw new Error("El PDF supera 1200 páginas; dividilo en partes.");
-    const extracted=await extractText(pdf,{mergePages:false});
-    try{await pdf.destroy?.()}catch{}
-    const pages=Array.isArray(extracted.text)?extracted.text:[String(extracted.text||"")];
-    const nonEmpty=pages.filter(x=>String(x||"").trim().length>20);
-    if(!nonEmpty.length)throw new Error("No se encontró texto extraíble. Si es un PDF escaneado necesitaremos OCR.");
-
     const type=book.resource_type||"content";
+
+    let nonEmpty=[];
+    let streamedDictionary=null;
+
+    if(type==="dictionary"){
+      if(pdf.numPages>10000)throw new Error("El diccionario supera 10.000 páginas; conviene dividirlo en tomos.");
+      streamedDictionary=await buildDictionaryFromPdf(pdf,20000);
+      if(!streamedDictionary.length)throw new Error("No se encontró texto extraíble en el diccionario. Si está escaneado necesitaremos OCR.");
+    }else{
+      const limit=type==="grammar"||type==="style"?2500:1200;
+      if(pdf.numPages>limit){
+        throw new Error(`El PDF supera ${limit} páginas para este tipo de recurso; dividilo en partes.`);
+      }
+      const extracted=await extractText(pdf,{mergePages:false});
+      const pages=Array.isArray(extracted.text)?extracted.text:[String(extracted.text||"")];
+      nonEmpty=pages.filter(x=>String(x||"").trim().length>20);
+      if(!nonEmpty.length)throw new Error("No se encontró texto extraíble. Si es un PDF escaneado necesitaremos OCR.");
+    }
+
+    try{await pdf.destroy?.()}catch{}
 
     await Promise.all([
       client().from("knowledge_nodes").delete().eq("book_id",book.id),
@@ -297,9 +336,9 @@ async function processExistingBook(book){
 
     if(type==="dictionary"){
       $("#bookStatus").textContent="Construyendo léxico del diccionario...";
-      const lexicon=buildLexicon(nonEmpty).map(x=>({...x,book_id:book.id}));
+      const lexicon=(streamedDictionary||[]).map(x=>({...x,book_id:book.id}));
       if(!lexicon.length)throw new Error("No pude extraer vocabulario de este diccionario.");
-      await insertBatches("lexicon_terms",lexicon,"Guardando vocabulario");
+      await insertBatches("lexicon_terms",lexicon,"Guardando vocabulario",500);
       nodeCount=lexicon.length;
       conceptCount=lexicon.length;
       summary=`${lexicon.length} palabras del diccionario`;
