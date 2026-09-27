@@ -46,10 +46,10 @@
     </nav>
 
     <section class="admin-panel" data-panel="library">
-      <p class="eyebrow">BIBLIOTECA PRIVADA</p><h2>Subir y procesar libros PDF</h2>
-      <p class="admin-note">Cada PDF puede cumplir una función distinta: los libros aportan ideas; el diccionario amplía vocabulario; gramática y estilo forman la capa lingüística. El texto se procesa de forma privada.</p>
+      <p class="eyebrow">BIBLIOTECA PRIVADA</p><h2>Subir y procesar recursos</h2>
+      <p class="admin-note">Cada recurso puede cumplir una función distinta: los libros aportan ideas; el diccionario amplía vocabulario; gramática y estilo forman la capa lingüística. El texto se procesa de forma privada.</p>
       <div id="libraryStats" class="stat-grid library-stats">
-        <div class="stat-card"><strong id="bucketCount">0</strong><span>PDFs en bucket</span></div>
+        <div class="stat-card"><strong id="bucketCount">0</strong><span>Archivos en bucket</span></div>
         <div class="stat-card"><strong id="readyCount">0</strong><span>Procesados</span></div>
         <div class="stat-card"><strong id="pendingCount">0</strong><span>Pendientes</span></div>
         <div class="stat-card"><strong id="failedCount">0</strong><span>Con error</span></div>
@@ -66,11 +66,11 @@
             <option value="style">Estilo / buena redacción</option>
           </select>
         </label>
-        <label>Archivo PDF<input id="bookFile" type="file" accept="application/pdf,.pdf"></label>
+        <label>Archivo PDF o TXT<input id="bookFile" type="file" accept="application/pdf,text/plain,text/csv,.pdf,.txt,.csv"></label>
       </div>
       <div class="admin-actions">
         <button id="uploadBook" type="button">Subir y procesar</button>
-        <button id="syncBooks" type="button" class="ghost">Detectar PDFs ya subidos</button>
+        <button id="syncBooks" type="button" class="ghost">Detectar archivos ya subidos</button>
         <button id="refreshBooks" type="button" class="ghost">Actualizar lista</button>
       </div>
       <p id="bookStatus" class="admin-note"></p>
