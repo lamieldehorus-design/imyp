@@ -1,6 +1,13 @@
 -- Redactor v2: banco de estilo + generación gramaticalmente segura
 -- Ejecutar después de 202609260003_writer_studio.sql.
 
+delete from public.writer_examples a
+using public.writer_examples b
+where a.ctid < b.ctid
+  and a.intent_pattern=b.intent_pattern
+  and a.tone=b.tone
+  and a.improved_phrase=b.improved_phrase;
+
 create unique index if not exists writer_examples_unique_phrase
 on public.writer_examples(intent_pattern,tone,improved_phrase);
 
