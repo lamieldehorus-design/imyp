@@ -350,7 +350,12 @@ async function processExistingBook(book){
     await client().from("books").update({
       status:"failed",error_message:String(error.message||error)
     }).eq("id",book.id);
-    $("#bookStatus").textContent="Error de procesamiento: "+(error.message||error);
+    const message=String(error.message||error);
+    if(message.includes("lexicon_terms")||message.includes("language_ngrams")){
+      $("#bookStatus").textContent="Falta activar el motor lingüístico en Supabase. Ejecutá la migración 202609260006_linguistic_corpus.sql y recargá el schema cache.";
+    }else{
+      $("#bookStatus").textContent="Error de procesamiento: "+message;
+    }
     await loadBooks();
   }
 }
