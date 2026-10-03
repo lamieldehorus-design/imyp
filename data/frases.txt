@@ -1,4 +1,5 @@
 # IMÁGENES Y POSTALES
+# Publicación automática activa
 # Cada bloque empieza con === POSTAL ===
 # CATEGORIA, ETIQUETAS, DESTINATARIOS, TONO y ESTILO son opcionales.
 # Si faltan, el compilador intenta detectarlos por el texto.
