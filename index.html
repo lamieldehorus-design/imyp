@@ -24,7 +24,7 @@
     <nav class="top-nav" aria-label="Navegación principal">
       <a href="#explorar">Explorar</a>
       <a href="#categorias">Categorías</a>
-      <a href="#crear-frase">Crear frase</a>
+      <a href="/blog/">Blog</a>
     </nav>
   </header>
 
@@ -53,6 +53,7 @@
         <a class="hub-card" href="/animo/"><strong>🤗 Ánimo</strong><span>Acompañar de verdad</span></a>
         <a class="hub-card" href="/viajes/"><strong>✈️ Viajes</strong><span>Buen viaje y aventuras</span></a>
         <a class="hub-card" href="/humor/"><strong>😄 Humor</strong><span>Frases y memes cotidianos</span></a>
+        <a class="hub-card" href="/blog/"><strong>📝 Blog</strong><span>Ideas y artículos para leer</span></a>
       </div>
     </section>
 
@@ -90,34 +91,18 @@
         <p id="resultCount" class="muted"></p>
       </div>
       <div id="gallery" class="masonry" aria-live="polite"></div>
+      <div id="loadSentinel" class="load-sentinel" aria-hidden="true"></div>
       <p id="emptyState" class="empty" hidden>No encontré una coincidencia exacta. Probá con menos filtros o con otra forma de decirlo.</p>
     </section>
 
-    <section class="conscious" id="crear-frase">
-      <div>
-        <p class="eyebrow">CREÁ ALGO TUYO</p>
-        <h2>Generá una frase a partir de una idea</h2>
-        <p>Escribí una palabra, emoción o situación. Te proponemos una frase breve que después podés hacer tuya.</p>
+    <section class="blog-home">
+      <div class="section-heading">
+        <div><p class="eyebrow">PARA LEER CON MÁS TIEMPO</p><h2>Últimos artículos del blog</h2></div>
+        <a class="text-link" href="/blog/">Ver todos</a>
       </div>
-      <div class="conscious-box">
-        <label for="consciousIntent">¿Sobre qué querés una frase?</label>
-        <div class="generator-row">
-          <input id="consciousIntent" placeholder="Ej.: calma, fuerza, amor, transformación" autocomplete="off">
-          <button id="consciousButton" type="button">Generar frase</button>
-        </div>
-        <div id="consciousOutput" class="generated-output" hidden>
-          <p id="consciousResult"></p>
-          <div class="generated-actions">
-            <button id="regenerateGenerated" type="button" class="ghost">Otra frase</button>
-            <button id="copyGenerated" type="button" class="ghost">Copiar</button>
-            <button id="personalizeGenerated" type="button" class="ghost">Personalizar</button>
-            <button id="downloadGenerated" type="button">Descargar</button>
-            <button id="shareGenerated" type="button">Compartir</button>
-          </div>
-        </div>
-        <p id="consciousStatus" class="muted">Escribí una idea y generá una frase.</p>
-      </div>
+      <div id="latestBlog" class="blog-grid"></div>
     </section>
+
   </main>
 
   <footer><strong>imagenesypostales.com</strong><span>Encontrar, personalizar y compartir sin vueltas.</span></footer>
@@ -137,8 +122,6 @@
     </form>
   </dialog>
 
-  <script src="/supabase-config.js" defer></script>
-  <script src="/phrase-engine.js" defer></script>
   <script src="/app.js" defer></script>
 </body>
 </html>
