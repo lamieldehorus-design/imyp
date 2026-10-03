@@ -30,11 +30,11 @@ function renderCategoryButtons(){
   const root=$("#postalCategories");if(!root)return;
   root.innerHTML="";
   categories.forEach(c=>{
-    const b=document.createElement("button");
-    b.type="button";b.className="postal-filter"+(activeCategory===c.key?" active":"");
-    b.textContent=c.icon+" "+c.label;
-    b.onclick=()=>{activeCategory=activeCategory===c.key?"":c.key;visibleCount=PAGE_SIZE;renderCategoryButtons();renderPostales()};
-    root.appendChild(b);
+    const a=document.createElement("a");
+    a.className="postal-filter"+(activeCategory===c.key?" active":"");
+    a.href="/postales/"+c.key+"/";
+    a.textContent=c.icon+" "+c.label;
+    root.appendChild(a);
   });
 }
 function currentItems(){return items.filter(i=>!activeCategory||i.category===activeCategory)}
@@ -69,7 +69,10 @@ function wrap(ctx,text,maxWidth){
   if(line)lines.push(line);return lines;
 }
 function roundedRect(ctx,x,y,w,h,r){
-  ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fill();
+  const rr=Math.min(r,w/2,h/2);
+  ctx.beginPath();ctx.moveTo(x+rr,y);ctx.lineTo(x+w-rr,y);ctx.quadraticCurveTo(x+w,y,x+w,y+rr);
+  ctx.lineTo(x+w,y+h-rr);ctx.quadraticCurveTo(x+w,y+h,x+w-rr,y+h);ctx.lineTo(x+rr,y+h);
+  ctx.quadraticCurveTo(x,y+h,x,y+h-rr);ctx.lineTo(x,y+rr);ctx.quadraticCurveTo(x,y,x+rr,y);ctx.closePath();ctx.fill();
 }
 function heart(ctx,x,y,size,fill){
   ctx.save();ctx.translate(x,y);ctx.scale(size/100,size/100);ctx.beginPath();
