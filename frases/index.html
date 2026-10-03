@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Frases para compartir, dedicar y personalizar | Imágenes y Postales</title>
+  <meta name="description" content="Buscá frases por persona, situación o emoción. Copiá, personalizá, descargá como imagen y compartí.">
+  <link rel="canonical" href="https://imagenesypostales.com/frases/">
+  <meta property="og:title" content="Frases | Imágenes y Postales">
+  <meta property="og:description" content="Encontrá una frase, hacela tuya y compartila.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://imagenesypostales.com/frases/">
+  <meta name="theme-color" content="#0b57d0">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Imágenes y Postales, inicio"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a>
+    <nav class="top-nav"><a href="/frases/">Frases</a><a href="/blog/">Blog</a><a href="/postales/">Postales</a></nav>
+  </header>
+
+  <main>
+    <section class="hero" id="explorar">
+      <nav class="breadcrumbs"><a href="/">Inicio</a><span>›</span><span>Frases</span></nav>
+      <p class="eyebrow">QUÉ QUERÉS DECIR Y A QUIÉN</p>
+      <h1>Encontrá las palabras. Hacelas tuyas. Compartilas.</h1>
+      <p class="hero-copy">Buscá por persona, situación o emoción. Podés copiar la frase, personalizarla y descargarla como imagen.</p>
+      <form class="search-box" id="searchForm">
+        <label class="sr-only" for="searchInput">¿Qué querés decir hoy?</label>
+        <input id="searchInput" type="search" placeholder="Cumpleaños para mi hermana, ánimo para una amiga…" autocomplete="off">
+        <button type="submit">Buscar</button>
+      </form>
+      <div class="quick-grid" id="quickNeeds" aria-label="Necesidades frecuentes"></div>
+    </section>
+
+    <section class="seo-hubs" aria-labelledby="hubTitle">
+      <p class="eyebrow">EXPLORÁ POR SITUACIÓN</p>
+      <h2 id="hubTitle">Colecciones de frases</h2>
+      <div class="hub-grid">
+        <a class="hub-card" href="/cumpleanos/"><strong>🎂 Cumpleaños</strong><span>Por persona y estilo</span></a>
+        <a class="hub-card" href="/buenos-dias/"><strong>☀️ Buenos días</strong><span>Saludos cotidianos</span></a>
+        <a class="hub-card" href="/amor/"><strong>❤️ Amor</strong><span>Cariño y te extraño</span></a>
+        <a class="hub-card" href="/familia/"><strong>🏡 Familia</strong><span>Mamá, hermanos y hogar</span></a>
+        <a class="hub-card" href="/animo/"><strong>🤗 Ánimo</strong><span>Acompañar de verdad</span></a>
+        <a class="hub-card" href="/viajes/"><strong>✈️ Viajes</strong><span>Buen viaje y aventuras</span></a>
+        <a class="hub-card" href="/humor/"><strong>😄 Humor</strong><span>Frases cotidianas</span></a>
+      </div>
+    </section>
+
+    <section class="filters-wrap" id="categorias">
+      <div><p class="eyebrow">AFINÁ SIN COMPLICARTE</p><h2>Elegí persona, tono y estilo</h2></div>
+      <button class="ghost" id="clearFilters" type="button">Limpiar filtros</button>
+      <div class="filters">
+        <label>¿Para quién?
+          <select id="recipientFilter">
+            <option value="">Cualquiera</option><option value="pareja">Pareja</option><option value="amiga">Amiga/o</option><option value="hermana">Hermana/o</option><option value="mama">Mamá</option><option value="familia">Familia</option><option value="para-mi">Para mí</option>
+          </select>
+        </label>
+        <label>¿Con qué tono?
+          <select id="toneFilter">
+            <option value="">Cualquiera</option><option value="tierno">Tierno</option><option value="sencillo">Sencillo</option><option value="gracioso">Gracioso</option><option value="profundo">Profundo</option>
+          </select>
+        </label>
+        <label>¿Qué estilo?
+          <select id="styleFilter">
+            <option value="">Cualquiera</option><option value="minimalista">Minimalista</option><option value="azul">Azul</option><option value="oscuro">Oscuro</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">LISTAS PARA USAR</p><h2 id="resultTitle">Frases para hoy</h2></div>
+        <p id="resultCount" class="muted"></p>
+      </div>
+      <div id="gallery" class="masonry" aria-live="polite"></div>
+      <div id="loadSentinel" class="load-sentinel" aria-hidden="true"></div>
+      <p id="emptyState" class="empty" hidden>No encontré una coincidencia exacta. Probá con menos filtros o con otra forma de decirlo.</p>
+    </section>
+  </main>
+
+  <footer><strong>imagenesypostales.com</strong><span>Encontrar, personalizar y compartir sin vueltas.</span></footer>
+
+  <dialog id="personalizeDialog">
+    <form method="dialog" class="dialog-card" id="personalizeForm">
+      <button class="dialog-close" value="cancel" aria-label="Cerrar">×</button>
+      <h2>Personalizá tu frase</h2>
+      <p id="dialogBasePhrase" class="preview-phrase"></p>
+      <label>Nombre<input id="personName" maxlength="40" placeholder="Ej.: Sofía"></label>
+      <label>Firma<input id="signature" maxlength="50" placeholder="Ej.: Con cariño, Mauro"></label>
+      <label>Mensaje extra<textarea id="extraMessage" rows="3" maxlength="160" placeholder="Algo breve y personal"></textarea></label>
+      <div class="dialog-actions"><button type="button" class="ghost" id="copyPersonalized">Copiar</button><button type="button" id="downloadPersonalized">Descargar</button></div>
+    </form>
+  </dialog>
+  <script src="/app.js" defer></script>
+</body>
+</html>
