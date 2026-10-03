@@ -1,0 +1,131 @@
+# POSTALES VISUALES DE IMÁGENES Y POSTALES
+# Cada bloque empieza con === POSTAL ===
+# PLANTILLA define el diseño visual. Podés repetir una categoría con distintas plantillas.
+
+=== POSTAL ===
+TITULO: Cumpleaños con confeti
+FRASE: Feliz cumpleaños. Que este nuevo año te encuentre rodeado de momentos que den ganas de quedarse.
+DESCRIPCION: Postal alegre para felicitar un cumpleaños.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, felicitaciones, alegría
+PLANTILLA: cumple-confeti
+
+=== POSTAL ===
+TITULO: Cumpleaños con velas
+FRASE: Hoy celebramos todo lo vivido y también todo lo bueno que todavía falta estrenar.
+DESCRIPCION: Postal cálida de cumpleaños con velas.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, celebración, deseos
+PLANTILLA: cumple-velas
+
+=== POSTAL ===
+TITULO: Amor en calma
+FRASE: Qué lindo encontrar a alguien con quien también se puede estar bien en silencio.
+DESCRIPCION: Postal romántica, suave y sencilla.
+CATEGORIA: amor
+ETIQUETAS: amor, pareja, cariño
+PLANTILLA: amor-corazones
+
+=== POSTAL ===
+TITULO: Cerca aunque haya distancia
+FRASE: Hay personas que siguen sintiéndose cerca incluso cuando el mapa dice otra cosa.
+DESCRIPCION: Postal de amor a distancia.
+CATEGORIA: amor
+ETIQUETAS: amor, distancia, te extraño
+PLANTILLA: amor-luna
+
+=== POSTAL ===
+TITULO: Amistad que se queda
+FRASE: Gracias por ser de esas personas con las que la vida se siente un poco más liviana.
+DESCRIPCION: Postal para agradecer una amistad.
+CATEGORIA: amistad
+ETIQUETAS: amistad, gracias, amigos
+PLANTILLA: amistad-cintas
+
+=== POSTAL ===
+TITULO: Para una amistad especial
+FRASE: No hace falta hablar todos los días para saber quién está cuando importa.
+DESCRIPCION: Postal para una amistad que atraviesa el tiempo.
+CATEGORIA: amistad
+ETIQUETAS: amistad, compañía, cariño
+PLANTILLA: amistad-estrellas
+
+=== POSTAL ===
+TITULO: Familia
+FRASE: Hay lugares que se llaman casa y personas que hacen que cualquier lugar se sienta así.
+DESCRIPCION: Postal cálida para compartir en familia.
+CATEGORIA: familia
+ETIQUETAS: familia, hogar, cariño
+PLANTILLA: familia-hogar
+
+=== POSTAL ===
+TITULO: Gracias familia
+FRASE: Gracias por estar también en esos días que nunca terminan en una foto.
+DESCRIPCION: Postal de gratitud para la familia.
+CATEGORIA: familia
+ETIQUETAS: familia, gracias, acompañamiento
+PLANTILLA: familia-marco
+
+=== POSTAL ===
+TITULO: Buenos días
+FRASE: Que hoy aparezca al menos una cosa pequeña que te cambie el ánimo.
+DESCRIPCION: Postal luminosa para comenzar el día.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, mañana, saludo
+PLANTILLA: buenos-dias-sol
+
+=== POSTAL ===
+TITULO: Café y buen día
+FRASE: Buen día. Que el café ayude y que la vida también ponga de su parte.
+DESCRIPCION: Postal de buenos días con un toque cotidiano.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, café, humor
+PLANTILLA: buenos-dias-cafe
+
+=== POSTAL ===
+TITULO: Buen viaje
+FRASE: Buen viaje. Que vuelvas con recuerdos que todavía no sabés que vas a guardar.
+DESCRIPCION: Postal para despedir a alguien que se va de viaje.
+CATEGORIA: viajes
+ETIQUETAS: viaje, buen viaje, aventura
+PLANTILLA: viaje-ruta
+
+=== POSTAL ===
+TITULO: Nueva aventura
+FRASE: Que el camino te sorprenda más de lo que habías planeado.
+DESCRIPCION: Postal para comenzar un viaje o una aventura.
+CATEGORIA: viajes
+ETIQUETAS: viaje, aventura, vacaciones
+PLANTILLA: viaje-maleta
+
+=== POSTAL ===
+TITULO: Seguí de a poco
+FRASE: No necesitás resolver toda la vida hoy. Alcanzará con el próximo paso.
+DESCRIPCION: Postal para dar ánimo sin exageraciones.
+CATEGORIA: animo
+ETIQUETAS: ánimo, fuerza, acompañar
+PLANTILLA: animo-luz
+
+=== POSTAL ===
+TITULO: Estoy con vos
+FRASE: No tengo una solución perfecta, pero sí un lugar a tu lado mientras pasa.
+DESCRIPCION: Postal de acompañamiento para un momento difícil.
+CATEGORIA: animo
+ETIQUETAS: ánimo, apoyo, compañía
+PLANTILLA: animo-camino
+
+=== POSTAL ===
+TITULO: Que te mejores pronto
+FRASE: Ojalá cada día te devuelva un poquito de energía, calma y ganas.
+DESCRIPCION: Postal para desear una pronta recuperación.
+CATEGORIA: salud
+ETIQUETAS: salud, pronta recuperación, mejorar
+PLANTILLA: salud-flores
+
+=== POSTAL ===
+TITULO: Un abrazo para recuperarte
+FRASE: Que puedas descansar, recuperarte y volver a sentirte vos, sin apuro.
+DESCRIPCION: Postal suave para acompañar durante una recuperación.
+CATEGORIA: salud
+ETIQUETAS: salud, recuperación, abrazo
+PLANTILLA: salud-hojas
