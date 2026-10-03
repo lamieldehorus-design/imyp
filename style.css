@@ -597,3 +597,106 @@ dialog::backdrop{background:rgba(15,23,42,.58)}
   .actions button{flex:1 1 calc(50% - .4rem);min-height:42px}
   .card-body{padding:.9rem}
 }
+
+
+/* Portal principal */
+.portal-hero{padding-top:76px;padding-bottom:64px}
+.portal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-top:2.4rem}
+.portal-card{
+  position:relative;display:flex;flex-direction:column;min-height:280px;padding:1.35rem;
+  border:1px solid var(--line);border-radius:22px;background:#fff;text-decoration:none;
+  box-shadow:var(--shadow);overflow:hidden;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease
+}
+.portal-card:hover{transform:translateY(-3px);border-color:#b9cae5;box-shadow:0 14px 34px rgba(23,32,51,.1)}
+.portal-icon{display:grid;place-items:center;width:58px;height:58px;border-radius:16px;background:var(--blue-soft);color:var(--blue);font-size:1.35rem;font-weight:800}
+.portal-copy{display:flex;flex-direction:column;gap:.5rem;margin-top:2rem}
+.portal-copy small{color:var(--blue);font-size:.7rem;font-weight:800;letter-spacing:.09em}
+.portal-copy strong{color:var(--ink);font-size:1.65rem;line-height:1.1}
+.portal-copy>span:last-child{color:var(--muted);line-height:1.55}
+.portal-arrow{position:absolute;right:1.2rem;bottom:1rem;color:var(--blue);font-size:1.55rem;font-weight:800}
+.portal-blog .portal-icon{background:#f4f0ff;color:#6d3bd1}
+.portal-postales .portal-icon{background:#fff3e8;color:#b85c00}
+.home-explainer{width:min(100%,var(--content));margin:0 auto 72px;padding:1.5rem clamp(18px,5vw,58px);display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:2rem;align-items:start}
+.home-explainer>p{margin:.25rem 0 0;color:var(--muted);line-height:1.75}
+
+/* Postales visuales */
+.postal-hero{padding-bottom:30px}
+.postal-filters{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.5rem}
+.postal-filter{background:#fff;color:var(--ink);border:1px solid var(--line);min-height:42px;padding:.6rem .85rem}
+.postal-filter:hover,.postal-filter.active{background:var(--blue);color:#fff;border-color:var(--blue)}
+.postal-category-link{display:flex;align-items:center;justify-content:space-between;gap:.8rem;padding:.75rem .9rem;border:1px solid var(--line);border-radius:12px;text-decoration:none;background:#fff}
+.postal-category-link:hover{border-color:#b7c9e4;color:var(--blue)}
+.postal-category-link+ .postal-category-link{margin-top:.45rem}
+.postal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.postal-card{border:1px solid var(--line);border-radius:18px;background:#fff;overflow:hidden;box-shadow:var(--shadow)}
+.visual-postal{position:relative;isolation:isolate;display:grid;place-items:center;min-height:340px;padding:2rem;background:#fff;overflow:hidden}
+.visual-postal::before,.visual-postal::after{content:"";position:absolute;z-index:-1}
+.visual-postal p{max-width:88%;margin:0;text-align:center;color:#172033;font-size:clamp(1.18rem,2vw,1.5rem);font-weight:760;line-height:1.38;letter-spacing:-.025em}
+.visual-postal small{position:absolute;bottom:16px;left:0;right:0;text-align:center;color:#0b57d0;font-size:.66rem;font-weight:800;letter-spacing:.04em}
+.postal-card-body{padding:1rem}
+.postal-card-body h2{font-size:1.02rem;margin:.05rem 0 .35rem}
+.postal-card-body .actions{margin-top:.8rem}
+
+/* Cumpleaños */
+.tpl-cumple-confeti{background:#fff8ed}
+.tpl-cumple-confeti::before{width:14px;height:38px;background:#ef476f;top:38px;left:50px;box-shadow:90px 40px #f9c74f,190px -10px #0b57d0,300px 50px #43aa8b,430px 0 #ef476f,550px 45px #f9c74f,690px 5px #0b57d0,30px 260px #43aa8b,650px 270px #ef476f;transform:rotate(18deg)}
+.tpl-cumple-velas{background:#fff7e8}
+.tpl-cumple-velas::before{top:28px;left:50%;width:220px;height:120px;transform:translateX(-50%);background:repeating-linear-gradient(90deg,#0b57d0 0 24px,#fff7e8 24px 46px,#f59e0b 46px 70px,#fff7e8 70px 92px);border-radius:8px 8px 18px 18px}
+
+/* Amor */
+.tpl-amor-corazones{background:#fff3f6}
+.tpl-amor-corazones::before{width:115px;height:100px;left:38px;top:40px;background:#ef476f;transform:rotate(45deg);border-radius:22px}
+.tpl-amor-corazones::after{width:150px;height:130px;right:-22px;bottom:36px;background:#f7a8bd;transform:rotate(45deg);border-radius:28px}
+.tpl-amor-luna{background:#141b35}
+.tpl-amor-luna p{color:#fff}
+.tpl-amor-luna small{color:#dbeafe}
+.tpl-amor-luna::before{width:130px;height:130px;border-radius:50%;background:#fff2b2;right:55px;top:45px;box-shadow:-35px 0 0 7px #141b35}
+
+/* Amistad */
+.tpl-amistad-cintas{background:#eef8ff}
+.tpl-amistad-cintas::before{width:120%;height:90px;border-top:12px solid #0b57d0;border-radius:50%;top:55px;left:-10%;transform:rotate(-8deg)}
+.tpl-amistad-estrellas{background:#f8f5ff}
+.tpl-amistad-estrellas::before{content:"✦";color:#7c3aed;font-size:72px;top:25px;left:35px}
+.tpl-amistad-estrellas::after{content:"✦";color:#9f7aea;font-size:58px;right:45px;bottom:35px}
+
+/* Familia */
+.tpl-familia-hogar{background:#fff8ef}
+.tpl-familia-hogar::before{width:150px;height:115px;background:#c87941;left:45px;top:58px;clip-path:polygon(50% 0,100% 42%,100% 100%,0 100%,0 42%)}
+.tpl-familia-marco{background:#fffdf8;box-shadow:inset 0 0 0 10px #b7791f,inset 0 0 0 14px #fffdf8,inset 0 0 0 17px #d7b777}
+
+/* Buenos días */
+.tpl-buenos-dias-sol{background:linear-gradient(#eef7ff 0 62%,#dff2ff 62%)}
+.tpl-buenos-dias-sol::before{width:125px;height:125px;border-radius:50%;background:#fbbf24;right:55px;top:50px;box-shadow:0 0 0 18px rgba(251,191,36,.12)}
+.tpl-buenos-dias-cafe{background:#fff8ee}
+.tpl-buenos-dias-cafe::before{width:150px;height:105px;border-radius:14px 14px 40px 40px;background:#8b5e3c;right:70px;top:60px;box-shadow:65px 10px 0 -38px #fff8ee,75px 10px 0 -25px #8b5e3c}
+
+/* Viajes */
+.tpl-viaje-ruta{background:#eff8f1}
+.tpl-viaje-ruta::before{content:"✈";right:58px;top:34px;color:#0b57d0;font-size:78px}
+.tpl-viaje-ruta::after{width:180px;height:280px;border-left:7px dashed #52606d;border-radius:50%;left:70px;bottom:-55px;transform:rotate(-24deg)}
+.tpl-viaje-maleta{background:#eef5ff}
+.tpl-viaje-maleta::before{width:145px;height:170px;border-radius:18px;background:#0b57d0;right:55px;top:55px;box-shadow:inset 0 0 0 12px rgba(255,255,255,.13)}
+
+/* Ánimo */
+.tpl-animo-luz{background:radial-gradient(circle at 50% 25%,#fff2a8 0,rgba(255,242,168,.28) 22%,#f8fbff 55%)}
+.tpl-animo-camino{background:linear-gradient(180deg,#eef6f3,#f8fbf9)}
+.tpl-animo-camino::before{width:360px;height:360px;border:18px solid #7aa88e;border-color:#7aa88e transparent transparent transparent;border-radius:50%;left:50%;bottom:-250px;transform:translateX(-50%) rotate(-10deg)}
+
+/* Salud */
+.tpl-salud-flores{background:#f8fff9}
+.tpl-salud-flores::before{content:"✿";font-size:90px;color:#86c59d;left:45px;top:35px}
+.tpl-salud-flores::after{content:"✿";font-size:110px;color:#f0aabc;right:45px;bottom:35px}
+.tpl-salud-hojas{background:#f3faf6}
+.tpl-salud-hojas::before{width:180px;height:260px;left:30px;bottom:0;border-left:8px solid #6ea889;transform:rotate(22deg);border-radius:50%}
+.tpl-salud-hojas::after{width:65px;height:115px;left:105px;bottom:95px;background:#8ac29d;border-radius:70% 20% 70% 20%;transform:rotate(-25deg)}
+
+@media(max-width:900px){
+  .portal-grid,.postal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .home-explainer{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .portal-hero{padding-top:48px}
+  .portal-grid,.postal-grid{grid-template-columns:1fr}
+  .portal-card{min-height:230px}
+  .visual-postal{min-height:300px}
+}
