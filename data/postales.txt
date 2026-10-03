@@ -1,4 +1,5 @@
 # POSTALES VISUALES DE IMÁGENES Y POSTALES
+# Compilación automática activa
 # Cada bloque empieza con === POSTAL ===
 # PLANTILLA define el diseño visual. Podés repetir una categoría con distintas plantillas.
 
