@@ -40,17 +40,13 @@ needs.forEach(n=>{
 
 async function loadContent(){
   try{
-    const [phrasesRes,blogRes]=await Promise.all([
-      fetch("/data/frases.json",{cache:"default"}),
-      fetch("/data/blog.json",{cache:"default"})
-    ]);
+    const phrasesRes=await fetch("/data/frases.json",{cache:"default"});
     if(!phrasesRes.ok)throw new Error("No se pudo cargar el catálogo");
     items=await phrasesRes.json();
     render();
-    if(blogRes.ok)renderLatestBlog(await blogRes.json());
   }catch(error){
     console.error(error);
-    if(empty){empty.hidden=false;empty.textContent="No pude cargar las postales en este momento."}
+    if(empty){empty.hidden=false;empty.textContent="No pude cargar las frases en este momento."}
   }
 }
 
@@ -79,7 +75,7 @@ function render(){
   if(empty)empty.hidden=list.length>0;
   if(count)count.textContent=`${list.length} resultado${list.length===1?"":"s"}`;
   const n=needs.find(x=>x.key===state.need);
-  if(title)title.textContent=n?`Postales para ${n.title.toLowerCase()}`:"Postales para hoy";
+  if(title)title.textContent=n?`Frases para ${n.title.toLowerCase()}`:"Frases para hoy";
   if(sentinel)sentinel.hidden=visibleCount>=list.length;
 }
 
@@ -165,19 +161,6 @@ function openPersonalize(i){
 }
 $("#copyPersonalized").onclick=()=>copyText(personalizedText());
 $("#downloadPersonalized").onclick=()=>downloadPostal(personalizedText(),state.selected?.style||"minimalista");
-
-function renderLatestBlog(posts){
-  const root=$("#latestBlog");if(!root)return;
-  root.innerHTML="";
-  (posts||[]).slice(0,3).forEach(p=>{
-    const a=document.createElement("article");a.className="blog-card";
-    const eyebrow=document.createElement("p");eyebrow.className="eyebrow";eyebrow.textContent=(p.category||"Blog").toUpperCase();
-    const h=document.createElement("h3"),link=document.createElement("a");link.href="/blog/"+p.slug+"/";link.textContent=p.title;h.appendChild(link);
-    const d=document.createElement("p");d.textContent=p.description||"";
-    a.append(eyebrow,h,d);root.appendChild(a);
-  });
-  if(!root.children.length)root.innerHTML='<article class="blog-card"><p class="eyebrow">BLOG</p><h3>Próximamente</h3><p>Los artículos publicados desde blog.txt van a aparecer acá automáticamente.</p></article>';
-}
 
 const initialParams=new URLSearchParams(location.search);
 if(initialParams.get("q")){$("#searchInput").value=initialParams.get("q");state.q=initialParams.get("q")}
