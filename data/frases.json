@@ -1,0 +1,230 @@
+[
+  {
+    "id": "un-buen-comienzo",
+    "title": "Un buen comienzo",
+    "phrase": "Que hoy te encuentre algo bueno, aunque sea pequeño.",
+    "description": "Un saludo sencillo para desear un buen día.",
+    "need": "saludar",
+    "tags": [
+      "buenos días",
+      "cotidiano"
+    ],
+    "recipients": [
+      "familia",
+      "amiga"
+    ],
+    "tones": [
+      "sencillo"
+    ],
+    "style": "azul"
+  },
+  {
+    "id": "feliz-cumpleanos-hermana",
+    "title": "Feliz cumpleaños hermana",
+    "phrase": "Feliz cumpleaños, hermana. Que este año te devuelva un poco de todo lo lindo que das.",
+    "description": "Una dedicatoria cariñosa de cumpleaños para una hermana.",
+    "need": "cumpleanos",
+    "tags": [
+      "cumpleaños",
+      "hermana",
+      "familia"
+    ],
+    "recipients": [
+      "hermana"
+    ],
+    "tones": [
+      "tierno"
+    ],
+    "style": "minimalista"
+  },
+  {
+    "id": "distancias",
+    "title": "Distancias",
+    "phrase": "Hay distancias que separan lugares, no afectos.",
+    "description": "Una frase breve sobre el amor y la distancia.",
+    "need": "carino",
+    "tags": [
+      "amor",
+      "te extraño",
+      "distancia"
+    ],
+    "recipients": [
+      "pareja"
+    ],
+    "tones": [
+      "profundo"
+    ],
+    "style": "oscuro"
+  },
+  {
+    "id": "quedarme-a-tu-lado",
+    "title": "Quedarme a tu lado",
+    "phrase": "No tengo que arreglar lo que te pasa para poder quedarme a tu lado.",
+    "description": "Una frase para acompañar a una amiga en un momento difícil.",
+    "need": "acompanar",
+    "tags": [
+      "ánimo",
+      "amistad",
+      "acompañar"
+    ],
+    "recipients": [
+      "amiga"
+    ],
+    "tones": [
+      "tierno"
+    ],
+    "style": "azul"
+  },
+  {
+    "id": "gracias-por-estar",
+    "title": "Gracias por estar",
+    "phrase": "Gracias por estar en esas cosas que parecen pequeñas y terminan siendo enormes.",
+    "description": "Una frase de gratitud para la familia.",
+    "need": "agradecer",
+    "tags": [
+      "gracias",
+      "familia",
+      "gratitud"
+    ],
+    "recipients": [
+      "familia"
+    ],
+    "tones": [
+      "sencillo"
+    ],
+    "style": "minimalista"
+  },
+  {
+    "id": "tambien-es-avanzar",
+    "title": "También es avanzar",
+    "phrase": "También es avanzar dejar de perseguir lo que ya no te hace bien.",
+    "description": "Una reflexión sobre aprender a soltar.",
+    "need": "expresar",
+    "tags": [
+      "reflexión",
+      "amor propio",
+      "soltar"
+    ],
+    "recipients": [
+      "para-mi"
+    ],
+    "tones": [
+      "profundo"
+    ],
+    "style": "oscuro"
+  },
+  {
+    "id": "para-mama",
+    "title": "Para mamá",
+    "phrase": "Mamá, tu forma de estar convirtió muchos días comunes en recuerdos importantes.",
+    "description": "Una frase de cariño y gratitud para mamá.",
+    "need": "familia",
+    "tags": [
+      "mamá",
+      "familia",
+      "recuerdos"
+    ],
+    "recipients": [
+      "mama"
+    ],
+    "tones": [
+      "tierno"
+    ],
+    "style": "azul"
+  },
+  {
+    "id": "buen-viaje",
+    "title": "Buen viaje",
+    "phrase": "Buen viaje. Que vuelvas con historias que todavía no sabés que vas a vivir.",
+    "description": "Un deseo para alguien que está por viajar.",
+    "need": "viajes",
+    "tags": [
+      "viaje",
+      "amistad",
+      "aventura"
+    ],
+    "recipients": [
+      "amiga"
+    ],
+    "tones": [
+      "sencillo"
+    ],
+    "style": "minimalista"
+  },
+  {
+    "id": "el-grupo-de-la-familia",
+    "title": "El grupo de la familia",
+    "phrase": "Familia: ese grupo donde nadie lee todo, pero todos contestan igual.",
+    "description": "Una frase de humor sobre los grupos familiares.",
+    "need": "humor",
+    "tags": [
+      "humor",
+      "familia",
+      "grupo"
+    ],
+    "recipients": [
+      "familia"
+    ],
+    "tones": [
+      "gracioso"
+    ],
+    "style": "azul"
+  },
+  {
+    "id": "la-torta-es-lo-importante",
+    "title": "La torta es lo importante",
+    "phrase": "Feliz cumpleaños. La edad es un dato técnico; la torta es lo importante.",
+    "description": "Una felicitación de cumpleaños con humor.",
+    "need": "cumpleanos",
+    "tags": [
+      "cumpleaños",
+      "humor",
+      "torta"
+    ],
+    "recipients": [
+      "amiga"
+    ],
+    "tones": [
+      "gracioso"
+    ],
+    "style": "oscuro"
+  },
+  {
+    "id": "lugar-seguro",
+    "title": "Lugar seguro",
+    "phrase": "Qué suerte que la vida también tenga personas que se sienten como un lugar seguro.",
+    "description": "Una frase de cariño para una amistad especial.",
+    "need": "carino",
+    "tags": [
+      "amistad",
+      "cariño",
+      "personas especiales"
+    ],
+    "recipients": [
+      "amiga"
+    ],
+    "tones": [
+      "tierno"
+    ],
+    "style": "minimalista"
+  },
+  {
+    "id": "estar-cerca",
+    "title": "Estar cerca",
+    "phrase": "En los días difíciles, estar cerca también es una forma de decir te quiero.",
+    "description": "Una frase para acompañar a la familia en momentos difíciles.",
+    "need": "acompanar",
+    "tags": [
+      "acompañamiento",
+      "familia",
+      "cariño"
+    ],
+    "recipients": [
+      "familia"
+    ],
+    "tones": [
+      "profundo"
+    ],
+    "style": "oscuro"
+  }
+]
