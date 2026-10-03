@@ -1,7 +1,6 @@
 [
   {
-    "id": "postal-1",
-    "template": "cumple-confeti",
+    "id": "cumpleanos-con-confeti-1",
     "title": "Cumpleaños con confeti",
     "phrase": "Feliz cumpleaños. Que este nuevo año te encuentre rodeado de momentos que den ganas de quedarse.",
     "description": "Postal alegre para felicitar un cumpleaños.",
@@ -10,11 +9,11 @@
       "cumpleaños",
       "felicitaciones",
       "alegría"
-    ]
+    ],
+    "template": "cumple-confeti"
   },
   {
-    "id": "postal-2",
-    "template": "cumple-velas",
+    "id": "cumpleanos-con-velas-2",
     "title": "Cumpleaños con velas",
     "phrase": "Hoy celebramos todo lo vivido y también todo lo bueno que todavía falta estrenar.",
     "description": "Postal cálida de cumpleaños con velas.",
@@ -23,11 +22,11 @@
       "cumpleaños",
       "celebración",
       "deseos"
-    ]
+    ],
+    "template": "cumple-velas"
   },
   {
-    "id": "postal-3",
-    "template": "amor-corazones",
+    "id": "amor-en-calma-3",
     "title": "Amor en calma",
     "phrase": "Qué lindo encontrar a alguien con quien también se puede estar bien en silencio.",
     "description": "Postal romántica, suave y sencilla.",
@@ -36,11 +35,11 @@
       "amor",
       "pareja",
       "cariño"
-    ]
+    ],
+    "template": "amor-corazones"
   },
   {
-    "id": "postal-4",
-    "template": "amor-luna",
+    "id": "cerca-aunque-haya-distancia-4",
     "title": "Cerca aunque haya distancia",
     "phrase": "Hay personas que siguen sintiéndose cerca incluso cuando el mapa dice otra cosa.",
     "description": "Postal de amor a distancia.",
@@ -49,11 +48,11 @@
       "amor",
       "distancia",
       "te extraño"
-    ]
+    ],
+    "template": "amor-luna"
   },
   {
-    "id": "postal-5",
-    "template": "amistad-cintas",
+    "id": "amistad-que-se-queda-5",
     "title": "Amistad que se queda",
     "phrase": "Gracias por ser de esas personas con las que la vida se siente un poco más liviana.",
     "description": "Postal para agradecer una amistad.",
@@ -62,11 +61,11 @@
       "amistad",
       "gracias",
       "amigos"
-    ]
+    ],
+    "template": "amistad-cintas"
   },
   {
-    "id": "postal-6",
-    "template": "amistad-estrellas",
+    "id": "para-una-amistad-especial-6",
     "title": "Para una amistad especial",
     "phrase": "No hace falta hablar todos los días para saber quién está cuando importa.",
     "description": "Postal para una amistad que atraviesa el tiempo.",
@@ -75,11 +74,11 @@
       "amistad",
       "compañía",
       "cariño"
-    ]
+    ],
+    "template": "amistad-estrellas"
   },
   {
-    "id": "postal-7",
-    "template": "familia-hogar",
+    "id": "familia-7",
     "title": "Familia",
     "phrase": "Hay lugares que se llaman casa y personas que hacen que cualquier lugar se sienta así.",
     "description": "Postal cálida para compartir en familia.",
@@ -88,11 +87,11 @@
       "familia",
       "hogar",
       "cariño"
-    ]
+    ],
+    "template": "familia-hogar"
   },
   {
-    "id": "postal-8",
-    "template": "familia-marco",
+    "id": "gracias-familia-8",
     "title": "Gracias familia",
     "phrase": "Gracias por estar también en esos días que nunca terminan en una foto.",
     "description": "Postal de gratitud para la familia.",
@@ -101,11 +100,11 @@
       "familia",
       "gracias",
       "acompañamiento"
-    ]
+    ],
+    "template": "familia-marco"
   },
   {
-    "id": "postal-9",
-    "template": "buenos-dias-sol",
+    "id": "buenos-dias-9",
     "title": "Buenos días",
     "phrase": "Que hoy aparezca al menos una cosa pequeña que te cambie el ánimo.",
     "description": "Postal luminosa para comenzar el día.",
@@ -114,11 +113,11 @@
       "buenos días",
       "mañana",
       "saludo"
-    ]
+    ],
+    "template": "buenos-dias-sol"
   },
   {
-    "id": "postal-10",
-    "template": "buenos-dias-cafe",
+    "id": "cafe-y-buen-dia-10",
     "title": "Café y buen día",
     "phrase": "Buen día. Que el café ayude y que la vida también ponga de su parte.",
     "description": "Postal de buenos días con un toque cotidiano.",
@@ -127,11 +126,11 @@
       "buenos días",
       "café",
       "humor"
-    ]
+    ],
+    "template": "buenos-dias-cafe"
   },
   {
-    "id": "postal-11",
-    "template": "viaje-ruta",
+    "id": "buen-viaje-11",
     "title": "Buen viaje",
     "phrase": "Buen viaje. Que vuelvas con recuerdos que todavía no sabés que vas a guardar.",
     "description": "Postal para despedir a alguien que se va de viaje.",
@@ -140,11 +139,11 @@
       "viaje",
       "buen viaje",
       "aventura"
-    ]
+    ],
+    "template": "viaje-ruta"
   },
   {
-    "id": "postal-12",
-    "template": "viaje-maleta",
+    "id": "nueva-aventura-12",
     "title": "Nueva aventura",
     "phrase": "Que el camino te sorprenda más de lo que habías planeado.",
     "description": "Postal para comenzar un viaje o una aventura.",
@@ -153,11 +152,11 @@
       "viaje",
       "aventura",
       "vacaciones"
-    ]
+    ],
+    "template": "viaje-maleta"
   },
   {
-    "id": "postal-13",
-    "template": "animo-luz",
+    "id": "segui-de-a-poco-13",
     "title": "Seguí de a poco",
     "phrase": "No necesitás resolver toda la vida hoy. Alcanzará con el próximo paso.",
     "description": "Postal para dar ánimo sin exageraciones.",
@@ -166,11 +165,11 @@
       "ánimo",
       "fuerza",
       "acompañar"
-    ]
+    ],
+    "template": "animo-luz"
   },
   {
-    "id": "postal-14",
-    "template": "animo-camino",
+    "id": "estoy-con-vos-14",
     "title": "Estoy con vos",
     "phrase": "No tengo una solución perfecta, pero sí un lugar a tu lado mientras pasa.",
     "description": "Postal de acompañamiento para un momento difícil.",
@@ -179,11 +178,11 @@
       "ánimo",
       "apoyo",
       "compañía"
-    ]
+    ],
+    "template": "animo-camino"
   },
   {
-    "id": "postal-15",
-    "template": "salud-flores",
+    "id": "que-te-mejores-pronto-15",
     "title": "Que te mejores pronto",
     "phrase": "Ojalá cada día te devuelva un poquito de energía, calma y ganas.",
     "description": "Postal para desear una pronta recuperación.",
@@ -192,11 +191,11 @@
       "salud",
       "pronta recuperación",
       "mejorar"
-    ]
+    ],
+    "template": "salud-flores"
   },
   {
-    "id": "postal-16",
-    "template": "salud-hojas",
+    "id": "un-abrazo-para-recuperarte-16",
     "title": "Un abrazo para recuperarte",
     "phrase": "Que puedas descansar, recuperarte y volver a sentirte vos, sin apuro.",
     "description": "Postal suave para acompañar durante una recuperación.",
@@ -205,6 +204,7 @@
       "salud",
       "recuperación",
       "abrazo"
-    ]
+    ],
+    "template": "salud-hojas"
   }
 ]
