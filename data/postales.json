@@ -1,0 +1,210 @@
+[
+  {
+    "id": "postal-1",
+    "template": "cumple-confeti",
+    "title": "Cumpleaños con confeti",
+    "phrase": "Feliz cumpleaños. Que este nuevo año te encuentre rodeado de momentos que den ganas de quedarse.",
+    "description": "Postal alegre para felicitar un cumpleaños.",
+    "category": "cumpleanos",
+    "tags": [
+      "cumpleaños",
+      "felicitaciones",
+      "alegría"
+    ]
+  },
+  {
+    "id": "postal-2",
+    "template": "cumple-velas",
+    "title": "Cumpleaños con velas",
+    "phrase": "Hoy celebramos todo lo vivido y también todo lo bueno que todavía falta estrenar.",
+    "description": "Postal cálida de cumpleaños con velas.",
+    "category": "cumpleanos",
+    "tags": [
+      "cumpleaños",
+      "celebración",
+      "deseos"
+    ]
+  },
+  {
+    "id": "postal-3",
+    "template": "amor-corazones",
+    "title": "Amor en calma",
+    "phrase": "Qué lindo encontrar a alguien con quien también se puede estar bien en silencio.",
+    "description": "Postal romántica, suave y sencilla.",
+    "category": "amor",
+    "tags": [
+      "amor",
+      "pareja",
+      "cariño"
+    ]
+  },
+  {
+    "id": "postal-4",
+    "template": "amor-luna",
+    "title": "Cerca aunque haya distancia",
+    "phrase": "Hay personas que siguen sintiéndose cerca incluso cuando el mapa dice otra cosa.",
+    "description": "Postal de amor a distancia.",
+    "category": "amor",
+    "tags": [
+      "amor",
+      "distancia",
+      "te extraño"
+    ]
+  },
+  {
+    "id": "postal-5",
+    "template": "amistad-cintas",
+    "title": "Amistad que se queda",
+    "phrase": "Gracias por ser de esas personas con las que la vida se siente un poco más liviana.",
+    "description": "Postal para agradecer una amistad.",
+    "category": "amistad",
+    "tags": [
+      "amistad",
+      "gracias",
+      "amigos"
+    ]
+  },
+  {
+    "id": "postal-6",
+    "template": "amistad-estrellas",
+    "title": "Para una amistad especial",
+    "phrase": "No hace falta hablar todos los días para saber quién está cuando importa.",
+    "description": "Postal para una amistad que atraviesa el tiempo.",
+    "category": "amistad",
+    "tags": [
+      "amistad",
+      "compañía",
+      "cariño"
+    ]
+  },
+  {
+    "id": "postal-7",
+    "template": "familia-hogar",
+    "title": "Familia",
+    "phrase": "Hay lugares que se llaman casa y personas que hacen que cualquier lugar se sienta así.",
+    "description": "Postal cálida para compartir en familia.",
+    "category": "familia",
+    "tags": [
+      "familia",
+      "hogar",
+      "cariño"
+    ]
+  },
+  {
+    "id": "postal-8",
+    "template": "familia-marco",
+    "title": "Gracias familia",
+    "phrase": "Gracias por estar también en esos días que nunca terminan en una foto.",
+    "description": "Postal de gratitud para la familia.",
+    "category": "familia",
+    "tags": [
+      "familia",
+      "gracias",
+      "acompañamiento"
+    ]
+  },
+  {
+    "id": "postal-9",
+    "template": "buenos-dias-sol",
+    "title": "Buenos días",
+    "phrase": "Que hoy aparezca al menos una cosa pequeña que te cambie el ánimo.",
+    "description": "Postal luminosa para comenzar el día.",
+    "category": "buenos-dias",
+    "tags": [
+      "buenos días",
+      "mañana",
+      "saludo"
+    ]
+  },
+  {
+    "id": "postal-10",
+    "template": "buenos-dias-cafe",
+    "title": "Café y buen día",
+    "phrase": "Buen día. Que el café ayude y que la vida también ponga de su parte.",
+    "description": "Postal de buenos días con un toque cotidiano.",
+    "category": "buenos-dias",
+    "tags": [
+      "buenos días",
+      "café",
+      "humor"
+    ]
+  },
+  {
+    "id": "postal-11",
+    "template": "viaje-ruta",
+    "title": "Buen viaje",
+    "phrase": "Buen viaje. Que vuelvas con recuerdos que todavía no sabés que vas a guardar.",
+    "description": "Postal para despedir a alguien que se va de viaje.",
+    "category": "viajes",
+    "tags": [
+      "viaje",
+      "buen viaje",
+      "aventura"
+    ]
+  },
+  {
+    "id": "postal-12",
+    "template": "viaje-maleta",
+    "title": "Nueva aventura",
+    "phrase": "Que el camino te sorprenda más de lo que habías planeado.",
+    "description": "Postal para comenzar un viaje o una aventura.",
+    "category": "viajes",
+    "tags": [
+      "viaje",
+      "aventura",
+      "vacaciones"
+    ]
+  },
+  {
+    "id": "postal-13",
+    "template": "animo-luz",
+    "title": "Seguí de a poco",
+    "phrase": "No necesitás resolver toda la vida hoy. Alcanzará con el próximo paso.",
+    "description": "Postal para dar ánimo sin exageraciones.",
+    "category": "animo",
+    "tags": [
+      "ánimo",
+      "fuerza",
+      "acompañar"
+    ]
+  },
+  {
+    "id": "postal-14",
+    "template": "animo-camino",
+    "title": "Estoy con vos",
+    "phrase": "No tengo una solución perfecta, pero sí un lugar a tu lado mientras pasa.",
+    "description": "Postal de acompañamiento para un momento difícil.",
+    "category": "animo",
+    "tags": [
+      "ánimo",
+      "apoyo",
+      "compañía"
+    ]
+  },
+  {
+    "id": "postal-15",
+    "template": "salud-flores",
+    "title": "Que te mejores pronto",
+    "phrase": "Ojalá cada día te devuelva un poquito de energía, calma y ganas.",
+    "description": "Postal para desear una pronta recuperación.",
+    "category": "salud",
+    "tags": [
+      "salud",
+      "pronta recuperación",
+      "mejorar"
+    ]
+  },
+  {
+    "id": "postal-16",
+    "template": "salud-hojas",
+    "title": "Un abrazo para recuperarte",
+    "phrase": "Que puedas descansar, recuperarte y volver a sentirte vos, sin apuro.",
+    "description": "Postal suave para acompañar durante una recuperación.",
+    "category": "salud",
+    "tags": [
+      "salud",
+      "recuperación",
+      "abrazo"
+    ]
+  }
+]
