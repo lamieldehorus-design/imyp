@@ -1,0 +1,124 @@
+# IMÁGENES Y POSTALES
+# Cada bloque empieza con === POSTAL ===
+# CATEGORIA, ETIQUETAS, DESTINATARIOS, TONO y ESTILO son opcionales.
+# Si faltan, el compilador intenta detectarlos por el texto.
+
+=== POSTAL ===
+TITULO: Un buen comienzo
+FRASE: Que hoy te encuentre algo bueno, aunque sea pequeño.
+DESCRIPCION: Un saludo sencillo para desear un buen día.
+CATEGORIA: saludar
+ETIQUETAS: buenos días, cotidiano
+DESTINATARIOS: familia, amiga
+TONO: sencillo
+ESTILO: azul
+
+=== POSTAL ===
+TITULO: Feliz cumpleaños hermana
+FRASE: Feliz cumpleaños, hermana. Que este año te devuelva un poco de todo lo lindo que das.
+DESCRIPCION: Una dedicatoria cariñosa de cumpleaños para una hermana.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, hermana, familia
+DESTINATARIOS: hermana
+TONO: tierno
+ESTILO: minimalista
+
+=== POSTAL ===
+TITULO: Distancias
+FRASE: Hay distancias que separan lugares, no afectos.
+DESCRIPCION: Una frase breve sobre el amor y la distancia.
+CATEGORIA: carino
+ETIQUETAS: amor, te extraño, distancia
+DESTINATARIOS: pareja
+TONO: profundo
+ESTILO: oscuro
+
+=== POSTAL ===
+TITULO: Quedarme a tu lado
+FRASE: No tengo que arreglar lo que te pasa para poder quedarme a tu lado.
+DESCRIPCION: Una frase para acompañar a una amiga en un momento difícil.
+CATEGORIA: acompanar
+ETIQUETAS: ánimo, amistad, acompañar
+DESTINATARIOS: amiga
+TONO: tierno
+ESTILO: azul
+
+=== POSTAL ===
+TITULO: Gracias por estar
+FRASE: Gracias por estar en esas cosas que parecen pequeñas y terminan siendo enormes.
+DESCRIPCION: Una frase de gratitud para la familia.
+CATEGORIA: agradecer
+ETIQUETAS: gracias, familia, gratitud
+DESTINATARIOS: familia
+TONO: sencillo
+ESTILO: minimalista
+
+=== POSTAL ===
+TITULO: También es avanzar
+FRASE: También es avanzar dejar de perseguir lo que ya no te hace bien.
+DESCRIPCION: Una reflexión sobre aprender a soltar.
+CATEGORIA: expresar
+ETIQUETAS: reflexión, amor propio, soltar
+DESTINATARIOS: para-mi
+TONO: profundo
+ESTILO: oscuro
+
+=== POSTAL ===
+TITULO: Para mamá
+FRASE: Mamá, tu forma de estar convirtió muchos días comunes en recuerdos importantes.
+DESCRIPCION: Una frase de cariño y gratitud para mamá.
+CATEGORIA: familia
+ETIQUETAS: mamá, familia, recuerdos
+DESTINATARIOS: mama
+TONO: tierno
+ESTILO: azul
+
+=== POSTAL ===
+TITULO: Buen viaje
+FRASE: Buen viaje. Que vuelvas con historias que todavía no sabés que vas a vivir.
+DESCRIPCION: Un deseo para alguien que está por viajar.
+CATEGORIA: viajes
+ETIQUETAS: viaje, amistad, aventura
+DESTINATARIOS: amiga
+TONO: sencillo
+ESTILO: minimalista
+
+=== POSTAL ===
+TITULO: El grupo de la familia
+FRASE: Familia: ese grupo donde nadie lee todo, pero todos contestan igual.
+DESCRIPCION: Una frase de humor sobre los grupos familiares.
+CATEGORIA: humor
+ETIQUETAS: humor, familia, grupo
+DESTINATARIOS: familia
+TONO: gracioso
+ESTILO: azul
+
+=== POSTAL ===
+TITULO: La torta es lo importante
+FRASE: Feliz cumpleaños. La edad es un dato técnico; la torta es lo importante.
+DESCRIPCION: Una felicitación de cumpleaños con humor.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, humor, torta
+DESTINATARIOS: amiga
+TONO: gracioso
+ESTILO: oscuro
+
+=== POSTAL ===
+TITULO: Lugar seguro
+FRASE: Qué suerte que la vida también tenga personas que se sienten como un lugar seguro.
+DESCRIPCION: Una frase de cariño para una amistad especial.
+CATEGORIA: carino
+ETIQUETAS: amistad, cariño, personas especiales
+DESTINATARIOS: amiga
+TONO: tierno
+ESTILO: minimalista
+
+=== POSTAL ===
+TITULO: Estar cerca
+FRASE: En los días difíciles, estar cerca también es una forma de decir te quiero.
+DESCRIPCION: Una frase para acompañar a la familia en momentos difíciles.
+CATEGORIA: acompanar
+ETIQUETAS: acompañamiento, familia, cariño
+DESTINATARIOS: familia
+TONO: profundo
+ESTILO: oscuro
