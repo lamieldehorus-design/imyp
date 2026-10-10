@@ -1023,7 +1023,7 @@ footer span{max-width:62ch}
 .guide .related h2{margin:.1rem 0 .75rem;font-size:1.4rem}
 .maker .maker-panel{margin-top:1.25rem;padding:clamp(1rem,2.5vw,1.6rem);border-radius:20px;line-height:1.75}
 .maker .maker-grid{gap:1rem}
-.maker .maker label{gap:.5rem;line-height:1.5}
+main.maker label{gap:.5rem;line-height:1.5}
 .maker .maker-preview{margin-top:1.25rem;padding:clamp(.8rem,2vw,1.2rem);border-radius:16px}
 .maker .maker-preview img{max-height:min(68vh,680px);object-fit:contain}
 .tools-page .tiles{gap:1rem;margin:1.6rem 0 2.5rem}
