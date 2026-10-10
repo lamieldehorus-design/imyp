@@ -1055,3 +1055,15 @@ main.maker label{gap:.5rem;line-height:1.5}
   .seo-tool .benefits{grid-template-columns:1fr}
   .seo-tool .cta{width:100%}
 }
+
+
+/* Final responsive audit: balanced homepage grid */
+.portal-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.card-title{margin:.05rem 0 .5rem}
+.blog-card h2,.blog-card h3{margin:.2rem 0 .7rem}
+@media(max-width:900px){
+  .portal-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:600px){
+  .portal-grid{grid-template-columns:1fr}
+}
