@@ -987,3 +987,71 @@ footer span{max-width:62ch}
 @media(prefers-reduced-motion:reduce){
   .portal-card:hover,.tile:hover{transform:none}
 }
+
+
+/* Design refinement: page-specific layouts and home actions */
+.portal-grid{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.home-quick-actions{display:flex;gap:.7rem;flex-wrap:wrap;margin:1.45rem 0 1.2rem}
+.home-quick-actions a{
+  display:inline-flex;align-items:center;justify-content:center;min-height:46px;
+  padding:.78rem 1.05rem;border:1px solid var(--blue);border-radius:12px;
+  background:var(--blue);color:#fff;text-decoration:none;font-weight:750;
+}
+.home-quick-actions a:hover{transform:translateY(-1px);box-shadow:0 6px 14px rgba(21,88,201,.12)}
+.home-quick-actions a+a{background:var(--blue-soft);color:var(--blue);border-color:#c9d9f2}
+.seo-tool .intro{max-width:70ch;font-size:clamp(1.05rem,1.5vw,1.18rem);line-height:1.85}
+.seo-tool .cta{min-height:46px;align-items:center;justify-content:center;padding:.8rem 1.15rem}
+.seo-tool .notice{margin:1.35rem 0 2.1rem;padding:1.1rem 1.2rem;line-height:1.75}
+.seo-tool section+section{margin-top:2.6rem}
+.seo-tool .benefits{gap:1rem;margin:1.5rem 0 2rem}
+.seo-tool .benefits article,.seo-tool .faq-item{padding:1.2rem;border-radius:16px;box-shadow:0 3px 14px rgba(23,32,51,.035)}
+.seo-tool .benefits h3,.seo-tool .faq-item h3{margin:0 0 .65rem;line-height:1.3}
+.seo-tool .benefits p,.seo-tool .faq-item p{margin:.3rem 0 0;line-height:1.75}
+.seo-tool .steps{gap:.85rem;line-height:1.75}
+.seo-tool .steps li{padding:.15rem 0 .15rem .2rem}
+.seo-tool .faq{gap:.85rem;margin-top:1.1rem}
+.seo-tool .link-list{gap:.6rem;margin:1.5rem 0}
+.seo-tool .link-list a{display:inline-flex;align-items:center;min-height:40px;padding:.5rem .75rem;border:1px solid #d8e4f5;border-radius:999px;background:#fff;text-decoration:none}
+.seo-tool .link-list a:hover{background:var(--blue-soft)}
+.guide article{max-width:74ch;font-size:1.04rem;line-height:1.85}
+.guide article h1{max-width:22ch;margin:.25rem 0 1.1rem}
+.guide article h2{margin:2.5rem 0 .8rem;line-height:1.22}
+.guide article p{margin:1rem 0;line-height:1.85}
+.guide article li{margin:.5rem 0;line-height:1.75}
+.guide .intro{margin:0 0 1.5rem;font-size:clamp(1.06rem,1.5vw,1.18rem);line-height:1.8}
+.guide .related{margin-top:2.5rem;padding:clamp(1.1rem,3vw,1.5rem);border:1px solid #d8e4f5;border-radius:18px;background:#f4f8ff;line-height:1.8}
+.guide .related h2{margin:.1rem 0 .75rem;font-size:1.4rem}
+.maker .maker-panel{margin-top:1.25rem;padding:clamp(1rem,2.5vw,1.6rem);border-radius:20px;line-height:1.75}
+.maker .maker-grid{gap:1rem}
+.maker .maker label{gap:.5rem;line-height:1.5}
+.maker .maker-preview{margin-top:1.25rem;padding:clamp(.8rem,2vw,1.2rem);border-radius:16px}
+.maker .maker-preview img{max-height:min(68vh,680px);object-fit:contain}
+.tools-page .tiles{gap:1rem;margin:1.6rem 0 2.5rem}
+.tools-page .tile{
+  min-height:160px;padding:1.15rem;gap:.65rem;border-radius:16px;
+  background:linear-gradient(180deg,#fff 0%,#fcfdff 100%);
+  box-shadow:0 3px 12px rgba(23,32,51,.025);
+}
+.tools-page .tile:hover{transform:translateY(-2px);border-color:#b8cbed;box-shadow:0 10px 22px rgba(23,32,51,.07)}
+.tools-page .tile b{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--blue-soft);font-size:1.3rem}
+.tools-page .tile strong{font-size:1rem;line-height:1.35}
+.tools-page .tile span{font-size:.92rem;line-height:1.6}
+.tools-page .editor{margin-top:1.2rem;padding:clamp(1rem,2.5vw,1.5rem);border-radius:20px}
+.tools-page .upload{padding:clamp(1.2rem,3vw,2.2rem);line-height:1.7}
+.tools-page .upload strong{display:block;font-size:1.05rem;line-height:1.4}
+.tools-page .work{gap:1.2rem}
+.tools-page .preview{padding:1rem;border-radius:15px}
+.tools-page .controls{gap:.9rem}
+.tools-page .controls label{gap:.45rem;line-height:1.45}
+.tools-page .btns{gap:.65rem;margin-top:1.1rem}
+.tools-page .status{margin:.65rem 0 0;line-height:1.65;overflow-wrap:anywhere}
+@media(max-width:720px){
+  .seo-tool .benefits{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .home-quick-actions{gap:.6rem}
+}
+@media(max-width:520px){
+  .home-quick-actions{display:grid;grid-template-columns:1fr}
+  .home-quick-actions a{width:100%}
+  .seo-tool .benefits{grid-template-columns:1fr}
+  .seo-tool .cta{width:100%}
+}
