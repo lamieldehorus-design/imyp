@@ -58,3 +58,7 @@
   .tool-directory-card strong{margin-top:.65rem}
 }
 @media(prefers-reduced-motion:reduce){.tool-directory-card{transition:none}}
+
+.home-portals{width:min(100%,1280px);margin:0 auto;padding:12px clamp(18px,4vw,48px) 50px}
+.home-portals .portal-grid{margin-top:0}
+@media(max-width:720px){.home-portals{padding-top:4px;padding-bottom:36px}}
