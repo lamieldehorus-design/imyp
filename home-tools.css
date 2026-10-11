@@ -1,0 +1,60 @@
+/* Portada de herramientas: directorio visual inspirado en interfaces de utilidades online */
+.home-tools{
+  width:min(100%,1280px);
+  margin:0 auto;
+  padding:20px clamp(18px,4vw,48px) 58px;
+}
+.home-tools-heading{text-align:center;max-width:780px;margin:0 auto 1.8rem}
+.home-tools-heading .eyebrow{margin-bottom:.6rem}
+.home-tools-heading h2{margin:.1rem 0 .65rem;font-size:clamp(1.8rem,3.4vw,2.55rem);letter-spacing:-.035em}
+.home-tools-heading>p:last-child{margin:0;color:#667085;font-size:1.02rem;line-height:1.65}
+.tool-directory{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+.tool-directory-card{
+  display:flex;min-width:0;min-height:204px;flex-direction:column;align-items:flex-start;
+  padding:1.25rem;border:1px solid #d9e0eb;border-radius:17px;background:#fff;
+  color:#293241;text-decoration:none;box-shadow:0 2px 7px rgba(23,32,51,.025);
+  transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease;
+}
+.tool-directory-card:hover{transform:translateY(-3px);border-color:#a9c7f8;box-shadow:0 12px 28px rgba(23,32,51,.09)}
+.tool-directory-card:focus-visible{outline:3px solid rgba(11,87,208,.28);outline-offset:3px}
+.tool-directory-card strong{margin:.95rem 0 .45rem;color:#252b38;font-size:1.02rem;font-weight:740;line-height:1.3;letter-spacing:-.015em}
+.tool-directory-card>span:last-child{color:#687385;font-size:.88rem;line-height:1.5}
+.tool-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:10px;font-size:1.5rem;font-weight:800;line-height:1}
+.icon-compress{background:#e7f5df;color:#4c942f}
+.icon-resize{background:#e0f5fb;color:#168db6}
+.icon-crop{background:#dff5fc;color:#168db6}
+.icon-convert{background:#fff2bc;color:#b88b00}
+.icon-rotate{background:#e4f5e9;color:#348e60}
+.icon-text{background:#f6e5f1;color:#a54b8d}
+.icon-watermark{background:#e5efff;color:#2864ad}
+.icon-create{background:#eee8ff;color:#7050bf}
+.home-tools-more{margin:1.5rem 0 0;text-align:center}
+.home-tools-more a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.65rem 1rem;border:1px solid #b7c8e4;border-radius:11px;color:#0b57d0;font-weight:720;text-decoration:none}
+.home-tools-more a:hover{background:#eef5ff}
+.home-explainer{width:min(100%,1180px);margin:0 auto;padding:40px clamp(18px,5vw,58px);display:grid;grid-template-columns:.85fr 1.15fr;gap:2rem;align-items:start}
+.home-explainer h2{margin-top:.2rem}
+.home-explainer>p,.home-explainer>div>p:not(.eyebrow){margin:.15rem 0 .85rem;color:#475467;line-height:1.75}
+.seo-home-content{border-top:1px solid #e5eaf2}
+@media(min-width:1450px){.tool-directory{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:900px){.tool-directory{grid-template-columns:repeat(2,minmax(0,1fr))}.home-explainer{grid-template-columns:1fr;gap:.6rem}}
+@media(max-width:720px){
+  .site-header{align-items:center;flex-wrap:wrap;gap:.6rem;padding:.65rem 16px}
+  .brand{font-size:.95rem}
+  .brand-mark{width:34px;height:34px;flex-basis:34px}
+  .top-nav{display:flex;order:2;width:100%;gap:.45rem;overflow-x:auto;padding:.15rem 0 .25rem;scrollbar-width:thin}
+  .top-nav a{flex:0 0 auto;padding:.42rem .68rem;border:1px solid #e0e6ef;border-radius:999px;background:#fff;font-size:.8rem;white-space:nowrap}
+  .portal-hero{padding-top:44px;padding-bottom:34px}
+  .home-tools{padding-top:10px;padding-bottom:42px}
+  .home-tools-heading{margin-bottom:1.25rem}
+  .tool-directory{gap:.7rem}
+  .tool-directory-card{min-height:190px;padding:1rem}
+  .tool-directory-card strong{font-size:.96rem;margin-top:.75rem}
+  .tool-directory-card>span:last-child{font-size:.84rem}
+  .home-explainer{padding-top:32px;padding-bottom:32px}
+}
+@media(max-width:460px){
+  .tool-directory{grid-template-columns:1fr}
+  .tool-directory-card{min-height:0}
+  .tool-directory-card strong{margin-top:.65rem}
+}
+@media(prefers-reduced-motion:reduce){.tool-directory-card{transition:none}}
