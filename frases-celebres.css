@@ -1,0 +1,41 @@
+.famous-main{width:min(1180px,100%);margin:auto;padding:0 clamp(18px,5vw,58px) 64px}
+.famous-main .breadcrumbs{padding:1.1rem 0 0}
+.famous-hero{padding:46px 0 36px}
+.famous-hero h1{max-width:900px}
+.famous-hero .hero-copy{max-width:780px}
+.famous-search{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.65rem;max-width:800px;margin:1.5rem 0 .4rem}
+.famous-search input{min-width:0;min-height:54px;padding:.8rem 1rem;border:1px solid #cfd8e6;border-radius:13px;background:#fff;font:inherit}
+.famous-search input:focus{outline:3px solid #d6e5ff;border-color:#0b57d0}
+.famous-search button{min-height:54px;padding:.8rem 1.2rem}
+.famous-status{color:#667085;font-size:.9rem;min-height:1.4em}
+.authors-section,.quotes-section{padding:22px 0 38px}
+.famous-section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:1.2rem;margin-bottom:1.25rem}
+.famous-section-heading h2{margin-bottom:0}
+.famous-section-heading>p{max-width:360px;margin:0;color:#667085;font-size:.9rem}
+.author-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.author-card{display:flex;align-items:center;gap:.8rem;min-width:0;padding:1rem;border:1px solid #dbe3ee;border-radius:15px;background:#fff;text-decoration:none;transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease}
+.author-card:hover{transform:translateY(-2px);border-color:#a9c6f6;box-shadow:0 8px 22px rgba(23,32,51,.07)}
+.author-initial{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border-radius:13px;background:#eaf2ff;color:#0b57d0;font-weight:800}
+.author-info{display:flex;flex:1;min-width:0;flex-direction:column;gap:.12rem}
+.author-info strong{color:#172033;line-height:1.25}
+.author-info small{color:#667085;font-size:.82rem}
+.author-arrow{color:#0b57d0;font-size:1.2rem}
+.quote-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.quote-card{display:flex;flex-direction:column;min-width:0;padding:1.2rem;border:1px solid #dbe3ee;border-radius:17px;background:#fff;box-shadow:0 3px 12px rgba(23,32,51,.035)}
+.quote-card blockquote{margin:0 0 1rem;color:#172033;font-size:1.13rem;font-weight:700;line-height:1.5;letter-spacing:-.012em}
+.quote-author{margin:auto 0 .8rem;color:#0b57d0;font-weight:750}
+.quote-author a{color:inherit;text-decoration:none}
+.quote-author a:hover{text-decoration:underline}
+.quote-actions{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.1rem}
+.quote-actions button{min-height:38px;padding:.55rem .7rem;font-size:.78rem}
+.quote-actions .secondary{background:#fff;border:1px solid #b7c8e4;color:#0b57d0}
+.quote-actions a{align-self:center;color:#667085;font-size:.75rem}
+.quote-card[hidden],.author-card[hidden]{display:none}
+.famous-about{margin-top:1rem;padding:1.4rem;border:1px solid #dbe3ee;border-radius:18px;background:#f7f9fc}
+.famous-about h2{font-size:1.5rem}
+.famous-about p{max-width:900px;color:#475467}
+.author-page-hero{padding:42px 0 22px}
+.author-page-hero h1{max-width:900px}
+.author-source{display:inline-flex;gap:.4rem;color:#0b57d0;font-size:.9rem;font-weight:650}
+@media(max-width:900px){.author-grid,.quote-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.famous-search{grid-template-columns:1fr}.famous-search button{width:100%}.famous-section-heading{align-items:flex-start;flex-direction:column;gap:.4rem}.author-grid,.quote-grid{grid-template-columns:1fr}.famous-hero{padding-top:34px}.quote-actions button{flex:1}}
