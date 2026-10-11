@@ -1,6 +1,62 @@
 {
   "authors": [
     {
+      "name": "Confucio",
+      "slug": "confucio",
+      "bio": "Confucio fue un pensador y maestro chino cuyas enseñanzas influyeron profundamente en la ética, la educación, la convivencia y la responsabilidad personal.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "count": 5
+    },
+    {
+      "name": "Epicteto",
+      "slug": "epicteto",
+      "bio": "Epicteto fue un filósofo estoico de origen griego. Sus enseñanzas ponen el foco en distinguir lo que depende de nosotros, revisar nuestros juicios y cultivar la libertad interior.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "count": 5
+    },
+    {
+      "name": "Séneca",
+      "slug": "seneca",
+      "bio": "Séneca fue un filósofo estoico, dramaturgo y político romano. Sus escritos reflexionan sobre el tiempo, el miedo, la virtud, la serenidad y la manera de vivir con propósito.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "count": 5
+    },
+    {
+      "name": "Aristóteles",
+      "slug": "aristoteles",
+      "bio": "Aristóteles fue un filósofo griego que escribió sobre lógica, ética, política, naturaleza y conocimiento. Su pensamiento marcó buena parte de la tradición intelectual occidental.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "count": 4
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "bio": "Friedrich Nietzsche fue un filósofo, poeta y filólogo alemán. Su obra cuestiona las certezas heredadas y explora la voluntad, la cultura, la moral y la transformación personal.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "count": 4
+    },
+    {
+      "name": "Mark Twain",
+      "slug": "mark-twain",
+      "bio": "Mark Twain fue un escritor y humorista estadounidense, conocido por su sátira social, su ironía y novelas como Las aventuras de Tom Sawyer y Huckleberry Finn.",
+      "source": "https://es.wikiquote.org/wiki/Twain",
+      "count": 4
+    },
+    {
+      "name": "Platón",
+      "slug": "platon",
+      "bio": "Platón fue un filósofo griego, discípulo de Sócrates y maestro de Aristóteles. Sus diálogos abordan la justicia, el conocimiento, la política y la búsqueda del bien.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "count": 4
+    },
+    {
+      "name": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "bio": "William Shakespeare fue un dramaturgo y poeta inglés cuyas obras exploran el amor, el poder, la ambición, los celos y las contradicciones humanas.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "count": 4
+    },
+    {
       "name": "Miguel de Cervantes",
       "slug": "miguel-de-cervantes",
       "bio": "Miguel de Cervantes fue un escritor español del Siglo de Oro, autor de Don Quijote de la Mancha. Sus textos exploran la amistad, la justicia, el amor y las contradicciones humanas.",
@@ -197,6 +253,461 @@
         "ciencia",
         "experimento",
         "investigación"
+      ]
+    },
+    {
+      "id": "seneca-admira",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "Admira a los que han emprendido cosas grandes aunque hayan fracasado.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "esfuerzo",
+        "valentía",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "seneca-ama",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "Ama si quieres que te amen.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "amor",
+        "vínculos",
+        "reciprocidad"
+      ]
+    },
+    {
+      "id": "seneca-temer-esperar",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "Cesarás de temer cuando ceses de esperar.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "miedo",
+        "esperanza",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-necesario",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "Compra solamente lo necesario; lo superfluo, aunque cueste sólo un céntimo, es caro.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "consumo",
+        "sencillez",
+        "vida"
+      ]
+    },
+    {
+      "id": "seneca-recompensa",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "La recompensa de una buena acción es haberla hecho.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "bondad",
+        "acciones",
+        "ética"
+      ]
+    },
+    {
+      "id": "epicteto-acusar",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Acusar a los demás de los infortunios propios es un signo de falta de educación. Acusarse a uno mismo demuestra que la educación ha comenzado.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "responsabilidad",
+        "aprendizaje",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "epicteto-deseo",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "El deseo y la felicidad no pueden vivir juntos.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "felicidad",
+        "deseo",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "epicteto-adversidad",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "La adversidad no es una desgracia, antes bien, el sufrirla con grandeza de ánimo es una dicha.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "adversidad",
+        "fortaleza",
+        "resiliencia"
+      ]
+    },
+    {
+      "id": "epicteto-conocernos",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "La cosa más difícil es conocernos a nosotros mismos. La más fácil, hablar mal de los demás.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "autoconocimiento",
+        "crítica",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "epicteto-juicios",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Lo que perturba al hombre no son las cosas, sino los juicios relativos a las cosas.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "emociones",
+        "perspectiva",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "confucio-aprender",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Aprender sin pensar es inútil. Pensar sin aprender, peligroso.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "aprendizaje",
+        "pensamiento",
+        "educación"
+      ]
+    },
+    {
+      "id": "confucio-defectos",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Amar y reconocer los defectos de la persona que se ama es una cosa rarísima en el mundo.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "amor",
+        "vínculos",
+        "aceptación"
+      ]
+    },
+    {
+      "id": "confucio-dinero",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Algún dinero evita preocupaciones; mucho, las atrae.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "dinero",
+        "ambición",
+        "vida"
+      ]
+    },
+    {
+      "id": "confucio-conciencia",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "La conciencia es la luz de la inteligencia para distinguir el bien y el mal.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "conciencia",
+        "ética",
+        "sabiduría"
+      ]
+    },
+    {
+      "id": "confucio-propositos",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "La inconstancia y la impaciencia destruyen los más elevados propósitos.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "paciencia",
+        "constancia",
+        "metas"
+      ]
+    },
+    {
+      "id": "nietzsche-deseo",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "Amamos nuestro deseo, y no aquello que deseamos.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "deseo",
+        "psicología",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nietzsche-silencio",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "El camino a todas las cosas grandes pasa por el silencio.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "silencio",
+        "crecimiento",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nietzsche-naturaleza",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "El que nos encontremos tan a gusto en plena naturaleza proviene de que ésta no tiene opinión sobre nosotros.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "naturaleza",
+        "libertad",
+        "identidad"
+      ]
+    },
+    {
+      "id": "nietzsche-fuerza",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "Todo lo que no me hace morir me hace más fuerte.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "fortaleza",
+        "adversidad",
+        "resiliencia"
+      ]
+    },
+    {
+      "id": "twain-verdad",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "Cuando dudes, di la verdad.",
+      "source": "https://es.wikiquote.org/wiki/Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "verdad",
+        "honestidad",
+        "ética"
+      ]
+    },
+    {
+      "id": "twain-memoria",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "Cuando era más joven podía recordarlo todo, hubiera sucedido o no.",
+      "source": "https://es.wikiquote.org/wiki/Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "humor",
+        "memoria",
+        "ironía"
+      ]
+    },
+    {
+      "id": "twain-hechos",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "Conoce primero los hechos y luego distorsiónalos cuanto quieras.",
+      "source": "https://es.wikiquote.org/wiki/Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "hechos",
+        "humor",
+        "pensamiento crítico"
+      ]
+    },
+    {
+      "id": "twain-boca",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "Es mejor tener la boca cerrada y parecer estúpido que abrirla y disipar la duda.",
+      "source": "https://es.wikiquote.org/wiki/Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "humor",
+        "prudencia",
+        "palabras"
+      ]
+    },
+    {
+      "id": "aristoteles-valentia",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "Considero más valiente al que conquista sus deseos que al que conquista a sus enemigos, ya que la victoria más dura es la victoria sobre uno mismo.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "valentía",
+        "autocontrol",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "aristoteles-amigo",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "El amigo de todo el mundo no es un amigo.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "amistad",
+        "vínculos",
+        "confianza"
+      ]
+    },
+    {
+      "id": "aristoteles-ciencias",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "El principio de todas las ciencias es el asombro de que las cosas sean lo que son.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "ciencia",
+        "curiosidad",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "aristoteles-aprender",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "Lo que tenemos que aprender lo aprendemos haciendo.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "aprendizaje",
+        "práctica",
+        "experiencia"
+      ]
+    },
+    {
+      "id": "shakespeare-teatro",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "El mundo entero es un teatro.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "vida",
+        "teatro",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "shakespeare-calumnias",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "Aunque seas tan casto como el hielo y tan puro como la nieve, no escaparás a las calumnias.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "reputación",
+        "crítica",
+        "sociedad"
+      ]
+    },
+    {
+      "id": "shakespeare-sonrisa",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "Con la sonrisa inmóvil en los labios se puede ser un vil.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "apariencias",
+        "engaño",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "shakespeare-recuerdo",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "Conservar algo que me ayude a recordarte sería admitir que te puedo olvidar.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "amor",
+        "memoria",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "platon-bien",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "Buscando el bien de nuestros semejantes, encontramos el nuestro.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "bondad",
+        "solidaridad",
+        "ética"
+      ]
+    },
+    {
+      "id": "platon-moderacion",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "De nada demasiado.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "moderación",
+        "equilibrio",
+        "vida"
+      ]
+    },
+    {
+      "id": "platon-luz",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "De noche, sobre todo, es hermoso creer en la luz.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "esperanza",
+        "luz",
+        "adversidad"
+      ]
+    },
+    {
+      "id": "platon-virtud",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "De virtud hay una especie. De maldad, muchas.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "virtud",
+        "ética",
+        "decisiones"
       ]
     }
   ]
