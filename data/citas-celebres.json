@@ -1,0 +1,203 @@
+{
+  "authors": [
+    {
+      "name": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "bio": "Miguel de Cervantes fue un escritor español del Siglo de Oro, autor de Don Quijote de la Mancha. Sus textos exploran la amistad, la justicia, el amor y las contradicciones humanas.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "count": 3
+    },
+    {
+      "name": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "bio": "José de San Martín fue un militar y prócer de la independencia sudamericana. Sus palabras públicas y cartas reflejan su compromiso con la libertad y la vida republicana.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "count": 2
+    },
+    {
+      "name": "José Martí",
+      "slug": "jose-marti",
+      "bio": "José Martí fue un escritor, poeta y pensador cubano, conocido por sus ideas sobre la libertad, la educación, la solidaridad y la responsabilidad personal.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "count": 2
+    },
+    {
+      "name": "Marie Curie",
+      "slug": "marie-curie",
+      "bio": "Marie Curie fue una científica pionera en el estudio de la radiactividad y la primera persona en recibir dos premios Nobel en distintas disciplinas científicas.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "count": 2
+    },
+    {
+      "name": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "bio": "Oscar Wilde fue un escritor irlandés reconocido por su ingenio, su crítica social y sus obras de teatro y narrativa.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "count": 2
+    },
+    {
+      "name": "Irène Joliot-Curie",
+      "slug": "irene-joliot-curie",
+      "bio": "Irène Joliot-Curie fue una química y física francesa que recibió el Premio Nobel de Química junto con Frédéric Joliot-Curie por sus investigaciones sobre la radiactividad artificial.",
+      "source": "https://es.wikiquote.org/wiki/Ir%C3%A8ne_Joliot-Curie",
+      "count": 1
+    }
+  ],
+  "quotes": [
+    {
+      "id": "cervantes-al-bien-hacer",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "Al bien hacer jamás le falta premio.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "bondad",
+        "acciones",
+        "vida"
+      ]
+    },
+    {
+      "id": "cervantes-afligidos",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "A los afligidos no se les ha de añadir aflicción.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "empatía",
+        "compasión",
+        "vida"
+      ]
+    },
+    {
+      "id": "cervantes-amistades",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "Amistades que son ciertas nadie las puede turbar.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "amistad",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "sanmartin-libertad",
+      "author": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "text": "Seamos libres y lo demás no importa nada.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "sourceName": "Wikiquote: José de San Martín",
+      "tags": [
+        "libertad",
+        "coraje",
+        "historia"
+      ]
+    },
+    {
+      "id": "sanmartin-lujo-gloria",
+      "author": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "text": "Los soldados de la patria no conocen el lujo, sino la gloria.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "sourceName": "Wikiquote: José de San Martín",
+      "tags": [
+        "patria",
+        "esfuerzo",
+        "historia"
+      ]
+    },
+    {
+      "id": "curie-miedo",
+      "author": "Marie Curie",
+      "slug": "marie-curie",
+      "text": "Tener miedo es servir al adversario.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "sourceName": "Wikiquote: Marie Curie",
+      "tags": [
+        "valentía",
+        "miedo",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "curie-vida-rica",
+      "author": "Marie Curie",
+      "slug": "marie-curie",
+      "text": "La mejor vida no es la más larga, sino la más rica en buenas acciones.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "sourceName": "Wikiquote: Marie Curie",
+      "tags": [
+        "vida",
+        "bondad",
+        "acciones"
+      ]
+    },
+    {
+      "id": "marti-rosa-blanca",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "Cultivo una rosa blanca.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "poesía",
+        "amistad",
+        "paz"
+      ]
+    },
+    {
+      "id": "marti-autografo",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "El único autógrafo digno de un hombre es el que deja escrito con sus obras.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "acciones",
+        "integridad",
+        "vida"
+      ]
+    },
+    {
+      "id": "wilde-amor",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "Cada hombre mata lo que ama.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "amor",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "wilde-interior",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "Lo que realmente tiene un hombre, lo lleva dentro.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "identidad",
+        "interior",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "irene-experimento",
+      "author": "Irène Joliot-Curie",
+      "slug": "irene-joliot-curie",
+      "text": "Cuanto más lejos esté el experimento de la teoría, más cerca estará del Premio Nobel.",
+      "source": "https://es.wikiquote.org/wiki/Ir%C3%A8ne_Joliot-Curie",
+      "sourceName": "Wikiquote: Irène Joliot-Curie",
+      "tags": [
+        "ciencia",
+        "experimento",
+        "investigación"
+      ]
+    }
+  ]
+}
