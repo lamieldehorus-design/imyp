@@ -36,13 +36,13 @@ def maintain(path: Path) -> bool:
     updated = re.sub(r'<link\b[^>]*rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>\s*',
                      '', updated, flags=re.I)
     if re.search(r'</head\s*>', updated, flags=re.I):
-        updated = re.sub(r'</head\s*>', FAVICON + '\\n</head>', updated, count=1, flags=re.I)
+        updated = re.sub(r'</head\s*>', FAVICON + '\n</head>', updated, count=1, flags=re.I)
 
     # Keep the official tracker on all existing and future HTML pages.
     if MARKER not in updated:
         match = re.search(r'</body\s*>', updated, flags=re.I) or re.search(r'</html\s*>', updated, flags=re.I)
         if match:
-            updated = updated[:match.start()] + SNIPPET + '\\n' + updated[match.start():]
+            updated = updated[:match.start()] + SNIPPET + '\n' + updated[match.start():]
 
     if updated != original:
         path.write_text(updated, encoding="utf-8")
