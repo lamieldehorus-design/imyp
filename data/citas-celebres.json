@@ -61,7 +61,7 @@
       "slug": "imagenes-y-postales",
       "bio": "Colección editorial de frases originales para reflexionar sobre la vida cotidiana, los vínculos, el aprendizaje, la libertad y el crecimiento personal. Estas frases se distinguen de las citas históricas y no se atribuyen a autores externos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
-      "count": 875
+      "count": 881
     },
     {
       "name": "Irène Joliot-Curie",
@@ -103,7 +103,7 @@
       "slug": "lao-tse",
       "bio": "Lao-Tse es la figura tradicionalmente asociada al Tao Te Ching, una obra fundamental del taoísmo que reflexiona sobre la sencillez, el equilibrio, la humildad y el curso natural de las cosas.",
       "source": "https://es.wikiquote.org/wiki/Lao_Tse",
-      "count": 8
+      "count": 6
     },
     {
       "name": "Leonardo da Vinci",
@@ -117,7 +117,7 @@
       "slug": "marco-aurelio",
       "bio": "Marco Aurelio fue emperador romano y filósofo estoico. Sus Meditaciones reúnen apuntes sobre el carácter, la responsabilidad, el tiempo y la manera de responder a las dificultades.",
       "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
-      "count": 8
+      "count": 6
     },
     {
       "name": "Marie Curie",
@@ -173,14 +173,14 @@
       "slug": "sor-juana-ines-de-la-cruz",
       "bio": "Sor Juana Inés de la Cruz fue una escritora novohispana del Siglo de Oro, defensora del conocimiento y autora de poesía que cuestionó las desigualdades y las contradicciones sociales.",
       "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Virginia Woolf",
       "slug": "virginia-woolf",
       "bio": "Virginia Woolf fue una escritora inglesa modernista que exploró la conciencia, la identidad, la libertad intelectual y las condiciones materiales necesarias para crear.",
       "source": "https://es.wikiquote.org/wiki/Virginia_Woolf",
-      "count": 6
+      "count": 5
     },
     {
       "name": "William Shakespeare",
@@ -1596,32 +1596,6 @@
       ]
     },
     {
-      "id": "lao-tse-mil-millas",
-      "author": "Lao-Tse",
-      "slug": "lao-tse",
-      "text": "Un viaje de mil millas comienza con un solo paso.",
-      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
-      "sourceName": "Wikiquote: Lao-Tse",
-      "tags": [
-        "comienzos",
-        "constancia",
-        "vida"
-      ]
-    },
-    {
-      "id": "lao-tse-conocerse",
-      "author": "Lao-Tse",
-      "slug": "lao-tse",
-      "text": "Quien conoce a los demás es inteligente; quien se conoce a sí mismo es sabio.",
-      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
-      "sourceName": "Wikiquote: Lao-Tse",
-      "tags": [
-        "sabiduría",
-        "conciencia",
-        "conocimiento"
-      ]
-    },
-    {
       "id": "lao-tse-hablar",
       "author": "Lao-Tse",
       "slug": "lao-tse",
@@ -1674,19 +1648,6 @@
       ]
     },
     {
-      "id": "woolf-libertad-mente",
-      "author": "Virginia Woolf",
-      "slug": "virginia-woolf",
-      "text": "No hay barrera, cerradura ni cerrojo que puedas imponer a la libertad de mi mente.",
-      "source": "https://es.wikiquote.org/wiki/Virginia_Woolf",
-      "sourceName": "Wikiquote: Virginia Woolf",
-      "tags": [
-        "libertad",
-        "pensamiento",
-        "independencia"
-      ]
-    },
-    {
       "id": "tagore-fe",
       "author": "Rabindranath Tagore",
       "slug": "rabindranath-tagore",
@@ -1713,19 +1674,6 @@
       ]
     },
     {
-      "id": "sorjuana-estudiar",
-      "author": "Sor Juana Inés de la Cruz",
-      "slug": "sor-juana-ines-de-la-cruz",
-      "text": "Yo no estudio para saber más, sino para ignorar menos.",
-      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
-      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
-      "tags": [
-        "educación",
-        "conocimiento",
-        "aprendizaje"
-      ]
-    },
-    {
       "id": "sorjuana-libertad",
       "author": "Sor Juana Inés de la Cruz",
       "slug": "sor-juana-ines-de-la-cruz",
@@ -1739,19 +1687,6 @@
       ]
     },
     {
-      "id": "marcoaurelio-obstaculo",
-      "author": "Marco Aurelio",
-      "slug": "marco-aurelio",
-      "text": "Lo que se interpone en el camino se convierte en el camino.",
-      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
-      "sourceName": "Wikiquote: Marco Aurelio",
-      "tags": [
-        "adversidad",
-        "fortaleza",
-        "superación"
-      ]
-    },
-    {
       "id": "marcoaurelio-presente",
       "author": "Marco Aurelio",
       "slug": "marco-aurelio",
@@ -1761,19 +1696,6 @@
       "tags": [
         "tiempo",
         "vida",
-        "conciencia"
-      ]
-    },
-    {
-      "id": "marcoaurelio-mente",
-      "author": "Marco Aurelio",
-      "slug": "marco-aurelio",
-      "text": "La felicidad de tu vida depende de la calidad de tus pensamientos.",
-      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
-      "sourceName": "Wikiquote: Marco Aurelio",
-      "tags": [
-        "felicidad",
-        "pensamiento",
         "conciencia"
       ]
     },
@@ -1820,7 +1742,7 @@
       "id": "original-0001",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La curiosidad se fortalece cuando hacer una pregunta más antes de aceptar la primera respuesta.",
+      "text": "La curiosidad se fortalece cuando elegimos hacer una pregunta más antes de aceptar la primera respuesta.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -1925,7 +1847,7 @@
       "id": "original-0008",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La curiosidad crece menos con las promesas que con hacer una pregunta más antes de aceptar la primera respuesta.",
+      "text": "La curiosidad crece menos con las promesas que con acciones como hacer una pregunta más antes de aceptar la primera respuesta.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -2165,7 +2087,7 @@
       "id": "original-0024",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La curiosidad no se impone: se cultiva con hacer una pregunta más antes de aceptar la primera respuesta.",
+      "text": "La curiosidad no se impone: se cultiva con al hacer una pregunta más antes de aceptar la primera respuesta.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -2195,7 +2117,7 @@
       "id": "original-0026",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La paciencia se fortalece cuando darle tiempo a lo que todavía está creciendo.",
+      "text": "La paciencia se fortalece cuando elegimos darle tiempo a lo que todavía está creciendo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -2300,7 +2222,7 @@
       "id": "original-0033",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La paciencia crece menos con las promesas que con darle tiempo a lo que todavía está creciendo.",
+      "text": "La paciencia crece menos con las promesas que con acciones como darle tiempo a lo que todavía está creciendo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -2540,7 +2462,7 @@
       "id": "original-0049",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La paciencia no se impone: se cultiva con darle tiempo a lo que todavía está creciendo.",
+      "text": "La paciencia no se impone: se cultiva con al darle tiempo a lo que todavía está creciendo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -2570,7 +2492,7 @@
       "id": "original-0051",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La gratitud se fortalece cuando nombrar lo bueno sin negar lo difícil.",
+      "text": "La gratitud se fortalece cuando elegimos nombrar lo bueno sin negar lo difícil.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -2675,7 +2597,7 @@
       "id": "original-0058",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La gratitud crece menos con las promesas que con nombrar lo bueno sin negar lo difícil.",
+      "text": "La gratitud crece menos con las promesas que con acciones como nombrar lo bueno sin negar lo difícil.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -2915,7 +2837,7 @@
       "id": "original-0074",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La gratitud no se impone: se cultiva con nombrar lo bueno sin negar lo difícil.",
+      "text": "La gratitud no se impone: se cultiva con al nombrar lo bueno sin negar lo difícil.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -2945,7 +2867,7 @@
       "id": "original-0076",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La valentía se fortalece cuando dar un paso honesto aun con algo de miedo.",
+      "text": "La valentía se fortalece cuando elegimos dar un paso honesto aun con algo de miedo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -3050,7 +2972,7 @@
       "id": "original-0083",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La valentía crece menos con las promesas que con dar un paso honesto aun con algo de miedo.",
+      "text": "La valentía crece menos con las promesas que con acciones como dar un paso honesto aun con algo de miedo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -3290,7 +3212,7 @@
       "id": "original-0099",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La valentía no se impone: se cultiva con dar un paso honesto aun con algo de miedo.",
+      "text": "La valentía no se impone: se cultiva con al dar un paso honesto aun con algo de miedo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -3320,7 +3242,7 @@
       "id": "original-0101",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La creatividad se fortalece cuando conectar ideas que parecían vivir en mundos distintos.",
+      "text": "La creatividad se fortalece cuando elegimos conectar ideas que parecían vivir en mundos distintos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -3425,7 +3347,7 @@
       "id": "original-0108",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La creatividad crece menos con las promesas que con conectar ideas que parecían vivir en mundos distintos.",
+      "text": "La creatividad crece menos con las promesas que con acciones como conectar ideas que parecían vivir en mundos distintos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -3665,7 +3587,7 @@
       "id": "original-0124",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La creatividad no se impone: se cultiva con conectar ideas que parecían vivir en mundos distintos.",
+      "text": "La creatividad no se impone: se cultiva con al conectar ideas que parecían vivir en mundos distintos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -3695,7 +3617,7 @@
       "id": "original-0126",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La ternura se fortalece cuando tratar con cuidado aquello que podría romperse.",
+      "text": "La ternura se fortalece cuando elegimos tratar con cuidado aquello que podría romperse.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -3800,7 +3722,7 @@
       "id": "original-0133",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La ternura crece menos con las promesas que con tratar con cuidado aquello que podría romperse.",
+      "text": "La ternura crece menos con las promesas que con acciones como tratar con cuidado aquello que podría romperse.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4040,7 +3962,7 @@
       "id": "original-0149",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La ternura no se impone: se cultiva con tratar con cuidado aquello que podría romperse.",
+      "text": "La ternura no se impone: se cultiva con al tratar con cuidado aquello que podría romperse.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4070,7 +3992,7 @@
       "id": "original-0151",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La serenidad se fortalece cuando distinguir lo urgente de lo verdaderamente importante.",
+      "text": "La serenidad se fortalece cuando elegimos distinguir lo urgente de lo verdaderamente importante.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4175,7 +4097,7 @@
       "id": "original-0158",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La serenidad crece menos con las promesas que con distinguir lo urgente de lo verdaderamente importante.",
+      "text": "La serenidad crece menos con las promesas que con acciones como distinguir lo urgente de lo verdaderamente importante.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4415,7 +4337,7 @@
       "id": "original-0174",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La serenidad no se impone: se cultiva con distinguir lo urgente de lo verdaderamente importante.",
+      "text": "La serenidad no se impone: se cultiva con al distinguir lo urgente de lo verdaderamente importante.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4445,7 +4367,7 @@
       "id": "original-0176",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La empatía se fortalece cuando escuchar una historia antes de emitir un juicio.",
+      "text": "La empatía se fortalece cuando elegimos escuchar una historia antes de emitir un juicio.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4550,7 +4472,7 @@
       "id": "original-0183",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La empatía crece menos con las promesas que con escuchar una historia antes de emitir un juicio.",
+      "text": "La empatía crece menos con las promesas que con acciones como escuchar una historia antes de emitir un juicio.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4790,7 +4712,7 @@
       "id": "original-0199",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La empatía no se impone: se cultiva con escuchar una historia antes de emitir un juicio.",
+      "text": "La empatía no se impone: se cultiva con al escuchar una historia antes de emitir un juicio.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4820,7 +4742,7 @@
       "id": "original-0201",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La honestidad se fortalece cuando decir la verdad con responsabilidad y sin crueldad.",
+      "text": "La honestidad se fortalece cuando elegimos decir la verdad con responsabilidad y sin crueldad.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -4925,7 +4847,7 @@
       "id": "original-0208",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La honestidad crece menos con las promesas que con decir la verdad con responsabilidad y sin crueldad.",
+      "text": "La honestidad crece menos con las promesas que con acciones como decir la verdad con responsabilidad y sin crueldad.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -5165,7 +5087,7 @@
       "id": "original-0224",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La honestidad no se impone: se cultiva con decir la verdad con responsabilidad y sin crueldad.",
+      "text": "La honestidad no se impone: se cultiva con al decir la verdad con responsabilidad y sin crueldad.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -5195,7 +5117,7 @@
       "id": "original-0226",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La resiliencia se fortalece cuando reorganizarse después de una dificultad sin negar lo ocurrido.",
+      "text": "La resiliencia se fortalece cuando elegimos reorganizarse después de una dificultad sin negar lo ocurrido.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -5300,7 +5222,7 @@
       "id": "original-0233",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La resiliencia crece menos con las promesas que con reorganizarse después de una dificultad sin negar lo ocurrido.",
+      "text": "La resiliencia crece menos con las promesas que con acciones como reorganizarse después de una dificultad sin negar lo ocurrido.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -5540,7 +5462,7 @@
       "id": "original-0249",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La resiliencia no se impone: se cultiva con reorganizarse después de una dificultad sin negar lo ocurrido.",
+      "text": "La resiliencia no se impone: se cultiva con al reorganizarse después de una dificultad sin negar lo ocurrido.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -5570,7 +5492,7 @@
       "id": "original-0251",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La imaginación se fortalece cuando ensayar mentalmente posibilidades antes de elegir.",
+      "text": "La imaginación se fortalece cuando elegimos ensayar mentalmente posibilidades antes de elegir.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -5675,7 +5597,7 @@
       "id": "original-0258",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La imaginación crece menos con las promesas que con ensayar mentalmente posibilidades antes de elegir.",
+      "text": "La imaginación crece menos con las promesas que con acciones como ensayar mentalmente posibilidades antes de elegir.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -5915,7 +5837,7 @@
       "id": "original-0274",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La imaginación no se impone: se cultiva con ensayar mentalmente posibilidades antes de elegir.",
+      "text": "La imaginación no se impone: se cultiva con al ensayar mentalmente posibilidades antes de elegir.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -5945,7 +5867,7 @@
       "id": "original-0276",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La confianza se fortalece cuando cumplir lo prometido incluso en las cosas pequeñas.",
+      "text": "La confianza se fortalece cuando elegimos cumplir lo prometido incluso en las cosas pequeñas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -6050,7 +5972,7 @@
       "id": "original-0283",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La confianza crece menos con las promesas que con cumplir lo prometido incluso en las cosas pequeñas.",
+      "text": "La confianza crece menos con las promesas que con acciones como cumplir lo prometido incluso en las cosas pequeñas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -6290,7 +6212,7 @@
       "id": "original-0299",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La confianza no se impone: se cultiva con cumplir lo prometido incluso en las cosas pequeñas.",
+      "text": "La confianza no se impone: se cultiva con al cumplir lo prometido incluso en las cosas pequeñas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -6320,7 +6242,7 @@
       "id": "original-0301",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La generosidad se fortalece cuando compartir sin convertir la ayuda en una deuda.",
+      "text": "La generosidad se fortalece cuando elegimos compartir sin convertir la ayuda en una deuda.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -6425,7 +6347,7 @@
       "id": "original-0308",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La generosidad crece menos con las promesas que con compartir sin convertir la ayuda en una deuda.",
+      "text": "La generosidad crece menos con las promesas que con acciones como compartir sin convertir la ayuda en una deuda.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -6665,7 +6587,7 @@
       "id": "original-0324",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La generosidad no se impone: se cultiva con compartir sin convertir la ayuda en una deuda.",
+      "text": "La generosidad no se impone: se cultiva con al compartir sin convertir la ayuda en una deuda.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -6695,7 +6617,7 @@
       "id": "original-0326",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La dignidad se fortalece cuando respetar los límites propios y ajenos.",
+      "text": "La dignidad se fortalece cuando elegimos respetar los límites propios y ajenos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -6800,7 +6722,7 @@
       "id": "original-0333",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La dignidad crece menos con las promesas que con respetar los límites propios y ajenos.",
+      "text": "La dignidad crece menos con las promesas que con acciones como respetar los límites propios y ajenos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7040,7 +6962,7 @@
       "id": "original-0349",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La dignidad no se impone: se cultiva con respetar los límites propios y ajenos.",
+      "text": "La dignidad no se impone: se cultiva con al respetar los límites propios y ajenos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7070,7 +6992,7 @@
       "id": "original-0351",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La justicia se fortalece cuando mirar las reglas también desde el lugar de quien recibe sus consecuencias.",
+      "text": "La justicia se fortalece cuando elegimos mirar las reglas también desde el lugar de quien recibe sus consecuencias.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7175,7 +7097,7 @@
       "id": "original-0358",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La justicia crece menos con las promesas que con mirar las reglas también desde el lugar de quien recibe sus consecuencias.",
+      "text": "La justicia crece menos con las promesas que con acciones como mirar las reglas también desde el lugar de quien recibe sus consecuencias.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7415,7 +7337,7 @@
       "id": "original-0374",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La justicia no se impone: se cultiva con mirar las reglas también desde el lugar de quien recibe sus consecuencias.",
+      "text": "La justicia no se impone: se cultiva con al mirar las reglas también desde el lugar de quien recibe sus consecuencias.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7445,7 +7367,7 @@
       "id": "original-0376",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La memoria se fortalece cuando recordar con matices, no solamente con nostalgia.",
+      "text": "La memoria se fortalece cuando elegimos recordar con matices, no solamente con nostalgia.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7550,7 +7472,7 @@
       "id": "original-0383",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La memoria crece menos con las promesas que con recordar con matices, no solamente con nostalgia.",
+      "text": "La memoria crece menos con las promesas que con acciones como recordar con matices, no solamente con nostalgia.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7790,7 +7712,7 @@
       "id": "original-0399",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La memoria no se impone: se cultiva con recordar con matices, no solamente con nostalgia.",
+      "text": "La memoria no se impone: se cultiva con al recordar con matices, no solamente con nostalgia.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7820,7 +7742,7 @@
       "id": "original-0401",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La lectura se fortalece cuando detenerse en una idea y preguntarse por qué importa.",
+      "text": "La lectura se fortalece cuando elegimos detenerse en una idea y preguntarse por qué importa.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -7925,7 +7847,7 @@
       "id": "original-0408",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La lectura crece menos con las promesas que con detenerse en una idea y preguntarse por qué importa.",
+      "text": "La lectura crece menos con las promesas que con acciones como detenerse en una idea y preguntarse por qué importa.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -8165,7 +8087,7 @@
       "id": "original-0424",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La lectura no se impone: se cultiva con detenerse en una idea y preguntarse por qué importa.",
+      "text": "La lectura no se impone: se cultiva con al detenerse en una idea y preguntarse por qué importa.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -8195,7 +8117,7 @@
       "id": "original-0426",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La música se fortalece cuando escuchar también lo que ocurre entre las notas.",
+      "text": "La música se fortalece cuando elegimos escuchar también lo que ocurre entre las notas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -8300,7 +8222,7 @@
       "id": "original-0433",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La música crece menos con las promesas que con escuchar también lo que ocurre entre las notas.",
+      "text": "La música crece menos con las promesas que con acciones como escuchar también lo que ocurre entre las notas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -8540,7 +8462,7 @@
       "id": "original-0449",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La música no se impone: se cultiva con escuchar también lo que ocurre entre las notas.",
+      "text": "La música no se impone: se cultiva con al escuchar también lo que ocurre entre las notas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -8570,7 +8492,7 @@
       "id": "original-0451",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La naturaleza se fortalece cuando observar los ciclos sin exigirles obedecer nuestro calendario.",
+      "text": "La naturaleza se fortalece cuando elegimos observar los ciclos sin exigirles obedecer nuestro calendario.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -8675,7 +8597,7 @@
       "id": "original-0458",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La naturaleza crece menos con las promesas que con observar los ciclos sin exigirles obedecer nuestro calendario.",
+      "text": "La naturaleza crece menos con las promesas que con acciones como observar los ciclos sin exigirles obedecer nuestro calendario.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -8915,7 +8837,7 @@
       "id": "original-0474",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La naturaleza no se impone: se cultiva con observar los ciclos sin exigirles obedecer nuestro calendario.",
+      "text": "La naturaleza no se impone: se cultiva con al observar los ciclos sin exigirles obedecer nuestro calendario.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -8945,7 +8867,7 @@
       "id": "original-0476",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La aventura se fortalece cuando salir de la rutina con atención y no por obligación.",
+      "text": "La aventura se fortalece cuando elegimos salir de la rutina con atención y no por obligación.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -9050,7 +8972,7 @@
       "id": "original-0483",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La aventura crece menos con las promesas que con salir de la rutina con atención y no por obligación.",
+      "text": "La aventura crece menos con las promesas que con acciones como salir de la rutina con atención y no por obligación.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -9290,7 +9212,7 @@
       "id": "original-0499",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La aventura no se impone: se cultiva con salir de la rutina con atención y no por obligación.",
+      "text": "La aventura no se impone: se cultiva con al salir de la rutina con atención y no por obligación.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -9320,7 +9242,7 @@
       "id": "original-0501",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La disciplina se fortalece cuando repetir una acción pequeña aun cuando la emoción cambia.",
+      "text": "La disciplina se fortalece cuando elegimos repetir una acción pequeña aun cuando la emoción cambia.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -9425,7 +9347,7 @@
       "id": "original-0508",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La disciplina crece menos con las promesas que con repetir una acción pequeña aun cuando la emoción cambia.",
+      "text": "La disciplina crece menos con las promesas que con acciones como repetir una acción pequeña aun cuando la emoción cambia.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -9665,7 +9587,7 @@
       "id": "original-0524",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La disciplina no se impone: se cultiva con repetir una acción pequeña aun cuando la emoción cambia.",
+      "text": "La disciplina no se impone: se cultiva con al repetir una acción pequeña aun cuando la emoción cambia.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -9695,7 +9617,7 @@
       "id": "original-0526",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La alegría se fortalece cuando darle lugar a lo que nos hace bien sin pedirle permiso a la culpa.",
+      "text": "La alegría se fortalece cuando elegimos darle lugar a lo que nos hace bien sin pedirle permiso a la culpa.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -9800,7 +9722,7 @@
       "id": "original-0533",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La alegría crece menos con las promesas que con darle lugar a lo que nos hace bien sin pedirle permiso a la culpa.",
+      "text": "La alegría crece menos con las promesas que con acciones como darle lugar a lo que nos hace bien sin pedirle permiso a la culpa.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10040,7 +9962,7 @@
       "id": "original-0549",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La alegría no se impone: se cultiva con darle lugar a lo que nos hace bien sin pedirle permiso a la culpa.",
+      "text": "La alegría no se impone: se cultiva con al darle lugar a lo que nos hace bien sin pedirle permiso a la culpa.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10070,7 +9992,7 @@
       "id": "original-0551",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La calma se fortalece cuando reducir el ruido suficiente para escuchar lo importante.",
+      "text": "La calma se fortalece cuando elegimos reducir el ruido suficiente para escuchar lo importante.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10175,7 +10097,7 @@
       "id": "original-0558",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La calma crece menos con las promesas que con reducir el ruido suficiente para escuchar lo importante.",
+      "text": "La calma crece menos con las promesas que con acciones como reducir el ruido suficiente para escuchar lo importante.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10415,7 +10337,7 @@
       "id": "original-0574",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La calma no se impone: se cultiva con reducir el ruido suficiente para escuchar lo importante.",
+      "text": "La calma no se impone: se cultiva con al reducir el ruido suficiente para escuchar lo importante.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10445,7 +10367,7 @@
       "id": "original-0576",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La amistad se fortalece cuando estar presentes sin convertir cada vínculo en una obligación.",
+      "text": "La amistad se fortalece cuando elegimos estar presentes sin convertir cada vínculo en una obligación.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10543,7 +10465,7 @@
       "id": "original-0583",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La amistad crece menos con las promesas que con estar presentes sin convertir cada vínculo en una obligación.",
+      "text": "La amistad crece menos con las promesas que con acciones como estar presentes sin convertir cada vínculo en una obligación.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10767,7 +10689,7 @@
       "id": "original-0599",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La amistad no se impone: se cultiva con estar presentes sin convertir cada vínculo en una obligación.",
+      "text": "La amistad no se impone: se cultiva con al estar presentes sin convertir cada vínculo en una obligación.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10795,7 +10717,7 @@
       "id": "original-0601",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La sabiduría se fortalece cuando revisar una opinión cuando aparecen mejores razones.",
+      "text": "La sabiduría se fortalece cuando elegimos revisar una opinión cuando aparecen mejores razones.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -10893,7 +10815,7 @@
       "id": "original-0608",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La sabiduría crece menos con las promesas que con revisar una opinión cuando aparecen mejores razones.",
+      "text": "La sabiduría crece menos con las promesas que con acciones como revisar una opinión cuando aparecen mejores razones.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11117,7 +11039,7 @@
       "id": "original-0624",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La sabiduría no se impone: se cultiva con revisar una opinión cuando aparecen mejores razones.",
+      "text": "La sabiduría no se impone: se cultiva con al revisar una opinión cuando aparecen mejores razones.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11145,7 +11067,7 @@
       "id": "original-0626",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La vida se fortalece cuando prestar atención a los días comunes, no solo a las grandes fechas.",
+      "text": "La vida se fortalece cuando elegimos prestar atención a los días comunes, no solo a las grandes fechas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11243,7 +11165,7 @@
       "id": "original-0633",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La vida crece menos con las promesas que con prestar atención a los días comunes, no solo a las grandes fechas.",
+      "text": "La vida crece menos con las promesas que con acciones como prestar atención a los días comunes, no solo a las grandes fechas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11467,7 +11389,7 @@
       "id": "original-0649",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La vida no se impone: se cultiva con prestar atención a los días comunes, no solo a las grandes fechas.",
+      "text": "La vida no se impone: se cultiva con al prestar atención a los días comunes, no solo a las grandes fechas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11495,7 +11417,7 @@
       "id": "original-0651",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La libertad se fortalece cuando elegir con información y asumir las consecuencias.",
+      "text": "La libertad se fortalece cuando elegimos elegir con información y asumir las consecuencias.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11593,7 +11515,7 @@
       "id": "original-0658",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La libertad crece menos con las promesas que con elegir con información y asumir las consecuencias.",
+      "text": "La libertad crece menos con las promesas que con acciones como elegir con información y asumir las consecuencias.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11817,7 +11739,7 @@
       "id": "original-0674",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La libertad no se impone: se cultiva con elegir con información y asumir las consecuencias.",
+      "text": "La libertad no se impone: se cultiva con al elegir con información y asumir las consecuencias.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11845,7 +11767,7 @@
       "id": "original-0676",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La superación se fortalece cuando comparar el presente con el punto de partida y no con la vidriera ajena.",
+      "text": "La superación se fortalece cuando elegimos comparar el presente con el punto de partida y no con la vidriera ajena.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -11943,7 +11865,7 @@
       "id": "original-0683",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La superación crece menos con las promesas que con comparar el presente con el punto de partida y no con la vidriera ajena.",
+      "text": "La superación crece menos con las promesas que con acciones como comparar el presente con el punto de partida y no con la vidriera ajena.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12167,7 +12089,7 @@
       "id": "original-0699",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La superación no se impone: se cultiva con comparar el presente con el punto de partida y no con la vidriera ajena.",
+      "text": "La superación no se impone: se cultiva con al comparar el presente con el punto de partida y no con la vidriera ajena.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12195,7 +12117,7 @@
       "id": "original-0701",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La motivación se fortalece cuando recordar para qué vale la pena hacer el esfuerzo.",
+      "text": "La motivación se fortalece cuando elegimos recordar para qué vale la pena hacer el esfuerzo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12293,7 +12215,7 @@
       "id": "original-0708",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La motivación crece menos con las promesas que con recordar para qué vale la pena hacer el esfuerzo.",
+      "text": "La motivación crece menos con las promesas que con acciones como recordar para qué vale la pena hacer el esfuerzo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12517,7 +12439,7 @@
       "id": "original-0724",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La motivación no se impone: se cultiva con recordar para qué vale la pena hacer el esfuerzo.",
+      "text": "La motivación no se impone: se cultiva con al recordar para qué vale la pena hacer el esfuerzo.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12545,7 +12467,7 @@
       "id": "original-0726",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La felicidad se fortalece cuando hacer espacio para lo valioso sin exigir una vida impecable.",
+      "text": "La felicidad se fortalece cuando elegimos hacer espacio para lo valioso sin exigir una vida impecable.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12643,7 +12565,7 @@
       "id": "original-0733",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La felicidad crece menos con las promesas que con hacer espacio para lo valioso sin exigir una vida impecable.",
+      "text": "La felicidad crece menos con las promesas que con acciones como hacer espacio para lo valioso sin exigir una vida impecable.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12867,7 +12789,7 @@
       "id": "original-0749",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La felicidad no se impone: se cultiva con hacer espacio para lo valioso sin exigir una vida impecable.",
+      "text": "La felicidad no se impone: se cultiva con al hacer espacio para lo valioso sin exigir una vida impecable.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12895,7 +12817,7 @@
       "id": "original-0751",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La esperanza se fortalece cuando buscar una posibilidad concreta sin negar los obstáculos.",
+      "text": "La esperanza se fortalece cuando elegimos buscar una posibilidad concreta sin negar los obstáculos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -12993,7 +12915,7 @@
       "id": "original-0758",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La esperanza crece menos con las promesas que con buscar una posibilidad concreta sin negar los obstáculos.",
+      "text": "La esperanza crece menos con las promesas que con acciones como buscar una posibilidad concreta sin negar los obstáculos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -13217,7 +13139,7 @@
       "id": "original-0774",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La esperanza no se impone: se cultiva con buscar una posibilidad concreta sin negar los obstáculos.",
+      "text": "La esperanza no se impone: se cultiva con al buscar una posibilidad concreta sin negar los obstáculos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -13245,7 +13167,7 @@
       "id": "original-0776",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La ciencia se fortalece cuando contrastar una hipótesis con observaciones y datos.",
+      "text": "La ciencia se fortalece cuando elegimos contrastar una hipótesis con observaciones y datos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -13343,7 +13265,7 @@
       "id": "original-0783",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La ciencia crece menos con las promesas que con contrastar una hipótesis con observaciones y datos.",
+      "text": "La ciencia crece menos con las promesas que con acciones como contrastar una hipótesis con observaciones y datos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -13567,7 +13489,7 @@
       "id": "original-0799",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La ciencia no se impone: se cultiva con contrastar una hipótesis con observaciones y datos.",
+      "text": "La ciencia no se impone: se cultiva con al contrastar una hipótesis con observaciones y datos.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -13595,7 +13517,7 @@
       "id": "original-0801",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La poesía se fortalece cuando encontrar una imagen precisa para una emoción difícil de nombrar.",
+      "text": "La poesía se fortalece cuando elegimos encontrar una imagen precisa para una emoción difícil de nombrar.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -13693,7 +13615,7 @@
       "id": "original-0808",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La poesía crece menos con las promesas que con encontrar una imagen precisa para una emoción difícil de nombrar.",
+      "text": "La poesía crece menos con las promesas que con acciones como encontrar una imagen precisa para una emoción difícil de nombrar.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -13917,7 +13839,7 @@
       "id": "original-0824",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La poesía no se impone: se cultiva con encontrar una imagen precisa para una emoción difícil de nombrar.",
+      "text": "La poesía no se impone: se cultiva con al encontrar una imagen precisa para una emoción difícil de nombrar.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -13945,7 +13867,7 @@
       "id": "original-0826",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La educación se fortalece cuando enseñar a preguntar además de enseñar respuestas.",
+      "text": "La educación se fortalece cuando elegimos enseñar a preguntar además de enseñar respuestas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -14043,7 +13965,7 @@
       "id": "original-0833",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La educación crece menos con las promesas que con enseñar a preguntar además de enseñar respuestas.",
+      "text": "La educación crece menos con las promesas que con acciones como enseñar a preguntar además de enseñar respuestas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -14267,7 +14189,7 @@
       "id": "original-0849",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La educación no se impone: se cultiva con enseñar a preguntar además de enseñar respuestas.",
+      "text": "La educación no se impone: se cultiva con al enseñar a preguntar además de enseñar respuestas.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -14295,7 +14217,7 @@
       "id": "original-0851",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La familia se fortalece cuando construir acuerdos sin exigir que todos sean iguales.",
+      "text": "La familia se fortalece cuando elegimos construir acuerdos sin exigir que todos sean iguales.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -14393,7 +14315,7 @@
       "id": "original-0858",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La familia crece menos con las promesas que con construir acuerdos sin exigir que todos sean iguales.",
+      "text": "La familia crece menos con las promesas que con acciones como construir acuerdos sin exigir que todos sean iguales.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -14617,7 +14539,7 @@
       "id": "original-0874",
       "author": "Imágenes y Postales",
       "slug": "imagenes-y-postales",
-      "text": "La familia no se impone: se cultiva con construir acuerdos sin exigir que todos sean iguales.",
+      "text": "La familia no se impone: se cultiva con al construir acuerdos sin exigir que todos sean iguales.",
       "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
       "sourceName": "Frase original · Imágenes y Postales",
       "tags": [
@@ -14639,6 +14561,90 @@
         "familia",
         "amor",
         "vida"
+      ]
+    },
+    {
+      "id": "original-0876",
+      "author": "Imágenes y Postales",
+      "slug": "imagenes-y-postales",
+      "text": "Una pregunta bien hecha puede abrir más caminos que una respuesta apresurada.",
+      "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
+      "sourceName": "Frase original · Imágenes y Postales",
+      "tags": [
+        "original",
+        "curiosidad",
+        "sabiduría",
+        "ciencia"
+      ]
+    },
+    {
+      "id": "original-0877",
+      "author": "Imágenes y Postales",
+      "slug": "imagenes-y-postales",
+      "text": "El tiempo no decide por nosotros; a veces solo vuelve visibles las consecuencias de nuestras elecciones.",
+      "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
+      "sourceName": "Frase original · Imágenes y Postales",
+      "tags": [
+        "original",
+        "vida",
+        "sabiduría",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "original-0878",
+      "author": "Imágenes y Postales",
+      "slug": "imagenes-y-postales",
+      "text": "Una idea valiosa no teme las preguntas: aprende a sostenerse, cambiar o dejar lugar a otra mejor.",
+      "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
+      "sourceName": "Frase original · Imágenes y Postales",
+      "tags": [
+        "original",
+        "ciencia",
+        "educación",
+        "sabiduría"
+      ]
+    },
+    {
+      "id": "original-0879",
+      "author": "Imágenes y Postales",
+      "slug": "imagenes-y-postales",
+      "text": "Hay vínculos que se cuidan con presencia y se fortalecen con conversaciones honestas.",
+      "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
+      "sourceName": "Frase original · Imágenes y Postales",
+      "tags": [
+        "original",
+        "amistad",
+        "amor",
+        "familia"
+      ]
+    },
+    {
+      "id": "original-0880",
+      "author": "Imágenes y Postales",
+      "slug": "imagenes-y-postales",
+      "text": "Descansar no es abandonar el camino; es recuperar la atención necesaria para seguirlo.",
+      "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
+      "sourceName": "Frase original · Imágenes y Postales",
+      "tags": [
+        "original",
+        "vida",
+        "superación",
+        "felicidad"
+      ]
+    },
+    {
+      "id": "original-0881",
+      "author": "Imágenes y Postales",
+      "slug": "imagenes-y-postales",
+      "text": "Cambiar de opinión ante una buena razón también es una forma de cuidar la propia dignidad.",
+      "source": "https://imagenesypostales.com/frases/imagenes-y-postales/",
+      "sourceName": "Frase original · Imágenes y Postales",
+      "tags": [
+        "original",
+        "libertad",
+        "educación",
+        "sabiduría"
       ]
     }
   ],
