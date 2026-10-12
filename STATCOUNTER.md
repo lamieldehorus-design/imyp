@@ -10,3 +10,5 @@ El proyecto **Imágenes y Postales** usa este contador en todas las páginas HTM
 El workflow `.github/workflows/statcounter.yml` ejecuta `.github/scripts/inject_statcounter.py` cuando hay cambios en `main`. El script recorre las páginas `.html`, agrega el bloque oficial si falta y evita duplicarlo si ya existe.
 
 **Regla de mantenimiento:** toda página HTML nueva debe incluir el mismo bloque. El workflow lo agrega automáticamente al actualizarse `main`, para que las páginas existentes y futuras compartan el contador. El bloque se inserta antes de `</body>` para mantener el fallback `noscript` dentro del cuerpo HTML.
+
+La instalación inicial se hace automáticamente en las páginas HTML existentes mediante el workflow; las futuras se procesan con el mismo mecanismo cada vez que hay cambios en `main`.
