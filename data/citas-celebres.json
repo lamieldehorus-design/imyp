@@ -1,10 +1,38 @@
 {
   "authors": [
     {
+      "name": "Albert Einstein",
+      "slug": "albert-einstein",
+      "bio": "Albert Einstein fue un físico teórico cuya obra transformó la comprensión moderna del espacio, el tiempo y la gravedad. También escribió sobre curiosidad, imaginación, responsabilidad y educación.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "count": 5
+    },
+    {
+      "name": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "bio": "Antoine de Saint-Exupéry fue un escritor y aviador francés, autor de El principito. Su obra explora la amistad, el cuidado, la responsabilidad y aquello que da sentido a los vínculos.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "count": 5
+    },
+    {
+      "name": "Charles Dickens",
+      "slug": "charles-dickens",
+      "bio": "Charles Dickens fue un novelista inglés que retrató las desigualdades sociales, la infancia, la compasión y la esperanza en obras como Oliver Twist y Cuento de Navidad.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "count": 5
+    },
+    {
       "name": "Confucio",
       "slug": "confucio",
       "bio": "Confucio fue un pensador y maestro chino cuyas enseñanzas influyeron profundamente en la ética, la educación, la convivencia y la responsabilidad personal.",
       "source": "https://es.wikiquote.org/wiki/Confucio",
+      "count": 5
+    },
+    {
+      "name": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "bio": "Edgar Allan Poe fue un escritor, poeta y crítico estadounidense, conocido por sus relatos de misterio y terror y por poemas que exploran la memoria, la belleza y la pérdida.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
       "count": 5
     },
     {
@@ -15,10 +43,66 @@
       "count": 5
     },
     {
+      "name": "Jane Austen",
+      "slug": "jane-austen",
+      "bio": "Jane Austen fue una novelista inglesa cuyas obras observan con ironía las relaciones, las convenciones sociales, el orgullo, la vanidad y la independencia personal.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "count": 5
+    },
+    {
+      "name": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "bio": "Khalil Gibran fue un escritor y artista libanés-estadounidense. El profeta reúne reflexiones poéticas sobre el amor, la libertad, el trabajo, la amistad y la experiencia humana.",
+      "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
+      "count": 5
+    },
+    {
+      "name": "Lao-Tse",
+      "slug": "lao-tse",
+      "bio": "Lao-Tse es la figura tradicionalmente asociada al Tao Te Ching, una obra fundamental del taoísmo que reflexiona sobre la sencillez, el equilibrio, la humildad y el curso natural de las cosas.",
+      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
+      "count": 5
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "bio": "Leonardo da Vinci fue un artista, inventor y observador del Renacimiento. Sus cuadernos muestran una curiosidad que conecta el arte, la naturaleza, la experiencia y la investigación.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "count": 5
+    },
+    {
+      "name": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "bio": "Marco Aurelio fue emperador romano y filósofo estoico. Sus Meditaciones reúnen apuntes sobre el carácter, la responsabilidad, el tiempo y la manera de responder a las dificultades.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "count": 5
+    },
+    {
+      "name": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "bio": "Rabindranath Tagore fue un poeta, dramaturgo y pensador bengalí, galardonado con el Nobel de Literatura. Su obra aborda la naturaleza, la educación, la belleza y la vida interior.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "count": 5
+    },
+    {
       "name": "Séneca",
       "slug": "seneca",
       "bio": "Séneca fue un filósofo estoico, dramaturgo y político romano. Sus escritos reflexionan sobre el tiempo, el miedo, la virtud, la serenidad y la manera de vivir con propósito.",
       "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "count": 5
+    },
+    {
+      "name": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "bio": "Sor Juana Inés de la Cruz fue una escritora novohispana del Siglo de Oro, defensora del conocimiento y autora de poesía que cuestionó las desigualdades y las contradicciones sociales.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "count": 5
+    },
+    {
+      "name": "Virginia Woolf",
+      "slug": "virginia-woolf",
+      "bio": "Virginia Woolf fue una escritora inglesa modernista que exploró la conciencia, la identidad, la libertad intelectual y las condiciones materiales necesarias para crear.",
+      "source": "https://es.wikiquote.org/wiki/Virginia_Woolf",
       "count": 5
     },
     {
@@ -709,6 +793,1014 @@
         "ética",
         "decisiones"
       ]
+    },
+    {
+      "id": "einstein-imaginacion",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "La imaginación es más importante que el conocimiento.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "imaginación",
+        "ciencia",
+        "creatividad"
+      ]
+    },
+    {
+      "id": "einstein-misterio",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "Lo más hermoso que podemos experimentar es el misterio; es la fuente de todo arte y ciencia verdaderos.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "misterio",
+        "ciencia",
+        "arte",
+        "curiosidad"
+      ]
+    },
+    {
+      "id": "einstein-preguntas",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "Lo importante es no dejar de hacerse preguntas.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "curiosidad",
+        "aprendizaje",
+        "ciencia"
+      ]
+    },
+    {
+      "id": "einstein-experiencia",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "La única fuente del conocimiento es la experiencia.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "conocimiento",
+        "experiencia",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "einstein-vida-moderada",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "Una vida tranquila y modesta aporta más alegría que la búsqueda del éxito ligada a una inquietud constante.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "felicidad",
+        "sencillez",
+        "éxito"
+      ]
+    },
+    {
+      "id": "lao-viaje",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Un viaje de mil millas comienza con un solo paso.",
+      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "metas",
+        "comienzos",
+        "constancia"
+      ]
+    },
+    {
+      "id": "lao-conocerse",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Quien conoce a los demás es inteligente; quien se conoce a sí mismo es sabio.",
+      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "autoconocimiento",
+        "sabiduría",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "lao-vencer",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Vencer a los demás requiere fuerza; vencerse a uno mismo requiere verdadero poder.",
+      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "autocontrol",
+        "fortaleza",
+        "superación"
+      ]
+    },
+    {
+      "id": "lao-agua",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Nada en el mundo es más blando que el agua, y sin embargo nada la supera al atacar lo duro.",
+      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "naturaleza",
+        "paciencia",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "lao-suficiente",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Quien sabe que tiene suficiente es rico.",
+      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "sencillez",
+        "gratitud",
+        "vida"
+      ]
+    },
+    {
+      "id": "saint-exupery-esencial",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "Lo esencial es invisible a los ojos.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "amor",
+        "amistad",
+        "interior"
+      ]
+    },
+    {
+      "id": "saint-exupery-rosa",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "Fue el tiempo que pasaste con tu rosa lo que la hizo tan importante.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "amor",
+        "cuidado",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "saint-exupery-corazon",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "Solo se ve bien con el corazón; lo esencial es invisible a los ojos.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "amor",
+        "empatía",
+        "interior"
+      ]
+    },
+    {
+      "id": "saint-exupery-responsable",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "Eres responsable para siempre de lo que has domesticado.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "responsabilidad",
+        "amistad",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "saint-exupery-mirar",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "Amar no es mirarse el uno al otro, sino mirar juntos en la misma dirección.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "amor",
+        "pareja",
+        "proyectos"
+      ]
+    },
+    {
+      "id": "austen-vanidad",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "La vanidad y el orgullo son cosas diferentes, aunque las palabras se usen a menudo como sinónimos.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "orgullo",
+        "identidad",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "austen-amigos",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "No hay nada que no haría por aquellos que son realmente mis amigos.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "amistad",
+        "lealtad",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "austen-novela",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "Una persona que no se deleita con una buena novela debe ser intolerablemente estúpida.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "literatura",
+        "lectura",
+        "humor"
+      ]
+    },
+    {
+      "id": "austen-humildad",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "Nada es más engañoso que la apariencia de humildad.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "apariencias",
+        "orgullo",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "austen-corazon",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "Hay pocas personas a las que realmente amo y aún menos de las que tengo buena opinión.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "amor",
+        "amistad",
+        "ironía"
+      ]
+    },
+    {
+      "id": "dickens-mejores-tiempos",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Era el mejor de los tiempos, era el peor de los tiempos.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "vida",
+        "contradicciones",
+        "literatura"
+      ]
+    },
+    {
+      "id": "dickens-navidad",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Honraré la Navidad en mi corazón y procuraré conservarla todo el año.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "esperanza",
+        "bondad",
+        "familia"
+      ]
+    },
+    {
+      "id": "dickens-humor",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "No hay nada en el mundo tan irresistiblemente contagioso como la risa y el buen humor.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "humor",
+        "felicidad",
+        "amistad"
+      ]
+    },
+    {
+      "id": "dickens-carga",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Nadie que alivie los males de otros es inútil en este mundo.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "solidaridad",
+        "empatía",
+        "bondad"
+      ]
+    },
+    {
+      "id": "dickens-corazon",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Tener un corazón que nunca se endurece, un temperamento que nunca se cansa y un tacto que nunca hiere.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "empatía",
+        "bondad",
+        "carácter"
+      ]
+    },
+    {
+      "id": "leonardo-aprendizaje",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "El aprendizaje nunca agota la mente.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "aprendizaje",
+        "curiosidad",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "leonardo-experiencia",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "La sabiduría es hija de la experiencia.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "sabiduría",
+        "experiencia",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "leonardo-naturaleza",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "La naturaleza nunca rompe sus propias leyes.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "naturaleza",
+        "ciencia",
+        "observación"
+      ]
+    },
+    {
+      "id": "leonardo-placer",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "El placer más noble es la alegría de comprender.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "conocimiento",
+        "curiosidad",
+        "felicidad"
+      ]
+    },
+    {
+      "id": "leonardo-arte",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "La pintura es poesía que se ve en lugar de sentirse, y la poesía es pintura que se siente en lugar de verse.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "arte",
+        "poesía",
+        "creatividad"
+      ]
+    },
+    {
+      "id": "woolf-mente",
+      "author": "Virginia Woolf",
+      "slug": "virginia-woolf",
+      "text": "No hay barrera, cerradura ni cerrojo que puedas imponer a la libertad de mi mente.",
+      "source": "https://es.wikiquote.org/wiki/Virginia_Woolf",
+      "sourceName": "Wikiquote: Virginia Woolf",
+      "tags": [
+        "libertad",
+        "mente",
+        "independencia"
+      ]
+    },
+    {
+      "id": "woolf-comer",
+      "author": "Virginia Woolf",
+      "slug": "virginia-woolf",
+      "text": "Uno no puede pensar bien, amar bien ni dormir bien si no ha comido bien.",
+      "source": "https://es.wikiquote.org/wiki/Virginia_Woolf",
+      "sourceName": "Wikiquote: Virginia Woolf",
+      "tags": [
+        "vida",
+        "bienestar",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "woolf-patria",
+      "author": "Virginia Woolf",
+      "slug": "virginia-woolf",
+      "text": "Como mujer, mi patria es el mundo entero.",
+      "source": "https://es.wikiquote.org/wiki/Virginia_Woolf",
+      "sourceName": "Wikiquote: Virginia Woolf",
+      "tags": [
+        "libertad",
+        "igualdad",
+        "identidad"
+      ]
+    },
+    {
+      "id": "woolf-libros",
+      "author": "Virginia Woolf",
+      "slug": "virginia-woolf",
+      "text": "Los libros son los espejos del alma.",
+      "source": "https://es.wikiquote.org/wiki/Virginia_Woolf",
+      "sourceName": "Wikiquote: Virginia Woolf",
+      "tags": [
+        "literatura",
+        "lectura",
+        "identidad"
+      ]
+    },
+    {
+      "id": "woolf-vida",
+      "author": "Virginia Woolf",
+      "slug": "virginia-woolf",
+      "text": "La vida no es una serie de lámparas simétricamente dispuestas; la vida es un halo luminoso.",
+      "source": "https://es.wikiquote.org/wiki/Virginia_Woolf",
+      "sourceName": "Wikiquote: Virginia Woolf",
+      "tags": [
+        "vida",
+        "poesía",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "poe-sueno",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Todo lo que vemos o parecemos no es más que un sueño dentro de un sueño.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "sueños",
+        "vida",
+        "poesía"
+      ]
+    },
+    {
+      "id": "poe-dia",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Los que sueñan de día conocen muchas cosas que escapan a quienes sueñan solo de noche.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "sueños",
+        "imaginación",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "poe-belleza",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "La belleza de cualquier tipo, en su manifestación suprema, invariablemente conmueve el alma sensible.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "belleza",
+        "arte",
+        "emociones"
+      ]
+    },
+    {
+      "id": "poe-musica",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "La música, cuando se combina con una idea agradable, es poesía.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "música",
+        "poesía",
+        "arte"
+      ]
+    },
+    {
+      "id": "poe-memoria",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Años de amor han sido olvidados en el odio de un minuto.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "amor",
+        "memoria",
+        "emociones"
+      ]
+    },
+    {
+      "id": "gibran-amor",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "El amor no da nada sino a sí mismo y no toma nada sino de sí mismo.",
+      "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "amor",
+        "generosidad",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "gibran-seguir",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "Cuando el amor os llame, seguidlo, aunque sus caminos sean arduos y escarpados.",
+      "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "amor",
+        "coraje",
+        "pareja"
+      ]
+    },
+    {
+      "id": "gibran-hijos",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "Tus hijos no son tus hijos: son hijos e hijas del anhelo de la vida por sí misma.",
+      "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "familia",
+        "libertad",
+        "crianza"
+      ]
+    },
+    {
+      "id": "gibran-sufrimiento",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "Del sufrimiento han surgido las almas más fuertes; los caracteres más sólidos están marcados por cicatrices.",
+      "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "adversidad",
+        "fortaleza",
+        "resiliencia"
+      ]
+    },
+    {
+      "id": "gibran-amistad",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "En la dulzura de la amistad haya lugar para la risa y para compartir los placeres.",
+      "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "amistad",
+        "alegría",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "tagore-estrellas",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "Si lloras porque el sol se ha ido, las lágrimas no te dejarán ver las estrellas.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "esperanza",
+        "tristeza",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "tagore-amanecer",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "La fe es el pájaro que siente la luz y canta cuando el amanecer todavía está oscuro.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "esperanza",
+        "fe",
+        "adversidad"
+      ]
+    },
+    {
+      "id": "tagore-arbol",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "El árbol no niega su sombra ni al leñador.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "generosidad",
+        "naturaleza",
+        "bondad"
+      ]
+    },
+    {
+      "id": "tagore-mar",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "No puedes cruzar el mar simplemente mirando el agua.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "acción",
+        "metas",
+        "coraje"
+      ]
+    },
+    {
+      "id": "tagore-luz",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "La nube viene flotando a mi vida desde otros días, ya no para traer lluvia sino para dar color a mi puesta de sol.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "poesía",
+        "naturaleza",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "sorjuana-pregunta",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "¿En perseguirme, Mundo, qué interesas?",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "libertad",
+        "poesía",
+        "identidad"
+      ]
+    },
+    {
+      "id": "sorjuana-hombres",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Hombres necios que acusáis a la mujer sin razón, sin ver que sois la ocasión de lo mismo que culpáis.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "igualdad",
+        "justicia",
+        "poesía"
+      ]
+    },
+    {
+      "id": "sorjuana-engano",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Este que ves, engaño colorido, que del arte ostentando los primores...",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "belleza",
+        "tiempo",
+        "apariencias"
+      ]
+    },
+    {
+      "id": "sorjuana-pensamiento",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Yo no estudio para saber más, sino para ignorar menos.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "educación",
+        "conocimiento",
+        "humildad"
+      ]
+    },
+    {
+      "id": "sorjuana-riqueza",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Poner riquezas en mi pensamiento antes que mi pensamiento en las riquezas.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "conocimiento",
+        "riqueza",
+        "libertad"
+      ]
+    },
+    {
+      "id": "marcoaurelio-tiempo",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "No actúes como si fueras a vivir diez mil años. La muerte está sobre ti; mientras vivas, mientras puedas, sé bueno.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "tiempo",
+        "bondad",
+        "vida"
+      ]
+    },
+    {
+      "id": "marcoaurelio-pensamientos",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "La felicidad de tu vida depende de la calidad de tus pensamientos.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "felicidad",
+        "pensamiento",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "marcoaurelio-camino",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "Lo que se interpone en el camino se convierte en el camino.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "adversidad",
+        "superación",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "marcoaurelio-hombre",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "No pierdas más tiempo discutiendo sobre lo que debe ser un buen hombre. Sé uno.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "acciones",
+        "ética",
+        "carácter"
+      ]
+    },
+    {
+      "id": "marcoaurelio-manana",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "Al levantarte por la mañana, piensa en el privilegio de estar vivo, pensar, disfrutar y amar.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "gratitud",
+        "vida",
+        "amor"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "slug": "amor",
+      "name": "Frases de amor",
+      "title": "Frases de amor célebres para dedicar y reflexionar",
+      "description": "Una colección de frases célebres sobre el amor, los vínculos, el cuidado y las distintas maneras de querer. Leé citas de escritores y pensadores, consultá sus fuentes y descargá tus favoritas como imágenes.",
+      "tags": [
+        "amor",
+        "pareja",
+        "vínculos",
+        "reciprocidad",
+        "cuidado",
+        "corazón",
+        "generosidad",
+        "ternura",
+        "afecto"
+      ],
+      "intro": "El amor aparece en la literatura y la filosofía como encuentro, cuidado, libertad y responsabilidad. Estas citas reúnen distintas miradas: desde el enamoramiento hasta la amistad profunda y la forma de acompañar a otra persona sin dejar de ser uno mismo."
+    },
+    {
+      "slug": "amistad",
+      "name": "Frases de amistad",
+      "title": "Frases de amistad verdaderas para compartir",
+      "description": "Frases célebres sobre la amistad, la confianza, la lealtad y los vínculos que nos acompañan. Encontrá palabras para dedicar a un amigo o reflexionar sobre el valor de estar presentes.",
+      "tags": [
+        "amistad",
+        "lealtad",
+        "confianza",
+        "vínculos",
+        "empatía",
+        "compasión",
+        "generosidad"
+      ],
+      "intro": "La amistad no se mide solamente por el tiempo compartido, sino también por la confianza, la escucha y la presencia en los momentos importantes. Esta selección reúne pensamientos literarios y filosóficos sobre los vínculos que elegimos y cuidamos."
+    },
+    {
+      "slug": "sabiduria",
+      "name": "Frases de sabiduría",
+      "title": "Frases de sabiduría para pensar y aprender",
+      "description": "Descubrí frases célebres sobre la sabiduría, el conocimiento, la experiencia y el pensamiento crítico. Citas de filósofos, científicos y escritores para mirar las cosas desde otra perspectiva.",
+      "tags": [
+        "sabiduría",
+        "conocimiento",
+        "pensamiento",
+        "filosofía",
+        "aprendizaje",
+        "ética",
+        "conciencia",
+        "experiencia",
+        "curiosidad"
+      ],
+      "intro": "La sabiduría no consiste en tener una respuesta para todo. Muchas veces empieza al reconocer lo que ignoramos, observar con atención y revisar nuestras propias ideas. Estas citas invitan a pensar antes de juzgar y a aprender durante toda la vida."
+    },
+    {
+      "slug": "vida",
+      "name": "Frases de la vida",
+      "title": "Frases de la vida: pensamientos célebres para reflexionar",
+      "description": "Frases célebres sobre la vida, el tiempo, las decisiones, la experiencia y el sentido de lo cotidiano. Leé, copiá y descargá reflexiones de autores clásicos.",
+      "tags": [
+        "vida",
+        "existencia",
+        "tiempo",
+        "experiencia",
+        "sencillez",
+        "decisiones",
+        "gratitud",
+        "naturaleza",
+        "perspectiva"
+      ],
+      "intro": "La vida reúne momentos luminosos, cambios, pérdidas, aprendizajes y pequeñas decisiones cotidianas. Estas frases no ofrecen fórmulas mágicas: acercan distintas maneras de pensar el tiempo, la experiencia y aquello que elegimos hacer con ellos."
+    },
+    {
+      "slug": "libertad",
+      "name": "Frases de libertad",
+      "title": "Frases célebres sobre la libertad y la independencia",
+      "description": "Una selección de frases sobre la libertad, la independencia de pensamiento, la dignidad y la responsabilidad personal. Citas para reflexionar sobre los derechos y las decisiones propias.",
+      "tags": [
+        "libertad",
+        "independencia",
+        "mente",
+        "igualdad",
+        "justicia",
+        "coraje",
+        "identidad",
+        "responsabilidad"
+      ],
+      "intro": "La libertad puede ser política, intelectual y personal. También implica responsabilidad, pensamiento propio y respeto por la dignidad ajena. Esta colección recorre distintas voces que cuestionaron límites y defendieron el derecho a pensar."
+    },
+    {
+      "slug": "superacion",
+      "name": "Frases de superación",
+      "title": "Frases de superación personal para tiempos difíciles",
+      "description": "Frases célebres sobre la resiliencia, la fortaleza, el aprendizaje y la capacidad de atravesar dificultades. Ideas para recuperar perspectiva y seguir avanzando paso a paso.",
+      "tags": [
+        "adversidad",
+        "fortaleza",
+        "resiliencia",
+        "autocontrol",
+        "aprendizaje",
+        "miedo",
+        "coraje",
+        "superación",
+        "perspectiva"
+      ],
+      "intro": "Superarse no significa no sentir miedo ni resolver todo de inmediato. A veces consiste en aprender de un error, pedir ayuda, cambiar de rumbo o dar un paso pequeño cuando el camino parece enorme. Estas citas acompañan esa reflexión."
+    },
+    {
+      "slug": "motivacion",
+      "name": "Frases de motivación",
+      "title": "Frases de motivación para empezar y perseverar",
+      "description": "Frases motivadoras de escritores, científicos y filósofos sobre la constancia, los objetivos, el esfuerzo y la acción. Una colección para recuperar impulso sin promesas vacías.",
+      "tags": [
+        "metas",
+        "constancia",
+        "esfuerzo",
+        "acciones",
+        "práctica",
+        "comienzos",
+        "crecimiento",
+        "acción",
+        "coraje"
+      ],
+      "intro": "La motivación puede encender el primer paso, pero la constancia ayuda a sostener el camino. Esta selección reúne frases sobre empezar, practicar, aprender y actuar con intención, sin confundir inspiración con resultados automáticos."
+    },
+    {
+      "slug": "felicidad",
+      "name": "Frases de felicidad",
+      "title": "Frases célebres sobre la felicidad y la alegría",
+      "description": "Pensamientos célebres sobre la felicidad, la serenidad, la gratitud y las alegrías sencillas. Explorá distintas perspectivas sobre una vida plena y compartí tus citas favoritas.",
+      "tags": [
+        "felicidad",
+        "alegría",
+        "serenidad",
+        "gratitud",
+        "sencillez",
+        "amor",
+        "humor",
+        "esperanza"
+      ],
+      "intro": "La felicidad puede estar asociada a la alegría, los vínculos, la serenidad o el sentido de lo que hacemos. No todas las personas la entienden igual. Estas citas ofrecen miradas diversas para pensar qué significa vivir bien."
+    },
+    {
+      "slug": "esperanza",
+      "name": "Frases de esperanza",
+      "title": "Frases de esperanza para no perder la perspectiva",
+      "description": "Frases célebres sobre la esperanza, la luz en tiempos difíciles y la posibilidad de volver a empezar. Palabras para acompañar un momento complicado o compartir ánimo con alguien.",
+      "tags": [
+        "esperanza",
+        "luz",
+        "tristeza",
+        "fe",
+        "adversidad",
+        "futuro",
+        "resiliencia",
+        "perspectiva"
+      ],
+      "intro": "La esperanza no borra las dificultades, pero puede ayudarnos a imaginar una salida y sostener el esfuerzo necesario para encontrarla. Esta selección reúne frases sobre la luz, la paciencia y la posibilidad de que algo cambie."
+    },
+    {
+      "slug": "ciencia",
+      "name": "Frases de ciencia",
+      "title": "Frases célebres sobre la ciencia, la curiosidad y el conocimiento",
+      "description": "Frases de científicos y pensadores sobre la curiosidad, la investigación, la experiencia y el valor de hacer preguntas. Una colección para celebrar el pensamiento científico.",
+      "tags": [
+        "ciencia",
+        "experimento",
+        "investigación",
+        "curiosidad",
+        "conocimiento",
+        "razón",
+        "observación",
+        "aprendizaje"
+      ],
+      "intro": "La ciencia avanza con preguntas, observación, pruebas y disposición a corregir ideas. Estas citas de científicos y otros pensadores recuerdan que la curiosidad y la humildad intelectual son parte central del conocimiento."
+    },
+    {
+      "slug": "poesia-literatura",
+      "name": "Frases de poesía y literatura",
+      "title": "Frases célebres de literatura y poesía para guardar",
+      "description": "Citas literarias y versos de escritores clásicos sobre la belleza, la memoria, la imaginación y la condición humana. Consultá las fuentes y descargá las frases como imágenes.",
+      "tags": [
+        "poesía",
+        "literatura",
+        "teatro",
+        "palabras",
+        "memoria",
+        "arte",
+        "lectura",
+        "belleza",
+        "sueños"
+      ],
+      "intro": "La literatura permite nombrar emociones, cuestionar costumbres y descubrir nuevas formas de mirar el mundo. Esta selección reúne frases y versos de escritores clásicos, con referencias para que puedas seguir explorando sus obras."
+    },
+    {
+      "slug": "educacion",
+      "name": "Frases sobre educación",
+      "title": "Frases célebres sobre educación, lectura y aprendizaje",
+      "description": "Frases sobre la educación, el aprendizaje permanente, la lectura y la curiosidad. Ideas de pensadores, escritores y científicos para docentes, estudiantes y cualquier persona que quiera seguir aprendiendo.",
+      "tags": [
+        "educación",
+        "aprendizaje",
+        "conocimiento",
+        "lectura",
+        "experiencia",
+        "curiosidad",
+        "pensamiento",
+        "humildad"
+      ],
+      "intro": "Aprender no termina al salir de la escuela: también ocurre al experimentar, conversar, leer y revisar nuestros errores. Estas citas invitan a entender la educación como una práctica continua y una herramienta para ampliar la libertad."
+    },
+    {
+      "slug": "familia",
+      "name": "Frases de familia",
+      "title": "Frases de familia sobre el amor, el cuidado y los vínculos",
+      "description": "Frases célebres sobre la familia, el cuidado, la crianza y el amor que acompaña sin quitar libertad. Una colección para reflexionar y compartir con personas queridas.",
+      "tags": [
+        "familia",
+        "crianza",
+        "amor",
+        "cuidado",
+        "vínculos",
+        "generosidad",
+        "responsabilidad"
+      ],
+      "intro": "Los vínculos familiares pueden ofrecer cuidado y pertenencia, pero también requieren escucha, respeto y espacio para crecer. Estas citas invitan a pensar el amor como acompañamiento y responsabilidad, no como posesión."
     }
   ]
 }
