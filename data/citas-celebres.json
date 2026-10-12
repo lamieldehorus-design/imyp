@@ -1575,5 +1575,232 @@
         "amor"
       ]
     }
+  ],
+  "topics": [
+    {
+      "slug": "amor",
+      "name": "Frases de amor",
+      "title": "Frases de amor célebres para dedicar y reflexionar",
+      "description": "Una colección de frases célebres sobre el amor, los vínculos, el cuidado y las distintas maneras de querer. Leé citas de escritores y pensadores, consultá sus fuentes y descargá tus favoritas como imágenes.",
+      "tags": [
+        "amor",
+        "pareja",
+        "vínculos",
+        "reciprocidad",
+        "cuidado",
+        "corazón",
+        "generosidad",
+        "ternura",
+        "afecto"
+      ],
+      "intro": "El amor aparece en la literatura y la filosofía como encuentro, cuidado, libertad y responsabilidad. Estas citas reúnen distintas miradas: desde el enamoramiento hasta la amistad profunda y la forma de acompañar a otra persona sin dejar de ser uno mismo."
+    },
+    {
+      "slug": "amistad",
+      "name": "Frases de amistad",
+      "title": "Frases de amistad verdaderas para compartir",
+      "description": "Frases célebres sobre la amistad, la confianza, la lealtad y los vínculos que nos acompañan. Encontrá palabras para dedicar a un amigo o reflexionar sobre el valor de estar presentes.",
+      "tags": [
+        "amistad",
+        "lealtad",
+        "confianza",
+        "vínculos",
+        "empatía",
+        "compasión",
+        "generosidad"
+      ],
+      "intro": "La amistad no se mide solamente por el tiempo compartido, sino también por la confianza, la escucha y la presencia en los momentos importantes. Esta selección reúne pensamientos literarios y filosóficos sobre los vínculos que elegimos y cuidamos."
+    },
+    {
+      "slug": "sabiduria",
+      "name": "Frases de sabiduría",
+      "title": "Frases de sabiduría para pensar y aprender",
+      "description": "Descubrí frases célebres sobre la sabiduría, el conocimiento, la experiencia y el pensamiento crítico. Citas de filósofos, científicos y escritores para mirar las cosas desde otra perspectiva.",
+      "tags": [
+        "sabiduría",
+        "conocimiento",
+        "pensamiento",
+        "filosofía",
+        "aprendizaje",
+        "ética",
+        "conciencia",
+        "experiencia",
+        "curiosidad"
+      ],
+      "intro": "La sabiduría no consiste en tener una respuesta para todo. Muchas veces empieza al reconocer lo que ignoramos, observar con atención y revisar nuestras propias ideas. Estas citas invitan a pensar antes de juzgar y a aprender durante toda la vida."
+    },
+    {
+      "slug": "vida",
+      "name": "Frases de la vida",
+      "title": "Frases de la vida: pensamientos célebres para reflexionar",
+      "description": "Frases célebres sobre la vida, el tiempo, las decisiones, la experiencia y el sentido de lo cotidiano. Leé, copiá y descargá reflexiones de autores clásicos.",
+      "tags": [
+        "vida",
+        "existencia",
+        "tiempo",
+        "experiencia",
+        "sencillez",
+        "decisiones",
+        "gratitud",
+        "naturaleza",
+        "perspectiva"
+      ],
+      "intro": "La vida reúne momentos luminosos, cambios, pérdidas, aprendizajes y pequeñas decisiones cotidianas. Estas frases no ofrecen fórmulas mágicas: acercan distintas maneras de pensar el tiempo, la experiencia y aquello que elegimos hacer con ellos."
+    },
+    {
+      "slug": "libertad",
+      "name": "Frases de libertad",
+      "title": "Frases célebres sobre la libertad y la independencia",
+      "description": "Una selección de frases sobre la libertad, la independencia de pensamiento, la dignidad y la responsabilidad personal. Citas para reflexionar sobre los derechos y las decisiones propias.",
+      "tags": [
+        "libertad",
+        "independencia",
+        "mente",
+        "igualdad",
+        "justicia",
+        "coraje",
+        "identidad",
+        "responsabilidad"
+      ],
+      "intro": "La libertad puede ser política, intelectual y personal. También implica responsabilidad, pensamiento propio y respeto por la dignidad ajena. Esta colección recorre distintas voces que cuestionaron límites y defendieron el derecho a pensar."
+    },
+    {
+      "slug": "superacion",
+      "name": "Frases de superación",
+      "title": "Frases de superación personal para tiempos difíciles",
+      "description": "Frases célebres sobre la resiliencia, la fortaleza, el aprendizaje y la capacidad de atravesar dificultades. Ideas para recuperar perspectiva y seguir avanzando paso a paso.",
+      "tags": [
+        "adversidad",
+        "fortaleza",
+        "resiliencia",
+        "autocontrol",
+        "aprendizaje",
+        "miedo",
+        "coraje",
+        "superación",
+        "perspectiva"
+      ],
+      "intro": "Superarse no significa no sentir miedo ni resolver todo de inmediato. A veces consiste en aprender de un error, pedir ayuda, cambiar de rumbo o dar un paso pequeño cuando el camino parece enorme. Estas citas acompañan esa reflexión."
+    },
+    {
+      "slug": "motivacion",
+      "name": "Frases de motivación",
+      "title": "Frases de motivación para empezar y perseverar",
+      "description": "Frases motivadoras de escritores, científicos y filósofos sobre la constancia, los objetivos, el esfuerzo y la acción. Una colección para recuperar impulso sin promesas vacías.",
+      "tags": [
+        "metas",
+        "constancia",
+        "esfuerzo",
+        "acciones",
+        "práctica",
+        "comienzos",
+        "crecimiento",
+        "acción",
+        "coraje"
+      ],
+      "intro": "La motivación puede encender el primer paso, pero la constancia ayuda a sostener el camino. Esta selección reúne frases sobre empezar, practicar, aprender y actuar con intención, sin confundir inspiración con resultados automáticos."
+    },
+    {
+      "slug": "felicidad",
+      "name": "Frases de felicidad",
+      "title": "Frases célebres sobre la felicidad y la alegría",
+      "description": "Pensamientos célebres sobre la felicidad, la serenidad, la gratitud y las alegrías sencillas. Explorá distintas perspectivas sobre una vida plena y compartí tus citas favoritas.",
+      "tags": [
+        "felicidad",
+        "alegría",
+        "serenidad",
+        "gratitud",
+        "sencillez",
+        "amor",
+        "humor",
+        "esperanza"
+      ],
+      "intro": "La felicidad puede estar asociada a la alegría, los vínculos, la serenidad o el sentido de lo que hacemos. No todas las personas la entienden igual. Estas citas ofrecen miradas diversas para pensar qué significa vivir bien."
+    },
+    {
+      "slug": "esperanza",
+      "name": "Frases de esperanza",
+      "title": "Frases de esperanza para no perder la perspectiva",
+      "description": "Frases célebres sobre la esperanza, la luz en tiempos difíciles y la posibilidad de volver a empezar. Palabras para acompañar un momento complicado o compartir ánimo con alguien.",
+      "tags": [
+        "esperanza",
+        "luz",
+        "tristeza",
+        "fe",
+        "adversidad",
+        "futuro",
+        "resiliencia",
+        "perspectiva"
+      ],
+      "intro": "La esperanza no borra las dificultades, pero puede ayudarnos a imaginar una salida y sostener el esfuerzo necesario para encontrarla. Esta selección reúne frases sobre la luz, la paciencia y la posibilidad de que algo cambie."
+    },
+    {
+      "slug": "ciencia",
+      "name": "Frases de ciencia",
+      "title": "Frases célebres sobre la ciencia, la curiosidad y el conocimiento",
+      "description": "Frases de científicos y pensadores sobre la curiosidad, la investigación, la experiencia y el valor de hacer preguntas. Una colección para celebrar el pensamiento científico.",
+      "tags": [
+        "ciencia",
+        "experimento",
+        "investigación",
+        "curiosidad",
+        "conocimiento",
+        "razón",
+        "observación",
+        "aprendizaje"
+      ],
+      "intro": "La ciencia avanza con preguntas, observación, pruebas y disposición a corregir ideas. Estas citas de científicos y otros pensadores recuerdan que la curiosidad y la humildad intelectual son parte central del conocimiento."
+    },
+    {
+      "slug": "poesia-literatura",
+      "name": "Frases de poesía y literatura",
+      "title": "Frases célebres de literatura y poesía para guardar",
+      "description": "Citas literarias y versos de escritores clásicos sobre la belleza, la memoria, la imaginación y la condición humana. Consultá las fuentes y descargá las frases como imágenes.",
+      "tags": [
+        "poesía",
+        "literatura",
+        "teatro",
+        "palabras",
+        "memoria",
+        "arte",
+        "lectura",
+        "belleza",
+        "sueños"
+      ],
+      "intro": "La literatura permite nombrar emociones, cuestionar costumbres y descubrir nuevas formas de mirar el mundo. Esta selección reúne frases y versos de escritores clásicos, con referencias para que puedas seguir explorando sus obras."
+    },
+    {
+      "slug": "educacion",
+      "name": "Frases sobre educación",
+      "title": "Frases célebres sobre educación, lectura y aprendizaje",
+      "description": "Frases sobre la educación, el aprendizaje permanente, la lectura y la curiosidad. Ideas de pensadores, escritores y científicos para docentes, estudiantes y cualquier persona que quiera seguir aprendiendo.",
+      "tags": [
+        "educación",
+        "aprendizaje",
+        "conocimiento",
+        "lectura",
+        "experiencia",
+        "curiosidad",
+        "pensamiento",
+        "humildad"
+      ],
+      "intro": "Aprender no termina al salir de la escuela: también ocurre al experimentar, conversar, leer y revisar nuestros errores. Estas citas invitan a entender la educación como una práctica continua y una herramienta para ampliar la libertad."
+    },
+    {
+      "slug": "familia",
+      "name": "Frases de familia",
+      "title": "Frases de familia sobre el amor, el cuidado y los vínculos",
+      "description": "Frases célebres sobre la familia, el cuidado, la crianza y el amor que acompaña sin quitar libertad. Una colección para reflexionar y compartir con personas queridas.",
+      "tags": [
+        "familia",
+        "crianza",
+        "amor",
+        "cuidado",
+        "vínculos",
+        "generosidad",
+        "responsabilidad"
+      ],
+      "intro": "Los vínculos familiares pueden ofrecer cuidado y pertenencia, pero también requieren escucha, respeto y espacio para crecer. Estas citas invitan a pensar el amor como acompañamiento y responsabilidad, no como posesión."
+    }
   ]
 }
