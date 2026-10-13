@@ -230,7 +230,7 @@ def build():
         d.mkdir(parents=True,exist_ok=True)
         (d/"index.html").write_text(postales_page(key),encoding="utf-8")
 
-    fixed=["/","/frases/","/cumpleanos/","/cumpleanos/hermana/","/cumpleanos/amiga/","/buenos-dias/","/amor/","/familia/","/animo/","/viajes/","/humor/","/blog/","/postales/"]
+    fixed=["/","/frases/","/cumpleanos/","/cumpleanos/hermana/","/cumpleanos/amiga/","/buenos-dias/","/amor/","/familia/","/animo/","/viajes/","/humor/","/blog/","/postales/","/sobre-nosotros/","/privacidad/"]
     fixed += [f"/postales/{key}/" for key in POSTAL_CATEGORIES]
     urls=[]
     for path in fixed:
