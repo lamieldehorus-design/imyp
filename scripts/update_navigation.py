@@ -54,23 +54,23 @@ def update(path: Path) -> bool:
 
     # Evita repetir los enlaces informativos si el footer ya tiene otra navegación.
     if 'class="legal-footer-links"' in text:
-        footer_match = re.search(r'<footer\\b[\\s\\S]*?</footer>', text, re.I)
+        footer_match = re.search(r'<footer\b[\s\S]*?</footer>', text, re.I)
         if footer_match:
             footer_text = footer_match.group(0)
             def clean_footer_nav(match):
                 nav = match.group(0)
-                if re.search(r'class=["\\'][^"\\']*\\blegal-footer-links\\b', nav, re.I):
+                if re.search(r'class=["\'][^"\']*\blegal-footer-links\b', nav, re.I):
                     return nav
                 nav = re.sub(
-                    r'<a\\b(?=[^>]*href=["\\']/(?:sobre-nosotros|privacidad)/["\\'])[^>]*>[\\s\\S]*?</a>',
+                    r'<a\b(?=[^>]*href=["\']/(?:sobre-nosotros|privacidad)/["\'])[^>]*>[\s\S]*?</a>',
                     '',
                     nav,
                     flags=re.I,
                 )
-                if not re.search(r'<a\\b', nav, re.I):
+                if not re.search(r'<a\b', nav, re.I):
                     return ''
                 return nav
-            cleaned_footer = re.sub(r'<nav\\b[^>]*>[\\s\\S]*?</nav>', clean_footer_nav, footer_text, flags=re.I)
+            cleaned_footer = re.sub(r'<nav\b[^>]*>[\s\S]*?</nav>', clean_footer_nav, footer_text, flags=re.I)
             text = text[:footer_match.start()] + cleaned_footer + text[footer_match.end():]
 
     if text != original:
