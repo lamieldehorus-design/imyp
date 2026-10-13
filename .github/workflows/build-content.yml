@@ -23,11 +23,13 @@ jobs:
           python-version: "3.12"
       - name: Compilar frases, blog, postales y sitemap
         run: python scripts/build_content.py
+      - name: Añadir enlaces legales en todas las páginas
+        run: python scripts/update_navigation.py
       - name: Guardar archivos generados
         run: |
           git config user.name "imagenesypostales-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/frases.json data/blog.json data/postales.json blog postales sitemap.xml
+          git add -A
           if git diff --cached --quiet; then
             echo "Sin cambios generados"
           else
