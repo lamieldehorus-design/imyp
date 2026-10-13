@@ -130,3 +130,2738 @@ DESCRIPCION: Postal suave para acompañar durante una recuperación.
 CATEGORIA: salud
 ETIQUETAS: salud, recuperación, abrazo
 PLANTILLA: salud-hojas
+
+=== POSTAL ===
+TITULO: Un año nuevo
+FRASE: Quiero dejarte estas palabras: Que este año te regale momentos sinceros, personas que sumen y motivos para sonreír. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un año nuevo para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un año nuevo, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Un año nuevo para compartir
+FRASE: Para este momento, ojalá recuerdes que Que este año te regale momentos sinceros, personas que sumen y motivos para sonreír. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un año nuevo para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un año nuevo, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Deseos propios
+FRASE: Quiero dejarte estas palabras: Ojalá no te falten ganas de ir detrás de lo que de verdad te hace bien. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de deseos propios para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, deseos propios, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Deseos propios para compartir
+FRASE: Para este momento, ojalá recuerdes que Ojalá no te falten ganas de ir detrás de lo que de verdad te hace bien. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de deseos propios para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, deseos propios, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Pequeñas alegrías
+FRASE: Quiero dejarte estas palabras: Que las cosas simples de hoy se conviertan en recuerdos hermosos mañana. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de pequeñas alegrías para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, pequeñas alegrías, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Pequeñas alegrías para compartir
+FRASE: Para este momento, ojalá recuerdes que Que las cosas simples de hoy se conviertan en recuerdos hermosos mañana. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de pequeñas alegrías para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, pequeñas alegrías, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Celebrar la vida
+FRASE: Quiero dejarte estas palabras: Hoy vale la pena celebrar tu historia, tus aprendizajes y todo lo que todavía viene. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de celebrar la vida para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, celebrar la vida, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Celebrar la vida para compartir
+FRASE: Para este momento, ojalá recuerdes que Hoy vale la pena celebrar tu historia, tus aprendizajes y todo lo que todavía viene. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de celebrar la vida para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, celebrar la vida, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Nuevos comienzos
+FRASE: Quiero dejarte estas palabras: Que esta vuelta al sol abra puertas a experiencias que te entusiasmen. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de nuevos comienzos para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, nuevos comienzos, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Nuevos comienzos para compartir
+FRASE: Para este momento, ojalá recuerdes que Que esta vuelta al sol abra puertas a experiencias que te entusiasmen. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de nuevos comienzos para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, nuevos comienzos, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Amistades que acompañan
+FRASE: Quiero dejarte estas palabras: Que estés rodeado de gente con la que puedas reírte sin mirar el reloj. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de amistades que acompañan para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, amistades que acompañan, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Amistades que acompañan para compartir
+FRASE: Para este momento, ojalá recuerdes que Que estés rodeado de gente con la que puedas reírte sin mirar el reloj. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de amistades que acompañan para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, amistades que acompañan, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Un deseo especial
+FRASE: Quiero dejarte estas palabras: Te deseo salud, tranquilidad y razones cotidianas para sentirte agradecido. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un deseo especial para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un deseo especial, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Un deseo especial para compartir
+FRASE: Para este momento, ojalá recuerdes que Te deseo salud, tranquilidad y razones cotidianas para sentirte agradecido. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un deseo especial para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un deseo especial, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Sorpresas bonitas
+FRASE: Quiero dejarte estas palabras: Que la vida te encuentre preparado para recibir algo bueno e inesperado. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de sorpresas bonitas para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, sorpresas bonitas, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Sorpresas bonitas para compartir
+FRASE: Para este momento, ojalá recuerdes que Que la vida te encuentre preparado para recibir algo bueno e inesperado. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de sorpresas bonitas para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, sorpresas bonitas, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Metas personales
+FRASE: Quiero dejarte estas palabras: Que avances a tu ritmo hacia eso que hace tiempo querés lograr. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de metas personales para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, metas personales, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Metas personales para compartir
+FRASE: Para este momento, ojalá recuerdes que Que avances a tu ritmo hacia eso que hace tiempo querés lograr. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de metas personales para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, metas personales, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Un día inolvidable
+FRASE: Quiero dejarte estas palabras: Que hoy te abracen fuerte y te recuerden cuánto importás. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un día inolvidable para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un día inolvidable, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Un día inolvidable para compartir
+FRASE: Para este momento, ojalá recuerdes que Que hoy te abracen fuerte y te recuerden cuánto importás. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un día inolvidable para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un día inolvidable, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Alegría compartida
+FRASE: Quiero dejarte estas palabras: Los mejores festejos son los que se llenan de cariño y buenos recuerdos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de alegría compartida para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, alegría compartida, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Alegría compartida para compartir
+FRASE: Para este momento, ojalá recuerdes que Los mejores festejos son los que se llenan de cariño y buenos recuerdos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de alegría compartida para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, alegría compartida, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Un año con calma
+FRASE: Quiero dejarte estas palabras: Que también haya descanso, paz y tiempo para disfrutar lo conseguido. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un año con calma para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un año con calma, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Un año con calma para compartir
+FRASE: Para este momento, ojalá recuerdes que Que también haya descanso, paz y tiempo para disfrutar lo conseguido. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un año con calma para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un año con calma, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Aventuras nuevas
+FRASE: Quiero dejarte estas palabras: Que te animes a probar algo distinto y descubras una alegría inesperada. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de aventuras nuevas para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, aventuras nuevas, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Aventuras nuevas para compartir
+FRASE: Para este momento, ojalá recuerdes que Que te animes a probar algo distinto y descubras una alegría inesperada. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de aventuras nuevas para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, aventuras nuevas, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Orgullo del camino
+FRASE: Quiero dejarte estas palabras: Que puedas mirar lo recorrido con orgullo y seguir con ilusión. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de orgullo del camino para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, orgullo del camino, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Orgullo del camino para compartir
+FRASE: Para este momento, ojalá recuerdes que Que puedas mirar lo recorrido con orgullo y seguir con ilusión. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de orgullo del camino para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, orgullo del camino, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Momentos en familia
+FRASE: Quiero dejarte estas palabras: Que hoy tengas cerca a quienes convierten cualquier lugar en hogar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de momentos en familia para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, momentos en familia, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Momentos en familia para compartir
+FRASE: Para este momento, ojalá recuerdes que Que hoy tengas cerca a quienes convierten cualquier lugar en hogar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de momentos en familia para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, momentos en familia, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Risas de verdad
+FRASE: Quiero dejarte estas palabras: Que nunca falten una buena charla, una risa espontánea y un abrazo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de risas de verdad para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, risas de verdad, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Risas de verdad para compartir
+FRASE: Para este momento, ojalá recuerdes que Que nunca falten una buena charla, una risa espontánea y un abrazo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de risas de verdad para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, risas de verdad, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Un regalo para vos
+FRASE: Quiero dejarte estas palabras: Que te regales tiempo para hacer aquello que te devuelve la energía. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un regalo para vos para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un regalo para vos, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Un regalo para vos para compartir
+FRASE: Para este momento, ojalá recuerdes que Que te regales tiempo para hacer aquello que te devuelve la energía. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un regalo para vos para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un regalo para vos, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Buenas noticias
+FRASE: Quiero dejarte estas palabras: Que este nuevo capítulo venga acompañado de oportunidades y buenas noticias. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de buenas noticias para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, buenas noticias, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Buenas noticias para compartir
+FRASE: Para este momento, ojalá recuerdes que Que este nuevo capítulo venga acompañado de oportunidades y buenas noticias. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de buenas noticias para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, buenas noticias, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Un brindis por vos
+FRASE: Quiero dejarte estas palabras: Por lo que aprendiste, lo que superaste y lo lindo que todavía falta vivir. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un brindis por vos para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un brindis por vos, postal para compartir
+PLANTILLA: cumple-confeti
+
+
+=== POSTAL ===
+TITULO: Un brindis por vos para compartir
+FRASE: Para este momento, ojalá recuerdes que Por lo que aprendiste, lo que superaste y lo lindo que todavía falta vivir. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un brindis por vos para personalizar, descargar y compartir.
+CATEGORIA: cumpleanos
+ETIQUETAS: cumpleaños, un brindis por vos, postal para compartir
+PLANTILLA: cumple-velas
+
+
+=== POSTAL ===
+TITULO: Elegirse cada día
+FRASE: Quiero dejarte estas palabras: Amar también es volver a elegirse en los días comunes, sin grandes discursos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de elegirse cada día para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, elegirse cada día, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Elegirse cada día para compartir
+FRASE: Para este momento, ojalá recuerdes que Amar también es volver a elegirse en los días comunes, sin grandes discursos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de elegirse cada día para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, elegirse cada día, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: La calma compartida
+FRASE: Quiero dejarte estas palabras: Qué suerte encontrar a alguien con quien la tranquilidad también se siente especial. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la calma compartida para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la calma compartida, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: La calma compartida para compartir
+FRASE: Para este momento, ojalá recuerdes que Qué suerte encontrar a alguien con quien la tranquilidad también se siente especial. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la calma compartida para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la calma compartida, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: La distancia
+FRASE: Quiero dejarte estas palabras: Hay afectos que cruzan kilómetros y siguen encontrando la forma de estar cerca. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la distancia para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la distancia, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: La distancia para compartir
+FRASE: Para este momento, ojalá recuerdes que Hay afectos que cruzan kilómetros y siguen encontrando la forma de estar cerca. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la distancia para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la distancia, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: Los detalles
+FRASE: Quiero dejarte estas palabras: A veces el amor aparece en un mensaje oportuno, una mirada y un gesto pequeño. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los detalles para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, los detalles, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: Los detalles para compartir
+FRASE: Para este momento, ojalá recuerdes que A veces el amor aparece en un mensaje oportuno, una mirada y un gesto pequeño. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los detalles para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, los detalles, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Ser equipo
+FRASE: Quiero dejarte estas palabras: No se trata de pensar igual, sino de cuidarse mientras aprenden a caminar juntos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de ser equipo para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, ser equipo, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Ser equipo para compartir
+FRASE: Para este momento, ojalá recuerdes que No se trata de pensar igual, sino de cuidarse mientras aprenden a caminar juntos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de ser equipo para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, ser equipo, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: La confianza
+FRASE: Quiero dejarte estas palabras: El cariño crece donde hay honestidad, respeto y espacio para ser uno mismo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la confianza para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la confianza, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: La confianza para compartir
+FRASE: Para este momento, ojalá recuerdes que El cariño crece donde hay honestidad, respeto y espacio para ser uno mismo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la confianza para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la confianza, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Un abrazo esperado
+FRASE: Quiero dejarte estas palabras: Hay abrazos que acomodan el día sin necesitar una sola explicación. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un abrazo esperado para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, un abrazo esperado, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Un abrazo esperado para compartir
+FRASE: Para este momento, ojalá recuerdes que Hay abrazos que acomodan el día sin necesitar una sola explicación. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un abrazo esperado para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, un abrazo esperado, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: El tiempo juntos
+FRASE: Quiero dejarte estas palabras: No necesito un plan extraordinario si puedo compartir con vos lo cotidiano. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de el tiempo juntos para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, el tiempo juntos, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: El tiempo juntos para compartir
+FRASE: Para este momento, ojalá recuerdes que No necesito un plan extraordinario si puedo compartir con vos lo cotidiano. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de el tiempo juntos para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, el tiempo juntos, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: La complicidad
+FRASE: Quiero dejarte estas palabras: Qué lindo entenderse con una mirada y reírse de cosas que nadie más comprende. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la complicidad para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la complicidad, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: La complicidad para compartir
+FRASE: Para este momento, ojalá recuerdes que Qué lindo entenderse con una mirada y reírse de cosas que nadie más comprende. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la complicidad para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la complicidad, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: El amor tranquilo
+FRASE: Quiero dejarte estas palabras: El amor también puede sentirse como paz, seguridad y libertad para hablar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de el amor tranquilo para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, el amor tranquilo, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: El amor tranquilo para compartir
+FRASE: Para este momento, ojalá recuerdes que El amor también puede sentirse como paz, seguridad y libertad para hablar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de el amor tranquilo para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, el amor tranquilo, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Cuidar el vínculo
+FRASE: Quiero dejarte estas palabras: Los vínculos lindos se construyen escuchando, conversando y cuidando los detalles. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de cuidar el vínculo para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, cuidar el vínculo, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Cuidar el vínculo para compartir
+FRASE: Para este momento, ojalá recuerdes que Los vínculos lindos se construyen escuchando, conversando y cuidando los detalles. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de cuidar el vínculo para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, cuidar el vínculo, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: La ternura
+FRASE: Quiero dejarte estas palabras: Que nunca nos dé vergüenza demostrar cariño con palabras sencillas. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la ternura para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la ternura, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: La ternura para compartir
+FRASE: Para este momento, ojalá recuerdes que Que nunca nos dé vergüenza demostrar cariño con palabras sencillas. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la ternura para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la ternura, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Extrañar
+FRASE: Quiero dejarte estas palabras: Te extraño en esos momentos pequeños en los que me gustaría contarte algo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de extrañar para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, extrañar, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Extrañar para compartir
+FRASE: Para este momento, ojalá recuerdes que Te extraño en esos momentos pequeños en los que me gustaría contarte algo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de extrañar para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, extrañar, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: El futuro
+FRASE: Quiero dejarte estas palabras: Me ilusiona todo lo que podemos descubrir si seguimos avanzando con respeto. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de el futuro para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, el futuro, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: El futuro para compartir
+FRASE: Para este momento, ojalá recuerdes que Me ilusiona todo lo que podemos descubrir si seguimos avanzando con respeto. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de el futuro para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, el futuro, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: La aceptación
+FRASE: Quiero dejarte estas palabras: Querer a alguien también es conocer sus imperfecciones sin dejar de cuidar los límites. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la aceptación para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la aceptación, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: La aceptación para compartir
+FRASE: Para este momento, ojalá recuerdes que Querer a alguien también es conocer sus imperfecciones sin dejar de cuidar los límites. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la aceptación para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la aceptación, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: La presencia
+FRASE: Quiero dejarte estas palabras: Estar de verdad vale más que prometer estar en todos lados. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la presencia para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la presencia, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: La presencia para compartir
+FRASE: Para este momento, ojalá recuerdes que Estar de verdad vale más que prometer estar en todos lados. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la presencia para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, la presencia, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Las palabras justas
+FRASE: Quiero dejarte estas palabras: A veces alcanza con decir: estoy acá, te escucho y me importás. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de las palabras justas para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, las palabras justas, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Las palabras justas para compartir
+FRASE: Para este momento, ojalá recuerdes que A veces alcanza con decir: estoy acá, te escucho y me importás. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de las palabras justas para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, las palabras justas, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: El romance cotidiano
+FRASE: Quiero dejarte estas palabras: El romance vive también en preparar un mate, preguntar cómo estuvo el día y quedarse. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de el romance cotidiano para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, el romance cotidiano, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: El romance cotidiano para compartir
+FRASE: Para este momento, ojalá recuerdes que El romance vive también en preparar un mate, preguntar cómo estuvo el día y quedarse. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de el romance cotidiano para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, el romance cotidiano, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Un cariño sincero
+FRASE: Quiero dejarte estas palabras: Que lo nuestro siempre tenga lugar para la confianza, la risa y la calma. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un cariño sincero para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, un cariño sincero, postal para compartir
+PLANTILLA: amor-corazones
+
+
+=== POSTAL ===
+TITULO: Un cariño sincero para compartir
+FRASE: Para este momento, ojalá recuerdes que Que lo nuestro siempre tenga lugar para la confianza, la risa y la calma. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un cariño sincero para personalizar, descargar y compartir.
+CATEGORIA: amor
+ETIQUETAS: amor, un cariño sincero, postal para compartir
+PLANTILLA: amor-luna
+
+
+=== POSTAL ===
+TITULO: Estar sin pedir nada
+FRASE: Quiero dejarte estas palabras: Gracias por aparecer sin que tenga que encontrar las palabras perfectas para pedir ayuda. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de estar sin pedir nada para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, estar sin pedir nada, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Estar sin pedir nada para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por aparecer sin que tenga que encontrar las palabras perfectas para pedir ayuda. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de estar sin pedir nada para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, estar sin pedir nada, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Las risas compartidas
+FRASE: Quiero dejarte estas palabras: Con vos hasta una anécdota mínima termina convertida en un recuerdo buenísimo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de las risas compartidas para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, las risas compartidas, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Las risas compartidas para compartir
+FRASE: Para este momento, ojalá recuerdes que Con vos hasta una anécdota mínima termina convertida en un recuerdo buenísimo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de las risas compartidas para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, las risas compartidas, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: La amistad a distancia
+FRASE: Quiero dejarte estas palabras: Aunque no nos veamos seguido, hay amistades que no pierden su lugar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la amistad a distancia para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la amistad a distancia, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: La amistad a distancia para compartir
+FRASE: Para este momento, ojalá recuerdes que Aunque no nos veamos seguido, hay amistades que no pierden su lugar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la amistad a distancia para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la amistad a distancia, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: La confianza
+FRASE: Quiero dejarte estas palabras: Qué alivio tener a alguien con quien se puede hablar sin fingir que todo está bien. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la confianza para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la confianza, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: La confianza para compartir
+FRASE: Para este momento, ojalá recuerdes que Qué alivio tener a alguien con quien se puede hablar sin fingir que todo está bien. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la confianza para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la confianza, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Los años compartidos
+FRASE: Quiero dejarte estas palabras: El tiempo pasa, cambian muchas cosas y algunas amistades siguen siendo refugio. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los años compartidos para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los años compartidos, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Los años compartidos para compartir
+FRASE: Para este momento, ojalá recuerdes que El tiempo pasa, cambian muchas cosas y algunas amistades siguen siendo refugio. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los años compartidos para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los años compartidos, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Los consejos sinceros
+FRASE: Quiero dejarte estas palabras: Gracias por decirme la verdad con cariño, incluso cuando necesito escucharla. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los consejos sinceros para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los consejos sinceros, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Los consejos sinceros para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por decirme la verdad con cariño, incluso cuando necesito escucharla. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los consejos sinceros para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los consejos sinceros, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Los planes simples
+FRASE: Quiero dejarte estas palabras: No hace falta organizar demasiado: una charla y un rato juntos ya valen. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los planes simples para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los planes simples, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Los planes simples para compartir
+FRASE: Para este momento, ojalá recuerdes que No hace falta organizar demasiado: una charla y un rato juntos ya valen. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los planes simples para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los planes simples, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Acompañar en silencio
+FRASE: Quiero dejarte estas palabras: Gracias por entender que a veces acompañar es quedarse cerca sin apurar nada. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de acompañar en silencio para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, acompañar en silencio, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Acompañar en silencio para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por entender que a veces acompañar es quedarse cerca sin apurar nada. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de acompañar en silencio para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, acompañar en silencio, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Celebrar al otro
+FRASE: Quiero dejarte estas palabras: Me alegra verte crecer y encontrar motivos para sentirte orgulloso de vos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de celebrar al otro para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, celebrar al otro, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Celebrar al otro para compartir
+FRASE: Para este momento, ojalá recuerdes que Me alegra verte crecer y encontrar motivos para sentirte orgulloso de vos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de celebrar al otro para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, celebrar al otro, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: La amistad espontánea
+FRASE: Quiero dejarte estas palabras: Hay personas que llegan sin hacer ruido y terminan siendo parte importante de la vida. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la amistad espontánea para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la amistad espontánea, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: La amistad espontánea para compartir
+FRASE: Para este momento, ojalá recuerdes que Hay personas que llegan sin hacer ruido y terminan siendo parte importante de la vida. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la amistad espontánea para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la amistad espontánea, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Los mensajes inesperados
+FRASE: Quiero dejarte estas palabras: Un mensaje tuyo puede mejorar un día que venía bastante torcido. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los mensajes inesperados para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los mensajes inesperados, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Los mensajes inesperados para compartir
+FRASE: Para este momento, ojalá recuerdes que Un mensaje tuyo puede mejorar un día que venía bastante torcido. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los mensajes inesperados para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los mensajes inesperados, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: La lealtad
+FRASE: Quiero dejarte estas palabras: Valoro esa amistad que se sostiene con respeto, sinceridad y presencia real. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la lealtad para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la lealtad, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: La lealtad para compartir
+FRASE: Para este momento, ojalá recuerdes que Valoro esa amistad que se sostiene con respeto, sinceridad y presencia real. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la lealtad para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la lealtad, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Volver a encontrarse
+FRASE: Quiero dejarte estas palabras: Con algunas personas alcanza retomar la charla donde la dejamos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de volver a encontrarse para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, volver a encontrarse, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Volver a encontrarse para compartir
+FRASE: Para este momento, ojalá recuerdes que Con algunas personas alcanza retomar la charla donde la dejamos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de volver a encontrarse para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, volver a encontrarse, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Ser uno mismo
+FRASE: Quiero dejarte estas palabras: Gracias por hacerme sentir que puedo ser yo, con mis días buenos y los otros. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de ser uno mismo para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, ser uno mismo, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Ser uno mismo para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por hacerme sentir que puedo ser yo, con mis días buenos y los otros. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de ser uno mismo para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, ser uno mismo, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Los recuerdos
+FRASE: Quiero dejarte estas palabras: Tenemos historias que todavía me hacen reír cada vez que vuelven a la memoria. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los recuerdos para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los recuerdos, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Los recuerdos para compartir
+FRASE: Para este momento, ojalá recuerdes que Tenemos historias que todavía me hacen reír cada vez que vuelven a la memoria. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los recuerdos para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, los recuerdos, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: La gratitud
+FRASE: Quiero dejarte estas palabras: Qué suerte cruzarse con alguien que suma sin competir ni querer cambiarte. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la gratitud para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la gratitud, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: La gratitud para compartir
+FRASE: Para este momento, ojalá recuerdes que Qué suerte cruzarse con alguien que suma sin competir ni querer cambiarte. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la gratitud para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la gratitud, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: La compañía
+FRASE: Quiero dejarte estas palabras: Gracias por compartir tanto los festejos como los días sin nada especial. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la compañía para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la compañía, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: La compañía para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por compartir tanto los festejos como los días sin nada especial. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la compañía para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, la compañía, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Una amistad elegida
+FRASE: Quiero dejarte estas palabras: La familia también puede aparecer en forma de amistad elegida y cuidada. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de una amistad elegida para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, una amistad elegida, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Una amistad elegida para compartir
+FRASE: Para este momento, ojalá recuerdes que La familia también puede aparecer en forma de amistad elegida y cuidada. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de una amistad elegida para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, una amistad elegida, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Seguir en contacto
+FRASE: Quiero dejarte estas palabras: Aunque la rutina nos corra, me gustaría que siempre encontremos un ratito para hablar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de seguir en contacto para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, seguir en contacto, postal para compartir
+PLANTILLA: amistad-cintas
+
+
+=== POSTAL ===
+TITULO: Seguir en contacto para compartir
+FRASE: Para este momento, ojalá recuerdes que Aunque la rutina nos corra, me gustaría que siempre encontremos un ratito para hablar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de seguir en contacto para personalizar, descargar y compartir.
+CATEGORIA: amistad
+ETIQUETAS: amistad, seguir en contacto, postal para compartir
+PLANTILLA: amistad-estrellas
+
+
+=== POSTAL ===
+TITULO: Sentirse en casa
+FRASE: Quiero dejarte estas palabras: Hogar es ese lugar donde puedo llegar como soy y respirar un poco más tranquilo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de sentirse en casa para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, sentirse en casa, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Sentirse en casa para compartir
+FRASE: Para este momento, ojalá recuerdes que Hogar es ese lugar donde puedo llegar como soy y respirar un poco más tranquilo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de sentirse en casa para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, sentirse en casa, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: El cariño de mamá
+FRASE: Quiero dejarte estas palabras: Gracias por tantas formas de cuidar que muchas veces entendí con el tiempo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de el cariño de mamá para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, el cariño de mamá, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: El cariño de mamá para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por tantas formas de cuidar que muchas veces entendí con el tiempo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de el cariño de mamá para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, el cariño de mamá, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: La presencia de papá
+FRASE: Quiero dejarte estas palabras: Valoro los gestos, las enseñanzas y los momentos que construyeron nuestra historia. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la presencia de papá para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, la presencia de papá, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: La presencia de papá para compartir
+FRASE: Para este momento, ojalá recuerdes que Valoro los gestos, las enseñanzas y los momentos que construyeron nuestra historia. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la presencia de papá para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, la presencia de papá, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Los hermanos
+FRASE: Quiero dejarte estas palabras: Podemos discutir por mil cosas y aun así compartir recuerdos que nadie más entiende. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los hermanos para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, los hermanos, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Los hermanos para compartir
+FRASE: Para este momento, ojalá recuerdes que Podemos discutir por mil cosas y aun así compartir recuerdos que nadie más entiende. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los hermanos para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, los hermanos, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Los abuelos
+FRASE: Quiero dejarte estas palabras: Hay historias y abrazos de los abuelos que uno guarda para toda la vida. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los abuelos para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, los abuelos, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Los abuelos para compartir
+FRASE: Para este momento, ojalá recuerdes que Hay historias y abrazos de los abuelos que uno guarda para toda la vida. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los abuelos para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, los abuelos, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: La familia elegida
+FRASE: Quiero dejarte estas palabras: Familia también es quien cuida, escucha y permanece con cariño sincero. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la familia elegida para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, la familia elegida, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: La familia elegida para compartir
+FRASE: Para este momento, ojalá recuerdes que Familia también es quien cuida, escucha y permanece con cariño sincero. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la familia elegida para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, la familia elegida, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Agradecer lo cotidiano
+FRASE: Quiero dejarte estas palabras: Gracias por las comidas compartidas, las preguntas simples y el apoyo de siempre. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de agradecer lo cotidiano para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, agradecer lo cotidiano, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Agradecer lo cotidiano para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por las comidas compartidas, las preguntas simples y el apoyo de siempre. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de agradecer lo cotidiano para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, agradecer lo cotidiano, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Reunirse de nuevo
+FRASE: Quiero dejarte estas palabras: Ojalá encontremos pronto un momento para sentarnos, conversar y ponernos al día. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de reunirse de nuevo para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, reunirse de nuevo, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Reunirse de nuevo para compartir
+FRASE: Para este momento, ojalá recuerdes que Ojalá encontremos pronto un momento para sentarnos, conversar y ponernos al día. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de reunirse de nuevo para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, reunirse de nuevo, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: El apoyo familiar
+FRASE: Quiero dejarte estas palabras: Saber que puedo contar con ustedes hace más liviano cualquier camino. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de el apoyo familiar para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, el apoyo familiar, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: El apoyo familiar para compartir
+FRASE: Para este momento, ojalá recuerdes que Saber que puedo contar con ustedes hace más liviano cualquier camino. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de el apoyo familiar para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, el apoyo familiar, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Las diferencias
+FRASE: Quiero dejarte estas palabras: No siempre pensamos igual, pero podemos tratarnos con respeto y aprender a escucharnos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de las diferencias para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, las diferencias, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Las diferencias para compartir
+FRASE: Para este momento, ojalá recuerdes que No siempre pensamos igual, pero podemos tratarnos con respeto y aprender a escucharnos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de las diferencias para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, las diferencias, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Los recuerdos de infancia
+FRASE: Quiero dejarte estas palabras: Hay recuerdos familiares que vuelven con un olor, una canción o una frase conocida. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los recuerdos de infancia para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, los recuerdos de infancia, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Los recuerdos de infancia para compartir
+FRASE: Para este momento, ojalá recuerdes que Hay recuerdos familiares que vuelven con un olor, una canción o una frase conocida. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los recuerdos de infancia para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, los recuerdos de infancia, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Cuidarnos mutuamente
+FRASE: Quiero dejarte estas palabras: Que nunca falten la paciencia, la conversación y las ganas de cuidarnos mejor. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de cuidarnos mutuamente para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, cuidarnos mutuamente, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Cuidarnos mutuamente para compartir
+FRASE: Para este momento, ojalá recuerdes que Que nunca falten la paciencia, la conversación y las ganas de cuidarnos mejor. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de cuidarnos mutuamente para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, cuidarnos mutuamente, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Los pequeños rituales
+FRASE: Quiero dejarte estas palabras: Las costumbres más sencillas terminan siendo algunas de las memorias más queridas. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de los pequeños rituales para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, los pequeños rituales, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Los pequeños rituales para compartir
+FRASE: Para este momento, ojalá recuerdes que Las costumbres más sencillas terminan siendo algunas de las memorias más queridas. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de los pequeños rituales para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, los pequeños rituales, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Un abrazo familiar
+FRASE: Quiero dejarte estas palabras: A veces un abrazo de casa dice lo que no sabemos explicar con palabras. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un abrazo familiar para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, un abrazo familiar, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Un abrazo familiar para compartir
+FRASE: Para este momento, ojalá recuerdes que A veces un abrazo de casa dice lo que no sabemos explicar con palabras. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un abrazo familiar para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, un abrazo familiar, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: La distancia familiar
+FRASE: Quiero dejarte estas palabras: Aunque estemos lejos, el cariño encuentra formas de hacerse presente. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la distancia familiar para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, la distancia familiar, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: La distancia familiar para compartir
+FRASE: Para este momento, ojalá recuerdes que Aunque estemos lejos, el cariño encuentra formas de hacerse presente. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la distancia familiar para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, la distancia familiar, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Agradecer la compañía
+FRASE: Quiero dejarte estas palabras: Gracias por compartir conmigo días importantes y también días completamente normales. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de agradecer la compañía para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, agradecer la compañía, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Agradecer la compañía para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por compartir conmigo días importantes y también días completamente normales. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de agradecer la compañía para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, agradecer la compañía, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: El orgullo
+FRASE: Quiero dejarte estas palabras: Me alegra ver lo que cada uno va construyendo con su propio esfuerzo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de el orgullo para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, el orgullo, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: El orgullo para compartir
+FRASE: Para este momento, ojalá recuerdes que Me alegra ver lo que cada uno va construyendo con su propio esfuerzo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de el orgullo para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, el orgullo, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: La mesa compartida
+FRASE: Quiero dejarte estas palabras: Que siempre haya lugar para una charla, algo rico y una silla más en la mesa. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la mesa compartida para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, la mesa compartida, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: La mesa compartida para compartir
+FRASE: Para este momento, ojalá recuerdes que Que siempre haya lugar para una charla, algo rico y una silla más en la mesa. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la mesa compartida para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, la mesa compartida, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Un mensaje de cariño
+FRASE: Quiero dejarte estas palabras: Quería recordarte que sos importante para mí y que me alegra tenerte en mi vida. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un mensaje de cariño para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, un mensaje de cariño, postal para compartir
+PLANTILLA: familia-hogar
+
+
+=== POSTAL ===
+TITULO: Un mensaje de cariño para compartir
+FRASE: Para este momento, ojalá recuerdes que Quería recordarte que sos importante para mí y que me alegra tenerte en mi vida. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un mensaje de cariño para personalizar, descargar y compartir.
+CATEGORIA: familia
+ETIQUETAS: familia, un mensaje de cariño, postal para compartir
+PLANTILLA: familia-marco
+
+
+=== POSTAL ===
+TITULO: Empezar sin apuro
+FRASE: Quiero dejarte estas palabras: Que puedas empezar el día con calma y elegir una cosa a la vez. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de empezar sin apuro para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, empezar sin apuro, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Empezar sin apuro para compartir
+FRASE: Para este momento, ojalá recuerdes que Que puedas empezar el día con calma y elegir una cosa a la vez. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de empezar sin apuro para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, empezar sin apuro, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Un café y una pausa
+FRASE: Quiero dejarte estas palabras: Que el café esté rico, las noticias sean buenas y el día te trate con amabilidad. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un café y una pausa para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un café y una pausa, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Un café y una pausa para compartir
+FRASE: Para este momento, ojalá recuerdes que Que el café esté rico, las noticias sean buenas y el día te trate con amabilidad. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un café y una pausa para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un café y una pausa, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Una oportunidad nueva
+FRASE: Quiero dejarte estas palabras: Hoy no hace falta hacerlo todo perfecto; alcanza con dar el primer paso. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de una oportunidad nueva para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, una oportunidad nueva, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Una oportunidad nueva para compartir
+FRASE: Para este momento, ojalá recuerdes que Hoy no hace falta hacerlo todo perfecto; alcanza con dar el primer paso. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de una oportunidad nueva para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, una oportunidad nueva, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: La luz de la mañana
+FRASE: Quiero dejarte estas palabras: Que la luz de esta mañana te recuerde que todavía hay cosas lindas por descubrir. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de la luz de la mañana para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, la luz de la mañana, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: La luz de la mañana para compartir
+FRASE: Para este momento, ojalá recuerdes que Que la luz de esta mañana te recuerde que todavía hay cosas lindas por descubrir. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de la luz de la mañana para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, la luz de la mañana, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Un mensaje temprano
+FRASE: Quiero dejarte estas palabras: Paso a desearte un buen día y a recordarte que me acordé de vos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un mensaje temprano para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un mensaje temprano, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Un mensaje temprano para compartir
+FRASE: Para este momento, ojalá recuerdes que Paso a desearte un buen día y a recordarte que me acordé de vos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un mensaje temprano para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un mensaje temprano, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Pequeñas victorias
+FRASE: Quiero dejarte estas palabras: Ojalá hoy encuentres una pequeña razón para sentir que avanzaste. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de pequeñas victorias para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, pequeñas victorias, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Pequeñas victorias para compartir
+FRASE: Para este momento, ojalá recuerdes que Ojalá hoy encuentres una pequeña razón para sentir que avanzaste. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de pequeñas victorias para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, pequeñas victorias, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Buena energía
+FRASE: Quiero dejarte estas palabras: Que te acompañen la paciencia, el humor y la energía que necesitás para hoy. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de buena energía para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, buena energía, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Buena energía para compartir
+FRASE: Para este momento, ojalá recuerdes que Que te acompañen la paciencia, el humor y la energía que necesitás para hoy. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de buena energía para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, buena energía, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Un día amable
+FRASE: Quiero dejarte estas palabras: Que encuentres gente amable y momentos que te saquen una sonrisa. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un día amable para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un día amable, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Un día amable para compartir
+FRASE: Para este momento, ojalá recuerdes que Que encuentres gente amable y momentos que te saquen una sonrisa. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un día amable para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un día amable, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Lunes con esperanza
+FRASE: Quiero dejarte estas palabras: Que esta semana empiece con objetivos posibles y espacio para respirar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de lunes con esperanza para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, lunes con esperanza, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Lunes con esperanza para compartir
+FRASE: Para este momento, ojalá recuerdes que Que esta semana empiece con objetivos posibles y espacio para respirar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de lunes con esperanza para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, lunes con esperanza, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Martes con impulso
+FRASE: Quiero dejarte estas palabras: Que hoy puedas retomar eso que venías dejando para después. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de martes con impulso para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, martes con impulso, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Martes con impulso para compartir
+FRASE: Para este momento, ojalá recuerdes que Que hoy puedas retomar eso que venías dejando para después. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de martes con impulso para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, martes con impulso, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Mitad de semana
+FRASE: Quiero dejarte estas palabras: Ya llegaste hasta acá; seguí a tu ritmo y reconocé todo lo que estás haciendo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de mitad de semana para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, mitad de semana, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Mitad de semana para compartir
+FRASE: Para este momento, ojalá recuerdes que Ya llegaste hasta acá; seguí a tu ritmo y reconocé todo lo que estás haciendo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de mitad de semana para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, mitad de semana, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Un jueves liviano
+FRASE: Quiero dejarte estas palabras: Que lo pendiente se ordene y que también quede tiempo para vos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un jueves liviano para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un jueves liviano, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Un jueves liviano para compartir
+FRASE: Para este momento, ojalá recuerdes que Que lo pendiente se ordene y que también quede tiempo para vos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un jueves liviano para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un jueves liviano, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Viernes con alegría
+FRASE: Quiero dejarte estas palabras: Que el día cierre con una buena noticia y la sensación de haber hecho suficiente. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de viernes con alegría para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, viernes con alegría, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Viernes con alegría para compartir
+FRASE: Para este momento, ojalá recuerdes que Que el día cierre con una buena noticia y la sensación de haber hecho suficiente. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de viernes con alegría para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, viernes con alegría, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Sábado para disfrutar
+FRASE: Quiero dejarte estas palabras: Que hoy haya tiempo para descansar, salir o simplemente hacer nada. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de sábado para disfrutar para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, sábado para disfrutar, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Sábado para disfrutar para compartir
+FRASE: Para este momento, ojalá recuerdes que Que hoy haya tiempo para descansar, salir o simplemente hacer nada. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de sábado para disfrutar para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, sábado para disfrutar, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Domingo tranquilo
+FRASE: Quiero dejarte estas palabras: Que el domingo te regale pausa, compañía y un poquito de aire nuevo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de domingo tranquilo para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, domingo tranquilo, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Domingo tranquilo para compartir
+FRASE: Para este momento, ojalá recuerdes que Que el domingo te regale pausa, compañía y un poquito de aire nuevo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de domingo tranquilo para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, domingo tranquilo, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Despertar agradecido
+FRASE: Quiero dejarte estas palabras: Que algo simple de esta mañana te recuerde que vale la pena estar presente. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de despertar agradecido para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, despertar agradecido, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Despertar agradecido para compartir
+FRASE: Para este momento, ojalá recuerdes que Que algo simple de esta mañana te recuerde que vale la pena estar presente. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de despertar agradecido para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, despertar agradecido, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Un comienzo posible
+FRASE: Quiero dejarte estas palabras: No necesitás tener todo resuelto para comenzar este día con buena disposición. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un comienzo posible para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un comienzo posible, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Un comienzo posible para compartir
+FRASE: Para este momento, ojalá recuerdes que No necesitás tener todo resuelto para comenzar este día con buena disposición. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un comienzo posible para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, un comienzo posible, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Saludo con cariño
+FRASE: Quiero dejarte estas palabras: Te mando un saludo enorme para que arranques la mañana sintiéndote acompañado. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de saludo con cariño para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, saludo con cariño, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Saludo con cariño para compartir
+FRASE: Para este momento, ojalá recuerdes que Te mando un saludo enorme para que arranques la mañana sintiéndote acompañado. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de saludo con cariño para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, saludo con cariño, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Una sonrisa a tiempo
+FRASE: Quiero dejarte estas palabras: Ojalá hoy aparezca esa pequeña sorpresa capaz de cambiarte el ánimo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de una sonrisa a tiempo para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, una sonrisa a tiempo, postal para compartir
+PLANTILLA: buenos-dias-sol
+
+
+=== POSTAL ===
+TITULO: Una sonrisa a tiempo para compartir
+FRASE: Para este momento, ojalá recuerdes que Ojalá hoy aparezca esa pequeña sorpresa capaz de cambiarte el ánimo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de una sonrisa a tiempo para personalizar, descargar y compartir.
+CATEGORIA: buenos-dias
+ETIQUETAS: buenos días, una sonrisa a tiempo, postal para compartir
+PLANTILLA: buenos-dias-cafe
+
+
+=== POSTAL ===
+TITULO: Buen camino
+FRASE: Quiero dejarte estas palabras: Que el camino sea seguro, las paradas agradables y los recuerdos inolvidables. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de buen camino para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, buen camino, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Buen camino para compartir
+FRASE: Para este momento, ojalá recuerdes que Que el camino sea seguro, las paradas agradables y los recuerdos inolvidables. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de buen camino para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, buen camino, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Vacaciones merecidas
+FRASE: Quiero dejarte estas palabras: Que puedas desconectar de las obligaciones y volver con la cabeza más liviana. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de vacaciones merecidas para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, vacaciones merecidas, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Vacaciones merecidas para compartir
+FRASE: Para este momento, ojalá recuerdes que Que puedas desconectar de las obligaciones y volver con la cabeza más liviana. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de vacaciones merecidas para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, vacaciones merecidas, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Nuevos paisajes
+FRASE: Quiero dejarte estas palabras: Que cada paisaje te regale una perspectiva nueva y una historia para contar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de nuevos paisajes para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, nuevos paisajes, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Nuevos paisajes para compartir
+FRASE: Para este momento, ojalá recuerdes que Que cada paisaje te regale una perspectiva nueva y una historia para contar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de nuevos paisajes para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, nuevos paisajes, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Viajar con amigos
+FRASE: Quiero dejarte estas palabras: Que sobren las anécdotas, las fotos espontáneas y las risas en el camino. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de viajar con amigos para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viajar con amigos, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Viajar con amigos para compartir
+FRASE: Para este momento, ojalá recuerdes que Que sobren las anécdotas, las fotos espontáneas y las risas en el camino. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de viajar con amigos para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viajar con amigos, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Viajar en familia
+FRASE: Quiero dejarte estas palabras: Que el viaje nos encuentre compartiendo tiempo y creando recuerdos propios. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de viajar en familia para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viajar en familia, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Viajar en familia para compartir
+FRASE: Para este momento, ojalá recuerdes que Que el viaje nos encuentre compartiendo tiempo y creando recuerdos propios. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de viajar en familia para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viajar en familia, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Una aventura inesperada
+FRASE: Quiero dejarte estas palabras: A veces el mejor recuerdo aparece cuando el plan cambia un poquito. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de una aventura inesperada para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, una aventura inesperada, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Una aventura inesperada para compartir
+FRASE: Para este momento, ojalá recuerdes que A veces el mejor recuerdo aparece cuando el plan cambia un poquito. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de una aventura inesperada para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, una aventura inesperada, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Despedir a alguien
+FRASE: Quiero dejarte estas palabras: Buen viaje; que te cuiden los caminos y te reciban con alegría al llegar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de despedir a alguien para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, despedir a alguien, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Despedir a alguien para compartir
+FRASE: Para este momento, ojalá recuerdes que Buen viaje; que te cuiden los caminos y te reciban con alegría al llegar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de despedir a alguien para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, despedir a alguien, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Volver a casa
+FRASE: Quiero dejarte estas palabras: Que regreses con el corazón lleno y la tranquilidad de volver a tu lugar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de volver a casa para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, volver a casa, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Volver a casa para compartir
+FRASE: Para este momento, ojalá recuerdes que Que regreses con el corazón lleno y la tranquilidad de volver a tu lugar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de volver a casa para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, volver a casa, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Viajar liviano
+FRASE: Quiero dejarte estas palabras: Llevá lo necesario, dejá espacio para sorprenderte y disfrutá el recorrido. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de viajar liviano para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viajar liviano, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Viajar liviano para compartir
+FRASE: Para este momento, ojalá recuerdes que Llevá lo necesario, dejá espacio para sorprenderte y disfrutá el recorrido. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de viajar liviano para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viajar liviano, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Un destino soñado
+FRASE: Quiero dejarte estas palabras: Ojalá ese lugar que imaginaste te regale momentos mejores de lo esperado. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un destino soñado para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, un destino soñado, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Un destino soñado para compartir
+FRASE: Para este momento, ojalá recuerdes que Ojalá ese lugar que imaginaste te regale momentos mejores de lo esperado. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un destino soñado para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, un destino soñado, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Un viaje en pareja
+FRASE: Quiero dejarte estas palabras: Que compartan paisajes nuevos y también esos silencios cómodos del camino. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un viaje en pareja para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, un viaje en pareja, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Un viaje en pareja para compartir
+FRASE: Para este momento, ojalá recuerdes que Que compartan paisajes nuevos y también esos silencios cómodos del camino. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un viaje en pareja para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, un viaje en pareja, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Escapada breve
+FRASE: Quiero dejarte estas palabras: A veces unos días distintos alcanzan para renovar las ganas y cambiar de aire. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de escapada breve para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, escapada breve, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Escapada breve para compartir
+FRASE: Para este momento, ojalá recuerdes que A veces unos días distintos alcanzan para renovar las ganas y cambiar de aire. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de escapada breve para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, escapada breve, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Descubrir una ciudad
+FRASE: Quiero dejarte estas palabras: Que cada calle te invite a mirar con curiosidad y caminar sin tanta prisa. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de descubrir una ciudad para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, descubrir una ciudad, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Descubrir una ciudad para compartir
+FRASE: Para este momento, ojalá recuerdes que Que cada calle te invite a mirar con curiosidad y caminar sin tanta prisa. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de descubrir una ciudad para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, descubrir una ciudad, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Aventura al aire libre
+FRASE: Quiero dejarte estas palabras: Que el paisaje, el aire fresco y el movimiento te hagan bien. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de aventura al aire libre para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, aventura al aire libre, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Aventura al aire libre para compartir
+FRASE: Para este momento, ojalá recuerdes que Que el paisaje, el aire fresco y el movimiento te hagan bien. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de aventura al aire libre para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, aventura al aire libre, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Viaje por carretera
+FRASE: Quiero dejarte estas palabras: Que la ruta tenga buenas paradas, música elegida y conversaciones largas. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de viaje por carretera para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viaje por carretera, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Viaje por carretera para compartir
+FRASE: Para este momento, ojalá recuerdes que Que la ruta tenga buenas paradas, música elegida y conversaciones largas. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de viaje por carretera para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viaje por carretera, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Primer viaje
+FRASE: Quiero dejarte estas palabras: Que esta primera aventura te deje confianza para animarte a conocer más. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de primer viaje para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, primer viaje, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Primer viaje para compartir
+FRASE: Para este momento, ojalá recuerdes que Que esta primera aventura te deje confianza para animarte a conocer más. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de primer viaje para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, primer viaje, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Viajar para descansar
+FRASE: Quiero dejarte estas palabras: Que el descanso sea parte del itinerario y no algo que quede para después. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de viajar para descansar para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viajar para descansar, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Viajar para descansar para compartir
+FRASE: Para este momento, ojalá recuerdes que Que el descanso sea parte del itinerario y no algo que quede para después. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de viajar para descansar para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, viajar para descansar, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Guardar recuerdos
+FRASE: Quiero dejarte estas palabras: Que vuelvas con historias que no entran en una foto y ganas de repetir. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de guardar recuerdos para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, guardar recuerdos, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Guardar recuerdos para compartir
+FRASE: Para este momento, ojalá recuerdes que Que vuelvas con historias que no entran en una foto y ganas de repetir. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de guardar recuerdos para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, guardar recuerdos, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Un viaje seguro
+FRASE: Quiero dejarte estas palabras: Que llegues bien, disfrutes cada etapa y encuentres tranquilidad en el recorrido. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un viaje seguro para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, un viaje seguro, postal para compartir
+PLANTILLA: viaje-ruta
+
+
+=== POSTAL ===
+TITULO: Un viaje seguro para compartir
+FRASE: Para este momento, ojalá recuerdes que Que llegues bien, disfrutes cada etapa y encuentres tranquilidad en el recorrido. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un viaje seguro para personalizar, descargar y compartir.
+CATEGORIA: viajes
+ETIQUETAS: viajes, un viaje seguro, postal para compartir
+PLANTILLA: viaje-maleta
+
+
+=== POSTAL ===
+TITULO: Ir paso a paso
+FRASE: Quiero dejarte estas palabras: No tenés que resolverlo todo hoy; elegí el próximo paso posible. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de ir paso a paso para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, ir paso a paso, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Ir paso a paso para compartir
+FRASE: Para este momento, ojalá recuerdes que No tenés que resolverlo todo hoy; elegí el próximo paso posible. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de ir paso a paso para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, ir paso a paso, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Días difíciles
+FRASE: Quiero dejarte estas palabras: Que este día complicado no te haga olvidar todo lo que ya pudiste atravesar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de días difíciles para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, días difíciles, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Días difíciles para compartir
+FRASE: Para este momento, ojalá recuerdes que Que este día complicado no te haga olvidar todo lo que ya pudiste atravesar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de días difíciles para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, días difíciles, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Volver a intentarlo
+FRASE: Quiero dejarte estas palabras: Podés cambiar de estrategia, descansar y volver a probar cuando estés listo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de volver a intentarlo para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, volver a intentarlo, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Volver a intentarlo para compartir
+FRASE: Para este momento, ojalá recuerdes que Podés cambiar de estrategia, descansar y volver a probar cuando estés listo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de volver a intentarlo para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, volver a intentarlo, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Reconocer el esfuerzo
+FRASE: Quiero dejarte estas palabras: Aunque nadie vea todo lo que cuesta, tu esfuerzo también merece reconocimiento. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de reconocer el esfuerzo para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, reconocer el esfuerzo, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Reconocer el esfuerzo para compartir
+FRASE: Para este momento, ojalá recuerdes que Aunque nadie vea todo lo que cuesta, tu esfuerzo también merece reconocimiento. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de reconocer el esfuerzo para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, reconocer el esfuerzo, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Pedir compañía
+FRASE: Quiero dejarte estas palabras: No hace falta cargar con todo en silencio; apoyarte en alguien también es valentía. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de pedir compañía para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, pedir compañía, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Pedir compañía para compartir
+FRASE: Para este momento, ojalá recuerdes que No hace falta cargar con todo en silencio; apoyarte en alguien también es valentía. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de pedir compañía para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, pedir compañía, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Tener paciencia
+FRASE: Quiero dejarte estas palabras: Hay procesos que necesitan tiempo, incluso cuando tenemos muchas ganas de avanzar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de tener paciencia para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, tener paciencia, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Tener paciencia para compartir
+FRASE: Para este momento, ojalá recuerdes que Hay procesos que necesitan tiempo, incluso cuando tenemos muchas ganas de avanzar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de tener paciencia para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, tener paciencia, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Un descanso necesario
+FRASE: Quiero dejarte estas palabras: Descansar no borra lo que hiciste; te ayuda a recuperar fuerzas para continuar. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un descanso necesario para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, un descanso necesario, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Un descanso necesario para compartir
+FRASE: Para este momento, ojalá recuerdes que Descansar no borra lo que hiciste; te ayuda a recuperar fuerzas para continuar. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un descanso necesario para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, un descanso necesario, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Confiar en el proceso
+FRASE: Quiero dejarte estas palabras: No siempre se nota el progreso mientras ocurre, pero cada intento deja aprendizaje. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de confiar en el proceso para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, confiar en el proceso, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Confiar en el proceso para compartir
+FRASE: Para este momento, ojalá recuerdes que No siempre se nota el progreso mientras ocurre, pero cada intento deja aprendizaje. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de confiar en el proceso para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, confiar en el proceso, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Empezar de nuevo
+FRASE: Quiero dejarte estas palabras: Volver a empezar no te devuelve al mismo lugar: ahora llevás lo que aprendiste. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de empezar de nuevo para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, empezar de nuevo, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Empezar de nuevo para compartir
+FRASE: Para este momento, ojalá recuerdes que Volver a empezar no te devuelve al mismo lugar: ahora llevás lo que aprendiste. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de empezar de nuevo para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, empezar de nuevo, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Soltar la perfección
+FRASE: Quiero dejarte estas palabras: Hacerlo posible y con honestidad también puede ser una forma valiosa de hacerlo bien. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de soltar la perfección para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, soltar la perfección, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Soltar la perfección para compartir
+FRASE: Para este momento, ojalá recuerdes que Hacerlo posible y con honestidad también puede ser una forma valiosa de hacerlo bien. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de soltar la perfección para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, soltar la perfección, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Un paso pequeño
+FRASE: Quiero dejarte estas palabras: Un paso pequeño sigue siendo movimiento, especialmente cuando avanzar cuesta. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un paso pequeño para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, un paso pequeño, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Un paso pequeño para compartir
+FRASE: Para este momento, ojalá recuerdes que Un paso pequeño sigue siendo movimiento, especialmente cuando avanzar cuesta. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un paso pequeño para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, un paso pequeño, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Darte tiempo
+FRASE: Quiero dejarte estas palabras: No te exijas tener todas las respuestas mientras todavía estás entendiendo lo que pasa. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de darte tiempo para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, darte tiempo, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Darte tiempo para compartir
+FRASE: Para este momento, ojalá recuerdes que No te exijas tener todas las respuestas mientras todavía estás entendiendo lo que pasa. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de darte tiempo para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, darte tiempo, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Mirar lo recorrido
+FRASE: Quiero dejarte estas palabras: Date un momento para reconocer cuánto aprendiste desde aquel comienzo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de mirar lo recorrido para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, mirar lo recorrido, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Mirar lo recorrido para compartir
+FRASE: Para este momento, ojalá recuerdes que Date un momento para reconocer cuánto aprendiste desde aquel comienzo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de mirar lo recorrido para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, mirar lo recorrido, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Atravesar la incertidumbre
+FRASE: Quiero dejarte estas palabras: No saber exactamente qué viene no significa que no puedas dar el siguiente paso. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de atravesar la incertidumbre para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, atravesar la incertidumbre, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Atravesar la incertidumbre para compartir
+FRASE: Para este momento, ojalá recuerdes que No saber exactamente qué viene no significa que no puedas dar el siguiente paso. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de atravesar la incertidumbre para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, atravesar la incertidumbre, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Cuidar tu energía
+FRASE: Quiero dejarte estas palabras: Elegí tus prioridades con cariño y dejá algo de energía para vos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de cuidar tu energía para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, cuidar tu energía, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Cuidar tu energía para compartir
+FRASE: Para este momento, ojalá recuerdes que Elegí tus prioridades con cariño y dejá algo de energía para vos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de cuidar tu energía para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, cuidar tu energía, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Aceptar ayuda
+FRASE: Quiero dejarte estas palabras: Dejar que alguien te acompañe puede hacer menos pesado el tramo difícil. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de aceptar ayuda para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, aceptar ayuda, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Aceptar ayuda para compartir
+FRASE: Para este momento, ojalá recuerdes que Dejar que alguien te acompañe puede hacer menos pesado el tramo difícil. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de aceptar ayuda para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, aceptar ayuda, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Celebrar avances
+FRASE: Quiero dejarte estas palabras: No esperes a llegar a la meta para reconocer las pequeñas cosas que lográs. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de celebrar avances para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, celebrar avances, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Celebrar avances para compartir
+FRASE: Para este momento, ojalá recuerdes que No esperes a llegar a la meta para reconocer las pequeñas cosas que lográs. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de celebrar avances para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, celebrar avances, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Recuperar la confianza
+FRASE: Quiero dejarte estas palabras: La confianza puede volver de a poco, con decisiones pequeñas y coherentes. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de recuperar la confianza para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, recuperar la confianza, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Recuperar la confianza para compartir
+FRASE: Para este momento, ojalá recuerdes que La confianza puede volver de a poco, con decisiones pequeñas y coherentes. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de recuperar la confianza para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, recuperar la confianza, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Recordar tu valor
+FRASE: Quiero dejarte estas palabras: Tu valor no depende de que hoy tengas todo resuelto ni de cuánto produzcas. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de recordar tu valor para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, recordar tu valor, postal para compartir
+PLANTILLA: animo-luz
+
+
+=== POSTAL ===
+TITULO: Recordar tu valor para compartir
+FRASE: Para este momento, ojalá recuerdes que Tu valor no depende de que hoy tengas todo resuelto ni de cuánto produzcas. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de recordar tu valor para personalizar, descargar y compartir.
+CATEGORIA: animo
+ETIQUETAS: ánimo, recordar tu valor, postal para compartir
+PLANTILLA: animo-camino
+
+
+=== POSTAL ===
+TITULO: Recuperarse sin apuro
+FRASE: Quiero dejarte estas palabras: Ojalá cada día te traiga un poco más de comodidad y tranquilidad. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de recuperarse sin apuro para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, recuperarse sin apuro, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Recuperarse sin apuro para compartir
+FRASE: Para este momento, ojalá recuerdes que Ojalá cada día te traiga un poco más de comodidad y tranquilidad. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de recuperarse sin apuro para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, recuperarse sin apuro, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Descansar bien
+FRASE: Quiero dejarte estas palabras: Te deseo una pausa reparadora y el tiempo que necesitás para cuidarte. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de descansar bien para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, descansar bien, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Descansar bien para compartir
+FRASE: Para este momento, ojalá recuerdes que Te deseo una pausa reparadora y el tiempo que necesitás para cuidarte. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de descansar bien para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, descansar bien, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un mensaje cercano
+FRASE: Quiero dejarte estas palabras: No hace falta que respondas; solo quería mandarte cariño y hacerme presente. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un mensaje cercano para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un mensaje cercano, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un mensaje cercano para compartir
+FRASE: Para este momento, ojalá recuerdes que No hace falta que respondas; solo quería mandarte cariño y hacerme presente. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un mensaje cercano para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un mensaje cercano, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Acompañar desde lejos
+FRASE: Quiero dejarte estas palabras: Aunque no pueda estar ahí ahora, te mando un abrazo grande y sincero. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de acompañar desde lejos para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, acompañar desde lejos, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Acompañar desde lejos para compartir
+FRASE: Para este momento, ojalá recuerdes que Aunque no pueda estar ahí ahora, te mando un abrazo grande y sincero. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de acompañar desde lejos para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, acompañar desde lejos, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Una visita pendiente
+FRASE: Quiero dejarte estas palabras: Cuando tengas ganas y te venga bien, me encantaría pasar a verte. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de una visita pendiente para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, una visita pendiente, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Una visita pendiente para compartir
+FRASE: Para este momento, ojalá recuerdes que Cuando tengas ganas y te venga bien, me encantaría pasar a verte. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de una visita pendiente para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, una visita pendiente, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Volver a tu ritmo
+FRASE: Quiero dejarte estas palabras: Que puedas retomar tus actividades de a poco, respetando tus tiempos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de volver a tu ritmo para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, volver a tu ritmo, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Volver a tu ritmo para compartir
+FRASE: Para este momento, ojalá recuerdes que Que puedas retomar tus actividades de a poco, respetando tus tiempos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de volver a tu ritmo para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, volver a tu ritmo, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un día más llevadero
+FRASE: Quiero dejarte estas palabras: Deseo que hoy encuentres momentos de alivio y personas que te hagan bien. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un día más llevadero para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un día más llevadero, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un día más llevadero para compartir
+FRASE: Para este momento, ojalá recuerdes que Deseo que hoy encuentres momentos de alivio y personas que te hagan bien. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un día más llevadero para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un día más llevadero, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Sentirse acompañado
+FRASE: Quiero dejarte estas palabras: No estás obligado a poner buena cara; podés contar conmigo también en los días flojos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de sentirse acompañado para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, sentirse acompañado, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Sentirse acompañado para compartir
+FRASE: Para este momento, ojalá recuerdes que No estás obligado a poner buena cara; podés contar conmigo también en los días flojos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de sentirse acompañado para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, sentirse acompañado, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un abrazo suave
+FRASE: Quiero dejarte estas palabras: Te mando un abrazo tranquilo, de esos que no piden explicaciones ni apuran nada. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un abrazo suave para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un abrazo suave, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un abrazo suave para compartir
+FRASE: Para este momento, ojalá recuerdes que Te mando un abrazo tranquilo, de esos que no piden explicaciones ni apuran nada. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un abrazo suave para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un abrazo suave, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Cuidar el ánimo
+FRASE: Quiero dejarte estas palabras: Que tengas cerca palabras amables, compañía sincera y pequeños momentos de descanso. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de cuidar el ánimo para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, cuidar el ánimo, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Cuidar el ánimo para compartir
+FRASE: Para este momento, ojalá recuerdes que Que tengas cerca palabras amables, compañía sincera y pequeños momentos de descanso. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de cuidar el ánimo para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, cuidar el ánimo, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Pensarte con cariño
+FRASE: Quiero dejarte estas palabras: Hoy me acordé de vos y quise mandarte un mensaje lleno de buenos deseos. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de pensarte con cariño para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, pensarte con cariño, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Pensarte con cariño para compartir
+FRASE: Para este momento, ojalá recuerdes que Hoy me acordé de vos y quise mandarte un mensaje lleno de buenos deseos. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de pensarte con cariño para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, pensarte con cariño, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Volver a sonreír
+FRASE: Quiero dejarte estas palabras: Ojalá aparezca pronto algo sencillo que te regale una sonrisa genuina. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de volver a sonreír para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, volver a sonreír, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Volver a sonreír para compartir
+FRASE: Para este momento, ojalá recuerdes que Ojalá aparezca pronto algo sencillo que te regale una sonrisa genuina. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de volver a sonreír para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, volver a sonreír, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un proceso personal
+FRASE: Quiero dejarte estas palabras: Cada proceso tiene sus tiempos; te deseo paciencia y apoyo durante el recorrido. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un proceso personal para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un proceso personal, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un proceso personal para compartir
+FRASE: Para este momento, ojalá recuerdes que Cada proceso tiene sus tiempos; te deseo paciencia y apoyo durante el recorrido. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un proceso personal para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un proceso personal, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Agradecer a quien cuida
+FRASE: Quiero dejarte estas palabras: Gracias por estar pendiente y acompañar con tanta dedicación y ternura. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de agradecer a quien cuida para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, agradecer a quien cuida, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Agradecer a quien cuida para compartir
+FRASE: Para este momento, ojalá recuerdes que Gracias por estar pendiente y acompañar con tanta dedicación y ternura. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de agradecer a quien cuida para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, agradecer a quien cuida, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Estar presente
+FRASE: Quiero dejarte estas palabras: Si necesitás conversar, distraerte o simplemente compañía, contá conmigo. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de estar presente para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, estar presente, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Estar presente para compartir
+FRASE: Para este momento, ojalá recuerdes que Si necesitás conversar, distraerte o simplemente compañía, contá conmigo. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de estar presente para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, estar presente, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Un deseo de bienestar
+FRASE: Quiero dejarte estas palabras: Te deseo calma, contención y todo el cuidado que te haga bien en este momento. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un deseo de bienestar para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un deseo de bienestar, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Un deseo de bienestar para compartir
+FRASE: Para este momento, ojalá recuerdes que Te deseo calma, contención y todo el cuidado que te haga bien en este momento. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un deseo de bienestar para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un deseo de bienestar, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Una pausa amable
+FRASE: Quiero dejarte estas palabras: Que hoy puedas soltar un poco las preocupaciones y descansar cuando lo necesites. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de una pausa amable para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, una pausa amable, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Una pausa amable para compartir
+FRASE: Para este momento, ojalá recuerdes que Que hoy puedas soltar un poco las preocupaciones y descansar cuando lo necesites. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de una pausa amable para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, una pausa amable, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Cariño sin condiciones
+FRASE: Quiero dejarte estas palabras: No tenés que demostrar fortaleza todo el tiempo para merecer compañía y afecto. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de cariño sin condiciones para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, cariño sin condiciones, postal para compartir
+PLANTILLA: salud-hojas
+
+
+=== POSTAL ===
+TITULO: Cariño sin condiciones para compartir
+FRASE: Para este momento, ojalá recuerdes que No tenés que demostrar fortaleza todo el tiempo para merecer compañía y afecto. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de cariño sin condiciones para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, cariño sin condiciones, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un abrazo a la distancia
+FRASE: Quiero dejarte estas palabras: Te mando afecto desde acá y deseo que te sientas acompañado en cada etapa. Te mando cariño y mis mejores deseos.
+DESCRIPCION: Postal de un abrazo a la distancia para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un abrazo a la distancia, postal para compartir
+PLANTILLA: salud-flores
+
+
+=== POSTAL ===
+TITULO: Un abrazo a la distancia para compartir
+FRASE: Para este momento, ojalá recuerdes que Te mando afecto desde acá y deseo que te sientas acompañado en cada etapa. Que no te falten motivos para seguir encontrando cosas buenas.
+DESCRIPCION: Postal de un abrazo a la distancia para personalizar, descargar y compartir.
+CATEGORIA: salud
+ETIQUETAS: salud y recuperación, un abrazo a la distancia, postal para compartir
+PLANTILLA: salud-hojas
