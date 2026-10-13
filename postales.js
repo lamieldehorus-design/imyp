@@ -20,7 +20,7 @@ async function loadPostales(){
     if(!r.ok)throw new Error("No se pudo cargar postales.json");
     items=await r.json();
     renderCategoryButtons();
-    renderPostales();
+    renderPostales(true);
   }catch(e){
     console.error(e);
     const root=$("#postalGrid");if(root)root.innerHTML='<p class="empty">No pude cargar las postales en este momento.</p>';
