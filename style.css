@@ -1147,3 +1147,12 @@ img{height:auto}
   .guide article{padding:1.1rem;border-radius:15px;font-size:1rem}
   .guide article h1{font-size:clamp(1.8rem,8vw,2.35rem)}
 }
+
+/* Pie de página compacto, descriptivo y coherente en todo el sitio */
+footer{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.65rem 1.25rem;padding:1.35rem clamp(18px,5vw,58px);border-top:1px solid var(--line);background:#fbfcfe;color:var(--muted);font-size:.88rem}
+footer strong{color:var(--blue);font-weight:750;white-space:nowrap}
+footer .footer-description{flex:1 1 320px;max-width:62ch;margin:0;color:var(--muted);font-size:.88rem;line-height:1.55}
+footer .legal-footer-links{display:flex;flex-wrap:wrap;gap:.5rem 1rem}
+footer .legal-footer-links a{color:var(--blue);font-weight:650;text-decoration:none}
+footer .legal-footer-links a:hover{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:720px){footer{align-items:flex-start;flex-direction:column;gap:.45rem}footer .footer-description{flex-basis:auto}}
