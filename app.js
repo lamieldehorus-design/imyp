@@ -66,12 +66,17 @@ function card(i){
   return el;
 }
 
-function resetAndRender(){visibleCount=PAGE_SIZE;render()}
-function render(){
+function resetAndRender(){visibleCount=0;render(true)}
+function render(reset=false){
   const list=filtered();
   if(!gallery)return;
-  gallery.innerHTML="";
-  list.slice(0,visibleCount).forEach(i=>gallery.appendChild(card(i)));
+  if(reset)gallery.replaceChildren();
+  const start=visibleCount;
+  const end=Math.min(start+PAGE_SIZE,list.length);
+  const fragment=document.createDocumentFragment();
+  list.slice(start,end).forEach(i=>fragment.appendChild(card(i)));
+  gallery.appendChild(fragment);
+  visibleCount=end;
   if(empty)empty.hidden=list.length>0;
   if(count)count.textContent=`${list.length} resultado${list.length===1?"":"s"}`;
   const n=needs.find(x=>x.key===state.need);
@@ -82,7 +87,6 @@ function render(){
 function loadMore(){
   const list=filtered();
   if(visibleCount>=list.length)return;
-  visibleCount=Math.min(visibleCount+PAGE_SIZE,list.length);
   render();
 }
 
