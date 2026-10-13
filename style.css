@@ -1117,24 +1117,29 @@ img{height:auto}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 
 
-/* Páginas informativas: ancho de lectura centrado y márgenes consistentes */
+/* Páginas informativas: mismo ancho de contenedor que el resto del sitio */
 .guide{
-  width:min(100%, 980px);
+  width:min(100%,var(--content));
   margin-inline:auto;
   padding:clamp(1.25rem,3.5vw,2.6rem) clamp(18px,5vw,58px) 4rem;
 }
 .guide .breadcrumbs{margin-bottom:1.6rem}
 .guide article{
-  max-width:74ch;
-  margin:0 auto;
-  padding:clamp(1.25rem,3vw,2.4rem);
-  border:1px solid #e4eaf2;
+  width:100%;
+  max-width:none;
+  margin:0;
+  padding:clamp(1.25rem,2.5vw,2rem);
+  border:1px solid var(--line);
   border-radius:20px;
   background:#fff;
-  box-shadow:0 8px 28px rgba(23,32,51,.045);
+  box-shadow:var(--shadow);
+  font-size:1.02rem;
+  line-height:1.8;
 }
 .guide article h1{max-width:22ch}
 .guide article h2{font-size:clamp(1.25rem,2vw,1.55rem)}
+.guide article p{max-width:100%;line-height:1.8}
+.guide article li{line-height:1.75}
 .guide article a{color:var(--blue);text-underline-offset:3px}
 .guide article a:hover{color:var(--blue-dark)}
 @media(max-width:600px){
