@@ -12,7 +12,7 @@ const needs=[
 
 const PAGE_SIZE=12;
 let items=[];
-let visibleCount=PAGE_SIZE;
+let visibleCount=0;
 const state={need:"",q:"",recipient:"",tone:"",style:"",selected:null};
 const $=s=>document.querySelector(s);
 const quick=$("#quickNeeds"),gallery=$("#gallery"),empty=$("#emptyState"),count=$("#resultCount"),title=$("#resultTitle"),sentinel=$("#loadSentinel");
