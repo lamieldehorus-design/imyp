@@ -15,13 +15,6 @@
       "count": 11
     },
     {
-      "name": "Antonio Machado",
-      "slug": "antonio-machado",
-      "bio": "Antonio Machado es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
-      "source": "https://es.wikiquote.org/wiki/Antonio_Machado",
-      "count": 0
-    },
-    {
       "name": "Aristóteles",
       "slug": "aristoteles",
       "bio": "Aristóteles fue un filósofo griego que escribió sobre lógica, ética, política, naturaleza y conocimiento. Su pensamiento marcó buena parte de la tradición intelectual occidental.",
@@ -31,7 +24,7 @@
     {
       "name": "Blaise Pascal",
       "slug": "blaise-pascal",
-      "bio": "Blaise Pascal es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Blaise Pascal fue un matemático, físico y filósofo francés. Sus reflexiones examinan la razón, la fe, la condición humana y los límites del conocimiento.",
       "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
       "count": 8
     },
@@ -64,16 +57,9 @@
       "count": 15
     },
     {
-      "name": "Federico García Lorca",
-      "slug": "federico-garcia-lorca",
-      "bio": "Federico García Lorca es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
-      "source": "https://es.wikiquote.org/wiki/Federico_Garc%C3%ADa_Lorca",
-      "count": 0
-    },
-    {
       "name": "Fiódor Dostoyevski",
       "slug": "fiodor-dostoyevski",
-      "bio": "Fiódor Dostoyevski es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Fiódor Dostoyevski fue un novelista ruso cuyas obras investigan la conciencia, la libertad, la culpa, la compasión y los conflictos morales.",
       "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
       "count": 10
     },
@@ -87,7 +73,7 @@
     {
       "name": "Henry David Thoreau",
       "slug": "henry-david-thoreau",
-      "bio": "Henry David Thoreau es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Henry David Thoreau fue un escritor, naturalista y filósofo estadounidense, autor de Walden y de ensayos sobre la vida sencilla, la conciencia y la desobediencia civil.",
       "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
       "count": 10
     },
@@ -115,14 +101,14 @@
     {
       "name": "Johann Wolfgang von Goethe",
       "slug": "johann-wolfgang-von-goethe",
-      "bio": "Johann Wolfgang von Goethe es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Johann Wolfgang von Goethe fue un escritor, poeta y pensador alemán, figura central de la literatura europea. Su obra explora el conocimiento, el arte, la naturaleza y la experiencia humana.",
       "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
       "count": 10
     },
     {
       "name": "Jorge Luis Borges",
       "slug": "jorge-luis-borges",
-      "bio": "Jorge Luis Borges es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Jorge Luis Borges fue un escritor argentino reconocido por sus cuentos, poemas y ensayos sobre el tiempo, la memoria, los libros, los laberintos y la identidad.",
       "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
       "count": 10
     },
@@ -143,7 +129,7 @@
     {
       "name": "Julio Cortázar",
       "slug": "julio-cortazar",
-      "bio": "Julio Cortázar es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Julio Cortázar fue un escritor argentino, referente de la literatura fantástica y del boom latinoamericano. Su obra juega con el lenguaje, el azar, el amor y la percepción.",
       "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
       "count": 8
     },
@@ -164,7 +150,7 @@
     {
       "name": "León Tolstói",
       "slug": "leon-tolstoi",
-      "bio": "León Tolstói es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "León Tolstói fue un novelista y pensador ruso, autor de Guerra y paz y Anna Karénina. También escribió ensayos sobre la ética, la no violencia y la vida sencilla.",
       "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
       "count": 10
     },
@@ -178,7 +164,7 @@
     {
       "name": "Mahatma Gandhi",
       "slug": "mahatma-gandhi",
-      "bio": "Mahatma Gandhi es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Mahatma Gandhi fue un dirigente del movimiento de independencia de la India, reconocido por su defensa de la resistencia no violenta y la acción ética.",
       "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
       "count": 10
     },
@@ -192,7 +178,7 @@
     {
       "name": "Marco Tulio Cicerón",
       "slug": "marco-tulio-ciceron",
-      "bio": "Marco Tulio Cicerón es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Marco Tulio Cicerón fue un orador, político, abogado y filósofo romano. Sus textos abordan la ética, la amistad, la república, la justicia y el deber cívico.",
       "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
       "count": 10
     },
@@ -206,7 +192,7 @@
     {
       "name": "Mario Benedetti",
       "slug": "mario-benedetti",
-      "bio": "Mario Benedetti es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Mario Benedetti fue un escritor y poeta uruguayo cuya obra aborda el amor, la vida cotidiana, la esperanza, la memoria y los vínculos humanos.",
       "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
       "count": 10
     },
@@ -220,14 +206,14 @@
     {
       "name": "Martin Luther King Jr.",
       "slug": "martin-luther-king-jr",
-      "bio": "Martin Luther King Jr. es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Martin Luther King Jr. fue un pastor y activista estadounidense, figura central del movimiento por los derechos civiles y defensor de la igualdad y la resistencia no violenta.",
       "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
       "count": 8
     },
     {
       "name": "Mary Shelley",
       "slug": "mary-shelley",
-      "bio": "Mary Shelley es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Mary Shelley fue una escritora británica, autora de Frankenstein. Su obra explora la responsabilidad, la ambición, la creación y las consecuencias de las decisiones humanas.",
       "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
       "count": 8
     },
@@ -248,7 +234,7 @@
     {
       "name": "Pablo Neruda",
       "slug": "pablo-neruda",
-      "bio": "Pablo Neruda es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Pablo Neruda fue un poeta chileno y premio Nobel de Literatura. Su poesía recorre el amor, la naturaleza, la historia y la experiencia colectiva.",
       "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
       "count": 10
     },
@@ -269,14 +255,14 @@
     {
       "name": "Ralph Waldo Emerson",
       "slug": "ralph-waldo-emerson",
-      "bio": "Ralph Waldo Emerson es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Ralph Waldo Emerson fue un ensayista, poeta y filósofo estadounidense vinculado al trascendentalismo. Escribió sobre la autonomía, la naturaleza y la confianza en uno mismo.",
       "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
       "count": 10
     },
     {
       "name": "Rumi",
       "slug": "rumi",
-      "bio": "Rumi es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Yalal ad-Din Rumi fue un poeta y místico persa del siglo XIII, conocido por sus poemas sobre el amor, la transformación interior y la búsqueda espiritual.",
       "source": "https://es.wikiquote.org/wiki/Rumi",
       "count": 10
     },
@@ -290,7 +276,7 @@
     {
       "name": "Simone de Beauvoir",
       "slug": "simone-de-beauvoir",
-      "bio": "Simone de Beauvoir es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Simone de Beauvoir fue una filósofa, escritora y feminista francesa. Sus ensayos y novelas reflexionan sobre la libertad, la igualdad y la construcción social de la identidad.",
       "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
       "count": 8
     },
@@ -304,7 +290,7 @@
     {
       "name": "Victor Hugo",
       "slug": "victor-hugo",
-      "bio": "Victor Hugo es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Victor Hugo fue un escritor, poeta y dramaturgo francés, autor de Los miserables y Nuestra Señora de París. Su obra defendió la dignidad humana y reflexionó sobre la justicia y la libertad.",
       "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
       "count": 10
     },
@@ -318,7 +304,7 @@
     {
       "name": "Voltaire",
       "slug": "voltaire",
-      "bio": "Voltaire es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "bio": "Voltaire fue un escritor y filósofo francés de la Ilustración, conocido por su defensa de la libertad de pensamiento, la tolerancia y la crítica del fanatismo.",
       "source": "https://es.wikiquote.org/wiki/Voltaire",
       "count": 10
     },
