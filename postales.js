@@ -38,11 +38,15 @@ function renderCategoryButtons(){
   });
 }
 function currentItems(){return items.filter(i=>!activeCategory||i.category===activeCategory)}
-function renderPostales(){
+function renderPostales(reset=false){
   const root=$("#postalGrid");if(!root)return;
   const list=currentItems();
-  root.innerHTML="";
-  list.slice(0,visibleCount).forEach(i=>root.appendChild(postalCard(i)));
+  if(reset){root.replaceChildren();visibleCount=0}
+  const end=Math.min(visibleCount+PAGE_SIZE,list.length);
+  const fragment=document.createDocumentFragment();
+  list.slice(visibleCount,end).forEach(i=>fragment.appendChild(postalCard(i)));
+  root.appendChild(fragment);
+  visibleCount=end;
   const count=$("#postalCount");if(count)count.textContent=`${list.length} postal${list.length===1?"":"es"}`;
   const sentinel=$("#postalSentinel");if(sentinel)sentinel.hidden=visibleCount>=list.length;
 }
@@ -156,7 +160,7 @@ function toast(msg){const t=document.createElement("div");t.className="toast";t.
 const sentinel=$("#postalSentinel");
 if("IntersectionObserver" in window&&sentinel){
   new IntersectionObserver(entries=>{
-    if(entries.some(e=>e.isIntersecting)){const total=currentItems().length;if(visibleCount<total){visibleCount=Math.min(visibleCount+PAGE_SIZE,total);renderPostales()}}
+    if(entries.some(e=>e.isIntersecting)&&visibleCount<currentItems().length){renderPostales()}
   },{rootMargin:"500px 0px"}).observe(sentinel);
 }
 loadPostales();
