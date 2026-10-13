@@ -5,56 +5,91 @@
       "slug": "albert-einstein",
       "bio": "Albert Einstein fue un físico teórico cuya obra transformó la comprensión moderna del espacio, el tiempo y la gravedad. También escribió sobre curiosidad, imaginación, responsabilidad y educación.",
       "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
-      "count": 6
+      "count": 15
     },
     {
       "name": "Antoine de Saint-Exupéry",
       "slug": "antoine-de-saint-exupery",
       "bio": "Antoine de Saint-Exupéry fue un escritor y aviador francés, autor de El principito. Su obra explora la amistad, el cuidado, la responsabilidad y aquello que da sentido a los vínculos.",
       "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
-      "count": 5
+      "count": 11
+    },
+    {
+      "name": "Antonio Machado",
+      "slug": "antonio-machado",
+      "bio": "Antonio Machado es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Antonio_Machado",
+      "count": 0
     },
     {
       "name": "Aristóteles",
       "slug": "aristoteles",
       "bio": "Aristóteles fue un filósofo griego que escribió sobre lógica, ética, política, naturaleza y conocimiento. Su pensamiento marcó buena parte de la tradición intelectual occidental.",
       "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
-      "count": 4
+      "count": 14
+    },
+    {
+      "name": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "bio": "Blaise Pascal es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "count": 8
     },
     {
       "name": "Charles Dickens",
       "slug": "charles-dickens",
       "bio": "Charles Dickens fue un novelista inglés que retrató las desigualdades sociales, la infancia, la compasión y la esperanza en obras como Oliver Twist y Cuento de Navidad.",
       "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
-      "count": 5
+      "count": 13
     },
     {
       "name": "Confucio",
       "slug": "confucio",
       "bio": "Confucio fue un pensador y maestro chino cuyas enseñanzas influyeron profundamente en la ética, la educación, la convivencia y la responsabilidad personal.",
       "source": "https://es.wikiquote.org/wiki/Confucio",
-      "count": 5
+      "count": 15
     },
     {
       "name": "Edgar Allan Poe",
       "slug": "edgar-allan-poe",
       "bio": "Edgar Allan Poe fue un escritor, poeta y crítico estadounidense, conocido por sus relatos de misterio y terror y por poemas que exploran la memoria, la belleza y la pérdida.",
       "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
-      "count": 5
+      "count": 12
     },
     {
       "name": "Epicteto",
       "slug": "epicteto",
       "bio": "Epicteto fue un filósofo estoico de origen griego. Sus enseñanzas ponen el foco en distinguir lo que depende de nosotros, revisar nuestros juicios y cultivar la libertad interior.",
       "source": "https://es.wikiquote.org/wiki/Epicteto",
-      "count": 5
+      "count": 15
+    },
+    {
+      "name": "Federico García Lorca",
+      "slug": "federico-garcia-lorca",
+      "bio": "Federico García Lorca es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Federico_Garc%C3%ADa_Lorca",
+      "count": 0
+    },
+    {
+      "name": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "bio": "Fiódor Dostoyevski es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "count": 10
     },
     {
       "name": "Friedrich Nietzsche",
       "slug": "friedrich-nietzsche",
       "bio": "Friedrich Nietzsche fue un filósofo, poeta y filólogo alemán. Su obra cuestiona las certezas heredadas y explora la voluntad, la cultura, la moral y la transformación personal.",
       "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
-      "count": 4
+      "count": 16
+    },
+    {
+      "name": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "bio": "Henry David Thoreau es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "count": 10
     },
     {
       "name": "Imágenes y Postales",
@@ -75,105 +110,203 @@
       "slug": "jane-austen",
       "bio": "Jane Austen fue una novelista inglesa cuyas obras observan con ironía las relaciones, las convenciones sociales, el orgullo, la vanidad y la independencia personal.",
       "source": "https://es.wikiquote.org/wiki/Jane_Austen",
-      "count": 7
+      "count": 16
+    },
+    {
+      "name": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "bio": "Johann Wolfgang von Goethe es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "count": 10
+    },
+    {
+      "name": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "bio": "Jorge Luis Borges es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "count": 10
     },
     {
       "name": "José de San Martín",
       "slug": "jose-de-san-martin",
       "bio": "José de San Martín fue un militar y prócer de la independencia sudamericana. Sus palabras públicas y cartas reflejan su compromiso con la libertad y la vida republicana.",
       "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
-      "count": 3
+      "count": 9
     },
     {
       "name": "José Martí",
       "slug": "jose-marti",
       "bio": "José Martí fue un escritor, poeta y pensador cubano, conocido por sus ideas sobre la libertad, la educación, la solidaridad y la responsabilidad personal.",
       "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
-      "count": 2
+      "count": 10
+    },
+    {
+      "name": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "bio": "Julio Cortázar es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "count": 8
     },
     {
       "name": "Khalil Gibran",
       "slug": "khalil-gibran",
       "bio": "Khalil Gibran fue un escritor y artista libanés-estadounidense. El profeta reúne reflexiones poéticas sobre el amor, la libertad, el trabajo, la amistad y la experiencia humana.",
       "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
-      "count": 5
+      "count": 14
     },
     {
       "name": "Lao-Tse",
       "slug": "lao-tse",
       "bio": "Lao-Tse es la figura tradicionalmente asociada al Tao Te Ching, una obra fundamental del taoísmo que reflexiona sobre la sencillez, el equilibrio, la humildad y el curso natural de las cosas.",
       "source": "https://es.wikiquote.org/wiki/Lao_Tse",
-      "count": 6
+      "count": 15
+    },
+    {
+      "name": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "bio": "León Tolstói es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "count": 10
     },
     {
       "name": "Leonardo da Vinci",
       "slug": "leonardo-da-vinci",
       "bio": "Leonardo da Vinci fue un artista, inventor y observador del Renacimiento. Sus cuadernos muestran una curiosidad que conecta el arte, la naturaleza, la experiencia y la investigación.",
       "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
-      "count": 6
+      "count": 13
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "bio": "Mahatma Gandhi es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "count": 10
     },
     {
       "name": "Marco Aurelio",
       "slug": "marco-aurelio",
       "bio": "Marco Aurelio fue emperador romano y filósofo estoico. Sus Meditaciones reúnen apuntes sobre el carácter, la responsabilidad, el tiempo y la manera de responder a las dificultades.",
       "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
-      "count": 6
+      "count": 14
+    },
+    {
+      "name": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "bio": "Marco Tulio Cicerón es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "count": 10
     },
     {
       "name": "Marie Curie",
       "slug": "marie-curie",
       "bio": "Marie Curie fue una científica pionera en el estudio de la radiactividad y la primera persona en recibir dos premios Nobel en distintas disciplinas científicas.",
       "source": "https://es.wikiquote.org/wiki/Marie_Curie",
-      "count": 2
+      "count": 8
+    },
+    {
+      "name": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "bio": "Mario Benedetti es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "count": 10
     },
     {
       "name": "Mark Twain",
       "slug": "mark-twain",
       "bio": "Mark Twain fue un escritor y humorista estadounidense, conocido por su sátira social, su ironía y novelas como Las aventuras de Tom Sawyer y Huckleberry Finn.",
       "source": "https://es.wikiquote.org/wiki/Twain",
-      "count": 4
+      "count": 14
+    },
+    {
+      "name": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "bio": "Martin Luther King Jr. es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "count": 8
+    },
+    {
+      "name": "Mary Shelley",
+      "slug": "mary-shelley",
+      "bio": "Mary Shelley es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "count": 8
     },
     {
       "name": "Miguel de Cervantes",
       "slug": "miguel-de-cervantes",
       "bio": "Miguel de Cervantes fue un escritor español del Siglo de Oro, autor de Don Quijote de la Mancha. Sus textos exploran la amistad, la justicia, el amor y las contradicciones humanas.",
       "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
-      "count": 5
+      "count": 15
     },
     {
       "name": "Oscar Wilde",
       "slug": "oscar-wilde",
       "bio": "Oscar Wilde fue un escritor irlandés reconocido por su ingenio, su crítica social y sus obras de teatro y narrativa.",
       "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
-      "count": 2
+      "count": 12
+    },
+    {
+      "name": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "bio": "Pablo Neruda es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "count": 10
     },
     {
       "name": "Platón",
       "slug": "platon",
       "bio": "Platón fue un filósofo griego, discípulo de Sócrates y maestro de Aristóteles. Sus diálogos abordan la justicia, el conocimiento, la política y la búsqueda del bien.",
       "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
-      "count": 4
+      "count": 14
     },
     {
       "name": "Rabindranath Tagore",
       "slug": "rabindranath-tagore",
       "bio": "Rabindranath Tagore fue un poeta, dramaturgo y pensador bengalí, galardonado con el Nobel de Literatura. Su obra aborda la naturaleza, la educación, la belleza y la vida interior.",
       "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
-      "count": 7
+      "count": 13
+    },
+    {
+      "name": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "bio": "Ralph Waldo Emerson es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "count": 10
+    },
+    {
+      "name": "Rumi",
+      "slug": "rumi",
+      "bio": "Rumi es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "count": 10
     },
     {
       "name": "Séneca",
       "slug": "seneca",
       "bio": "Séneca fue un filósofo estoico, dramaturgo y político romano. Sus escritos reflexionan sobre el tiempo, el miedo, la virtud, la serenidad y la manera de vivir con propósito.",
       "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
-      "count": 5
+      "count": 17
+    },
+    {
+      "name": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "bio": "Simone de Beauvoir es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "count": 8
     },
     {
       "name": "Sor Juana Inés de la Cruz",
       "slug": "sor-juana-ines-de-la-cruz",
       "bio": "Sor Juana Inés de la Cruz fue una escritora novohispana del Siglo de Oro, defensora del conocimiento y autora de poesía que cuestionó las desigualdades y las contradicciones sociales.",
       "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
-      "count": 6
+      "count": 13
+    },
+    {
+      "name": "Victor Hugo",
+      "slug": "victor-hugo",
+      "bio": "Victor Hugo es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "count": 10
     },
     {
       "name": "Virginia Woolf",
@@ -183,11 +316,18 @@
       "count": 5
     },
     {
+      "name": "Voltaire",
+      "slug": "voltaire",
+      "bio": "Voltaire es una figura histórica, literaria o intelectual cuya obra dejó aportes relevantes a la cultura y al pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "count": 10
+    },
+    {
       "name": "William Shakespeare",
       "slug": "william-shakespeare",
       "bio": "William Shakespeare fue un dramaturgo y poeta inglés cuyas obras exploran el amor, el poder, la ambición, los celos y las contradicciones humanas.",
       "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
-      "count": 4
+      "count": 16
     }
   ],
   "quotes": [
@@ -1736,6 +1876,4578 @@
         "unión",
         "confianza",
         "responsabilidad"
+      ]
+    },
+    {
+      "id": "albert-einstein-1",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "La vida es como andar en bicicleta. Para mantener el equilibrio, debes seguir moviéndote.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "vida",
+        "perseverancia"
+      ]
+    },
+    {
+      "id": "albert-einstein-2",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "Quien nunca ha cometido un error nunca ha probado algo nuevo.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "aprendizaje",
+        "error"
+      ]
+    },
+    {
+      "id": "albert-einstein-3",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "La paz no puede mantenerse por la fuerza; solo puede lograrse mediante la comprensión.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "paz",
+        "comprensión"
+      ]
+    },
+    {
+      "id": "albert-einstein-4",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "Lo importante es no dejar de cuestionar.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "curiosidad",
+        "ciencia"
+      ]
+    },
+    {
+      "id": "albert-einstein-5",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "La creatividad es la inteligencia divirtiéndose.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "creatividad",
+        "inteligencia"
+      ]
+    },
+    {
+      "id": "albert-einstein-6",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "Una persona que nunca cometió un error nunca intentó nada nuevo.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "aprendizaje",
+        "valentía"
+      ]
+    },
+    {
+      "id": "albert-einstein-7",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "El valor de un hombre debe medirse por lo que da y no por lo que recibe.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "generosidad",
+        "ética"
+      ]
+    },
+    {
+      "id": "albert-einstein-8",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "La educación es lo que queda después de olvidar lo aprendido en la escuela.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "educación",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "albert-einstein-9",
+      "author": "Albert Einstein",
+      "slug": "albert-einstein",
+      "text": "No podemos resolver nuestros problemas con el mismo pensamiento que usamos cuando los creamos.",
+      "source": "https://es.wikiquote.org/wiki/Albert_Einstein",
+      "sourceName": "Wikiquote: Albert Einstein",
+      "tags": [
+        "pensamiento",
+        "cambio"
+      ]
+    },
+    {
+      "id": "william-shakespeare-10",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "Ser o no ser: esa es la cuestión.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "vida",
+        "identidad"
+      ]
+    },
+    {
+      "id": "william-shakespeare-11",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "Sabemos lo que somos, pero no lo que podemos llegar a ser.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "identidad",
+        "futuro"
+      ]
+    },
+    {
+      "id": "william-shakespeare-12",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "El amor no mira con los ojos, sino con la mente.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "amor",
+        "percepción"
+      ]
+    },
+    {
+      "id": "william-shakespeare-13",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "La brevedad es el alma del ingenio.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "lenguaje",
+        "ingenio"
+      ]
+    },
+    {
+      "id": "william-shakespeare-14",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "No hay nada bueno ni malo; es el pensamiento el que lo hace así.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "perspectiva",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "william-shakespeare-15",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "El destino es quien baraja las cartas, pero nosotros las jugamos.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "destino",
+        "decisiones"
+      ]
+    },
+    {
+      "id": "william-shakespeare-16",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "La sospecha siempre ronda la mente culpable.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "culpa",
+        "conciencia"
+      ]
+    },
+    {
+      "id": "william-shakespeare-17",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "La acción es elocuencia.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "acción",
+        "palabras"
+      ]
+    },
+    {
+      "id": "william-shakespeare-18",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "Los cobardes mueren muchas veces antes de su muerte.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "miedo",
+        "valentía"
+      ]
+    },
+    {
+      "id": "william-shakespeare-19",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "El amor, cuando es amor, se alimenta de sí mismo.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "amor",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "william-shakespeare-20",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "La alegría y la pena son inseparables.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "vida",
+        "emociones"
+      ]
+    },
+    {
+      "id": "william-shakespeare-21",
+      "author": "William Shakespeare",
+      "slug": "william-shakespeare",
+      "text": "El mundo entero es un escenario.",
+      "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
+      "sourceName": "Wikiquote: William Shakespeare",
+      "tags": [
+        "vida",
+        "teatro"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-22",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "Más vale una palabra a tiempo que cien a destiempo.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "palabras",
+        "prudencia"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-23",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "El que lee mucho y anda mucho, ve mucho y sabe mucho.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "lectura",
+        "experiencia"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-24",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "La pluma es la lengua del alma.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "escritura",
+        "alma"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-25",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "La libertad, Sancho, es uno de los más preciosos dones que a los hombres dieron los cielos.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "libertad",
+        "dignidad"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-26",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "No hay recuerdo que el tiempo no borre ni pena que la muerte no acabe.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "tiempo",
+        "memoria"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-27",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "Cada uno es hijo de sus obras.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "acciones",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-28",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "Donde hay música no puede haber cosa mala.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "música",
+        "alegría"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-29",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "El hacer bien a villanos es echar agua en la mar.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "bondad",
+        "prudencia"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-30",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "La diligencia es madre de la buena ventura.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "esfuerzo",
+        "suerte"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-31",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "La abundancia de las cosas, aunque sean buenas, hace que no se estimen.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "gratitud",
+        "moderación"
+      ]
+    },
+    {
+      "id": "oscar-wilde-32",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "La experiencia es el nombre que damos a nuestros errores.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "experiencia",
+        "errores"
+      ]
+    },
+    {
+      "id": "oscar-wilde-33",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "La verdad rara vez es pura y nunca simple.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "verdad",
+        "complejidad"
+      ]
+    },
+    {
+      "id": "oscar-wilde-34",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "Amarse a uno mismo es el comienzo de un romance que dura toda la vida.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "amor",
+        "propio"
+      ]
+    },
+    {
+      "id": "oscar-wilde-35",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "La vida es demasiado importante como para hablar seriamente de ella.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "vida",
+        "humor"
+      ]
+    },
+    {
+      "id": "oscar-wilde-36",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "Sé tú mismo; los demás puestos están ocupados.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "identidad",
+        "autenticidad"
+      ]
+    },
+    {
+      "id": "oscar-wilde-37",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "La única manera de librarse de una tentación es ceder a ella.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "deseo",
+        "ironía"
+      ]
+    },
+    {
+      "id": "oscar-wilde-38",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "La memoria es el diario que todos llevamos con nosotros.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "memoria",
+        "vida"
+      ]
+    },
+    {
+      "id": "oscar-wilde-39",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "La ambición es el último refugio del fracaso.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "ambición",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "oscar-wilde-40",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "Un poco de sinceridad es algo peligroso; mucha sinceridad es absolutamente fatal.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "sinceridad",
+        "ironía"
+      ]
+    },
+    {
+      "id": "oscar-wilde-41",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "La moda es una forma de fealdad tan intolerable que tenemos que cambiarla cada seis meses.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "moda",
+        "sociedad"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-42",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "Quien tiene un porqué para vivir puede soportar casi cualquier cómo.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "sentido",
+        "vida"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-43",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "Lo que no me mata me hace más fuerte.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "adversidad",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-44",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "Sin música, la vida sería un error.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "música",
+        "vida"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-45",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "Hay que llevar dentro de uno mismo un caos para poder dar a luz una estrella danzante.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "creatividad",
+        "transformación"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-46",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "La esperanza es el peor de los males, pues prolonga el tormento del hombre.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "esperanza",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-47",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "La madurez del hombre consiste en recuperar la seriedad con la que jugaba de niño.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "madurez",
+        "juego"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-48",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "No hay hechos eternos, como no hay verdades absolutas.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "verdad",
+        "filosofía"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-49",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "El individuo ha luchado siempre para no ser absorbido por la tribu.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "independencia",
+        "sociedad"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-50",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "Quien se desprecia a sí mismo se respeta al menos como despreciador.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "identidad",
+        "conciencia"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-51",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "Todo lo que se hace por amor está más allá del bien y del mal.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "amor",
+        "ética"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-52",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "La ventaja de la mala memoria es que se disfruta varias veces de las mismas cosas buenas.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "memoria",
+        "humor"
+      ]
+    },
+    {
+      "id": "friedrich-nietzsche-53",
+      "author": "Friedrich Nietzsche",
+      "slug": "friedrich-nietzsche",
+      "text": "La vida sin música sería un error.",
+      "source": "https://es.wikiquote.org/wiki/Friedrich_Nietzsche",
+      "sourceName": "Wikiquote: Friedrich Nietzsche",
+      "tags": [
+        "música",
+        "vida"
+      ]
+    },
+    {
+      "id": "seneca-54",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "No es que tengamos poco tiempo, sino que perdemos mucho.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "tiempo",
+        "vida"
+      ]
+    },
+    {
+      "id": "seneca-55",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "La suerte es lo que sucede cuando la preparación se encuentra con la oportunidad.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "preparación",
+        "oportunidad"
+      ]
+    },
+    {
+      "id": "seneca-56",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "La dificultad fortalece la mente, como el trabajo fortalece el cuerpo.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "dificultad",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "seneca-57",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "Mientras esperamos vivir, la vida pasa.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "tiempo",
+        "presente"
+      ]
+    },
+    {
+      "id": "seneca-58",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "Ningún viento es favorable para quien no sabe a qué puerto se dirige.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "metas",
+        "dirección"
+      ]
+    },
+    {
+      "id": "seneca-59",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "La ira, si no se contiene, es frecuentemente más dañina para nosotros que la injuria que la provoca.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "ira",
+        "autocontrol"
+      ]
+    },
+    {
+      "id": "seneca-60",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "La vida es larga si sabes cómo usarla.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "tiempo",
+        "sabiduría"
+      ]
+    },
+    {
+      "id": "seneca-61",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "La verdadera felicidad consiste en disfrutar el presente sin depender ansiosamente del futuro.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "felicidad",
+        "presente"
+      ]
+    },
+    {
+      "id": "seneca-62",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "Asóciate con quienes puedan hacerte mejor.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "amistad",
+        "crecimiento"
+      ]
+    },
+    {
+      "id": "seneca-63",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "El lenguaje de la verdad debe ser, sin duda, simple y sin artificios.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "verdad",
+        "lenguaje"
+      ]
+    },
+    {
+      "id": "seneca-64",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "No hay mayor esclavitud que la de ser esclavo de uno mismo.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "libertad",
+        "autocontrol"
+      ]
+    },
+    {
+      "id": "seneca-65",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "La adversidad tiene el don de despertar talentos que en la prosperidad hubieran permanecido dormidos.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "adversidad",
+        "talento"
+      ]
+    },
+    {
+      "id": "confucio-66",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "No importa lo despacio que vayas, siempre que no te detengas.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "perseverancia",
+        "camino"
+      ]
+    },
+    {
+      "id": "confucio-67",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "El hombre superior es modesto en el hablar, pero abundante en el obrar.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "acciones",
+        "humildad"
+      ]
+    },
+    {
+      "id": "confucio-68",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Aprender sin reflexionar es malgastar energía.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "aprendizaje",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "confucio-69",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Reflexionar sin aprender es peligroso.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "aprendizaje",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "confucio-70",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "La virtud no habita en la soledad; debe tener vecinos.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "virtud",
+        "comunidad"
+      ]
+    },
+    {
+      "id": "confucio-71",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Exígete mucho a ti mismo y espera poco de los demás.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "responsabilidad",
+        "expectativas"
+      ]
+    },
+    {
+      "id": "confucio-72",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "El silencio es el único amigo que jamás traiciona.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "silencio",
+        "prudencia"
+      ]
+    },
+    {
+      "id": "confucio-73",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Cuando veas a una persona buena, intenta imitarla; cuando veas a una mala, examínate a ti mismo.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "ética",
+        "autoconocimiento"
+      ]
+    },
+    {
+      "id": "confucio-74",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "La naturaleza de los hombres es semejante; son sus hábitos los que los separan.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "hábitos",
+        "conducta"
+      ]
+    },
+    {
+      "id": "confucio-75",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Estudia el pasado si quieres pronosticar el futuro.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "historia",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "lao-tse-76",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "El que sabe no habla; el que habla no sabe.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "silencio",
+        "sabiduría"
+      ]
+    },
+    {
+      "id": "lao-tse-77",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Quien domina a otros es fuerte; quien se domina a sí mismo es poderoso.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "autocontrol",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "lao-tse-78",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "La naturaleza no se apresura y, sin embargo, todo se realiza.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "naturaleza",
+        "paciencia"
+      ]
+    },
+    {
+      "id": "lao-tse-79",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "El que está satisfecho con su parte es rico.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "gratitud",
+        "abundancia"
+      ]
+    },
+    {
+      "id": "lao-tse-80",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Cuando dejo de ser lo que soy, me convierto en lo que podría ser.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "cambio",
+        "identidad"
+      ]
+    },
+    {
+      "id": "lao-tse-81",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "El agua es blanda y vence a lo duro.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "adaptación",
+        "fuerza"
+      ]
+    },
+    {
+      "id": "lao-tse-82",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Un buen viajero no tiene planes fijos ni intención de llegar.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "viaje",
+        "libertad"
+      ]
+    },
+    {
+      "id": "lao-tse-83",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Cuanto más lejos se va, menos se sabe.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "conocimiento",
+        "humildad"
+      ]
+    },
+    {
+      "id": "lao-tse-84",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Gobernar una gran nación es como cocinar un pequeño pez.",
+      "source": "https://es.wikiquote.org/wiki/Lao-Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "gobierno",
+        "equilibrio"
+      ]
+    },
+    {
+      "id": "marco-aurelio-85",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "La mejor venganza es no parecerse a quien te hizo daño.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "bondad",
+        "carácter"
+      ]
+    },
+    {
+      "id": "marco-aurelio-86",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "Tienes poder sobre tu mente, no sobre los acontecimientos externos.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "autocontrol",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "marco-aurelio-87",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "Acepta las cosas a las que te ata el destino y ama a las personas con quienes el destino te reúne.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "aceptación",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "marco-aurelio-88",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "La pérdida no es otra cosa que transformación, y la transformación es el deleite de la naturaleza.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "cambio",
+        "naturaleza"
+      ]
+    },
+    {
+      "id": "marco-aurelio-89",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "Si te aflige algo externo, el dolor no se debe a la cosa misma, sino a tu juicio sobre ella.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "perspectiva",
+        "emociones"
+      ]
+    },
+    {
+      "id": "marco-aurelio-90",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "Haz cada cosa como si fuera la última de tu vida.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "presente",
+        "propósito"
+      ]
+    },
+    {
+      "id": "marco-aurelio-91",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "La tranquilidad llega cuando dejas de preocuparte por lo que otros dicen.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "serenidad",
+        "libertad"
+      ]
+    },
+    {
+      "id": "marco-aurelio-92",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "El impedimento para la acción impulsa la acción; lo que se interpone en el camino se convierte en el camino.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "adversidad",
+        "acción"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-93",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "La fe es el pájaro que siente la luz cuando el amanecer todavía está oscuro.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "fe",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-94",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "La nube viene flotando a mi vida desde otros días para dar color a mi puesta de sol.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "poesía",
+        "naturaleza"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-95",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "Convertiste tu vida en una carga al intentar convertirla en una posesión.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "vida",
+        "libertad"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-96",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "El amor es un misterio sin fin, porque no hay nada que lo explique.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "amor",
+        "misterio"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-97",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "La muerte no apaga la luz; solo extingue la lámpara porque ha llegado el amanecer.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "muerte",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-98",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "Los hombres crueles son siempre débiles.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "crueldad",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "jane-austen-99",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "La amistad es sin duda el mejor bálsamo para los dolores de la decepción amorosa.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "amistad",
+        "consuelo"
+      ]
+    },
+    {
+      "id": "jane-austen-100",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "No quiero que la gente sea muy agradable, pues así me ahorro el trabajo de apreciarla demasiado.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "humor",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "jane-austen-101",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "La vanidad y el orgullo son cosas distintas, aunque a menudo se usan como sinónimos.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "orgullo",
+        "identidad"
+      ]
+    },
+    {
+      "id": "jane-austen-102",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "No hay nada como quedarse en casa para estar verdaderamente cómodo.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "hogar",
+        "calma"
+      ]
+    },
+    {
+      "id": "jane-austen-103",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "La felicidad en el matrimonio depende enteramente de la suerte.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "amor",
+        "ironía"
+      ]
+    },
+    {
+      "id": "jane-austen-104",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "A veces la pérdida de una persona puede hacer que otra se encuentre a sí misma.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "identidad",
+        "cambio"
+      ]
+    },
+    {
+      "id": "jane-austen-105",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "El egoísmo siempre debe ser perdonado, porque no hay esperanza de cura.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "egoísmo",
+        "ironía"
+      ]
+    },
+    {
+      "id": "jane-austen-106",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "Una persona puede ser orgullosa sin ser vanidosa.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "carácter",
+        "identidad"
+      ]
+    },
+    {
+      "id": "jane-austen-107",
+      "author": "Jane Austen",
+      "slug": "jane-austen",
+      "text": "La mitad del mundo no puede comprender los placeres de la otra mitad.",
+      "source": "https://es.wikiquote.org/wiki/Jane_Austen",
+      "sourceName": "Wikiquote: Jane Austen",
+      "tags": [
+        "sociedad",
+        "diferencias"
+      ]
+    },
+    {
+      "id": "khalil-gibran-108",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "Del sufrimiento han surgido las almas más fuertes.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "sufrimiento",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "khalil-gibran-109",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "La ternura y la bondad no son signos de debilidad, sino manifestaciones de fuerza.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "bondad",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "khalil-gibran-110",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "Tus hijos no son tus hijos; son los hijos y las hijas de la vida.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "familia",
+        "libertad"
+      ]
+    },
+    {
+      "id": "khalil-gibran-111",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "El trabajo es el amor hecho visible.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "trabajo",
+        "amor"
+      ]
+    },
+    {
+      "id": "khalil-gibran-112",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "La generosidad consiste en dar más de lo que puedes y el orgullo en tomar menos de lo que necesitas.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "generosidad",
+        "humildad"
+      ]
+    },
+    {
+      "id": "khalil-gibran-113",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "La tristeza no es más que un muro entre dos jardines.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "tristeza",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "khalil-gibran-114",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "La belleza no está en el rostro; la belleza es una luz en el corazón.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "belleza",
+        "interior"
+      ]
+    },
+    {
+      "id": "khalil-gibran-115",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "La vida sin amor es como un árbol sin flores ni frutos.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "amor",
+        "vida"
+      ]
+    },
+    {
+      "id": "khalil-gibran-116",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "El silencio del envidioso está lleno de ruidos.",
+      "source": "https://es.wikiquote.org/wiki/Kahlil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "envidia",
+        "silencio"
+      ]
+    },
+    {
+      "id": "leonardo-da-vinci-117",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "La simplicidad es la máxima sofisticación.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "simplicidad",
+        "creatividad"
+      ]
+    },
+    {
+      "id": "leonardo-da-vinci-118",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "El placer más noble es el júbilo de comprender.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "conocimiento",
+        "alegría"
+      ]
+    },
+    {
+      "id": "leonardo-da-vinci-119",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "Quien piensa poco se equivoca mucho.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "pensamiento",
+        "prudencia"
+      ]
+    },
+    {
+      "id": "leonardo-da-vinci-120",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "El conocimiento de todas las cosas es posible.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "conocimiento",
+        "curiosidad"
+      ]
+    },
+    {
+      "id": "leonardo-da-vinci-121",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "Una vez que hayas probado el vuelo, caminarás por la tierra con los ojos mirando al cielo.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "sueños",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "leonardo-da-vinci-122",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "El tiempo permanece bastante para quien lo sabe aprovechar.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "tiempo",
+        "trabajo"
+      ]
+    },
+    {
+      "id": "leonardo-da-vinci-123",
+      "author": "Leonardo da Vinci",
+      "slug": "leonardo-da-vinci",
+      "text": "La belleza perece en la vida, pero es inmortal en el arte.",
+      "source": "https://es.wikiquote.org/wiki/Leonardo_da_Vinci",
+      "sourceName": "Wikiquote: Leonardo da Vinci",
+      "tags": [
+        "arte",
+        "belleza"
+      ]
+    },
+    {
+      "id": "aristoteles-124",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "La excelencia no es un acto, sino un hábito.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "hábitos",
+        "excelencia"
+      ]
+    },
+    {
+      "id": "aristoteles-125",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "El placer en el trabajo perfecciona la obra.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "trabajo",
+        "excelencia"
+      ]
+    },
+    {
+      "id": "aristoteles-126",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "La amistad es un alma que habita en dos cuerpos.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "amistad",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "aristoteles-127",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "Educar la mente sin educar el corazón no es educar en absoluto.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "educación",
+        "ética"
+      ]
+    },
+    {
+      "id": "aristoteles-128",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "El sabio no dice todo lo que piensa, pero siempre piensa todo lo que dice.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "sabiduría",
+        "prudencia"
+      ]
+    },
+    {
+      "id": "aristoteles-129",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "La esperanza es el sueño del hombre despierto.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "esperanza",
+        "sueños"
+      ]
+    },
+    {
+      "id": "aristoteles-130",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "La finalidad del arte es dar cuerpo a la esencia secreta de las cosas.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "arte",
+        "esencia"
+      ]
+    },
+    {
+      "id": "aristoteles-131",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "La energía de la mente es la esencia de la vida.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "mente",
+        "vida"
+      ]
+    },
+    {
+      "id": "aristoteles-132",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "El comienzo es más de la mitad del todo.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "comienzos",
+        "acción"
+      ]
+    },
+    {
+      "id": "aristoteles-133",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "La felicidad depende de nosotros mismos.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "felicidad",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "platon-134",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "La primera y mejor victoria es conquistarse a uno mismo.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "autocontrol",
+        "victoria"
+      ]
+    },
+    {
+      "id": "platon-135",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "El precio de desentenderse de la política es ser gobernado por los peores hombres.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "política",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "platon-136",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "La música es para el alma lo que la gimnasia para el cuerpo.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "música",
+        "alma"
+      ]
+    },
+    {
+      "id": "platon-137",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "El conocimiento sin justicia debería llamarse astucia y no sabiduría.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "justicia",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "platon-138",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "La necesidad es la madre de la invención.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "necesidad",
+        "creatividad"
+      ]
+    },
+    {
+      "id": "platon-139",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "La pobreza no viene por la disminución de las riquezas, sino por la multiplicación de los deseos.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "deseo",
+        "moderación"
+      ]
+    },
+    {
+      "id": "platon-140",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "El hombre inteligente habla cuando tiene algo que decir; el necio, cuando tiene que decir algo.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "palabras",
+        "prudencia"
+      ]
+    },
+    {
+      "id": "platon-141",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "Todo aprendizaje tiene una base emocional.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "educación",
+        "emociones"
+      ]
+    },
+    {
+      "id": "platon-142",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "La libertad está en ser dueños de la propia vida.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "libertad",
+        "autonomía"
+      ]
+    },
+    {
+      "id": "platon-143",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "El tiempo es la imagen móvil de la eternidad.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "tiempo",
+        "filosofía"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-144",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Todo lo que vemos o parecemos es solamente un sueño dentro de un sueño.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "realidad",
+        "sueños"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-145",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Los límites que separan la vida de la muerte son, en el mejor de los casos, vagos e imprecisos.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "vida",
+        "muerte"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-146",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "La belleza de cualquier clase, en su manifestación suprema, excita inevitablemente el alma sensible hasta hacerla llorar.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "belleza",
+        "emoción"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-147",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "No hay belleza exquisita sin cierta extrañeza en la proporción.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "belleza",
+        "singularidad"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-148",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Las palabras no tienen poder para impresionar la mente sin el exquisito horror de su realidad.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "palabras",
+        "imaginación"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-149",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "La ciencia no nos ha enseñado aún si la locura es o no lo más sublime de la inteligencia.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "ciencia",
+        "mente"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-150",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Quienes sueñan de día conocen muchas cosas que escapan a quienes sueñan solo de noche.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "sueños",
+        "imaginación"
+      ]
+    },
+    {
+      "id": "charles-dickens-151",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Nadie es inútil en este mundo si alivia la carga de otro.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "solidaridad",
+        "bondad"
+      ]
+    },
+    {
+      "id": "charles-dickens-152",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "El dolor de la separación no es nada comparado con la alegría de reencontrarse.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "amor",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "charles-dickens-153",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Tenemos que hacer el bien siempre que podamos, y hacerlo por todos los medios posibles.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "bondad",
+        "acciones"
+      ]
+    },
+    {
+      "id": "charles-dickens-154",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Un corazón que ama es la más verdadera de las sabidurías.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "amor",
+        "sabiduría"
+      ]
+    },
+    {
+      "id": "charles-dickens-155",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "La caridad comienza en casa, pero no debe terminar allí.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "familia",
+        "solidaridad"
+      ]
+    },
+    {
+      "id": "charles-dickens-156",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Hay libros cuyas cubiertas y contracubiertas son, de lejos, las mejores partes.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "lectura",
+        "humor"
+      ]
+    },
+    {
+      "id": "charles-dickens-157",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "El hombre nunca sabe de lo que es capaz hasta que lo intenta.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "esfuerzo",
+        "potencial"
+      ]
+    },
+    {
+      "id": "charles-dickens-158",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "El mundo pertenece a quienes se atreven a vivirlo.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "valentía",
+        "vida"
+      ]
+    },
+    {
+      "id": "mark-twain-159",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "La edad es una cuestión de mente sobre materia; si no te importa, no importa.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "edad",
+        "humor"
+      ]
+    },
+    {
+      "id": "mark-twain-160",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "La bondad es el lenguaje que los sordos pueden oír y los ciegos pueden ver.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "bondad",
+        "empatía"
+      ]
+    },
+    {
+      "id": "mark-twain-161",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "La verdad es más extraña que la ficción, pero es porque la ficción está obligada a ceñirse a las posibilidades.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "verdad",
+        "ficción"
+      ]
+    },
+    {
+      "id": "mark-twain-162",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "El secreto para salir adelante es comenzar.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "comienzos",
+        "acción"
+      ]
+    },
+    {
+      "id": "mark-twain-163",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "Siempre haz lo correcto. Eso complacerá a algunas personas y asombrará al resto.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "ética",
+        "humor"
+      ]
+    },
+    {
+      "id": "mark-twain-164",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "La ropa hace a la persona; la gente desnuda tiene poca o ninguna influencia en la sociedad.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "sociedad",
+        "humor"
+      ]
+    },
+    {
+      "id": "mark-twain-165",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "Es más fácil engañar a la gente que convencerla de que ha sido engañada.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "engaño",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "mark-twain-166",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "No dejes que la escuela interfiera en tu educación.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "educación",
+        "curiosidad"
+      ]
+    },
+    {
+      "id": "mark-twain-167",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "El coraje es la resistencia al miedo, el dominio del miedo, no la ausencia de miedo.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "coraje",
+        "miedo"
+      ]
+    },
+    {
+      "id": "mark-twain-168",
+      "author": "Mark Twain",
+      "slug": "mark-twain",
+      "text": "La mejor manera de animarte es intentar animar a alguien más.",
+      "source": "https://es.wikiquote.org/wiki/Mark_Twain",
+      "sourceName": "Wikiquote: Mark Twain",
+      "tags": [
+        "generosidad",
+        "alegría"
+      ]
+    },
+    {
+      "id": "jose-marti-169",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "La libertad cuesta muy cara, y es necesario o resignarse a vivir sin ella o decidirse a comprarla por su precio.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "libertad",
+        "dignidad"
+      ]
+    },
+    {
+      "id": "jose-marti-170",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "La mejor manera de decir es hacer.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "acciones",
+        "coherencia"
+      ]
+    },
+    {
+      "id": "jose-marti-171",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "La única fuerza y la única verdad que hay en esta vida es el amor.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "amor",
+        "verdad"
+      ]
+    },
+    {
+      "id": "jose-marti-172",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "Los bárbaros que todo lo confían a la fuerza y a la violencia nada construyen, porque sus simientes son de odio.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "paz",
+        "justicia"
+      ]
+    },
+    {
+      "id": "jose-marti-173",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "Ayudar al que lo necesita no solo es parte del deber, sino de la felicidad.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "solidaridad",
+        "felicidad"
+      ]
+    },
+    {
+      "id": "jose-marti-174",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "La patria es ara, no pedestal.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "patria",
+        "servicio"
+      ]
+    },
+    {
+      "id": "jose-marti-175",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "Ser culto es el único modo de ser libre.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "educación",
+        "libertad"
+      ]
+    },
+    {
+      "id": "jose-marti-176",
+      "author": "José Martí",
+      "slug": "jose-marti",
+      "text": "La crítica es el ejercicio del criterio.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_Mart%C3%AD",
+      "sourceName": "Wikiquote: José Martí",
+      "tags": [
+        "pensamiento",
+        "criterio"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-177",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Hombres necios que acusáis a la mujer sin razón.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "igualdad",
+        "poesía"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-178",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "En perseguirme, Mundo, ¿qué interesas?",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "libertad",
+        "identidad"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-179",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Finjamos que soy feliz, triste pensamiento, un rato.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "felicidad",
+        "tristeza"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-180",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Este amoroso tormento que en mi corazón se ve.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "amor",
+        "poesía"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-181",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "¿Cuál mayor culpa ha tenido en una pasión errada: la que cae de rogada o el que ruega de caído?",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "amor",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-182",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Óyeme con los ojos, ya que están tan distantes los oídos.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "poesía",
+        "comunicación"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-183",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "Con que, por más que se enoje quien lo contrario sintiere, será querer sin querer y no querer queriendo.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "amor",
+        "contradicción"
+      ]
+    },
+    {
+      "id": "antoine-de-saint-exupery-184",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "El amor no consiste en mirarse el uno al otro, sino en mirar juntos en la misma dirección.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "amor",
+        "proyecto"
+      ]
+    },
+    {
+      "id": "antoine-de-saint-exupery-185",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "Haz de tu vida un sueño, y de tu sueño una realidad.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "sueños",
+        "acción"
+      ]
+    },
+    {
+      "id": "antoine-de-saint-exupery-186",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "La perfección se alcanza no cuando no hay nada más que añadir, sino cuando no queda nada que quitar.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "perfección",
+        "simplicidad"
+      ]
+    },
+    {
+      "id": "antoine-de-saint-exupery-187",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "Si quieres construir un barco, no empieces por buscar madera; despierta en las personas el anhelo del mar.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "liderazgo",
+        "inspiración"
+      ]
+    },
+    {
+      "id": "antoine-de-saint-exupery-188",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "El hombre se descubre cuando se mide con un obstáculo.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "adversidad",
+        "autoconocimiento"
+      ]
+    },
+    {
+      "id": "antoine-de-saint-exupery-189",
+      "author": "Antoine de Saint-Exupéry",
+      "slug": "antoine-de-saint-exupery",
+      "text": "Amar no es mirarse el uno al otro, sino mirar juntos hacia el mismo horizonte.",
+      "source": "https://es.wikiquote.org/wiki/Antoine_de_Saint-Exup%C3%A9ry",
+      "sourceName": "Wikiquote: Antoine de Saint-Exupéry",
+      "tags": [
+        "amor",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "epicteto-190",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "No pretendas que los acontecimientos ocurran como quieres; desea que ocurran como ocurren y tu vida fluirá serena.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "aceptación",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "epicteto-191",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "No es lo que te sucede, sino cómo reaccionas lo que importa.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "perspectiva",
+        "autocontrol"
+      ]
+    },
+    {
+      "id": "epicteto-192",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Nadie es libre si no es dueño de sí mismo.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "libertad",
+        "autocontrol"
+      ]
+    },
+    {
+      "id": "epicteto-193",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Primero descubre quién quieres ser; luego haz lo que tengas que hacer.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "identidad",
+        "acción"
+      ]
+    },
+    {
+      "id": "epicteto-194",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "La riqueza no consiste en tener grandes posesiones, sino en tener pocas necesidades.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "riqueza",
+        "moderación"
+      ]
+    },
+    {
+      "id": "epicteto-195",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Solo hay un camino hacia la felicidad: dejar de preocuparse por aquello que está más allá de nuestro poder.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "felicidad",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "epicteto-196",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Si quieres mejorar, acepta que te consideren ignorante en algunas cosas.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "aprendizaje",
+        "humildad"
+      ]
+    },
+    {
+      "id": "epicteto-197",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Las dificultades muestran lo que los hombres son.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "adversidad",
+        "carácter"
+      ]
+    },
+    {
+      "id": "epicteto-198",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "No busques que los sucesos sucedan como deseas; desea que sucedan como suceden.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "aceptación",
+        "vida"
+      ]
+    },
+    {
+      "id": "epicteto-199",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "El hombre no se preocupa tanto por los problemas reales como por sus opiniones sobre ellos.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "pensamiento",
+        "emociones"
+      ]
+    },
+    {
+      "id": "marie-curie-200",
+      "author": "Marie Curie",
+      "slug": "marie-curie",
+      "text": "Nada en la vida debe ser temido, solamente comprendido.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "sourceName": "Wikiquote: Marie Curie",
+      "tags": [
+        "ciencia",
+        "valentía"
+      ]
+    },
+    {
+      "id": "marie-curie-201",
+      "author": "Marie Curie",
+      "slug": "marie-curie",
+      "text": "Hay que perseverar y, sobre todo, tener confianza en uno mismo.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "sourceName": "Wikiquote: Marie Curie",
+      "tags": [
+        "perseverancia",
+        "confianza"
+      ]
+    },
+    {
+      "id": "marie-curie-202",
+      "author": "Marie Curie",
+      "slug": "marie-curie",
+      "text": "En la vida no hay nada que temer, solo cosas que comprender.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "sourceName": "Wikiquote: Marie Curie",
+      "tags": [
+        "ciencia",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "marie-curie-203",
+      "author": "Marie Curie",
+      "slug": "marie-curie",
+      "text": "No debemos olvidar que cuando se descubrió el radio nadie sabía que sería útil en los hospitales.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "sourceName": "Wikiquote: Marie Curie",
+      "tags": [
+        "ciencia",
+        "investigación"
+      ]
+    },
+    {
+      "id": "marie-curie-204",
+      "author": "Marie Curie",
+      "slug": "marie-curie",
+      "text": "La humanidad necesita personas prácticas y soñadoras.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "sourceName": "Wikiquote: Marie Curie",
+      "tags": [
+        "humanidad",
+        "sueños"
+      ]
+    },
+    {
+      "id": "marie-curie-205",
+      "author": "Marie Curie",
+      "slug": "marie-curie",
+      "text": "Nunca veo lo que se ha hecho; solo veo lo que queda por hacer.",
+      "source": "https://es.wikiquote.org/wiki/Marie_Curie",
+      "sourceName": "Wikiquote: Marie Curie",
+      "tags": [
+        "trabajo",
+        "futuro"
+      ]
+    },
+    {
+      "id": "jose-de-san-martin-206",
+      "author": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "text": "La conciencia es el mejor juez que tiene un hombre de bien.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "sourceName": "Wikiquote: José de San Martín",
+      "tags": [
+        "conciencia",
+        "ética"
+      ]
+    },
+    {
+      "id": "jose-de-san-martin-207",
+      "author": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "text": "Una derrota peleada vale más que una victoria casual.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "sourceName": "Wikiquote: José de San Martín",
+      "tags": [
+        "esfuerzo",
+        "valentía"
+      ]
+    },
+    {
+      "id": "jose-de-san-martin-208",
+      "author": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "text": "Seamos libres, que lo demás no importa nada.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "sourceName": "Wikiquote: José de San Martín",
+      "tags": [
+        "libertad",
+        "independencia"
+      ]
+    },
+    {
+      "id": "jose-de-san-martin-209",
+      "author": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "text": "La soberbia es una discapacidad que suele afectar a pobres infelices mortales que se encuentran de golpe con una miserable cuota de poder.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "sourceName": "Wikiquote: José de San Martín",
+      "tags": [
+        "poder",
+        "humildad"
+      ]
+    },
+    {
+      "id": "jose-de-san-martin-210",
+      "author": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "text": "Mi sable nunca saldrá de la vaina por opiniones políticas.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "sourceName": "Wikiquote: José de San Martín",
+      "tags": [
+        "paz",
+        "política"
+      ]
+    },
+    {
+      "id": "jose-de-san-martin-211",
+      "author": "José de San Martín",
+      "slug": "jose-de-san-martin",
+      "text": "La biblioteca destinada a la educación universal es más poderosa que nuestros ejércitos.",
+      "source": "https://es.wikiquote.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+      "sourceName": "Wikiquote: José de San Martín",
+      "tags": [
+        "educación",
+        "libertad"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-212",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "La gratitud no es solo la mayor de las virtudes, sino la madre de todas las demás.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "gratitud",
+        "virtud"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-213",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "La historia es testigo de los tiempos, luz de la verdad, vida de la memoria y maestra de la vida.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "historia",
+        "memoria"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-214",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "La amistad mejora la felicidad y disminuye la miseria, duplicando nuestras alegrías y dividiendo nuestro dolor.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "amistad",
+        "felicidad"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-215",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "La vida de los muertos perdura en la memoria de los vivos.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "memoria",
+        "historia"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-216",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "No basta con alcanzar la sabiduría; es necesario saber utilizarla.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "sabiduría",
+        "acción"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-217",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "La justicia es la reina de las virtudes.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "justicia",
+        "ética"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-218",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "Cuanto más alto estemos situados, más humildes debemos ser.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "humildad",
+        "poder"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-219",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "La libertad no consiste en tener un buen amo, sino en no tenerlo.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "libertad",
+        "autonomía"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-220",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "La cara es el espejo del alma.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "alma",
+        "expresión"
+      ]
+    },
+    {
+      "id": "marco-tulio-ciceron-221",
+      "author": "Marco Tulio Cicerón",
+      "slug": "marco-tulio-ciceron",
+      "text": "Si tienes un jardín y una biblioteca, tienes todo lo que necesitas.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Tulio_Cicer%C3%B3n",
+      "sourceName": "Wikiquote: Marco Tulio Cicerón",
+      "tags": [
+        "lectura",
+        "calma"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-222",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "Saber no es suficiente; debemos aplicar. Querer no es suficiente; debemos hacer.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "acción",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-223",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "Nada hay más terrible que la ignorancia en acción.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "ignorancia",
+        "acción"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-224",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "El talento se educa en la calma y el carácter en la tempestad.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "carácter",
+        "adversidad"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-225",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "La conducta es el espejo en que cada uno muestra su imagen.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "conducta",
+        "identidad"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-226",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "Quien no conoce lenguas extranjeras no sabe nada de la suya propia.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "lenguaje",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-227",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "La alegría y el amor son las alas para las grandes empresas.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "alegría",
+        "amor"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-228",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "Pensar es fácil; actuar es difícil; actuar siguiendo el pensamiento propio es lo más difícil.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "acción",
+        "coherencia"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-229",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "El hombre se conoce a sí mismo en la medida en que conoce el mundo.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "autoconocimiento",
+        "mundo"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-230",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "Todo comienzo tiene su encanto.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "comienzos",
+        "vida"
+      ]
+    },
+    {
+      "id": "johann-wolfgang-von-goethe-231",
+      "author": "Johann Wolfgang von Goethe",
+      "slug": "johann-wolfgang-von-goethe",
+      "text": "La magia es creer en ti mismo; si puedes hacerlo, puedes hacer que cualquier cosa suceda.",
+      "source": "https://es.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe",
+      "sourceName": "Wikiquote: Johann Wolfgang von Goethe",
+      "tags": [
+        "confianza",
+        "imaginación"
+      ]
+    },
+    {
+      "id": "victor-hugo-232",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "La primera igualdad es la equidad.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "igualdad",
+        "justicia"
+      ]
+    },
+    {
+      "id": "victor-hugo-233",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "La música expresa aquello que no puede decirse con palabras y aquello que no puede permanecer en silencio.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "música",
+        "emociones"
+      ]
+    },
+    {
+      "id": "victor-hugo-234",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "El futuro tiene muchos nombres: para los débiles es lo inalcanzable; para los temerosos, lo desconocido; para los valientes, la oportunidad.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "futuro",
+        "valentía"
+      ]
+    },
+    {
+      "id": "victor-hugo-235",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "No hay nada más poderoso que una idea a la que le ha llegado su tiempo.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "ideas",
+        "cambio"
+      ]
+    },
+    {
+      "id": "victor-hugo-236",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "La risa es el sol que ahuyenta el invierno del rostro humano.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "alegría",
+        "humor"
+      ]
+    },
+    {
+      "id": "victor-hugo-237",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "La libertad comienza donde termina la ignorancia.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "libertad",
+        "educación"
+      ]
+    },
+    {
+      "id": "victor-hugo-238",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "El amor abre un paréntesis que el matrimonio cierra.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "amor",
+        "humor"
+      ]
+    },
+    {
+      "id": "victor-hugo-239",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "Quien abre una puerta de escuela cierra una prisión.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "educación",
+        "sociedad"
+      ]
+    },
+    {
+      "id": "victor-hugo-240",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "La conciencia es la presencia de Dios en el hombre.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "conciencia",
+        "ética"
+      ]
+    },
+    {
+      "id": "victor-hugo-241",
+      "author": "Victor Hugo",
+      "slug": "victor-hugo",
+      "text": "El paraíso de los ricos está hecho del infierno de los pobres.",
+      "source": "https://es.wikiquote.org/wiki/Victor_Hugo",
+      "sourceName": "Wikiquote: Victor Hugo",
+      "tags": [
+        "justicia",
+        "desigualdad"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-242",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "Todos piensan en cambiar el mundo, pero nadie piensa en cambiarse a sí mismo.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "cambio",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-243",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "El secreto de la felicidad no es hacer siempre lo que se quiere, sino querer siempre lo que se hace.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "felicidad",
+        "trabajo"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-244",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "Si quieres ser feliz, sé.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "felicidad",
+        "presente"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-245",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "La verdadera vida se vive cuando ocurren pequeños cambios.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "vida",
+        "cambio"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-246",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "El respeto se inventó para cubrir el lugar vacío donde debería estar el amor.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "respeto",
+        "amor"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-247",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "El arte es una actividad humana que consiste en transmitir sentimientos.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "arte",
+        "emociones"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-248",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "No hay grandeza donde faltan la sencillez, la bondad y la verdad.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "bondad",
+        "verdad"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-249",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "El amor empieza cuando una persona siente que las necesidades de otra son tan importantes como las suyas.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "amor",
+        "empatía"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-250",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "La razón no me ha enseñado nada; todo lo que sé me ha sido dado por el corazón.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "razón",
+        "corazón"
+      ]
+    },
+    {
+      "id": "leon-tolstoi-251",
+      "author": "León Tolstói",
+      "slug": "leon-tolstoi",
+      "text": "La vida no se detiene ni un instante.",
+      "source": "https://es.wikiquote.org/wiki/Le%C3%B3n_Tolst%C3%B3i",
+      "sourceName": "Wikiquote: León Tolstói",
+      "tags": [
+        "tiempo",
+        "vida"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-252",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "El secreto de la existencia humana no solo está en vivir, sino también en saber para qué se vive.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "sentido",
+        "vida"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-253",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "El alma se cura estando con niños.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "infancia",
+        "ternura"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-254",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "La belleza salvará al mundo.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "belleza",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-255",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "Mucho puede hacerse con un poco de bondad.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "bondad",
+        "acciones"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-256",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "El hombre es un misterio. Si pasas la vida entera intentando descifrarlo, no digas que has perdido el tiempo.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "humanidad",
+        "misterio"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-257",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "El dolor y el sufrimiento son siempre inevitables para una inteligencia grande y un corazón profundo.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "dolor",
+        "inteligencia"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-258",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "La compasión es la ley principal de la existencia humana.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "compasión",
+        "humanidad"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-259",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "No hay tema tan viejo que no pueda decirse algo nuevo sobre él.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "creatividad",
+        "ideas"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-260",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "El hombre prefiere muchas veces el sufrimiento a la libertad.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "libertad",
+        "psicología"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-261",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "Nada es más fácil que denunciar al malhechor; nada más difícil que comprenderlo.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "justicia",
+        "empatía"
+      ]
+    },
+    {
+      "id": "voltaire-262",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "No estoy de acuerdo con lo que dices, pero defenderé hasta la muerte tu derecho a decirlo.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "libertad",
+        "expresión"
+      ]
+    },
+    {
+      "id": "voltaire-263",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "Juzga a un hombre por sus preguntas, no por sus respuestas.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "curiosidad",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "voltaire-264",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "La duda es una condición incómoda, pero la certeza es ridícula.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "duda",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "voltaire-265",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "Quienes pueden hacerte creer absurdos pueden hacerte cometer atrocidades.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "pensamiento",
+        "sociedad"
+      ]
+    },
+    {
+      "id": "voltaire-266",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "La escritura es la pintura de la voz.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "escritura",
+        "lenguaje"
+      ]
+    },
+    {
+      "id": "voltaire-267",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "El trabajo nos libra de tres grandes males: el aburrimiento, el vicio y la necesidad.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "trabajo",
+        "vida"
+      ]
+    },
+    {
+      "id": "voltaire-268",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "La felicidad es un sueño, pero el sufrimiento es real.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "felicidad",
+        "realidad"
+      ]
+    },
+    {
+      "id": "voltaire-269",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "Es difícil liberar a los necios de las cadenas que veneran.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "libertad",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "voltaire-270",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "El prejuicio es una opinión sin juicio.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "prejuicio",
+        "justicia"
+      ]
+    },
+    {
+      "id": "voltaire-271",
+      "author": "Voltaire",
+      "slug": "voltaire",
+      "text": "El arte de la medicina consiste en entretener al paciente mientras la naturaleza cura la enfermedad.",
+      "source": "https://es.wikiquote.org/wiki/Voltaire",
+      "sourceName": "Wikiquote: Voltaire",
+      "tags": [
+        "medicina",
+        "humor"
+      ]
+    },
+    {
+      "id": "blaise-pascal-272",
+      "author": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "text": "El corazón tiene razones que la razón no entiende.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "sourceName": "Wikiquote: Blaise Pascal",
+      "tags": [
+        "corazón",
+        "razón"
+      ]
+    },
+    {
+      "id": "blaise-pascal-273",
+      "author": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "text": "La justicia sin fuerza es impotente; la fuerza sin justicia es tiránica.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "sourceName": "Wikiquote: Blaise Pascal",
+      "tags": [
+        "justicia",
+        "poder"
+      ]
+    },
+    {
+      "id": "blaise-pascal-274",
+      "author": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "text": "La curiosidad no es más que vanidad; casi siempre queremos saber para hablar de ello.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "sourceName": "Wikiquote: Blaise Pascal",
+      "tags": [
+        "curiosidad",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "blaise-pascal-275",
+      "author": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "text": "Todas las desgracias de los hombres provienen de no saber quedarse tranquilos en una habitación.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "sourceName": "Wikiquote: Blaise Pascal",
+      "tags": [
+        "soledad",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "blaise-pascal-276",
+      "author": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "text": "El hombre está dispuesto siempre a negar todo aquello que no comprende.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "sourceName": "Wikiquote: Blaise Pascal",
+      "tags": [
+        "ignorancia",
+        "conocimiento"
+      ]
+    },
+    {
+      "id": "blaise-pascal-277",
+      "author": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "text": "La grandeza de un hombre consiste en saber reconocer su propia pequeñez.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "sourceName": "Wikiquote: Blaise Pascal",
+      "tags": [
+        "humildad",
+        "grandeza"
+      ]
+    },
+    {
+      "id": "blaise-pascal-278",
+      "author": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "text": "La felicidad es un artículo maravilloso: cuanto más se da, más le queda a uno.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "sourceName": "Wikiquote: Blaise Pascal",
+      "tags": [
+        "felicidad",
+        "generosidad"
+      ]
+    },
+    {
+      "id": "blaise-pascal-279",
+      "author": "Blaise Pascal",
+      "slug": "blaise-pascal",
+      "text": "No vivimos nunca, sino que esperamos vivir; y, preparándonos siempre para ser felices, es inevitable que no lo seamos nunca.",
+      "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
+      "sourceName": "Wikiquote: Blaise Pascal",
+      "tags": [
+        "presente",
+        "felicidad"
+      ]
+    },
+    {
+      "id": "rumi-280",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "Ayer era inteligente y quería cambiar el mundo; hoy soy sabio y me cambio a mí mismo.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "cambio",
+        "sabiduría"
+      ]
+    },
+    {
+      "id": "rumi-281",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "La herida es el lugar por donde entra la luz.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "dolor",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "rumi-282",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "Lo que buscas te está buscando.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "búsqueda",
+        "destino"
+      ]
+    },
+    {
+      "id": "rumi-283",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "No te conformes con historias, con cómo les han ido las cosas a los demás. Despliega tu propio mito.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "identidad",
+        "camino"
+      ]
+    },
+    {
+      "id": "rumi-284",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "Deja que el silencio te lleve al centro de la vida.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "silencio",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "rumi-285",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "La luna permanece brillante cuando no evita la noche.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "adversidad",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "rumi-286",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "Vende tu inteligencia y compra asombro.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "curiosidad",
+        "asombro"
+      ]
+    },
+    {
+      "id": "rumi-287",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "La belleza nos rodea, pero normalmente necesitamos caminar por un jardín para saberlo.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "belleza",
+        "atención"
+      ]
+    },
+    {
+      "id": "rumi-288",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "Responde a cada llamada que excite tu espíritu.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "propósito",
+        "inspiración"
+      ]
+    },
+    {
+      "id": "rumi-289",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "Donde hay ruina, hay esperanza de un tesoro.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "adversidad",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-290",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "La única manera de tener un amigo es serlo.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "amistad",
+        "generosidad"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-291",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "No sigas por donde el camino te lleve; ve, en cambio, por donde no hay camino y deja un sendero.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "originalidad",
+        "valentía"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-292",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "La confianza en uno mismo es el primer secreto del éxito.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "confianza",
+        "éxito"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-293",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "Lo que haces habla tan fuerte que no puedo oír lo que dices.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "acciones",
+        "coherencia"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-294",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "La naturaleza siempre lleva los colores del espíritu.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "naturaleza",
+        "emociones"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-295",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "Adopta el ritmo de la naturaleza; su secreto es la paciencia.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "naturaleza",
+        "paciencia"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-296",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "La paz no puede alcanzarse mediante la violencia, solo puede lograrse mediante la comprensión.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "paz",
+        "comprensión"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-297",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "La vida es un viaje, no un destino.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "vida",
+        "camino"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-298",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "Nada grande se logró jamás sin entusiasmo.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "entusiasmo",
+        "logros"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-299",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "El miedo derrota a más personas que cualquier otra cosa en el mundo.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "miedo",
+        "valentía"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-300",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "Ve con confianza en la dirección de tus sueños. Vive la vida que has imaginado.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "sueños",
+        "confianza"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-301",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "No basta con estar ocupado; también lo están las hormigas. La pregunta es: ¿en qué estamos ocupados?",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "tiempo",
+        "propósito"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-302",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "El precio de cualquier cosa es la cantidad de vida que intercambias por ella.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "vida",
+        "tiempo"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-303",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "La bondad es la única inversión que nunca falla.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "bondad",
+        "generosidad"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-304",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "Las cosas no cambian; cambiamos nosotros.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "cambio",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-305",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "Simplifica, simplifica.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "simplicidad",
+        "vida"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-306",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "La mayoría de los lujos y muchas de las llamadas comodidades no solo no son indispensables, sino que constituyen obstáculos para elevar a la humanidad.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "moderación",
+        "sociedad"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-307",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "No es suficiente ser laborioso; también lo son las hormigas. ¿Qué es lo que hacemos?",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "trabajo",
+        "propósito"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-308",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "El cielo está bajo nuestros pies tanto como sobre nuestras cabezas.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "naturaleza",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "henry-david-thoreau-309",
+      "author": "Henry David Thoreau",
+      "slug": "henry-david-thoreau",
+      "text": "El éxito suele llegar a quienes están demasiado ocupados para buscarlo.",
+      "source": "https://es.wikiquote.org/wiki/Henry_David_Thoreau",
+      "sourceName": "Wikiquote: Henry David Thoreau",
+      "tags": [
+        "trabajo",
+        "éxito"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-310",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "Sé el cambio que quieres ver en el mundo.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "cambio",
+        "acciones"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-311",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La fuerza no proviene de la capacidad física, sino de una voluntad indomable.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "voluntad",
+        "fortaleza"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-312",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La mejor manera de encontrarte es perderte al servicio de los demás.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "servicio",
+        "autoconocimiento"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-313",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La no violencia es la mayor fuerza a disposición de la humanidad.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "paz",
+        "justicia"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-314",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La tierra proporciona lo suficiente para satisfacer las necesidades de cada hombre, pero no la codicia de cada hombre.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "naturaleza",
+        "moderación"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-315",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "Un error no se convierte en verdad por el hecho de que todo el mundo crea en él.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "verdad",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-316",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La felicidad es cuando lo que piensas, lo que dices y lo que haces están en armonía.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "felicidad",
+        "coherencia"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-317",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La intolerancia es en sí misma una forma de violencia y un obstáculo para el crecimiento de un verdadero espíritu democrático.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "tolerancia",
+        "democracia"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-318",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La gloria está en intentar alcanzar el objetivo, no en alcanzarlo.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "esfuerzo",
+        "propósito"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-319",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "Vive como si fueras a morir mañana; aprende como si fueras a vivir siempre.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "vida",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "martin-luther-king-jr-320",
+      "author": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "text": "La oscuridad no puede expulsar a la oscuridad; solo la luz puede hacerlo.",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "sourceName": "Wikiquote: Martin Luther King Jr.",
+      "tags": [
+        "paz",
+        "bondad"
+      ]
+    },
+    {
+      "id": "martin-luther-king-jr-321",
+      "author": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "text": "La injusticia en cualquier lugar es una amenaza para la justicia en todas partes.",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "sourceName": "Wikiquote: Martin Luther King Jr.",
+      "tags": [
+        "justicia",
+        "solidaridad"
+      ]
+    },
+    {
+      "id": "martin-luther-king-jr-322",
+      "author": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "text": "La fe es dar el primer paso incluso cuando no ves toda la escalera.",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "sourceName": "Wikiquote: Martin Luther King Jr.",
+      "tags": [
+        "fe",
+        "valentía"
+      ]
+    },
+    {
+      "id": "martin-luther-king-jr-323",
+      "author": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "text": "Nuestras vidas comienzan a terminar el día en que guardamos silencio sobre las cosas importantes.",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "sourceName": "Wikiquote: Martin Luther King Jr.",
+      "tags": [
+        "coraje",
+        "justicia"
+      ]
+    },
+    {
+      "id": "martin-luther-king-jr-324",
+      "author": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "text": "La pregunta más persistente y urgente de la vida es: ¿qué estás haciendo por los demás?",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "sourceName": "Wikiquote: Martin Luther King Jr.",
+      "tags": [
+        "servicio",
+        "humanidad"
+      ]
+    },
+    {
+      "id": "martin-luther-king-jr-325",
+      "author": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "text": "El amor es la única fuerza capaz de transformar a un enemigo en amigo.",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "sourceName": "Wikiquote: Martin Luther King Jr.",
+      "tags": [
+        "amor",
+        "paz"
+      ]
+    },
+    {
+      "id": "martin-luther-king-jr-326",
+      "author": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "text": "La libertad nunca la concede voluntariamente el opresor; debe ser exigida por el oprimido.",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "sourceName": "Wikiquote: Martin Luther King Jr.",
+      "tags": [
+        "libertad",
+        "justicia"
+      ]
+    },
+    {
+      "id": "martin-luther-king-jr-327",
+      "author": "Martin Luther King Jr.",
+      "slug": "martin-luther-king-jr",
+      "text": "Siempre es el momento adecuado para hacer lo correcto.",
+      "source": "https://es.wikiquote.org/wiki/Martin_Luther_King",
+      "sourceName": "Wikiquote: Martin Luther King Jr.",
+      "tags": [
+        "ética",
+        "acciones"
+      ]
+    },
+    {
+      "id": "mary-shelley-328",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "Nada contribuye tanto a tranquilizar la mente como un propósito firme.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "propósito",
+        "serenidad"
+      ]
+    },
+    {
+      "id": "mary-shelley-329",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "La invención no consiste en crear del vacío, sino del caos.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "creatividad",
+        "imaginación"
+      ]
+    },
+    {
+      "id": "mary-shelley-330",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "Ningún hombre elige el mal porque sea mal; lo confunde con la felicidad que busca.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "ética",
+        "deseo"
+      ]
+    },
+    {
+      "id": "mary-shelley-331",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "La vida, aunque solo sea una acumulación de angustias, es querida por todos.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "vida",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "mary-shelley-332",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "El comienzo es siempre hoy.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "comienzos",
+        "presente"
+      ]
+    },
+    {
+      "id": "mary-shelley-333",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "El recuerdo de la felicidad ya no es felicidad; el recuerdo del dolor sigue siendo dolor.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "memoria",
+        "emociones"
+      ]
+    },
+    {
+      "id": "mary-shelley-334",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "Aprender de la experiencia no es menos importante que aprender de los libros.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "experiencia",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "mary-shelley-335",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "La imaginación es la facultad que nos permite comprender lo que no hemos vivido.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "imaginación",
+        "empatía"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir-336",
+      "author": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "text": "No se nace mujer: se llega a serlo.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "sourceName": "Wikiquote: Simone de Beauvoir",
+      "tags": [
+        "identidad",
+        "sociedad"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir-337",
+      "author": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "text": "Cambiar la vida: esa es la tarea que nos corresponde.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "sourceName": "Wikiquote: Simone de Beauvoir",
+      "tags": [
+        "cambio",
+        "responsabilidad"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir-338",
+      "author": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "text": "La representación del mundo, como el mundo mismo, es obra de los hombres; lo describen desde su propio punto de vista.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "sourceName": "Wikiquote: Simone de Beauvoir",
+      "tags": [
+        "sociedad",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir-339",
+      "author": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "text": "El presente no es un pasado en potencia; es el momento de la elección y de la acción.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "sourceName": "Wikiquote: Simone de Beauvoir",
+      "tags": [
+        "presente",
+        "libertad"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir-340",
+      "author": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "text": "La libertad es la fuente de donde surgen todos los significados y valores.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "sourceName": "Wikiquote: Simone de Beauvoir",
+      "tags": [
+        "libertad",
+        "valores"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir-341",
+      "author": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "text": "Querer ser libre es también querer que los demás sean libres.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "sourceName": "Wikiquote: Simone de Beauvoir",
+      "tags": [
+        "libertad",
+        "igualdad"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir-342",
+      "author": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "text": "La opresión intenta defenderse mediante su utilidad.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "sourceName": "Wikiquote: Simone de Beauvoir",
+      "tags": [
+        "poder",
+        "justicia"
+      ]
+    },
+    {
+      "id": "simone-de-beauvoir-343",
+      "author": "Simone de Beauvoir",
+      "slug": "simone-de-beauvoir",
+      "text": "La vida conserva valor mientras se atribuya valor a la vida de los demás.",
+      "source": "https://es.wikiquote.org/wiki/Simone_de_Beauvoir",
+      "sourceName": "Wikiquote: Simone de Beauvoir",
+      "tags": [
+        "vida",
+        "solidaridad"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-344",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "Siempre imaginé que el Paraíso sería algún tipo de biblioteca.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "lectura",
+        "imaginación"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-345",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "Uno no es lo que es por lo que escribe, sino por lo que ha leído.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "lectura",
+        "identidad"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-346",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "La duda es uno de los nombres de la inteligencia.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "duda",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-347",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "La belleza es ese misterio hermoso que no descifran ni la psicología ni la retórica.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "belleza",
+        "misterio"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-348",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "He cometido el peor pecado que uno puede cometer: no he sido feliz.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "felicidad",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-349",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "La muerte es una vida vivida; la vida es una muerte que viene.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "vida",
+        "muerte"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-350",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "El tiempo es la sustancia de la que estoy hecho.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "tiempo",
+        "identidad"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-351",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "La literatura no es otra cosa que un sueño dirigido.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "literatura",
+        "imaginación"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-352",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "La felicidad no necesita ser transmutada en belleza, pero la desventura sí.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "felicidad",
+        "belleza"
+      ]
+    },
+    {
+      "id": "jorge-luis-borges-353",
+      "author": "Jorge Luis Borges",
+      "slug": "jorge-luis-borges",
+      "text": "La memoria es el único paraíso del cual no podemos ser expulsados.",
+      "source": "https://es.wikiquote.org/wiki/Jorge_Luis_Borges",
+      "sourceName": "Wikiquote: Jorge Luis Borges",
+      "tags": [
+        "memoria",
+        "paraíso"
+      ]
+    },
+    {
+      "id": "julio-cortazar-354",
+      "author": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "text": "Andábamos sin buscarnos, pero sabiendo que andábamos para encontrarnos.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "sourceName": "Wikiquote: Julio Cortázar",
+      "tags": [
+        "amor",
+        "destino"
+      ]
+    },
+    {
+      "id": "julio-cortazar-355",
+      "author": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "text": "Nada está perdido si se tiene el valor de proclamar que todo está perdido y hay que empezar de nuevo.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "sourceName": "Wikiquote: Julio Cortázar",
+      "tags": [
+        "esperanza",
+        "comienzos"
+      ]
+    },
+    {
+      "id": "julio-cortazar-356",
+      "author": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "text": "Ven a dormir conmigo: no haremos el amor, él nos hará.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "sourceName": "Wikiquote: Julio Cortázar",
+      "tags": [
+        "amor",
+        "intimidad"
+      ]
+    },
+    {
+      "id": "julio-cortazar-357",
+      "author": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "text": "La explicación es un error bien vestido.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "sourceName": "Wikiquote: Julio Cortázar",
+      "tags": [
+        "misterio",
+        "lenguaje"
+      ]
+    },
+    {
+      "id": "julio-cortazar-358",
+      "author": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "text": "La esperanza le pertenece a la vida, es la vida misma defendiéndose.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "sourceName": "Wikiquote: Julio Cortázar",
+      "tags": [
+        "esperanza",
+        "vida"
+      ]
+    },
+    {
+      "id": "julio-cortazar-359",
+      "author": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "text": "Las palabras nunca alcanzan cuando lo que hay que decir desborda el alma.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "sourceName": "Wikiquote: Julio Cortázar",
+      "tags": [
+        "palabras",
+        "emociones"
+      ]
+    },
+    {
+      "id": "julio-cortazar-360",
+      "author": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "text": "La cultura es el ejercicio profundo de la identidad.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "sourceName": "Wikiquote: Julio Cortázar",
+      "tags": [
+        "cultura",
+        "identidad"
+      ]
+    },
+    {
+      "id": "julio-cortazar-361",
+      "author": "Julio Cortázar",
+      "slug": "julio-cortazar",
+      "text": "La coma, esa puerta giratoria del pensamiento.",
+      "source": "https://es.wikiquote.org/wiki/Julio_Cort%C3%A1zar",
+      "sourceName": "Wikiquote: Julio Cortázar",
+      "tags": [
+        "lenguaje",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "mario-benedetti-362",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "No te rindas, por favor no cedas, aunque el frío queme.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "esperanza",
+        "perseverancia"
+      ]
+    },
+    {
+      "id": "mario-benedetti-363",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "Después de todo, la muerte es solo un síntoma de que hubo vida.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "vida",
+        "muerte"
+      ]
+    },
+    {
+      "id": "mario-benedetti-364",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "Cinco minutos bastan para soñar toda una vida.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "sueños",
+        "tiempo"
+      ]
+    },
+    {
+      "id": "mario-benedetti-365",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "Mi estrategia es que un día cualquiera no sé cómo ni sé con qué pretexto por fin me necesites.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "amor",
+        "vínculos"
+      ]
+    },
+    {
+      "id": "mario-benedetti-366",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "La perfección es una pulida colección de errores.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "perfección",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "mario-benedetti-367",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "Cuando creíamos que teníamos todas las respuestas, de pronto cambiaron todas las preguntas.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "cambio",
+        "preguntas"
+      ]
+    },
+    {
+      "id": "mario-benedetti-368",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "La mariposa recordará por siempre que fue gusano.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "transformación",
+        "esperanza"
+      ]
+    },
+    {
+      "id": "mario-benedetti-369",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "No vayas a creer lo que te cuentan del mundo; ya te dije que el mundo es incontable.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "mundo",
+        "perspectiva"
+      ]
+    },
+    {
+      "id": "mario-benedetti-370",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "La alegría es un instante que no se olvida.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "alegría",
+        "memoria"
+      ]
+    },
+    {
+      "id": "mario-benedetti-371",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "Hay pocas cosas tan ensordecedoras como el silencio.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "silencio",
+        "emociones"
+      ]
+    },
+    {
+      "id": "pablo-neruda-372",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "Podrán cortar todas las flores, pero no podrán detener la primavera.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "esperanza",
+        "resistencia"
+      ]
+    },
+    {
+      "id": "pablo-neruda-373",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "Para que nada nos separe, que nada nos una.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "amor",
+        "contradicción"
+      ]
+    },
+    {
+      "id": "pablo-neruda-374",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "Es tan corto el amor y tan largo el olvido.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "amor",
+        "memoria"
+      ]
+    },
+    {
+      "id": "pablo-neruda-375",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "Quiero hacer contigo lo que la primavera hace con los cerezos.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "amor",
+        "naturaleza"
+      ]
+    },
+    {
+      "id": "pablo-neruda-376",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "La risa es el lenguaje del alma.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "alegría",
+        "emociones"
+      ]
+    },
+    {
+      "id": "pablo-neruda-377",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "Algún día en cualquier parte, en cualquier lugar, indefectiblemente te encontrarás a ti mismo.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "autoconocimiento",
+        "destino"
+      ]
+    },
+    {
+      "id": "pablo-neruda-378",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "Muere lentamente quien no viaja, quien no lee, quien no escucha música.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "vida",
+        "curiosidad"
+      ]
+    },
+    {
+      "id": "pablo-neruda-379",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "La timidez es una condición ajena al corazón, una categoría, una dimensión que desemboca en la soledad.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "timidez",
+        "soledad"
+      ]
+    },
+    {
+      "id": "pablo-neruda-380",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "La poesía nace del dolor. La alegría es un fin en sí misma.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "poesía",
+        "emociones"
+      ]
+    },
+    {
+      "id": "pablo-neruda-381",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "Quien descubre el quién soy descubrirá el quién eres.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "identidad",
+        "vínculos"
       ]
     },
     {
