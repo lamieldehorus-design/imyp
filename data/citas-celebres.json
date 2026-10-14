@@ -5,7 +5,7 @@
       "slug": "abraham-lincoln",
       "bio": "Abraham Lincoln fue el decimosexto presidente de Estados Unidos y una figura decisiva en la abolición de la esclavitud durante la Guerra de Secesión.",
       "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
-      "count": 6
+      "count": 11
     },
     {
       "name": "Albert Einstein",
@@ -33,7 +33,7 @@
       "slug": "benjamin-franklin",
       "bio": "Benjamin Franklin fue un inventor, científico, escritor y diplomático estadounidense, reconocido por sus experimentos, su pensamiento práctico y su participación en la independencia de Estados Unidos.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
-      "count": 8
+      "count": 12
     },
     {
       "name": "Blaise Pascal",
@@ -75,7 +75,7 @@
       "slug": "esopo",
       "bio": "Esopo fue un fabulista de la antigua Grecia a quien se atribuyen relatos breves que transmiten enseñanzas sobre la conducta humana mediante animales y situaciones cotidianas.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
-      "count": 13
+      "count": 17
     },
     {
       "name": "Fiódor Dostoyevski",
@@ -89,7 +89,7 @@
       "slug": "francis-bacon",
       "bio": "Francis Bacon fue un filósofo, estadista y ensayista inglés, asociado al desarrollo del método empírico y a la importancia de observar la naturaleza.",
       "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
-      "count": 14
+      "count": 18
     },
     {
       "name": "Friedrich Nietzsche",
@@ -103,7 +103,7 @@
       "slug": "galileo-galilei",
       "bio": "Galileo Galilei fue un astrónomo, físico e ingeniero italiano que impulsó la observación experimental y la astronomía telescópica.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
-      "count": 11
+      "count": 15
     },
     {
       "name": "Henry David Thoreau",
@@ -131,7 +131,7 @@
       "slug": "immanuel-kant",
       "bio": "Immanuel Kant fue un filósofo alemán de la Ilustración, conocido por sus trabajos sobre la razón, la ética, el conocimiento y la autonomía moral.",
       "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
-      "count": 10
+      "count": 15
     },
     {
       "name": "Irène Joliot-Curie",
@@ -159,7 +159,7 @@
       "slug": "john-locke",
       "bio": "John Locke fue un filósofo inglés de la Ilustración, influyente en el empirismo, la teoría del conocimiento y las ideas modernas sobre los derechos individuales.",
       "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "count": 2
+      "count": 7
     },
     {
       "name": "Jorge Luis Borges",
@@ -320,7 +320,7 @@
       "slug": "rene-descartes",
       "bio": "René Descartes fue un filósofo y matemático francés, figura central del racionalismo moderno y de la búsqueda de un conocimiento fundado en la duda metódica.",
       "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
-      "count": 8
+      "count": 13
     },
     {
       "name": "Rumi",
@@ -20897,6 +20897,474 @@
         "sabiduría",
         "vida",
         "reflexión"
+      ]
+    },
+    {
+      "id": "francis-bacon-ampliacion-d-02",
+      "author": "Francis Bacon",
+      "slug": "francis-bacon",
+      "text": "La esperanza es un buen desayuno, pero una mala cena.",
+      "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
+      "sourceName": "Wikiquote: Francis Bacon",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "francis-bacon-ampliacion-d-03",
+      "author": "Francis Bacon",
+      "slug": "francis-bacon",
+      "text": "La lectura hace al hombre completo; la conversación, ágil; la escritura, preciso.",
+      "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
+      "sourceName": "Wikiquote: Francis Bacon",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "francis-bacon-ampliacion-d-04",
+      "author": "Francis Bacon",
+      "slug": "francis-bacon",
+      "text": "La verdad es hija del tiempo, no de la autoridad.",
+      "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
+      "sourceName": "Wikiquote: Francis Bacon",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "francis-bacon-ampliacion-d-05",
+      "author": "Francis Bacon",
+      "slug": "francis-bacon",
+      "text": "La ocasión hay que crearla, no esperar a que llegue.",
+      "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
+      "sourceName": "Wikiquote: Francis Bacon",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "galileo-galilei-ampliacion-d-06",
+      "author": "Galileo Galilei",
+      "slug": "galileo-galilei",
+      "text": "No se puede enseñar nada a un hombre; solo se le puede ayudar a descubrirlo por sí mismo.",
+      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
+      "sourceName": "Wikiquote: Galileo Galilei",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "galileo-galilei-ampliacion-d-07",
+      "author": "Galileo Galilei",
+      "slug": "galileo-galilei",
+      "text": "Las matemáticas son el alfabeto con el que Dios escribió el universo.",
+      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
+      "sourceName": "Wikiquote: Galileo Galilei",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "galileo-galilei-ampliacion-d-08",
+      "author": "Galileo Galilei",
+      "slug": "galileo-galilei",
+      "text": "Nunca he conocido a una persona tan ignorante que no pudiera aprender algo de ella.",
+      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
+      "sourceName": "Wikiquote: Galileo Galilei",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "galileo-galilei-ampliacion-d-09",
+      "author": "Galileo Galilei",
+      "slug": "galileo-galilei",
+      "text": "Todas las verdades son fáciles de entender una vez descubiertas; la cuestión es descubrirlas.",
+      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
+      "sourceName": "Wikiquote: Galileo Galilei",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "immanuel-kant-ampliacion-d-11",
+      "author": "Immanuel Kant",
+      "slug": "immanuel-kant",
+      "text": "La felicidad no es un ideal de la razón, sino de la imaginación.",
+      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "sourceName": "Wikiquote: Immanuel Kant",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "immanuel-kant-ampliacion-d-12",
+      "author": "Immanuel Kant",
+      "slug": "immanuel-kant",
+      "text": "La paciencia es la fortaleza del débil y la impaciencia, la debilidad del fuerte.",
+      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "sourceName": "Wikiquote: Immanuel Kant",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "immanuel-kant-ampliacion-d-13",
+      "author": "Immanuel Kant",
+      "slug": "immanuel-kant",
+      "text": "Atrévete a saber.",
+      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "sourceName": "Wikiquote: Immanuel Kant",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "immanuel-kant-ampliacion-d-14",
+      "author": "Immanuel Kant",
+      "slug": "immanuel-kant",
+      "text": "La ciencia es conocimiento organizado; la sabiduría es vida organizada.",
+      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "sourceName": "Wikiquote: Immanuel Kant",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "immanuel-kant-ampliacion-d-15",
+      "author": "Immanuel Kant",
+      "slug": "immanuel-kant",
+      "text": "Obra de tal modo que trates a la humanidad, tanto en tu persona como en la de cualquier otro, siempre como un fin y nunca solamente como un medio.",
+      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "sourceName": "Wikiquote: Immanuel Kant",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "rene-descartes-ampliacion-d-16",
+      "author": "René Descartes",
+      "slug": "rene-descartes",
+      "text": "Vivir sin filosofar es, propiamente, tener los ojos cerrados sin intentar jamás abrirlos.",
+      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
+      "sourceName": "Wikiquote: René Descartes",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "rene-descartes-ampliacion-d-17",
+      "author": "René Descartes",
+      "slug": "rene-descartes",
+      "text": "Para investigar la verdad es preciso dudar, en cuanto sea posible, de todas las cosas.",
+      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
+      "sourceName": "Wikiquote: René Descartes",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "rene-descartes-ampliacion-d-18",
+      "author": "René Descartes",
+      "slug": "rene-descartes",
+      "text": "La multitud de leyes frecuentemente presta excusas a los vicios.",
+      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
+      "sourceName": "Wikiquote: René Descartes",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "rene-descartes-ampliacion-d-19",
+      "author": "René Descartes",
+      "slug": "rene-descartes",
+      "text": "Divide las dificultades que examinas en tantas partes como sea posible para resolverlas mejor.",
+      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
+      "sourceName": "Wikiquote: René Descartes",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "rene-descartes-ampliacion-d-20",
+      "author": "René Descartes",
+      "slug": "rene-descartes",
+      "text": "No basta tener buen ingenio; lo principal es aplicarlo bien.",
+      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
+      "sourceName": "Wikiquote: René Descartes",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-locke-ampliacion-d-21",
+      "author": "John Locke",
+      "slug": "john-locke",
+      "text": "La lectura proporciona a la mente materiales de conocimiento; es el pensamiento lo que hace nuestro lo que leemos.",
+      "source": "https://es.wikiquote.org/wiki/John_Locke",
+      "sourceName": "Wikiquote: John Locke",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-locke-ampliacion-d-22",
+      "author": "John Locke",
+      "slug": "john-locke",
+      "text": "Las nuevas opiniones siempre son sospechosas y suelen ser rechazadas sin otra razón que la de no ser comunes.",
+      "source": "https://es.wikiquote.org/wiki/John_Locke",
+      "sourceName": "Wikiquote: John Locke",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-locke-ampliacion-d-23",
+      "author": "John Locke",
+      "slug": "john-locke",
+      "text": "La educación comienza al nacer y no termina hasta la muerte.",
+      "source": "https://es.wikiquote.org/wiki/John_Locke",
+      "sourceName": "Wikiquote: John Locke",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-locke-ampliacion-d-24",
+      "author": "John Locke",
+      "slug": "john-locke",
+      "text": "La fortaleza es la guardia y el apoyo de las demás virtudes.",
+      "source": "https://es.wikiquote.org/wiki/John_Locke",
+      "sourceName": "Wikiquote: John Locke",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-locke-ampliacion-d-25",
+      "author": "John Locke",
+      "slug": "john-locke",
+      "text": "Ningún conocimiento humano puede ir más allá de su experiencia.",
+      "source": "https://es.wikiquote.org/wiki/John_Locke",
+      "sourceName": "Wikiquote: John Locke",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "abraham-lincoln-ampliacion-d-26",
+      "author": "Abraham Lincoln",
+      "slug": "abraham-lincoln",
+      "text": "Al final, lo que importa no son los años de vida, sino la vida de los años.",
+      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
+      "sourceName": "Wikiquote: Abraham Lincoln",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "abraham-lincoln-ampliacion-d-27",
+      "author": "Abraham Lincoln",
+      "slug": "abraham-lincoln",
+      "text": "Puedes engañar a todo el mundo algún tiempo; puedes engañar a algunos todo el tiempo; pero no puedes engañar a todo el mundo todo el tiempo.",
+      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
+      "sourceName": "Wikiquote: Abraham Lincoln",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "abraham-lincoln-ampliacion-d-28",
+      "author": "Abraham Lincoln",
+      "slug": "abraham-lincoln",
+      "text": "La mejor manera de predecir tu futuro es crearlo.",
+      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
+      "sourceName": "Wikiquote: Abraham Lincoln",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "abraham-lincoln-ampliacion-d-29",
+      "author": "Abraham Lincoln",
+      "slug": "abraham-lincoln",
+      "text": "Casi todos podemos soportar la adversidad, pero si quieres probar el carácter de alguien, dale poder.",
+      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
+      "sourceName": "Wikiquote: Abraham Lincoln",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "abraham-lincoln-ampliacion-d-30",
+      "author": "Abraham Lincoln",
+      "slug": "abraham-lincoln",
+      "text": "No puedes escapar de la responsabilidad de mañana evadiéndola hoy.",
+      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
+      "sourceName": "Wikiquote: Abraham Lincoln",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "benjamin-franklin-ampliacion-d-32",
+      "author": "Benjamin Franklin",
+      "slug": "benjamin-franklin",
+      "text": "La honestidad es la mejor política.",
+      "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
+      "sourceName": "Wikiquote: Benjamin Franklin",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "benjamin-franklin-ampliacion-d-33",
+      "author": "Benjamin Franklin",
+      "slug": "benjamin-franklin",
+      "text": "No dejes para mañana lo que puedas hacer hoy.",
+      "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
+      "sourceName": "Wikiquote: Benjamin Franklin",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "benjamin-franklin-ampliacion-d-34",
+      "author": "Benjamin Franklin",
+      "slug": "benjamin-franklin",
+      "text": "La diligencia es la madre de la buena suerte.",
+      "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
+      "sourceName": "Wikiquote: Benjamin Franklin",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "benjamin-franklin-ampliacion-d-35",
+      "author": "Benjamin Franklin",
+      "slug": "benjamin-franklin",
+      "text": "La paz y la armonía constituyen la mayor riqueza de la familia.",
+      "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
+      "sourceName": "Wikiquote: Benjamin Franklin",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "esopo-ampliacion-d-37",
+      "author": "Esopo",
+      "slug": "esopo",
+      "text": "Más vale pájaro en mano que ciento volando.",
+      "source": "https://es.wikiquote.org/wiki/Esopo",
+      "sourceName": "Wikiquote: Esopo",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "esopo-ampliacion-d-38",
+      "author": "Esopo",
+      "slug": "esopo",
+      "text": "No desprecies lo que parece insignificante.",
+      "source": "https://es.wikiquote.org/wiki/Esopo",
+      "sourceName": "Wikiquote: Esopo",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "esopo-ampliacion-d-39",
+      "author": "Esopo",
+      "slug": "esopo",
+      "text": "La gratitud convierte lo que tenemos en suficiente.",
+      "source": "https://es.wikiquote.org/wiki/Esopo",
+      "sourceName": "Wikiquote: Esopo",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
+      ]
+    },
+    {
+      "id": "esopo-ampliacion-d-40",
+      "author": "Esopo",
+      "slug": "esopo",
+      "text": "Las apariencias engañan.",
+      "source": "https://es.wikiquote.org/wiki/Esopo",
+      "sourceName": "Wikiquote: Esopo",
+      "tags": [
+        "sabiduría",
+        "aprendizaje",
+        "vida"
       ]
     }
   ],
