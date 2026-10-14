@@ -657,6 +657,76 @@
       "bio": "Jonathan Swift fue un escritor satírico irlandés, autor de Los viajes de Gulliver y ensayos políticos.",
       "source": "https://es.wikiquote.org/wiki/Jonathan_Swift",
       "count": 5
+    },
+    {
+      "name": "Sun Tzu",
+      "slug": "sun-tzu",
+      "bio": "Sun Tzu fue un estratega chino de la Antigüedad, tradicionalmente asociado con El arte de la guerra.",
+      "source": "https://es.wikiquote.org/wiki/Sun_Tzu",
+      "count": 5
+    },
+    {
+      "name": "Zhuangzi",
+      "slug": "zhuangzi",
+      "bio": "Zhuangzi fue un filósofo chino taoísta cuya obra utiliza relatos y paradojas para explorar la libertad y la perspectiva.",
+      "source": "https://es.wikiquote.org/wiki/Zhuangzi",
+      "count": 5
+    },
+    {
+      "name": "Mencio",
+      "slug": "mencio",
+      "bio": "Mencio fue un filósofo confuciano chino que destacó la bondad humana y la responsabilidad moral del gobernante.",
+      "source": "https://es.wikiquote.org/wiki/Mencio",
+      "count": 5
+    },
+    {
+      "name": "Omar Jayyam",
+      "slug": "omar-jayyam",
+      "bio": "Omar Jayyam fue un poeta, matemático y astrónomo persa, conocido internacionalmente por sus cuartetas.",
+      "source": "https://es.wikiquote.org/wiki/Omar_Jayyam",
+      "count": 5
+    },
+    {
+      "name": "Ibn Jaldún",
+      "slug": "ibn-jaldun",
+      "bio": "Ibn Jaldún fue un historiador y pensador árabe, autor de una influyente reflexión sobre las sociedades y los ciclos históricos.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Jald%C3%BAn",
+      "count": 5
+    },
+    {
+      "name": "Avicena",
+      "slug": "avicena",
+      "bio": "Avicena fue un filósofo y médico persa medieval cuyas obras influyeron en la medicina y la filosofía.",
+      "source": "https://es.wikiquote.org/wiki/Avicena",
+      "count": 5
+    },
+    {
+      "name": "Al-Ghazali",
+      "slug": "al-ghazali",
+      "bio": "Al-Ghazali fue un filósofo y teólogo persa que reflexionó sobre el conocimiento, la ética y la vida espiritual.",
+      "source": "https://es.wikiquote.org/wiki/Al-Ghazali",
+      "count": 5
+    },
+    {
+      "name": "Al-Farabi",
+      "slug": "al-farabi",
+      "bio": "Al-Farabi fue un filósofo medieval que escribió sobre lógica, ética, música y la organización de la sociedad.",
+      "source": "https://es.wikiquote.org/wiki/Al-Farabi",
+      "count": 5
+    },
+    {
+      "name": "Ibn Arabi",
+      "slug": "ibn-arabi",
+      "bio": "Ibn Arabi fue un filósofo y místico andalusí cuya obra influyó en la tradición sufí.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Arabi",
+      "count": 5
+    },
+    {
+      "name": "Rabi'a al-Adawiyya",
+      "slug": "rabia-al-adawiyya",
+      "bio": "Rabi'a al-Adawiyya fue una mística sufí de Basora, recordada por su enseñanza sobre el amor espiritual desinteresado.",
+      "source": "https://es.wikiquote.org/wiki/Rabi%27a_al-Adawiyya",
+      "count": 5
     }
   ],
   "quotes": [
@@ -24505,6 +24575,656 @@
         "ciencia",
         "literatura",
         "reflexión"
+      ]
+    },
+    {
+      "id": "sun-tzu-nuevas-01",
+      "author": "Sun Tzu",
+      "slug": "sun-tzu",
+      "text": "La suprema excelencia consiste en quebrar la resistencia del enemigo sin luchar.",
+      "source": "https://es.wikiquote.org/wiki/Sun_Tzu",
+      "sourceName": "Wikiquote: Sun Tzu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "sun-tzu-nuevas-02",
+      "author": "Sun Tzu",
+      "slug": "sun-tzu",
+      "text": "Conoce al enemigo y conócete a ti mismo; en cien batallas nunca estarás en peligro.",
+      "source": "https://es.wikiquote.org/wiki/Sun_Tzu",
+      "sourceName": "Wikiquote: Sun Tzu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "sun-tzu-nuevas-03",
+      "author": "Sun Tzu",
+      "slug": "sun-tzu",
+      "text": "La estrategia sin táctica es el camino más lento hacia la victoria; la táctica sin estrategia es el ruido antes de la derrota.",
+      "source": "https://es.wikiquote.org/wiki/Sun_Tzu",
+      "sourceName": "Wikiquote: Sun Tzu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "sun-tzu-nuevas-04",
+      "author": "Sun Tzu",
+      "slug": "sun-tzu",
+      "text": "En medio del caos también hay oportunidad.",
+      "source": "https://es.wikiquote.org/wiki/Sun_Tzu",
+      "sourceName": "Wikiquote: Sun Tzu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "sun-tzu-nuevas-05",
+      "author": "Sun Tzu",
+      "slug": "sun-tzu",
+      "text": "La rapidez es la esencia de la guerra.",
+      "source": "https://es.wikiquote.org/wiki/Sun_Tzu",
+      "sourceName": "Wikiquote: Sun Tzu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "zhuangzi-nuevas-01",
+      "author": "Zhuangzi",
+      "slug": "zhuangzi",
+      "text": "La vida tiene un límite, pero el conocimiento no tiene límite.",
+      "source": "https://es.wikiquote.org/wiki/Zhuangzi",
+      "sourceName": "Wikiquote: Zhuangzi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "zhuangzi-nuevas-02",
+      "author": "Zhuangzi",
+      "slug": "zhuangzi",
+      "text": "El hombre perfecto usa su mente como un espejo: no persigue nada ni rechaza nada.",
+      "source": "https://es.wikiquote.org/wiki/Zhuangzi",
+      "sourceName": "Wikiquote: Zhuangzi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "zhuangzi-nuevas-03",
+      "author": "Zhuangzi",
+      "slug": "zhuangzi",
+      "text": "El gran conocimiento es amplio y sereno; el pequeño, estrecho y ocupado.",
+      "source": "https://es.wikiquote.org/wiki/Zhuangzi",
+      "sourceName": "Wikiquote: Zhuangzi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "zhuangzi-nuevas-04",
+      "author": "Zhuangzi",
+      "slug": "zhuangzi",
+      "text": "La felicidad perfecta es no tener felicidad; la alabanza perfecta es no recibir alabanza.",
+      "source": "https://es.wikiquote.org/wiki/Zhuangzi",
+      "sourceName": "Wikiquote: Zhuangzi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "zhuangzi-nuevas-05",
+      "author": "Zhuangzi",
+      "slug": "zhuangzi",
+      "text": "Quien comprende la armonía de la naturaleza vive en paz con los cambios.",
+      "source": "https://es.wikiquote.org/wiki/Zhuangzi",
+      "sourceName": "Wikiquote: Zhuangzi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "mencio-nuevas-01",
+      "author": "Mencio",
+      "slug": "mencio",
+      "text": "La compasión es el comienzo de la humanidad.",
+      "source": "https://es.wikiquote.org/wiki/Mencio",
+      "sourceName": "Wikiquote: Mencio",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "mencio-nuevas-02",
+      "author": "Mencio",
+      "slug": "mencio",
+      "text": "El camino de la verdad es como un gran camino: no es difícil de encontrar.",
+      "source": "https://es.wikiquote.org/wiki/Mencio",
+      "sourceName": "Wikiquote: Mencio",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "mencio-nuevas-03",
+      "author": "Mencio",
+      "slug": "mencio",
+      "text": "El pueblo es lo más importante; después vienen los dioses de la tierra y el grano; el gobernante es lo menos importante.",
+      "source": "https://es.wikiquote.org/wiki/Mencio",
+      "sourceName": "Wikiquote: Mencio",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "mencio-nuevas-04",
+      "author": "Mencio",
+      "slug": "mencio",
+      "text": "La gran persona es aquella que no pierde el corazón de niño.",
+      "source": "https://es.wikiquote.org/wiki/Mencio",
+      "sourceName": "Wikiquote: Mencio",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "mencio-nuevas-05",
+      "author": "Mencio",
+      "slug": "mencio",
+      "text": "Solo cuando el cielo está a punto de confiar una gran misión a alguien, primero ejercita su mente y sus huesos.",
+      "source": "https://es.wikiquote.org/wiki/Mencio",
+      "sourceName": "Wikiquote: Mencio",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "omar-jayyam-nuevas-01",
+      "author": "Omar Jayyam",
+      "slug": "omar-jayyam",
+      "text": "Sé feliz por este instante; este instante es tu vida.",
+      "source": "https://es.wikiquote.org/wiki/Omar_Jayyam",
+      "sourceName": "Wikiquote: Omar Jayyam",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "omar-jayyam-nuevas-02",
+      "author": "Omar Jayyam",
+      "slug": "omar-jayyam",
+      "text": "El dedo que se mueve escribe, y una vez escrito sigue adelante.",
+      "source": "https://es.wikiquote.org/wiki/Omar_Jayyam",
+      "sourceName": "Wikiquote: Omar Jayyam",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "omar-jayyam-nuevas-03",
+      "author": "Omar Jayyam",
+      "slug": "omar-jayyam",
+      "text": "La vida pasa como el agua del río y el viento del desierto.",
+      "source": "https://es.wikiquote.org/wiki/Omar_Jayyam",
+      "sourceName": "Wikiquote: Omar Jayyam",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "omar-jayyam-nuevas-04",
+      "author": "Omar Jayyam",
+      "slug": "omar-jayyam",
+      "text": "Bebe vino: vivirás mucho tiempo en este mundo; este es el único secreto que la sabiduría puede revelarte.",
+      "source": "https://es.wikiquote.org/wiki/Omar_Jayyam",
+      "sourceName": "Wikiquote: Omar Jayyam",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "omar-jayyam-nuevas-05",
+      "author": "Omar Jayyam",
+      "slug": "omar-jayyam",
+      "text": "No te aflijas por lo que vendrá ni por lo que pasó: vive el presente.",
+      "source": "https://es.wikiquote.org/wiki/Omar_Jayyam",
+      "sourceName": "Wikiquote: Omar Jayyam",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-jaldun-nuevas-01",
+      "author": "Ibn Jaldún",
+      "slug": "ibn-jaldun",
+      "text": "El pasado se parece al futuro más de lo que una gota de agua se parece a otra.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Jald%C3%BAn",
+      "sourceName": "Wikiquote: Ibn Jaldún",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-jaldun-nuevas-02",
+      "author": "Ibn Jaldún",
+      "slug": "ibn-jaldun",
+      "text": "La historia es una disciplina que tiene muchos aspectos y numerosos beneficios.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Jald%C3%BAn",
+      "sourceName": "Wikiquote: Ibn Jaldún",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-jaldun-nuevas-03",
+      "author": "Ibn Jaldún",
+      "slug": "ibn-jaldun",
+      "text": "La injusticia anuncia la ruina de la civilización.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Jald%C3%BAn",
+      "sourceName": "Wikiquote: Ibn Jaldún",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-jaldun-nuevas-04",
+      "author": "Ibn Jaldún",
+      "slug": "ibn-jaldun",
+      "text": "La educación exige repetición y gradualidad.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Jald%C3%BAn",
+      "sourceName": "Wikiquote: Ibn Jaldún",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-jaldun-nuevas-05",
+      "author": "Ibn Jaldún",
+      "slug": "ibn-jaldun",
+      "text": "Las sociedades cambian cuando cambian sus condiciones y sus costumbres.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Jald%C3%BAn",
+      "sourceName": "Wikiquote: Ibn Jaldún",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "avicena-nuevas-01",
+      "author": "Avicena",
+      "slug": "avicena",
+      "text": "El conocimiento de algo, cualquiera que sea, es una forma de liberación.",
+      "source": "https://es.wikiquote.org/wiki/Avicena",
+      "sourceName": "Wikiquote: Avicena",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "avicena-nuevas-02",
+      "author": "Avicena",
+      "slug": "avicena",
+      "text": "La imaginación es una fuerza poderosa del alma.",
+      "source": "https://es.wikiquote.org/wiki/Avicena",
+      "sourceName": "Wikiquote: Avicena",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "avicena-nuevas-03",
+      "author": "Avicena",
+      "slug": "avicena",
+      "text": "La medicina considera el cuerpo humano en estado de salud y de enfermedad para preservar la salud y restaurarla.",
+      "source": "https://es.wikiquote.org/wiki/Avicena",
+      "sourceName": "Wikiquote: Avicena",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "avicena-nuevas-04",
+      "author": "Avicena",
+      "slug": "avicena",
+      "text": "El mundo es inteligible porque está ordenado.",
+      "source": "https://es.wikiquote.org/wiki/Avicena",
+      "sourceName": "Wikiquote: Avicena",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "avicena-nuevas-05",
+      "author": "Avicena",
+      "slug": "avicena",
+      "text": "La duda es el primer paso hacia la certeza.",
+      "source": "https://es.wikiquote.org/wiki/Avicena",
+      "sourceName": "Wikiquote: Avicena",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-ghazali-nuevas-01",
+      "author": "Al-Ghazali",
+      "slug": "al-ghazali",
+      "text": "El conocimiento sin acción es locura, y la acción sin conocimiento es vanidad.",
+      "source": "https://es.wikiquote.org/wiki/Al-Ghazali",
+      "sourceName": "Wikiquote: Al-Ghazali",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-ghazali-nuevas-02",
+      "author": "Al-Ghazali",
+      "slug": "al-ghazali",
+      "text": "El corazón se oxida como el hierro; su pulido es el recuerdo.",
+      "source": "https://es.wikiquote.org/wiki/Al-Ghazali",
+      "sourceName": "Wikiquote: Al-Ghazali",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-ghazali-nuevas-03",
+      "author": "Al-Ghazali",
+      "slug": "al-ghazali",
+      "text": "No hay mayor ignorancia que creer que uno lo sabe todo.",
+      "source": "https://es.wikiquote.org/wiki/Al-Ghazali",
+      "sourceName": "Wikiquote: Al-Ghazali",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-ghazali-nuevas-04",
+      "author": "Al-Ghazali",
+      "slug": "al-ghazali",
+      "text": "La verdadera riqueza es prescindir de lo innecesario.",
+      "source": "https://es.wikiquote.org/wiki/Al-Ghazali",
+      "sourceName": "Wikiquote: Al-Ghazali",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-ghazali-nuevas-05",
+      "author": "Al-Ghazali",
+      "slug": "al-ghazali",
+      "text": "La sabiduría comienza cuando uno reconoce sus límites.",
+      "source": "https://es.wikiquote.org/wiki/Al-Ghazali",
+      "sourceName": "Wikiquote: Al-Ghazali",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-farabi-nuevas-01",
+      "author": "Al-Farabi",
+      "slug": "al-farabi",
+      "text": "La felicidad es el fin al que tiende todo ser humano.",
+      "source": "https://es.wikiquote.org/wiki/Al-Farabi",
+      "sourceName": "Wikiquote: Al-Farabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-farabi-nuevas-02",
+      "author": "Al-Farabi",
+      "slug": "al-farabi",
+      "text": "La virtud se adquiere mediante la práctica constante.",
+      "source": "https://es.wikiquote.org/wiki/Al-Farabi",
+      "sourceName": "Wikiquote: Al-Farabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-farabi-nuevas-03",
+      "author": "Al-Farabi",
+      "slug": "al-farabi",
+      "text": "La ciudad virtuosa se parece a un cuerpo cuyos miembros cooperan.",
+      "source": "https://es.wikiquote.org/wiki/Al-Farabi",
+      "sourceName": "Wikiquote: Al-Farabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-farabi-nuevas-04",
+      "author": "Al-Farabi",
+      "slug": "al-farabi",
+      "text": "El conocimiento ordena la vida cuando se une a la acción.",
+      "source": "https://es.wikiquote.org/wiki/Al-Farabi",
+      "sourceName": "Wikiquote: Al-Farabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "al-farabi-nuevas-05",
+      "author": "Al-Farabi",
+      "slug": "al-farabi",
+      "text": "La música puede educar el carácter y armonizar las emociones.",
+      "source": "https://es.wikiquote.org/wiki/Al-Farabi",
+      "sourceName": "Wikiquote: Al-Farabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-arabi-nuevas-01",
+      "author": "Ibn Arabi",
+      "slug": "ibn-arabi",
+      "text": "Quien se conoce a sí mismo conoce a su Señor.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Arabi",
+      "sourceName": "Wikiquote: Ibn Arabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-arabi-nuevas-02",
+      "author": "Ibn Arabi",
+      "slug": "ibn-arabi",
+      "text": "Mi corazón se ha vuelto capaz de toda forma: es pasto para las gacelas y monasterio para los monjes.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Arabi",
+      "sourceName": "Wikiquote: Ibn Arabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-arabi-nuevas-03",
+      "author": "Ibn Arabi",
+      "slug": "ibn-arabi",
+      "text": "El amor es mi religión y mi fe.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Arabi",
+      "sourceName": "Wikiquote: Ibn Arabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-arabi-nuevas-04",
+      "author": "Ibn Arabi",
+      "slug": "ibn-arabi",
+      "text": "No te aferres a una sola creencia hasta excluir las demás.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Arabi",
+      "sourceName": "Wikiquote: Ibn Arabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "ibn-arabi-nuevas-05",
+      "author": "Ibn Arabi",
+      "slug": "ibn-arabi",
+      "text": "El camino hacia lo divino pasa por la apertura del corazón.",
+      "source": "https://es.wikiquote.org/wiki/Ibn_Arabi",
+      "sourceName": "Wikiquote: Ibn Arabi",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "rabia-al-adawiyya-nuevas-01",
+      "author": "Rabi'a al-Adawiyya",
+      "slug": "rabia-al-adawiyya",
+      "text": "Quiero apagar el fuego del infierno y quemar las recompensas del paraíso para que se ame a Dios por sí mismo.",
+      "source": "https://es.wikiquote.org/wiki/Rabi%27a_al-Adawiyya",
+      "sourceName": "Wikiquote: Rabi'a al-Adawiyya",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "rabia-al-adawiyya-nuevas-02",
+      "author": "Rabi'a al-Adawiyya",
+      "slug": "rabia-al-adawiyya",
+      "text": "El amor no nace de la recompensa, sino de la presencia del amado.",
+      "source": "https://es.wikiquote.org/wiki/Rabi%27a_al-Adawiyya",
+      "sourceName": "Wikiquote: Rabi'a al-Adawiyya",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "rabia-al-adawiyya-nuevas-03",
+      "author": "Rabi'a al-Adawiyya",
+      "slug": "rabia-al-adawiyya",
+      "text": "Mi Dios, si te adoro por miedo al infierno, quémame en él; si te adoro por el paraíso, exclúyeme de él.",
+      "source": "https://es.wikiquote.org/wiki/Rabi%27a_al-Adawiyya",
+      "sourceName": "Wikiquote: Rabi'a al-Adawiyya",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "rabia-al-adawiyya-nuevas-04",
+      "author": "Rabi'a al-Adawiyya",
+      "slug": "rabia-al-adawiyya",
+      "text": "El corazón que ama no calcula lo que recibirá.",
+      "source": "https://es.wikiquote.org/wiki/Rabi%27a_al-Adawiyya",
+      "sourceName": "Wikiquote: Rabi'a al-Adawiyya",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
+      ]
+    },
+    {
+      "id": "rabia-al-adawiyya-nuevas-05",
+      "author": "Rabi'a al-Adawiyya",
+      "slug": "rabia-al-adawiyya",
+      "text": "La devoción más profunda es aquella que no busca recompensa.",
+      "source": "https://es.wikiquote.org/wiki/Rabi%27a_al-Adawiyya",
+      "sourceName": "Wikiquote: Rabi'a al-Adawiyya",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "espiritualidad"
       ]
     }
   ],
