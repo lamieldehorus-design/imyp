@@ -229,7 +229,7 @@
       "slug": "marco-aurelio",
       "bio": "Marco Aurelio fue emperador romano y filósofo estoico. Sus Meditaciones reúnen apuntes sobre el carácter, la responsabilidad, el tiempo y la manera de responder a las dificultades.",
       "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Marco Tulio Cicerón",
@@ -26379,6 +26379,19 @@
         "sabiduría",
         "historia",
         "reflexión"
+      ]
+    },
+    {
+      "id": "marco-aurelio-ampliacion-meta-1000",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "No pierdas más tiempo discutiendo cómo debe ser un hombre bueno. Sé uno.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "acciones",
+        "sabiduría",
+        "vida"
       ]
     }
   ],
