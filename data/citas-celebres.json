@@ -5,7 +5,7 @@
       "slug": "abraham-lincoln",
       "bio": "Abraham Lincoln fue el decimosexto presidente de Estados Unidos y una figura decisiva en la abolición de la esclavitud durante la Guerra de Secesión.",
       "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
-      "count": 10
+      "count": 6
     },
     {
       "name": "Albert Einstein",
@@ -33,7 +33,7 @@
       "slug": "benjamin-franklin",
       "bio": "Benjamin Franklin fue un inventor, científico, escritor y diplomático estadounidense, reconocido por sus experimentos, su pensamiento práctico y su participación en la independencia de Estados Unidos.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
-      "count": 10
+      "count": 8
     },
     {
       "name": "Blaise Pascal",
@@ -41,13 +41,6 @@
       "bio": "Blaise Pascal fue un matemático, físico y filósofo francés. Sus reflexiones examinan la razón, la fe, la condición humana y los límites del conocimiento.",
       "source": "https://es.wikiquote.org/wiki/Blaise_Pascal",
       "count": 8
-    },
-    {
-      "name": "Charles Darwin",
-      "slug": "charles-darwin",
-      "bio": "Charles Darwin fue un naturalista inglés cuya teoría de la evolución por selección natural transformó la biología y la comprensión de la diversidad de la vida.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "count": 10
     },
     {
       "name": "Charles Dickens",
@@ -82,7 +75,7 @@
       "slug": "esopo",
       "bio": "Esopo fue un fabulista de la antigua Grecia a quien se atribuyen relatos breves que transmiten enseñanzas sobre la conducta humana mediante animales y situaciones cotidianas.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Fiódor Dostoyevski",
@@ -96,7 +89,7 @@
       "slug": "francis-bacon",
       "bio": "Francis Bacon fue un filósofo, estadista y ensayista inglés, asociado al desarrollo del método empírico y a la importancia de observar la naturaleza.",
       "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Friedrich Nietzsche",
@@ -110,7 +103,7 @@
       "slug": "galileo-galilei",
       "bio": "Galileo Galilei fue un astrónomo, físico e ingeniero italiano que impulsó la observación experimental y la astronomía telescópica.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Henry David Thoreau",
@@ -124,7 +117,7 @@
       "slug": "heraclito",
       "bio": "Heráclito fue un filósofo griego presocrático conocido por sus reflexiones sobre el cambio, la tensión entre opuestos y el orden del mundo.",
       "source": "https://es.wikiquote.org/wiki/Her%C3%A1clito",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Imágenes y Postales",
@@ -166,7 +159,7 @@
       "slug": "john-locke",
       "bio": "John Locke fue un filósofo inglés de la Ilustración, influyente en el empirismo, la teoría del conocimiento y las ideas modernas sobre los derechos individuales.",
       "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "count": 10
+      "count": 2
     },
     {
       "name": "Jorge Luis Borges",
@@ -327,7 +320,7 @@
       "slug": "rene-descartes",
       "bio": "René Descartes fue un filósofo y matemático francés, figura central del racionalismo moderno y de la búsqueda de un conocimiento fundado en la duda metódica.",
       "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
-      "count": 10
+      "count": 8
     },
     {
       "name": "Rumi",
@@ -19417,7 +19410,7 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-01",
+      "id": "francis-bacon-cita-verificada-01",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "A la naturaleza sólo se la domina obedeciéndola.",
@@ -19431,7 +19424,7 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-02",
+      "id": "francis-bacon-cita-verificada-02",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "Calumniad con audacia, siempre quedará algo.",
@@ -19445,7 +19438,7 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-03",
+      "id": "francis-bacon-cita-verificada-03",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "Cuanto más le apetece a un hombre que una opinión sea cierta, con más facilidad la cree.",
@@ -19459,7 +19452,7 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-04",
+      "id": "francis-bacon-cita-verificada-04",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "El conocimiento es poder.",
@@ -19473,7 +19466,7 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-05",
+      "id": "francis-bacon-cita-verificada-05",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "Elegir el momento es ganar tiempo.",
@@ -19487,7 +19480,21 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-06",
+      "id": "francis-bacon-cita-verificada-06",
+      "author": "Francis Bacon",
+      "slug": "francis-bacon",
+      "text": "El malo, cuando se finge bueno, es pésimo.",
+      "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
+      "sourceName": "Wikiquote: Francis Bacon",
+      "tags": [
+        "sabiduría",
+        "ciencia",
+        "conocimiento",
+        "experiencia"
+      ]
+    },
+    {
+      "id": "francis-bacon-cita-verificada-07",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "El que se dedica a la venganza conserva frescas las heridas.",
@@ -19501,7 +19508,7 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-07",
+      "id": "francis-bacon-cita-verificada-08",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "Es un extraño propósito perseguir el poder y perder la libertad.",
@@ -19515,7 +19522,7 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-08",
+      "id": "francis-bacon-cita-verificada-09",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "La amistad duplica las alegrías y divide las angustias por la mitad.",
@@ -19529,7 +19536,7 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-09",
+      "id": "francis-bacon-cita-verificada-10",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
       "text": "La duda es la escuela de la verdad.",
@@ -19543,10 +19550,10 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-10",
+      "id": "francis-bacon-cita-verificada-11",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
-      "text": "La esperanza es un buen desayuno, pero una mala cena.",
+      "text": "La esperanza es un buen desayuno, pero es una mala cena.",
       "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
       "sourceName": "Wikiquote: Francis Bacon",
       "tags": [
@@ -19557,10 +19564,10 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-11",
+      "id": "francis-bacon-cita-verificada-12",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
-      "text": "La lectura hace al hombre completo; la conversación lo hace ágil y el escribir lo hace preciso.",
+      "text": "La lectura hace al hombre completo; la conversación lo hace ágil, el escribir lo hace preciso.",
       "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
       "sourceName": "Wikiquote: Francis Bacon",
       "tags": [
@@ -19571,10 +19578,10 @@
       ]
     },
     {
-      "id": "francis-bacon-ampliacion-12",
+      "id": "francis-bacon-cita-verificada-13",
       "author": "Francis Bacon",
       "slug": "francis-bacon",
-      "text": "Los viajes, en la juventud, son parte de la educación, y en la vejez, parte de la experiencia.",
+      "text": "La matemática es llave y puerta de la ciencia.",
       "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
       "sourceName": "Wikiquote: Francis Bacon",
       "tags": [
@@ -19585,7 +19592,21 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-01",
+      "id": "francis-bacon-cita-verificada-14",
+      "author": "Francis Bacon",
+      "slug": "francis-bacon",
+      "text": "Los viajes, en la juventud, son una parte de la educación, y en la vejez una parte de la experiencia.",
+      "source": "https://es.wikiquote.org/wiki/Francis_Bacon",
+      "sourceName": "Wikiquote: Francis Bacon",
+      "tags": [
+        "sabiduría",
+        "ciencia",
+        "conocimiento",
+        "experiencia"
+      ]
+    },
+    {
+      "id": "heraclito-cita-verificada-01",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "No es posible meter el pie dos veces en el mismo río.",
@@ -19599,7 +19620,7 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-02",
+      "id": "heraclito-cita-verificada-02",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "Aprender muchas cosas no nutre la inteligencia.",
@@ -19613,7 +19634,7 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-03",
+      "id": "heraclito-cita-verificada-03",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "A todo hombre le es concedido conocerse a sí mismo y meditar sabiamente.",
@@ -19627,7 +19648,7 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-04",
+      "id": "heraclito-cita-verificada-04",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "El camino que sube y baja es uno y el mismo.",
@@ -19641,10 +19662,10 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-05",
+      "id": "heraclito-cita-verificada-05",
       "author": "Heráclito",
       "slug": "heraclito",
-      "text": "El carácter es para el hombre su destino.",
+      "text": "El carácter es para el hombre su demonio.",
       "source": "https://es.wikiquote.org/wiki/Her%C3%A1clito",
       "sourceName": "Wikiquote: Heráclito",
       "tags": [
@@ -19655,10 +19676,10 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-06",
+      "id": "heraclito-cita-verificada-06",
       "author": "Heráclito",
       "slug": "heraclito",
-      "text": "El sol es nuevo cada día.",
+      "text": "El sol es nuevo cada día (no cesa de ser eternamente nuevo).",
       "source": "https://es.wikiquote.org/wiki/Her%C3%A1clito",
       "sourceName": "Wikiquote: Heráclito",
       "tags": [
@@ -19669,7 +19690,7 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-07",
+      "id": "heraclito-cita-verificada-07",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "En la circunferencia se confunden el principio y el fin.",
@@ -19683,7 +19704,7 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-08",
+      "id": "heraclito-cita-verificada-08",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "La naturaleza ama ocultarse.",
@@ -19697,7 +19718,7 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-09",
+      "id": "heraclito-cita-verificada-09",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "Los ojos son testigos más exactos que los oídos.",
@@ -19711,7 +19732,7 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-10",
+      "id": "heraclito-cita-verificada-10",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "Los que buscan oro excavan mucha tierra y encuentran poco.",
@@ -19725,10 +19746,10 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-11",
+      "id": "heraclito-cita-verificada-11",
       "author": "Heráclito",
       "slug": "heraclito",
-      "text": "Los hombres despiertos tienen un mundo común; cada durmiente se vuelve hacia su mundo particular.",
+      "text": "Los hombres despiertos no tienen más que un mundo, pero los hombres dormidos tienen cada uno su mundo.",
       "source": "https://es.wikiquote.org/wiki/Her%C3%A1clito",
       "sourceName": "Wikiquote: Heráclito",
       "tags": [
@@ -19739,7 +19760,7 @@
       ]
     },
     {
-      "id": "heraclito-ampliacion-12",
+      "id": "heraclito-cita-verificada-12",
       "author": "Heráclito",
       "slug": "heraclito",
       "text": "La armonía invisible es mayor que la armonía visible.",
@@ -19753,7 +19774,35 @@
       ]
     },
     {
-      "id": "rene-descartes-ampliacion-01",
+      "id": "heraclito-cita-verificada-13",
+      "author": "Heráclito",
+      "slug": "heraclito",
+      "text": "Hay que temer a la desmesura más que al fuego.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%A1clito",
+      "sourceName": "Wikiquote: Heráclito",
+      "tags": [
+        "filosofía",
+        "vida",
+        "sabiduría",
+        "naturaleza"
+      ]
+    },
+    {
+      "id": "heraclito-cita-verificada-14",
+      "author": "Heráclito",
+      "slug": "heraclito",
+      "text": "La enfermedad hace agradable la salud; el hambre, la saciedad; la fatiga, el reposo.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%A1clito",
+      "sourceName": "Wikiquote: Heráclito",
+      "tags": [
+        "filosofía",
+        "vida",
+        "sabiduría",
+        "naturaleza"
+      ]
+    },
+    {
+      "id": "rene-descartes-cita-verificada-01",
       "author": "René Descartes",
       "slug": "rene-descartes",
       "text": "Pienso, luego existo.",
@@ -19767,7 +19816,21 @@
       ]
     },
     {
-      "id": "rene-descartes-ampliacion-02",
+      "id": "rene-descartes-cita-verificada-02",
+      "author": "René Descartes",
+      "slug": "rene-descartes",
+      "text": "A menudo vale más un falso gozo que una tristeza cuya causa sea verdadera.",
+      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
+      "sourceName": "Wikiquote: René Descartes",
+      "tags": [
+        "filosofía",
+        "razón",
+        "conocimiento",
+        "pensamiento"
+      ]
+    },
+    {
+      "id": "rene-descartes-cita-verificada-03",
       "author": "René Descartes",
       "slug": "rene-descartes",
       "text": "Apenas hay algo dicho por uno cuyo opuesto no sea afirmado por otro.",
@@ -19781,7 +19844,7 @@
       ]
     },
     {
-      "id": "rene-descartes-ampliacion-03",
+      "id": "rene-descartes-cita-verificada-04",
       "author": "René Descartes",
       "slug": "rene-descartes",
       "text": "Conversar con los de otros siglos es casi lo mismo que viajar.",
@@ -19795,7 +19858,7 @@
       ]
     },
     {
-      "id": "rene-descartes-ampliacion-04",
+      "id": "rene-descartes-cita-verificada-05",
       "author": "René Descartes",
       "slug": "rene-descartes",
       "text": "Daría todo lo que sé por la mitad de lo que ignoro.",
@@ -19809,21 +19872,7 @@
       ]
     },
     {
-      "id": "rene-descartes-ampliacion-05",
-      "author": "René Descartes",
-      "slug": "rene-descartes",
-      "text": "El sentido común es la cosa mejor repartida del mundo.",
-      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
-      "sourceName": "Wikiquote: René Descartes",
-      "tags": [
-        "filosofía",
-        "razón",
-        "conocimiento",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "rene-descartes-ampliacion-06",
+      "id": "rene-descartes-cita-verificada-06",
       "author": "René Descartes",
       "slug": "rene-descartes",
       "text": "El que emplea demasiado tiempo en viajar acaba por tornarse extranjero en su propio país.",
@@ -19837,10 +19886,10 @@
       ]
     },
     {
-      "id": "rene-descartes-ampliacion-07",
+      "id": "rene-descartes-cita-verificada-07",
       "author": "René Descartes",
       "slug": "rene-descartes",
-      "text": "La lectura de todos los buenos libros es como una conversación con los mejores ingenios de los siglos pasados.",
+      "text": "El sentido común es la cosa mejor repartida del mundo, pues cada cual piensa que posee tan buena provisión de él.",
       "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
       "sourceName": "Wikiquote: René Descartes",
       "tags": [
@@ -19851,10 +19900,10 @@
       ]
     },
     {
-      "id": "rene-descartes-ampliacion-08",
+      "id": "rene-descartes-cita-verificada-08",
       "author": "René Descartes",
       "slug": "rene-descartes",
-      "text": "Para investigar la verdad es preciso dudar, en cuanto sea posible, de todas las cosas.",
+      "text": "La moral es la ciencia por excelencia; el arte de vivir bien y de ser dichoso.",
       "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
       "sourceName": "Wikiquote: René Descartes",
       "tags": [
@@ -19865,35 +19914,7 @@
       ]
     },
     {
-      "id": "rene-descartes-ampliacion-09",
-      "author": "René Descartes",
-      "slug": "rene-descartes",
-      "text": "Vivir sin filosofar es, propiamente, tener los ojos cerrados sin intentar jamás abrirlos.",
-      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
-      "sourceName": "Wikiquote: René Descartes",
-      "tags": [
-        "filosofía",
-        "razón",
-        "conocimiento",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "rene-descartes-ampliacion-10",
-      "author": "René Descartes",
-      "slug": "rene-descartes",
-      "text": "Divide las dificultades que examines en tantas partes como sea posible para resolverlas mejor.",
-      "source": "https://es.wikiquote.org/wiki/Ren%C3%A9_Descartes",
-      "sourceName": "Wikiquote: René Descartes",
-      "tags": [
-        "filosofía",
-        "razón",
-        "conocimiento",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "abraham-lincoln-ampliacion-01",
+      "id": "abraham-lincoln-cita-verificada-01",
       "author": "Abraham Lincoln",
       "slug": "abraham-lincoln",
       "text": "Casi todos podemos soportar la adversidad, pero si queréis probar el carácter de un hombre, dadle poder.",
@@ -19907,10 +19928,10 @@
       ]
     },
     {
-      "id": "abraham-lincoln-ampliacion-02",
+      "id": "abraham-lincoln-cita-verificada-02",
       "author": "Abraham Lincoln",
       "slug": "abraham-lincoln",
-      "text": "Del mismo modo que no sería un esclavo, tampoco sería un amo.",
+      "text": "Del mismo modo que no sería un esclavo, tampoco sería un amo. Esto expresa mi idea de la democracia.",
       "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
       "sourceName": "Wikiquote: Abraham Lincoln",
       "tags": [
@@ -19921,7 +19942,7 @@
       ]
     },
     {
-      "id": "abraham-lincoln-ampliacion-03",
+      "id": "abraham-lincoln-cita-verificada-03",
       "author": "Abraham Lincoln",
       "slug": "abraham-lincoln",
       "text": "Se puede modificar la acción del hombre en cierta medida, pero no se puede cambiar la naturaleza humana.",
@@ -19935,7 +19956,7 @@
       ]
     },
     {
-      "id": "abraham-lincoln-ampliacion-04",
+      "id": "abraham-lincoln-cita-verificada-04",
       "author": "Abraham Lincoln",
       "slug": "abraham-lincoln",
       "text": "Suavizar las penas de los otros es olvidar las propias.",
@@ -19949,7 +19970,7 @@
       ]
     },
     {
-      "id": "abraham-lincoln-ampliacion-05",
+      "id": "abraham-lincoln-cita-verificada-05",
       "author": "Abraham Lincoln",
       "slug": "abraham-lincoln",
       "text": "Tengamos fe en que el derecho hace la fuerza.",
@@ -19963,7 +19984,7 @@
       ]
     },
     {
-      "id": "abraham-lincoln-ampliacion-06",
+      "id": "abraham-lincoln-cita-verificada-06",
       "author": "Abraham Lincoln",
       "slug": "abraham-lincoln",
       "text": "Una papeleta de voto es más fuerte que una bala de fusil.",
@@ -19977,206 +19998,10 @@
       ]
     },
     {
-      "id": "abraham-lincoln-ampliacion-07",
-      "author": "Abraham Lincoln",
-      "slug": "abraham-lincoln",
-      "text": "Mejor es permanecer callado y parecer poco inteligente que hablar y despejar toda duda.",
-      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
-      "sourceName": "Wikiquote: Abraham Lincoln",
-      "tags": [
-        "libertad",
-        "justicia",
-        "responsabilidad",
-        "coraje"
-      ]
-    },
-    {
-      "id": "abraham-lincoln-ampliacion-08",
-      "author": "Abraham Lincoln",
-      "slug": "abraham-lincoln",
-      "text": "Al final, lo que importa no son los años de vida, sino la vida de los años.",
-      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
-      "sourceName": "Wikiquote: Abraham Lincoln",
-      "tags": [
-        "libertad",
-        "justicia",
-        "responsabilidad",
-        "coraje"
-      ]
-    },
-    {
-      "id": "abraham-lincoln-ampliacion-09",
-      "author": "Abraham Lincoln",
-      "slug": "abraham-lincoln",
-      "text": "Puedes engañar a algunas personas todo el tiempo y a todas algunas veces, pero no puedes engañar a todos todo el tiempo.",
-      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
-      "sourceName": "Wikiquote: Abraham Lincoln",
-      "tags": [
-        "libertad",
-        "justicia",
-        "responsabilidad",
-        "coraje"
-      ]
-    },
-    {
-      "id": "abraham-lincoln-ampliacion-10",
-      "author": "Abraham Lincoln",
-      "slug": "abraham-lincoln",
-      "text": "La mejor manera de predecir el futuro es crearlo.",
-      "source": "https://es.wikiquote.org/wiki/Abraham_Lincoln",
-      "sourceName": "Wikiquote: Abraham Lincoln",
-      "tags": [
-        "libertad",
-        "justicia",
-        "responsabilidad",
-        "coraje"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-01",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "El amor por todas las criaturas vivientes es el atributo más noble del ser humano.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-02",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "No es la especie más fuerte la que sobrevive, ni la más inteligente, sino la que mejor responde al cambio.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-03",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "La ignorancia engendra confianza con más frecuencia que el conocimiento.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-04",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "Un hombre que se atreve a perder una hora de tiempo no ha descubierto el valor de la vida.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-05",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "Siempre he sostenido que, salvo los necios, los hombres no difieren mucho en intelecto, sino en celo y trabajo duro.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-06",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "Si tuviera que vivir de nuevo, me impondría la regla de leer algo de poesía y escuchar música al menos una vez por semana.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-07",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "En la larga historia de la humanidad, quienes aprendieron a colaborar e improvisar con mayor eficacia han prevalecido.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-08",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "Una diferencia importante entre el hombre y los animales es la capacidad de sentir compasión.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-09",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "La belleza de la ciencia consiste en que una idea puede cambiar cuando aparecen mejores pruebas.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "charles-darwin-ampliacion-10",
-      "author": "Charles Darwin",
-      "slug": "charles-darwin",
-      "text": "El instinto social guía a los animales a disfrutar de la compañía de sus semejantes.",
-      "source": "https://es.wikiquote.org/wiki/Charles_Darwin",
-      "sourceName": "Wikiquote: Charles Darwin",
-      "tags": [
-        "ciencia",
-        "naturaleza",
-        "observación",
-        "conocimiento"
-      ]
-    },
-    {
-      "id": "galileo-galilei-ampliacion-01",
+      "id": "galileo-galilei-cita-verificada-01",
       "author": "Galileo Galilei",
       "slug": "galileo-galilei",
-      "text": "Las matemáticas son el alfabeto con el que Dios ha escrito el universo.",
+      "text": "El gran libro de la naturaleza está escrito con símbolos matemáticos.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
       "sourceName": "Wikiquote: Galileo Galilei",
       "tags": [
@@ -20187,10 +20012,10 @@
       ]
     },
     {
-      "id": "galileo-galilei-ampliacion-02",
+      "id": "galileo-galilei-cita-verificada-02",
       "author": "Galileo Galilei",
       "slug": "galileo-galilei",
-      "text": "No se puede enseñar nada a un hombre; sólo se le puede ayudar a encontrar la respuesta dentro de sí mismo.",
+      "text": "En lo tocante a la ciencia, la autoridad de un millar no es superior al humilde razonamiento de una sola persona.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
       "sourceName": "Wikiquote: Galileo Galilei",
       "tags": [
@@ -20201,10 +20026,10 @@
       ]
     },
     {
-      "id": "galileo-galilei-ampliacion-03",
+      "id": "galileo-galilei-cita-verificada-03",
       "author": "Galileo Galilei",
       "slug": "galileo-galilei",
-      "text": "En cuestiones de ciencia, la autoridad de mil no vale lo que el humilde razonamiento de un solo individuo.",
+      "text": "Hablar con poca claridad lo sabe hacer cualquiera; pero claramente, poquísimos.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
       "sourceName": "Wikiquote: Galileo Galilei",
       "tags": [
@@ -20215,35 +20040,7 @@
       ]
     },
     {
-      "id": "galileo-galilei-ampliacion-04",
-      "author": "Galileo Galilei",
-      "slug": "galileo-galilei",
-      "text": "Todas las verdades son fáciles de entender una vez descubiertas; el asunto es descubrirlas.",
-      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
-      "sourceName": "Wikiquote: Galileo Galilei",
-      "tags": [
-        "ciencia",
-        "observación",
-        "conocimiento",
-        "razón"
-      ]
-    },
-    {
-      "id": "galileo-galilei-ampliacion-05",
-      "author": "Galileo Galilei",
-      "slug": "galileo-galilei",
-      "text": "Mide lo que se pueda medir y haz medible lo que no se pueda medir.",
-      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
-      "sourceName": "Wikiquote: Galileo Galilei",
-      "tags": [
-        "ciencia",
-        "observación",
-        "conocimiento",
-        "razón"
-      ]
-    },
-    {
-      "id": "galileo-galilei-ampliacion-06",
+      "id": "galileo-galilei-cita-verificada-04",
       "author": "Galileo Galilei",
       "slug": "galileo-galilei",
       "text": "La duda es la madre de la invención.",
@@ -20257,10 +20054,10 @@
       ]
     },
     {
-      "id": "galileo-galilei-ampliacion-07",
+      "id": "galileo-galilei-cita-verificada-05",
       "author": "Galileo Galilei",
       "slug": "galileo-galilei",
-      "text": "El libro de la naturaleza está escrito en lenguaje matemático.",
+      "text": "La mayor sabiduría que existe es conocerse a uno mismo.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
       "sourceName": "Wikiquote: Galileo Galilei",
       "tags": [
@@ -20271,10 +20068,10 @@
       ]
     },
     {
-      "id": "galileo-galilei-ampliacion-08",
+      "id": "galileo-galilei-cita-verificada-06",
       "author": "Galileo Galilei",
       "slug": "galileo-galilei",
-      "text": "Nunca he conocido a una persona tan ignorante que no pudiera aprender algo de ella.",
+      "text": "La mejor ciencia no se aprende en los libros; el sabio más grande y mejor maestro es la naturaleza.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
       "sourceName": "Wikiquote: Galileo Galilei",
       "tags": [
@@ -20285,10 +20082,10 @@
       ]
     },
     {
-      "id": "galileo-galilei-ampliacion-09",
+      "id": "galileo-galilei-cita-verificada-07",
       "author": "Galileo Galilei",
       "slug": "galileo-galilei",
-      "text": "Conocer la verdad exige observar, comparar y estar dispuesto a corregir lo que creíamos.",
+      "text": "Los beneficios deben escribirse en bronce, y las injurias en el aire.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
       "sourceName": "Wikiquote: Galileo Galilei",
       "tags": [
@@ -20299,10 +20096,10 @@
       ]
     },
     {
-      "id": "galileo-galilei-ampliacion-10",
+      "id": "galileo-galilei-cita-verificada-08",
       "author": "Galileo Galilei",
       "slug": "galileo-galilei",
-      "text": "La pasión es la génesis del genio.",
+      "text": "No se puede enseñar nada a un hombre; sólo se le puede ayudar a encontrar la respuesta dentro de sí mismo.",
       "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
       "sourceName": "Wikiquote: Galileo Galilei",
       "tags": [
@@ -20313,11 +20110,53 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-01",
+      "id": "galileo-galilei-cita-verificada-09",
+      "author": "Galileo Galilei",
+      "slug": "galileo-galilei",
+      "text": "Nunca he encontrado una persona tan ignorante que no se pueda aprender algo de ella.",
+      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
+      "sourceName": "Wikiquote: Galileo Galilei",
+      "tags": [
+        "ciencia",
+        "observación",
+        "conocimiento",
+        "razón"
+      ]
+    },
+    {
+      "id": "galileo-galilei-cita-verificada-10",
+      "author": "Galileo Galilei",
+      "slug": "galileo-galilei",
+      "text": "Opino que, en la discusión de los problemas naturales, no deberíamos empezar por las Escrituras, sino por los experimentos y las demostraciones.",
+      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
+      "sourceName": "Wikiquote: Galileo Galilei",
+      "tags": [
+        "ciencia",
+        "observación",
+        "conocimiento",
+        "razón"
+      ]
+    },
+    {
+      "id": "galileo-galilei-cita-verificada-11",
+      "author": "Galileo Galilei",
+      "slug": "galileo-galilei",
+      "text": "Y sin embargo, se mueve.",
+      "source": "https://es.wikiquote.org/wiki/Galileo_Galilei",
+      "sourceName": "Wikiquote: Galileo Galilei",
+      "tags": [
+        "ciencia",
+        "observación",
+        "conocimiento",
+        "razón"
+      ]
+    },
+    {
+      "id": "immanuel-kant-cita-verificada-01",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "La ilustración es la salida del hombre de su minoría de edad.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "Cuantas más costumbres tiene, menos libre e independiente es un hombre.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20327,11 +20166,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-02",
+      "id": "immanuel-kant-cita-verificada-02",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "Obra de tal modo que uses la humanidad, tanto en tu persona como en la de cualquier otro, siempre como un fin y nunca solamente como un medio.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "Dos cosas llenan el ánimo de admiración y respeto, siempre nuevos y crecientes cuanto más reiterada y persistentemente se ocupa de ellas la reflexión: el cielo estrellado que está sobre mí y la ley moral que hay en mí.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20341,11 +20180,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-03",
+      "id": "immanuel-kant-cita-verificada-03",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "El cielo estrellado sobre mí y la ley moral dentro de mí.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "El derecho es el conjunto de condiciones que permiten a la libertad de cada uno acomodarse a la libertad de todos.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20355,11 +20194,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-04",
+      "id": "immanuel-kant-cita-verificada-04",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "La paciencia es la fortaleza del débil y la impaciencia, la debilidad del fuerte.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "El genio es la facultad por la cual la naturaleza da reglas al arte.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20369,11 +20208,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-05",
+      "id": "immanuel-kant-cita-verificada-05",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "Vemos las cosas no como son, sino como somos.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "El sabio puede cambiar de opinión. El necio, nunca.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20383,11 +20222,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-06",
+      "id": "immanuel-kant-cita-verificada-06",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "Dos cosas llenan el ánimo de admiración y respeto: el cielo estrellado sobre mí y la ley moral dentro de mí.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "En el reino de los fines todo tiene siempre un precio o una dignidad.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20397,11 +20236,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-07",
+      "id": "immanuel-kant-cita-verificada-07",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "La felicidad no es un ideal de la razón, sino de la imaginación.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "La belleza artística no consiste en representar una cosa bella, sino en la bella representación de una cosa.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20411,11 +20250,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-08",
+      "id": "immanuel-kant-cita-verificada-08",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "Pensamientos sin contenido son vacíos; intuiciones sin conceptos son ciegas.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "La guerra es mala porque hace más hombres malos que los que mata.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20425,11 +20264,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-09",
+      "id": "immanuel-kant-cita-verificada-09",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "Atreverse a pensar es el primer paso hacia la autonomía.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "La moral es una ciencia que enseña, no cómo hemos de ser felices, sino cómo hemos de llegar a ser dignos de la felicidad.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20439,11 +20278,11 @@
       ]
     },
     {
-      "id": "immanuel-kant-ampliacion-10",
+      "id": "immanuel-kant-cita-verificada-10",
       "author": "Immanuel Kant",
       "slug": "immanuel-kant",
-      "text": "La libertad es la capacidad de comenzar una serie de acontecimientos por uno mismo.",
-      "source": "https://es.wikiquote.org/wiki/Immanuel_Kant",
+      "text": "Todos somos iguales ante el deber moral.",
+      "source": "https://es.wikiquote.org/wiki/Emanuel_Kant",
       "sourceName": "Wikiquote: Immanuel Kant",
       "tags": [
         "filosofía",
@@ -20453,10 +20292,10 @@
       ]
     },
     {
-      "id": "john-locke-ampliacion-01",
+      "id": "john-locke-cita-verificada-01",
       "author": "John Locke",
       "slug": "john-locke",
-      "text": "Las nuevas opiniones siempre son sospechosas y suelen ser rechazadas sin otra razón que la de no ser comunes.",
+      "text": "Cada uno es ortodoxo con respecto a sí mismo.",
       "source": "https://es.wikiquote.org/wiki/John_Locke",
       "sourceName": "Wikiquote: John Locke",
       "tags": [
@@ -20467,10 +20306,10 @@
       ]
     },
     {
-      "id": "john-locke-ampliacion-02",
+      "id": "john-locke-cita-verificada-02",
       "author": "John Locke",
       "slug": "john-locke",
-      "text": "Lo que te preocupa te domina.",
+      "text": "Creo que la instrucción es la parte menor de la educación.",
       "source": "https://es.wikiquote.org/wiki/John_Locke",
       "sourceName": "Wikiquote: John Locke",
       "tags": [
@@ -20481,122 +20320,10 @@
       ]
     },
     {
-      "id": "john-locke-ampliacion-03",
-      "author": "John Locke",
-      "slug": "john-locke",
-      "text": "El fin de la ley no es abolir o restringir, sino preservar y ampliar la libertad.",
-      "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "sourceName": "Wikiquote: John Locke",
-      "tags": [
-        "libertad",
-        "conocimiento",
-        "educación",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "john-locke-ampliacion-04",
-      "author": "John Locke",
-      "slug": "john-locke",
-      "text": "Todo hombre tiene propiedad sobre su propia persona.",
-      "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "sourceName": "Wikiquote: John Locke",
-      "tags": [
-        "libertad",
-        "conocimiento",
-        "educación",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "john-locke-ampliacion-05",
-      "author": "John Locke",
-      "slug": "john-locke",
-      "text": "Las acciones de los hombres son las mejores intérpretes de sus pensamientos.",
-      "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "sourceName": "Wikiquote: John Locke",
-      "tags": [
-        "libertad",
-        "conocimiento",
-        "educación",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "john-locke-ampliacion-06",
-      "author": "John Locke",
-      "slug": "john-locke",
-      "text": "La lectura proporciona a la mente materiales de conocimiento; es el pensamiento lo que hace nuestro lo que leemos.",
-      "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "sourceName": "Wikiquote: John Locke",
-      "tags": [
-        "libertad",
-        "conocimiento",
-        "educación",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "john-locke-ampliacion-07",
-      "author": "John Locke",
-      "slug": "john-locke",
-      "text": "Donde no hay ley, no hay libertad.",
-      "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "sourceName": "Wikiquote: John Locke",
-      "tags": [
-        "libertad",
-        "conocimiento",
-        "educación",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "john-locke-ampliacion-08",
-      "author": "John Locke",
-      "slug": "john-locke",
-      "text": "Una mente sana en un cuerpo sano es una descripción breve, pero completa, de un estado feliz.",
-      "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "sourceName": "Wikiquote: John Locke",
-      "tags": [
-        "libertad",
-        "conocimiento",
-        "educación",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "john-locke-ampliacion-09",
-      "author": "John Locke",
-      "slug": "john-locke",
-      "text": "El conocimiento de ningún hombre puede ir más allá de su experiencia.",
-      "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "sourceName": "Wikiquote: John Locke",
-      "tags": [
-        "libertad",
-        "conocimiento",
-        "educación",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "john-locke-ampliacion-10",
-      "author": "John Locke",
-      "slug": "john-locke",
-      "text": "Los padres se preguntan por qué los arroyos son amargos, cuando ellos mismos han envenenado la fuente.",
-      "source": "https://es.wikiquote.org/wiki/John_Locke",
-      "sourceName": "Wikiquote: John Locke",
-      "tags": [
-        "libertad",
-        "conocimiento",
-        "educación",
-        "pensamiento"
-      ]
-    },
-    {
-      "id": "benjamin-franklin-ampliacion-01",
+      "id": "benjamin-franklin-cita-verificada-01",
       "author": "Benjamin Franklin",
       "slug": "benjamin-franklin",
-      "text": "Dime y lo olvido; enséñame y lo recuerdo; involúcrame y lo aprendo.",
+      "text": "A los veinte años, reina la voluntad; a los treinta, el ingenio, y a los cuarenta, el juicio.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
       "sourceName": "Wikiquote: Benjamin Franklin",
       "tags": [
@@ -20607,10 +20334,10 @@
       ]
     },
     {
-      "id": "benjamin-franklin-ampliacion-02",
+      "id": "benjamin-franklin-cita-verificada-02",
       "author": "Benjamin Franklin",
       "slug": "benjamin-franklin",
-      "text": "Una inversión en conocimiento paga el mejor interés.",
+      "text": "Aquellos que renunciarían a la libertad esencial para comprar un poco de seguridad temporal no merecen libertad ni seguridad.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
       "sourceName": "Wikiquote: Benjamin Franklin",
       "tags": [
@@ -20621,10 +20348,10 @@
       ]
     },
     {
-      "id": "benjamin-franklin-ampliacion-03",
+      "id": "benjamin-franklin-cita-verificada-03",
       "author": "Benjamin Franklin",
       "slug": "benjamin-franklin",
-      "text": "Bien hecho es mejor que bien dicho.",
+      "text": "Cuando hables a un hombre, mírale a los ojos; cuando él te hable a ti, mírale la boca.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
       "sourceName": "Wikiquote: Benjamin Franklin",
       "tags": [
@@ -20635,10 +20362,10 @@
       ]
     },
     {
-      "id": "benjamin-franklin-ampliacion-04",
+      "id": "benjamin-franklin-cita-verificada-04",
       "author": "Benjamin Franklin",
       "slug": "benjamin-franklin",
-      "text": "Al no prepararse, uno se prepara para fracasar.",
+      "text": "El corazón del loco está en la boca; pero la boca del sabio está en el corazón.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
       "sourceName": "Wikiquote: Benjamin Franklin",
       "tags": [
@@ -20649,10 +20376,10 @@
       ]
     },
     {
-      "id": "benjamin-franklin-ampliacion-05",
+      "id": "benjamin-franklin-cita-verificada-05",
       "author": "Benjamin Franklin",
       "slug": "benjamin-franklin",
-      "text": "El tiempo perdido nunca se vuelve a encontrar.",
+      "text": "El hambre espía en la casa de los pobres, pero si la habitan personas trabajadoras, no se atreve a entrar.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
       "sourceName": "Wikiquote: Benjamin Franklin",
       "tags": [
@@ -20663,10 +20390,10 @@
       ]
     },
     {
-      "id": "benjamin-franklin-ampliacion-06",
+      "id": "benjamin-franklin-cita-verificada-06",
       "author": "Benjamin Franklin",
       "slug": "benjamin-franklin",
-      "text": "La energía y la persistencia conquistan todas las cosas.",
+      "text": "De quien piensa que el dinero puede hacerlo todo, cabe sospechar que será capaz de hacer cualquier cosa por dinero.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
       "sourceName": "Wikiquote: Benjamin Franklin",
       "tags": [
@@ -20677,10 +20404,10 @@
       ]
     },
     {
-      "id": "benjamin-franklin-ampliacion-07",
+      "id": "benjamin-franklin-cita-verificada-07",
       "author": "Benjamin Franklin",
       "slug": "benjamin-franklin",
-      "text": "Una casa no es un hogar a menos que contenga alimento y fuego para la mente y el cuerpo.",
+      "text": "Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
       "sourceName": "Wikiquote: Benjamin Franklin",
       "tags": [
@@ -20691,10 +20418,10 @@
       ]
     },
     {
-      "id": "benjamin-franklin-ampliacion-08",
+      "id": "benjamin-franklin-cita-verificada-08",
       "author": "Benjamin Franklin",
       "slug": "benjamin-franklin",
-      "text": "Quien es bueno para poner excusas rara vez es bueno para otra cosa.",
+      "text": "Donde mora la libertad, allí está mi patria.",
       "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
       "sourceName": "Wikiquote: Benjamin Franklin",
       "tags": [
@@ -20705,38 +20432,10 @@
       ]
     },
     {
-      "id": "benjamin-franklin-ampliacion-09",
-      "author": "Benjamin Franklin",
-      "slug": "benjamin-franklin",
-      "text": "El que se acuesta con perros se levanta con pulgas.",
-      "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
-      "sourceName": "Wikiquote: Benjamin Franklin",
-      "tags": [
-        "sabiduría",
-        "educación",
-        "trabajo",
-        "vida"
-      ]
-    },
-    {
-      "id": "benjamin-franklin-ampliacion-10",
-      "author": "Benjamin Franklin",
-      "slug": "benjamin-franklin",
-      "text": "En este mundo nada puede decirse que sea seguro, excepto la muerte y los impuestos.",
-      "source": "https://es.wikiquote.org/wiki/Benjamin_Franklin",
-      "sourceName": "Wikiquote: Benjamin Franklin",
-      "tags": [
-        "sabiduría",
-        "educación",
-        "trabajo",
-        "vida"
-      ]
-    },
-    {
-      "id": "esopo-ampliacion-01",
+      "id": "esopo-cita-verificada-01",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "Ningún acto de bondad, por pequeño que sea, se pierde.",
+      "text": "Cuando un lobo se empeña en tener razón, pobres corderos.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20747,10 +20446,10 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-02",
+      "id": "esopo-cita-verificada-02",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "Unidos permanecemos; divididos caemos.",
+      "text": "El malvado piensa que ya os hace un bien con no haceros nada malo.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20761,10 +20460,10 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-03",
+      "id": "esopo-cita-verificada-03",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "Las apariencias engañan.",
+      "text": "En los cambios de fortuna, los más poderosos necesitan a los débiles.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20775,10 +20474,10 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-04",
+      "id": "esopo-cita-verificada-04",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "Es fácil ser valiente desde una distancia segura.",
+      "text": "La costumbre dulcifica hasta las cosas más aterradoras.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20789,10 +20488,10 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-05",
+      "id": "esopo-cita-verificada-05",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "Más vale prevenir que lamentar.",
+      "text": "La habilidad y la paciencia pueden triunfar donde la fuerza haya fracasado.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20803,10 +20502,10 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-06",
+      "id": "esopo-cita-verificada-06",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "La gratitud convierte lo que tenemos en suficiente.",
+      "text": "La posesión no es nada si no se une a ella el goce.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20817,10 +20516,10 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-07",
+      "id": "esopo-cita-verificada-07",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "El trabajo constante vence las dificultades.",
+      "text": "Las astucias y las traiciones no provienen más que de la falta de habilidad.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20831,10 +20530,10 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-08",
+      "id": "esopo-cita-verificada-08",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "Las palabras pueden ocultar lo que los actos revelan.",
+      "text": "La unión hace la fuerza.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20845,10 +20544,10 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-09",
+      "id": "esopo-cita-verificada-09",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "Quien desea demasiado puede terminar perdiendo lo que ya posee.",
+      "text": "Los demagogos sacan tanto más provecho en cuanto han sumido su país en la discordia.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
@@ -20859,10 +20558,52 @@
       ]
     },
     {
-      "id": "esopo-ampliacion-10",
+      "id": "esopo-cita-verificada-10",
       "author": "Esopo",
       "slug": "esopo",
-      "text": "Una pequeña ayuda puede ser grande para quien la necesita.",
+      "text": "Los niños perezosos no deben ser recriminados, ya que sus padres los educan en la pereza.",
+      "source": "https://es.wikiquote.org/wiki/Esopo",
+      "sourceName": "Wikiquote: Esopo",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "acciones",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "esopo-cita-verificada-11",
+      "author": "Esopo",
+      "slug": "esopo",
+      "text": "Más agudo es el aguijón del dolor cuando somos vencidos con nuestras mismas armas.",
+      "source": "https://es.wikiquote.org/wiki/Esopo",
+      "sourceName": "Wikiquote: Esopo",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "acciones",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "esopo-cita-verificada-12",
+      "author": "Esopo",
+      "slug": "esopo",
+      "text": "Quien mucho sufre mucho aprende.",
+      "source": "https://es.wikiquote.org/wiki/Esopo",
+      "sourceName": "Wikiquote: Esopo",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "acciones",
+        "aprendizaje"
+      ]
+    },
+    {
+      "id": "esopo-cita-verificada-13",
+      "author": "Esopo",
+      "slug": "esopo",
+      "text": "Si halagas la maldad de los hombres, los incitas a hacer todavía mayor daño.",
       "source": "https://es.wikiquote.org/wiki/Esopo",
       "sourceName": "Wikiquote: Esopo",
       "tags": [
