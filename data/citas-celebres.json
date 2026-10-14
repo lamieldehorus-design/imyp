@@ -61,7 +61,7 @@
       "slug": "edgar-allan-poe",
       "bio": "Edgar Allan Poe fue un escritor, poeta y crítico estadounidense, conocido por sus relatos de misterio y terror y por poemas que exploran la memoria, la belleza y la pérdida.",
       "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
-      "count": 12
+      "count": 15
     },
     {
       "name": "Epicteto",
@@ -82,7 +82,7 @@
       "slug": "fiodor-dostoyevski",
       "bio": "Fiódor Dostoyevski fue un novelista ruso cuyas obras investigan la conciencia, la libertad, la culpa, la compasión y los conflictos morales.",
       "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Francis Bacon",
@@ -250,7 +250,7 @@
       "slug": "mario-benedetti",
       "bio": "Mario Benedetti fue un escritor y poeta uruguayo cuya obra aborda el amor, la vida cotidiana, la esperanza, la memoria y los vínculos humanos.",
       "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Mark Twain",
@@ -271,7 +271,7 @@
       "slug": "mary-shelley",
       "bio": "Mary Shelley fue una escritora británica, autora de Frankenstein. Su obra explora la responsabilidad, la ambición, la creación y las consecuencias de las decisiones humanas.",
       "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
-      "count": 8
+      "count": 11
     },
     {
       "name": "Miguel de Cervantes",
@@ -292,7 +292,7 @@
       "slug": "pablo-neruda",
       "bio": "Pablo Neruda fue un poeta chileno y premio Nobel de Literatura. Su poesía recorre el amor, la naturaleza, la historia y la experiencia colectiva.",
       "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Platón",
@@ -348,7 +348,7 @@
       "slug": "sor-juana-ines-de-la-cruz",
       "bio": "Sor Juana Inés de la Cruz fue una escritora novohispana del Siglo de Oro, defensora del conocimiento y autora de poesía que cuestionó las desigualdades y las contradicciones sociales.",
       "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
-      "count": 13
+      "count": 16
     },
     {
       "name": "Victor Hugo",
@@ -21532,6 +21532,188 @@
       "sourceName": "Wikiquote: Mahatma Gandhi",
       "tags": [
         "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-ampliacion-f-02",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "Sobre todo, no te mientas a ti mismo.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-ampliacion-f-03",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "El hombre es un misterio. Hay que descifrarlo, y si pasas toda la vida descifrándolo, no digas que has perdido el tiempo.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "fiodor-dostoyevski-ampliacion-f-05",
+      "author": "Fiódor Dostoyevski",
+      "slug": "fiodor-dostoyevski",
+      "text": "El sufrimiento y el dolor son siempre obligatorios para una inteligencia amplia y un corazón profundo.",
+      "source": "https://es.wikiquote.org/wiki/Fiodor_Dostoievski",
+      "sourceName": "Wikiquote: Fiódor Dostoyevski",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-ampliacion-f-06",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Los que sueñan de día son conscientes de muchas cosas que escapan a los que sueñan solo de noche.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-ampliacion-f-08",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "Tengo una gran fe en los tontos; confianza en sí mismos, lo llaman mis amigos.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "edgar-allan-poe-ampliacion-f-09",
+      "author": "Edgar Allan Poe",
+      "slug": "edgar-allan-poe",
+      "text": "La ciencia no nos ha enseñado todavía si la locura es o no lo más sublime de la inteligencia.",
+      "source": "https://es.wikiquote.org/wiki/Edgar_Allan_Poe",
+      "sourceName": "Wikiquote: Edgar Allan Poe",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mary-shelley-ampliacion-f-12",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "La vida, aunque quizá no sea más que una acumulación de angustias, es querida para mí.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mary-shelley-ampliacion-f-13",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "No deseo que las mujeres tengan poder sobre los hombres, sino sobre sí mismas.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mary-shelley-ampliacion-f-15",
+      "author": "Mary Shelley",
+      "slug": "mary-shelley",
+      "text": "La invención no consiste en crear de la nada, sino en descubrir lo que ya existe.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Shelley",
+      "sourceName": "Wikiquote: Mary Shelley",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-ampliacion-f-16",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "No estudio para saber más, sino para ignorar menos.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-ampliacion-f-19",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "¿En perseguirme, mundo, qué interesas? ¿En qué te ofendo, cuando solo intento poner bellezas en mi entendimiento?",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "sor-juana-ines-de-la-cruz-ampliacion-f-20",
+      "author": "Sor Juana Inés de la Cruz",
+      "slug": "sor-juana-ines-de-la-cruz",
+      "text": "El entendimiento, como el cielo, cuanto más limpio, más capacidad tiene de luz.",
+      "source": "https://es.wikiquote.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz",
+      "sourceName": "Wikiquote: Sor Juana Inés de la Cruz",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mario-benedetti-ampliacion-f-23",
+      "author": "Mario Benedetti",
+      "slug": "mario-benedetti",
+      "text": "No te rindas, por favor no cedas, aunque el frío queme, aunque el miedo muerda.",
+      "source": "https://es.wikiquote.org/wiki/Mario_Benedetti",
+      "sourceName": "Wikiquote: Mario Benedetti",
+      "tags": [
+        "literatura",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "pablo-neruda-ampliacion-f-30",
+      "author": "Pablo Neruda",
+      "slug": "pablo-neruda",
+      "text": "Muere lentamente quien no viaja, quien no lee, quien no oye música, quien no encuentra gracia en sí mismo.",
+      "source": "https://es.wikiquote.org/wiki/Pablo_Neruda",
+      "sourceName": "Wikiquote: Pablo Neruda",
+      "tags": [
+        "literatura",
         "vida",
         "reflexión"
       ]
