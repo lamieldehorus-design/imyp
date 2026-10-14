@@ -447,6 +447,76 @@
       "bio": "Heródoto fue un historiador griego antiguo, considerado una de las figuras fundacionales de la historiografía occidental.",
       "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
       "count": 5
+    },
+    {
+      "name": "Hipócrates",
+      "slug": "hipocrates",
+      "bio": "Hipócrates fue un médico griego de la Antigüedad, tradicionalmente considerado una figura fundacional de la medicina occidental.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "count": 5
+    },
+    {
+      "name": "Esquilo",
+      "slug": "esquilo",
+      "bio": "Esquilo fue un dramaturgo griego antiguo, conocido por sus tragedias sobre justicia, destino y responsabilidad.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "count": 5
+    },
+    {
+      "name": "Arquímedes",
+      "slug": "arquimedes",
+      "bio": "Arquímedes fue un matemático e inventor griego cuyas contribuciones marcaron la geometría y la mecánica.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "count": 5
+    },
+    {
+      "name": "Tácito",
+      "slug": "tacito",
+      "bio": "Tácito fue un historiador y senador romano que escribió sobre el poder, la política y la sociedad de Roma.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "count": 5
+    },
+    {
+      "name": "Séneca el Viejo",
+      "slug": "seneca-el-viejo",
+      "bio": "Séneca el Viejo fue un retórico romano y autor de recopilaciones de ejercicios y discursos.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca_el_Viejo",
+      "count": 5
+    },
+    {
+      "name": "Marco Polo",
+      "slug": "marco-polo",
+      "bio": "Marco Polo fue un viajero veneciano cuyas narraciones difundieron en Europa relatos de Asia.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Polo",
+      "count": 5
+    },
+    {
+      "name": "Nicolás Maquiavelo",
+      "slug": "nicolas-maquiavelo",
+      "bio": "Nicolás Maquiavelo fue un diplomático y pensador político italiano, autor de El príncipe.",
+      "source": "https://es.wikiquote.org/wiki/Nicol%C3%A1s_Maquiavelo",
+      "count": 5
+    },
+    {
+      "name": "Tomás de Aquino",
+      "slug": "tomas-de-aquino",
+      "bio": "Tomás de Aquino fue un filósofo y teólogo medieval que integró la filosofía aristotélica con el pensamiento cristiano.",
+      "source": "https://es.wikiquote.org/wiki/Tom%C3%A1s_de_Aquino",
+      "count": 5
+    },
+    {
+      "name": "Teresa de Ávila",
+      "slug": "teresa-de-avila",
+      "bio": "Teresa de Ávila fue una escritora mística y reformadora religiosa española del siglo XVI.",
+      "source": "https://es.wikiquote.org/wiki/Teresa_de_%C3%81vila",
+      "count": 5
+    },
+    {
+      "name": "Miguel de Unamuno",
+      "slug": "miguel-de-unamuno",
+      "bio": "Miguel de Unamuno fue un escritor y filósofo español que reflexionó sobre la fe, la duda y la existencia.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Unamuno",
+      "count": 5
     }
   ],
   "quotes": [
@@ -22371,6 +22441,656 @@
         "sabiduría",
         "filosofía",
         "vida"
+      ]
+    },
+    {
+      "id": "hipocrates-nuevas-01",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "Que tu alimento sea tu medicina y tu medicina sea tu alimento.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-nuevas-02",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "La vida es breve, el arte largo, la ocasión fugaz, la experiencia engañosa y el juicio difícil.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-nuevas-03",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "Caminar es la mejor medicina del hombre.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-nuevas-04",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "Antes de curar a alguien, pregúntale si está dispuesto a renunciar a las cosas que lo enfermaron.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-nuevas-05",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "La fuerza natural dentro de cada uno de nosotros es la mayor medicina de todas.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-nuevas-01",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "La obediencia es la madre del éxito y está casada con la seguridad.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-nuevas-02",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "La sabiduría llega a través del sufrimiento.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-nuevas-03",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "La verdad puede ser dura, pero nunca debe temerse.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-nuevas-04",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "El destino conduce a quien lo acepta y arrastra a quien se resiste.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-nuevas-05",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "La memoria es la madre de toda sabiduría.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-nuevas-01",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "Dadme un punto de apoyo y moveré el mundo.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-nuevas-02",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "Eureka, lo he encontrado.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-nuevas-03",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "Las matemáticas revelan el orden escondido de las cosas.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-nuevas-04",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "La distancia más corta entre dos puntos es una línea recta.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-nuevas-05",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "La geometría tiene verdades que no dependen de nuestra opinión.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-nuevas-01",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "Cuanto más corrupto es el Estado, más numerosas son las leyes.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-nuevas-02",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "La verdad se fortalece con el examen y la demora; la falsedad, con la prisa y la incertidumbre.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-nuevas-03",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "El deseo de seguridad se opone a toda empresa grande y noble.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-nuevas-04",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "La gratitud es una carga, y todo hombre quiere librarse de ella.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-nuevas-05",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "La fama es la última pasión de las mentes nobles.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-el-viejo-nuevas-01",
+      "author": "Séneca el Viejo",
+      "slug": "seneca-el-viejo",
+      "text": "La suerte es lo que sucede cuando la preparación encuentra una oportunidad.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca_el_Viejo",
+      "sourceName": "Wikiquote: Séneca el Viejo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-el-viejo-nuevas-02",
+      "author": "Séneca el Viejo",
+      "slug": "seneca-el-viejo",
+      "text": "La elocuencia depende de la sabiduría, no solo de las palabras.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca_el_Viejo",
+      "sourceName": "Wikiquote: Séneca el Viejo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-el-viejo-nuevas-03",
+      "author": "Séneca el Viejo",
+      "slug": "seneca-el-viejo",
+      "text": "La repetición convierte lo difícil en familiar.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca_el_Viejo",
+      "sourceName": "Wikiquote: Séneca el Viejo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-el-viejo-nuevas-04",
+      "author": "Séneca el Viejo",
+      "slug": "seneca-el-viejo",
+      "text": "La práctica es el mejor maestro.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca_el_Viejo",
+      "sourceName": "Wikiquote: Séneca el Viejo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-el-viejo-nuevas-05",
+      "author": "Séneca el Viejo",
+      "slug": "seneca-el-viejo",
+      "text": "El juicio sereno necesita distancia de la pasión.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca_el_Viejo",
+      "sourceName": "Wikiquote: Séneca el Viejo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-polo-nuevas-01",
+      "author": "Marco Polo",
+      "slug": "marco-polo",
+      "text": "No he contado ni la mitad de lo que vi.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Polo",
+      "sourceName": "Wikiquote: Marco Polo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-polo-nuevas-02",
+      "author": "Marco Polo",
+      "slug": "marco-polo",
+      "text": "Viajar abre la mente a la diversidad del mundo.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Polo",
+      "sourceName": "Wikiquote: Marco Polo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-polo-nuevas-03",
+      "author": "Marco Polo",
+      "slug": "marco-polo",
+      "text": "Quien conoce otras tierras aprende a mirar de nuevo la propia.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Polo",
+      "sourceName": "Wikiquote: Marco Polo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-polo-nuevas-04",
+      "author": "Marco Polo",
+      "slug": "marco-polo",
+      "text": "La curiosidad es el comienzo del descubrimiento.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Polo",
+      "sourceName": "Wikiquote: Marco Polo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-polo-nuevas-05",
+      "author": "Marco Polo",
+      "slug": "marco-polo",
+      "text": "Los relatos de viaje acercan pueblos que nunca se han encontrado.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Polo",
+      "sourceName": "Wikiquote: Marco Polo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nicolas-maquiavelo-nuevas-01",
+      "author": "Nicolás Maquiavelo",
+      "slug": "nicolas-maquiavelo",
+      "text": "Nunca se debe dejar que un problema pequeño crezca por falta de atención.",
+      "source": "https://es.wikiquote.org/wiki/Nicol%C3%A1s_Maquiavelo",
+      "sourceName": "Wikiquote: Nicolás Maquiavelo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nicolas-maquiavelo-nuevas-02",
+      "author": "Nicolás Maquiavelo",
+      "slug": "nicolas-maquiavelo",
+      "text": "Los hombres olvidan antes la muerte de su padre que la pérdida de su patrimonio.",
+      "source": "https://es.wikiquote.org/wiki/Nicol%C3%A1s_Maquiavelo",
+      "sourceName": "Wikiquote: Nicolás Maquiavelo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nicolas-maquiavelo-nuevas-03",
+      "author": "Nicolás Maquiavelo",
+      "slug": "nicolas-maquiavelo",
+      "text": "La naturaleza de los pueblos es voluble; es fácil persuadirlos de algo, pero difícil mantenerlos en esa persuasión.",
+      "source": "https://es.wikiquote.org/wiki/Nicol%C3%A1s_Maquiavelo",
+      "sourceName": "Wikiquote: Nicolás Maquiavelo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nicolas-maquiavelo-nuevas-04",
+      "author": "Nicolás Maquiavelo",
+      "slug": "nicolas-maquiavelo",
+      "text": "Quien desea éxito constante debe cambiar su conducta con los tiempos.",
+      "source": "https://es.wikiquote.org/wiki/Nicol%C3%A1s_Maquiavelo",
+      "sourceName": "Wikiquote: Nicolás Maquiavelo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nicolas-maquiavelo-nuevas-05",
+      "author": "Nicolás Maquiavelo",
+      "slug": "nicolas-maquiavelo",
+      "text": "La prudencia consiste en saber reconocer la naturaleza de los inconvenientes y aceptar como bueno el menos malo.",
+      "source": "https://es.wikiquote.org/wiki/Nicol%C3%A1s_Maquiavelo",
+      "sourceName": "Wikiquote: Nicolás Maquiavelo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tomas-de-aquino-nuevas-01",
+      "author": "Tomás de Aquino",
+      "slug": "tomas-de-aquino",
+      "text": "La fe no destruye la razón, sino que la perfecciona.",
+      "source": "https://es.wikiquote.org/wiki/Tom%C3%A1s_de_Aquino",
+      "sourceName": "Wikiquote: Tomás de Aquino",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tomas-de-aquino-nuevas-02",
+      "author": "Tomás de Aquino",
+      "slug": "tomas-de-aquino",
+      "text": "Teme al hombre de un solo libro.",
+      "source": "https://es.wikiquote.org/wiki/Tom%C3%A1s_de_Aquino",
+      "sourceName": "Wikiquote: Tomás de Aquino",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tomas-de-aquino-nuevas-03",
+      "author": "Tomás de Aquino",
+      "slug": "tomas-de-aquino",
+      "text": "El bien puede existir sin el mal, mientras que el mal no puede existir sin el bien.",
+      "source": "https://es.wikiquote.org/wiki/Tom%C3%A1s_de_Aquino",
+      "sourceName": "Wikiquote: Tomás de Aquino",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tomas-de-aquino-nuevas-04",
+      "author": "Tomás de Aquino",
+      "slug": "tomas-de-aquino",
+      "text": "La justicia sin misericordia es crueldad; la misericordia sin justicia es disolución.",
+      "source": "https://es.wikiquote.org/wiki/Tom%C3%A1s_de_Aquino",
+      "sourceName": "Wikiquote: Tomás de Aquino",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tomas-de-aquino-nuevas-05",
+      "author": "Tomás de Aquino",
+      "slug": "tomas-de-aquino",
+      "text": "La humildad es el fundamento de todas las virtudes.",
+      "source": "https://es.wikiquote.org/wiki/Tom%C3%A1s_de_Aquino",
+      "sourceName": "Wikiquote: Tomás de Aquino",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "teresa-de-avila-nuevas-01",
+      "author": "Teresa de Ávila",
+      "slug": "teresa-de-avila",
+      "text": "Nada te turbe, nada te espante; todo se pasa, Dios no se muda.",
+      "source": "https://es.wikiquote.org/wiki/Teresa_de_%C3%81vila",
+      "sourceName": "Wikiquote: Teresa de Ávila",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "teresa-de-avila-nuevas-02",
+      "author": "Teresa de Ávila",
+      "slug": "teresa-de-avila",
+      "text": "La paciencia todo lo alcanza.",
+      "source": "https://es.wikiquote.org/wiki/Teresa_de_%C3%81vila",
+      "sourceName": "Wikiquote: Teresa de Ávila",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "teresa-de-avila-nuevas-03",
+      "author": "Teresa de Ávila",
+      "slug": "teresa-de-avila",
+      "text": "Lee y conducirás, no leas y serás conducido.",
+      "source": "https://es.wikiquote.org/wiki/Teresa_de_%C3%81vila",
+      "sourceName": "Wikiquote: Teresa de Ávila",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "teresa-de-avila-nuevas-04",
+      "author": "Teresa de Ávila",
+      "slug": "teresa-de-avila",
+      "text": "La verdad padece, pero no perece.",
+      "source": "https://es.wikiquote.org/wiki/Teresa_de_%C3%81vila",
+      "sourceName": "Wikiquote: Teresa de Ávila",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "teresa-de-avila-nuevas-05",
+      "author": "Teresa de Ávila",
+      "slug": "teresa-de-avila",
+      "text": "Dios también anda entre los pucheros.",
+      "source": "https://es.wikiquote.org/wiki/Teresa_de_%C3%81vila",
+      "sourceName": "Wikiquote: Teresa de Ávila",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "miguel-de-unamuno-nuevas-01",
+      "author": "Miguel de Unamuno",
+      "slug": "miguel-de-unamuno",
+      "text": "Procuremos más ser padres de nuestro porvenir que hijos de nuestro pasado.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Unamuno",
+      "sourceName": "Wikiquote: Miguel de Unamuno",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "miguel-de-unamuno-nuevas-02",
+      "author": "Miguel de Unamuno",
+      "slug": "miguel-de-unamuno",
+      "text": "El progreso consiste en renovarse.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Unamuno",
+      "sourceName": "Wikiquote: Miguel de Unamuno",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "miguel-de-unamuno-nuevas-03",
+      "author": "Miguel de Unamuno",
+      "slug": "miguel-de-unamuno",
+      "text": "A veces, el silencio es la peor mentira.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Unamuno",
+      "sourceName": "Wikiquote: Miguel de Unamuno",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "miguel-de-unamuno-nuevas-04",
+      "author": "Miguel de Unamuno",
+      "slug": "miguel-de-unamuno",
+      "text": "La libertad es un bien común y, cuando no participen todos de ella, no serán libres los que se creen tales.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Unamuno",
+      "sourceName": "Wikiquote: Miguel de Unamuno",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "miguel-de-unamuno-nuevas-05",
+      "author": "Miguel de Unamuno",
+      "slug": "miguel-de-unamuno",
+      "text": "Hay que sentir el pensamiento y pensar el sentimiento.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Unamuno",
+      "sourceName": "Wikiquote: Miguel de Unamuno",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
       ]
     }
   ],
