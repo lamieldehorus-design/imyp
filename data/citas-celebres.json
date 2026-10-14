@@ -26,7 +26,7 @@
       "slug": "aristoteles",
       "bio": "Aristóteles fue un filósofo griego que escribió sobre lógica, ética, política, naturaleza y conocimiento. Su pensamiento marcó buena parte de la tradición intelectual occidental.",
       "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
-      "count": 14
+      "count": 17
     },
     {
       "name": "Benjamin Franklin",
@@ -54,7 +54,7 @@
       "slug": "confucio",
       "bio": "Confucio fue un pensador y maestro chino cuyas enseñanzas influyeron profundamente en la ética, la educación, la convivencia y la responsabilidad personal.",
       "source": "https://es.wikiquote.org/wiki/Confucio",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Edgar Allan Poe",
@@ -68,7 +68,7 @@
       "slug": "epicteto",
       "bio": "Epicteto fue un filósofo estoico de origen griego. Sus enseñanzas ponen el foco en distinguir lo que depende de nosotros, revisar nuestros juicios y cultivar la libertad interior.",
       "source": "https://es.wikiquote.org/wiki/Epicteto",
-      "count": 15
+      "count": 20
     },
     {
       "name": "Esopo",
@@ -229,7 +229,7 @@
       "slug": "marco-aurelio",
       "bio": "Marco Aurelio fue emperador romano y filósofo estoico. Sus Meditaciones reúnen apuntes sobre el carácter, la responsabilidad, el tiempo y la manera de responder a las dificultades.",
       "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
-      "count": 14
+      "count": 19
     },
     {
       "name": "Marco Tulio Cicerón",
@@ -299,7 +299,7 @@
       "slug": "platon",
       "bio": "Platón fue un filósofo griego, discípulo de Sócrates y maestro de Aristóteles. Sus diálogos abordan la justicia, el conocimiento, la política y la búsqueda del bien.",
       "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
-      "count": 14
+      "count": 16
     },
     {
       "name": "Rabindranath Tagore",
@@ -334,7 +334,7 @@
       "slug": "seneca",
       "bio": "Séneca fue un filósofo estoico, dramaturgo y político romano. Sus escritos reflexionan sobre el tiempo, el miedo, la virtud, la serenidad y la manera de vivir con propósito.",
       "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
-      "count": 17
+      "count": 22
     },
     {
       "name": "Simone de Beauvoir",
@@ -20611,6 +20611,292 @@
         "vida",
         "acciones",
         "aprendizaje"
+      ]
+    },
+    {
+      "id": "aristoteles-ampliacion-c-01",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "La excelencia moral es resultado del hábito.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "aristoteles-ampliacion-c-02",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "El placer en el trabajo pone perfección en la obra.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "aristoteles-ampliacion-c-03",
+      "author": "Aristóteles",
+      "slug": "aristoteles",
+      "text": "Las raíces de la educación son amargas, pero sus frutos son dulces.",
+      "source": "https://es.wikiquote.org/wiki/Arist%C3%B3teles",
+      "sourceName": "Wikiquote: Aristóteles",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "confucio-ampliacion-c-08",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Cuando veas a una persona buena, intenta imitarla; cuando veas a una persona mala, examínate.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "confucio-ampliacion-c-10",
+      "author": "Confucio",
+      "slug": "confucio",
+      "text": "Una alegría compartida se transforma en doble alegría.",
+      "source": "https://es.wikiquote.org/wiki/Confucio",
+      "sourceName": "Wikiquote: Confucio",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "epicteto-ampliacion-c-11",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Solo el educado es libre.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "epicteto-ampliacion-c-12",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Ninguna persona es libre si no es dueña de sí misma.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "epicteto-ampliacion-c-13",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "Es imposible que alguien aprenda lo que cree que ya sabe.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "epicteto-ampliacion-c-14",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "La dificultad muestra lo que los hombres son.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "epicteto-ampliacion-c-15",
+      "author": "Epicteto",
+      "slug": "epicteto",
+      "text": "El progreso espiritual consiste en dejar de culpar a los demás.",
+      "source": "https://es.wikiquote.org/wiki/Epicteto",
+      "sourceName": "Wikiquote: Epicteto",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-aurelio-ampliacion-c-16",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "La mejor venganza es no parecerse a quien causó el daño.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-aurelio-ampliacion-c-17",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "Recibe sin orgullo y pierde sin apego.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-aurelio-ampliacion-c-18",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "El universo es cambio; la vida es opinión.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-aurelio-ampliacion-c-19",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "En ninguna parte encuentra el hombre un retiro más tranquilo que en su propia alma.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "marco-aurelio-ampliacion-c-20",
+      "author": "Marco Aurelio",
+      "slug": "marco-aurelio",
+      "text": "Lo que no es útil para la colmena tampoco lo es para la abeja.",
+      "source": "https://es.wikiquote.org/wiki/Marco_Aurelio",
+      "sourceName": "Wikiquote: Marco Aurelio",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-ampliacion-c-21",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "No hay viento favorable para quien no sabe a qué puerto se dirige.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-ampliacion-c-22",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "La vida es larga si sabes emplearla.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-ampliacion-c-23",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "El que teme sufrir ya sufre el temor.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-ampliacion-c-24",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "El tiempo descubre la verdad.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "seneca-ampliacion-c-25",
+      "author": "Séneca",
+      "slug": "seneca",
+      "text": "Es rey quien nada teme; es rey quien nada desea.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%A9neca",
+      "sourceName": "Wikiquote: Séneca",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "platon-ampliacion-c-27",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "El comienzo es la parte más importante de todo trabajo.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "platon-ampliacion-c-28",
+      "author": "Platón",
+      "slug": "platon",
+      "text": "La mayor riqueza es vivir contento con poco.",
+      "source": "https://es.wikiquote.org/wiki/Plat%C3%B3n",
+      "sourceName": "Wikiquote: Platón",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
       ]
     }
   ],
