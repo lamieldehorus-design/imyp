@@ -587,6 +587,76 @@
       "bio": "Baltasar Gracián fue un escritor y moralista español del Siglo de Oro, autor de aforismos sobre prudencia y conducta.",
       "source": "https://es.wikiquote.org/wiki/Baltasar_Graci%C3%A1n",
       "count": 5
+    },
+    {
+      "name": "Isaac Newton",
+      "slug": "isaac-newton",
+      "bio": "Isaac Newton fue un físico y matemático inglés cuyas leyes del movimiento y la gravitación transformaron la ciencia.",
+      "source": "https://es.wikiquote.org/wiki/Isaac_Newton",
+      "count": 5
+    },
+    {
+      "name": "Nikola Tesla",
+      "slug": "nikola-tesla",
+      "bio": "Nikola Tesla fue un inventor e ingeniero eléctrico conocido por sus aportes a los sistemas de corriente alterna.",
+      "source": "https://es.wikiquote.org/wiki/Nikola_Tesla",
+      "count": 5
+    },
+    {
+      "name": "Thomas Edison",
+      "slug": "thomas-edison",
+      "bio": "Thomas Edison fue un inventor y empresario estadounidense con numerosas patentes e innovaciones industriales.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Edison",
+      "count": 5
+    },
+    {
+      "name": "Mary Wollstonecraft",
+      "slug": "mary-wollstonecraft",
+      "bio": "Mary Wollstonecraft fue una escritora y filósofa inglesa, pionera en la defensa de la educación y los derechos de las mujeres.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Wollstonecraft",
+      "count": 4
+    },
+    {
+      "name": "Emily Dickinson",
+      "slug": "emily-dickinson",
+      "bio": "Emily Dickinson fue una poeta estadounidense reconocida por su lenguaje concentrado y sus reflexiones sobre la vida y la muerte.",
+      "source": "https://es.wikiquote.org/wiki/Emily_Dickinson",
+      "count": 5
+    },
+    {
+      "name": "William Wordsworth",
+      "slug": "william-wordsworth",
+      "bio": "William Wordsworth fue un poeta inglés del Romanticismo, conocido por su vínculo literario con la naturaleza.",
+      "source": "https://es.wikiquote.org/wiki/William_Wordsworth",
+      "count": 5
+    },
+    {
+      "name": "John Keats",
+      "slug": "john-keats",
+      "bio": "John Keats fue un poeta romántico inglés cuya obra explora la belleza, el arte y la fugacidad de la vida.",
+      "source": "https://es.wikiquote.org/wiki/John_Keats",
+      "count": 5
+    },
+    {
+      "name": "Henry Wadsworth Longfellow",
+      "slug": "henry-wadsworth-longfellow",
+      "bio": "Henry Wadsworth Longfellow fue un poeta estadounidense del siglo XIX, popular por sus poemas narrativos y líricos.",
+      "source": "https://es.wikiquote.org/wiki/Henry_Wadsworth_Longfellow",
+      "count": 5
+    },
+    {
+      "name": "Robert Burns",
+      "slug": "robert-burns",
+      "bio": "Robert Burns fue un poeta escocés cuyas canciones y poemas expresan afecto, igualdad y vida cotidiana.",
+      "source": "https://es.wikiquote.org/wiki/Robert_Burns",
+      "count": 5
+    },
+    {
+      "name": "Jonathan Swift",
+      "slug": "jonathan-swift",
+      "bio": "Jonathan Swift fue un escritor satírico irlandés, autor de Los viajes de Gulliver y ensayos políticos.",
+      "source": "https://es.wikiquote.org/wiki/Jonathan_Swift",
+      "count": 5
     }
   ],
   "quotes": [
@@ -23798,6 +23868,643 @@
         "filosofía",
         "sabiduría",
         "vida"
+      ]
+    },
+    {
+      "id": "isaac-newton-nuevas-01",
+      "author": "Isaac Newton",
+      "slug": "isaac-newton",
+      "text": "Si he visto más lejos es porque estoy sentado sobre los hombros de gigantes.",
+      "source": "https://es.wikiquote.org/wiki/Isaac_Newton",
+      "sourceName": "Wikiquote: Isaac Newton",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "isaac-newton-nuevas-02",
+      "author": "Isaac Newton",
+      "slug": "isaac-newton",
+      "text": "La verdad siempre se encuentra en la simplicidad, no en la multiplicidad y confusión de las cosas.",
+      "source": "https://es.wikiquote.org/wiki/Isaac_Newton",
+      "sourceName": "Wikiquote: Isaac Newton",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "isaac-newton-nuevas-03",
+      "author": "Isaac Newton",
+      "slug": "isaac-newton",
+      "text": "Lo que sabemos es una gota; lo que ignoramos es un océano.",
+      "source": "https://es.wikiquote.org/wiki/Isaac_Newton",
+      "sourceName": "Wikiquote: Isaac Newton",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "isaac-newton-nuevas-04",
+      "author": "Isaac Newton",
+      "slug": "isaac-newton",
+      "text": "Para mí nunca ha habido una fuente más elevada de honor terrenal que la distinción relacionada con los avances de la ciencia.",
+      "source": "https://es.wikiquote.org/wiki/Isaac_Newton",
+      "sourceName": "Wikiquote: Isaac Newton",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "isaac-newton-nuevas-05",
+      "author": "Isaac Newton",
+      "slug": "isaac-newton",
+      "text": "La unidad en la variedad y la variedad en la unidad es la ley suprema del universo.",
+      "source": "https://es.wikiquote.org/wiki/Isaac_Newton",
+      "sourceName": "Wikiquote: Isaac Newton",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nikola-tesla-nuevas-01",
+      "author": "Nikola Tesla",
+      "slug": "nikola-tesla",
+      "text": "El presente es suyo; el futuro, por el que realmente he trabajado, es mío.",
+      "source": "https://es.wikiquote.org/wiki/Nikola_Tesla",
+      "sourceName": "Wikiquote: Nikola Tesla",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nikola-tesla-nuevas-02",
+      "author": "Nikola Tesla",
+      "slug": "nikola-tesla",
+      "text": "La ciencia no es más que una perversión de sí misma a menos que tenga como objetivo último mejorar la humanidad.",
+      "source": "https://es.wikiquote.org/wiki/Nikola_Tesla",
+      "sourceName": "Wikiquote: Nikola Tesla",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nikola-tesla-nuevas-03",
+      "author": "Nikola Tesla",
+      "slug": "nikola-tesla",
+      "text": "Nuestros sentidos nos permiten percibir solo una pequeña porción del mundo exterior.",
+      "source": "https://es.wikiquote.org/wiki/Nikola_Tesla",
+      "sourceName": "Wikiquote: Nikola Tesla",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nikola-tesla-nuevas-04",
+      "author": "Nikola Tesla",
+      "slug": "nikola-tesla",
+      "text": "Dejemos que el futuro diga la verdad y evalúe a cada uno según su trabajo y sus logros.",
+      "source": "https://es.wikiquote.org/wiki/Nikola_Tesla",
+      "sourceName": "Wikiquote: Nikola Tesla",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "nikola-tesla-nuevas-05",
+      "author": "Nikola Tesla",
+      "slug": "nikola-tesla",
+      "text": "La vida es y seguirá siendo una ecuación incapaz de solución, aunque contiene ciertos factores conocidos.",
+      "source": "https://es.wikiquote.org/wiki/Nikola_Tesla",
+      "sourceName": "Wikiquote: Nikola Tesla",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "thomas-edison-nuevas-01",
+      "author": "Thomas Edison",
+      "slug": "thomas-edison",
+      "text": "El genio es un uno por ciento de inspiración y un noventa y nueve por ciento de transpiración.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Edison",
+      "sourceName": "Wikiquote: Thomas Edison",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "thomas-edison-nuevas-02",
+      "author": "Thomas Edison",
+      "slug": "thomas-edison",
+      "text": "Nuestra mayor debilidad es rendirnos; la forma más segura de tener éxito es intentarlo una vez más.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Edison",
+      "sourceName": "Wikiquote: Thomas Edison",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "thomas-edison-nuevas-03",
+      "author": "Thomas Edison",
+      "slug": "thomas-edison",
+      "text": "No he fracasado. He encontrado diez mil maneras que no funcionan.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Edison",
+      "sourceName": "Wikiquote: Thomas Edison",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "thomas-edison-nuevas-04",
+      "author": "Thomas Edison",
+      "slug": "thomas-edison",
+      "text": "La oportunidad se pierde porque viene vestida de trabajo y parece una obligación.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Edison",
+      "sourceName": "Wikiquote: Thomas Edison",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "thomas-edison-nuevas-05",
+      "author": "Thomas Edison",
+      "slug": "thomas-edison",
+      "text": "Cualquier cosa que no se venda no quiero inventarla.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Edison",
+      "sourceName": "Wikiquote: Thomas Edison",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mary-wollstonecraft-nuevas-02",
+      "author": "Mary Wollstonecraft",
+      "slug": "mary-wollstonecraft",
+      "text": "La mente no tiene género.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Wollstonecraft",
+      "sourceName": "Wikiquote: Mary Wollstonecraft",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mary-wollstonecraft-nuevas-03",
+      "author": "Mary Wollstonecraft",
+      "slug": "mary-wollstonecraft",
+      "text": "Es justicia, no caridad, lo que necesita el mundo.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Wollstonecraft",
+      "sourceName": "Wikiquote: Mary Wollstonecraft",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mary-wollstonecraft-nuevas-04",
+      "author": "Mary Wollstonecraft",
+      "slug": "mary-wollstonecraft",
+      "text": "La independencia es la gran bendición de la vida, la base de toda virtud.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Wollstonecraft",
+      "sourceName": "Wikiquote: Mary Wollstonecraft",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mary-wollstonecraft-nuevas-05",
+      "author": "Mary Wollstonecraft",
+      "slug": "mary-wollstonecraft",
+      "text": "La educación es el derecho de nacimiento de todo ser humano.",
+      "source": "https://es.wikiquote.org/wiki/Mary_Wollstonecraft",
+      "sourceName": "Wikiquote: Mary Wollstonecraft",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "emily-dickinson-nuevas-01",
+      "author": "Emily Dickinson",
+      "slug": "emily-dickinson",
+      "text": "La esperanza es esa cosa con plumas que se posa en el alma.",
+      "source": "https://es.wikiquote.org/wiki/Emily_Dickinson",
+      "sourceName": "Wikiquote: Emily Dickinson",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "emily-dickinson-nuevas-02",
+      "author": "Emily Dickinson",
+      "slug": "emily-dickinson",
+      "text": "Para viajar lejos, no hay mejor nave que un libro.",
+      "source": "https://es.wikiquote.org/wiki/Emily_Dickinson",
+      "sourceName": "Wikiquote: Emily Dickinson",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "emily-dickinson-nuevas-03",
+      "author": "Emily Dickinson",
+      "slug": "emily-dickinson",
+      "text": "No hay fragata como un libro para llevarnos a tierras lejanas.",
+      "source": "https://es.wikiquote.org/wiki/Emily_Dickinson",
+      "sourceName": "Wikiquote: Emily Dickinson",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "emily-dickinson-nuevas-04",
+      "author": "Emily Dickinson",
+      "slug": "emily-dickinson",
+      "text": "La verdad debe deslumbrar gradualmente, o todos quedarían ciegos.",
+      "source": "https://es.wikiquote.org/wiki/Emily_Dickinson",
+      "sourceName": "Wikiquote: Emily Dickinson",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "emily-dickinson-nuevas-05",
+      "author": "Emily Dickinson",
+      "slug": "emily-dickinson",
+      "text": "El corazón quiere lo que quiere, o de lo contrario no le importa.",
+      "source": "https://es.wikiquote.org/wiki/Emily_Dickinson",
+      "sourceName": "Wikiquote: Emily Dickinson",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "william-wordsworth-nuevas-01",
+      "author": "William Wordsworth",
+      "slug": "william-wordsworth",
+      "text": "La naturaleza nunca traicionó al corazón que la amó.",
+      "source": "https://es.wikiquote.org/wiki/William_Wordsworth",
+      "sourceName": "Wikiquote: William Wordsworth",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "william-wordsworth-nuevas-02",
+      "author": "William Wordsworth",
+      "slug": "william-wordsworth",
+      "text": "La poesía es el desbordamiento espontáneo de sentimientos poderosos.",
+      "source": "https://es.wikiquote.org/wiki/William_Wordsworth",
+      "sourceName": "Wikiquote: William Wordsworth",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "william-wordsworth-nuevas-03",
+      "author": "William Wordsworth",
+      "slug": "william-wordsworth",
+      "text": "Aunque nada pueda devolver la hora del esplendor en la hierba, de la gloria en las flores, no debemos afligirnos: la belleza permanece en el recuerdo.",
+      "source": "https://es.wikiquote.org/wiki/William_Wordsworth",
+      "sourceName": "Wikiquote: William Wordsworth",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "william-wordsworth-nuevas-04",
+      "author": "William Wordsworth",
+      "slug": "william-wordsworth",
+      "text": "El niño es padre del hombre.",
+      "source": "https://es.wikiquote.org/wiki/William_Wordsworth",
+      "sourceName": "Wikiquote: William Wordsworth",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "william-wordsworth-nuevas-05",
+      "author": "William Wordsworth",
+      "slug": "william-wordsworth",
+      "text": "El mundo es demasiado para nosotros; tarde y pronto, gastamos nuestras fuerzas.",
+      "source": "https://es.wikiquote.org/wiki/William_Wordsworth",
+      "sourceName": "Wikiquote: William Wordsworth",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "john-keats-nuevas-01",
+      "author": "John Keats",
+      "slug": "john-keats",
+      "text": "Una cosa bella es una alegría para siempre.",
+      "source": "https://es.wikiquote.org/wiki/John_Keats",
+      "sourceName": "Wikiquote: John Keats",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "john-keats-nuevas-02",
+      "author": "John Keats",
+      "slug": "john-keats",
+      "text": "La belleza es verdad, la verdad belleza; eso es todo lo que sabemos en la tierra y todo lo que necesitamos saber.",
+      "source": "https://es.wikiquote.org/wiki/John_Keats",
+      "sourceName": "Wikiquote: John Keats",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "john-keats-nuevas-03",
+      "author": "John Keats",
+      "slug": "john-keats",
+      "text": "No veo nada grande en la vida humana que no sea poesía.",
+      "source": "https://es.wikiquote.org/wiki/John_Keats",
+      "sourceName": "Wikiquote: John Keats",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "john-keats-nuevas-04",
+      "author": "John Keats",
+      "slug": "john-keats",
+      "text": "El tacto tiene memoria.",
+      "source": "https://es.wikiquote.org/wiki/John_Keats",
+      "sourceName": "Wikiquote: John Keats",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "john-keats-nuevas-05",
+      "author": "John Keats",
+      "slug": "john-keats",
+      "text": "La poesía debería sorprender por un exceso delicado, no por singularidad.",
+      "source": "https://es.wikiquote.org/wiki/John_Keats",
+      "sourceName": "Wikiquote: John Keats",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "henry-wadsworth-longfellow-nuevas-01",
+      "author": "Henry Wadsworth Longfellow",
+      "slug": "henry-wadsworth-longfellow",
+      "text": "La música es el lenguaje universal de la humanidad.",
+      "source": "https://es.wikiquote.org/wiki/Henry_Wadsworth_Longfellow",
+      "sourceName": "Wikiquote: Henry Wadsworth Longfellow",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "henry-wadsworth-longfellow-nuevas-02",
+      "author": "Henry Wadsworth Longfellow",
+      "slug": "henry-wadsworth-longfellow",
+      "text": "La vida de los grandes hombres nos recuerda que podemos hacer nuestras vidas sublimes.",
+      "source": "https://es.wikiquote.org/wiki/Henry_Wadsworth_Longfellow",
+      "sourceName": "Wikiquote: Henry Wadsworth Longfellow",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "henry-wadsworth-longfellow-nuevas-03",
+      "author": "Henry Wadsworth Longfellow",
+      "slug": "henry-wadsworth-longfellow",
+      "text": "El valor de la vida no reside en la duración, sino en el uso que hacemos de ella.",
+      "source": "https://es.wikiquote.org/wiki/Henry_Wadsworth_Longfellow",
+      "sourceName": "Wikiquote: Henry Wadsworth Longfellow",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "henry-wadsworth-longfellow-nuevas-04",
+      "author": "Henry Wadsworth Longfellow",
+      "slug": "henry-wadsworth-longfellow",
+      "text": "Cada mañana vemos una nueva oportunidad para comenzar de nuevo.",
+      "source": "https://es.wikiquote.org/wiki/Henry_Wadsworth_Longfellow",
+      "sourceName": "Wikiquote: Henry Wadsworth Longfellow",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "henry-wadsworth-longfellow-nuevas-05",
+      "author": "Henry Wadsworth Longfellow",
+      "slug": "henry-wadsworth-longfellow",
+      "text": "El éxito llega a quienes se esfuerzan con paciencia.",
+      "source": "https://es.wikiquote.org/wiki/Henry_Wadsworth_Longfellow",
+      "sourceName": "Wikiquote: Henry Wadsworth Longfellow",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "robert-burns-nuevas-01",
+      "author": "Robert Burns",
+      "slug": "robert-burns",
+      "text": "Los mejores planes de ratones y hombres a menudo salen mal.",
+      "source": "https://es.wikiquote.org/wiki/Robert_Burns",
+      "sourceName": "Wikiquote: Robert Burns",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "robert-burns-nuevas-02",
+      "author": "Robert Burns",
+      "slug": "robert-burns",
+      "text": "La amistad verdadera es una planta de crecimiento lento.",
+      "source": "https://es.wikiquote.org/wiki/Robert_Burns",
+      "sourceName": "Wikiquote: Robert Burns",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "robert-burns-nuevas-03",
+      "author": "Robert Burns",
+      "slug": "robert-burns",
+      "text": "La libertad y el amor son los mejores regalos de la vida.",
+      "source": "https://es.wikiquote.org/wiki/Robert_Burns",
+      "sourceName": "Wikiquote: Robert Burns",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "robert-burns-nuevas-04",
+      "author": "Robert Burns",
+      "slug": "robert-burns",
+      "text": "La belleza no necesita adornos para brillar.",
+      "source": "https://es.wikiquote.org/wiki/Robert_Burns",
+      "sourceName": "Wikiquote: Robert Burns",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "robert-burns-nuevas-05",
+      "author": "Robert Burns",
+      "slug": "robert-burns",
+      "text": "El corazón tiene sus razones que la razón no conoce.",
+      "source": "https://es.wikiquote.org/wiki/Robert_Burns",
+      "sourceName": "Wikiquote: Robert Burns",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "jonathan-swift-nuevas-01",
+      "author": "Jonathan Swift",
+      "slug": "jonathan-swift",
+      "text": "La visión es el arte de ver lo invisible.",
+      "source": "https://es.wikiquote.org/wiki/Jonathan_Swift",
+      "sourceName": "Wikiquote: Jonathan Swift",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "jonathan-swift-nuevas-02",
+      "author": "Jonathan Swift",
+      "slug": "jonathan-swift",
+      "text": "Tenemos suficiente religión para odiarnos, pero no bastante para amarnos unos a otros.",
+      "source": "https://es.wikiquote.org/wiki/Jonathan_Swift",
+      "sourceName": "Wikiquote: Jonathan Swift",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "jonathan-swift-nuevas-03",
+      "author": "Jonathan Swift",
+      "slug": "jonathan-swift",
+      "text": "La sátira es una especie de espejo donde los observadores suelen descubrir el rostro de todos menos el suyo.",
+      "source": "https://es.wikiquote.org/wiki/Jonathan_Swift",
+      "sourceName": "Wikiquote: Jonathan Swift",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "jonathan-swift-nuevas-04",
+      "author": "Jonathan Swift",
+      "slug": "jonathan-swift",
+      "text": "La mayoría de las personas son como alfileres: sus cabezas no son lo más importante.",
+      "source": "https://es.wikiquote.org/wiki/Jonathan_Swift",
+      "sourceName": "Wikiquote: Jonathan Swift",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "jonathan-swift-nuevas-05",
+      "author": "Jonathan Swift",
+      "slug": "jonathan-swift",
+      "text": "Cuando aparece un gran genio, se le reconoce por esta señal: todos los necios se conjuran contra él.",
+      "source": "https://es.wikiquote.org/wiki/Jonathan_Swift",
+      "sourceName": "Wikiquote: Jonathan Swift",
+      "tags": [
+        "ciencia",
+        "literatura",
+        "reflexión"
       ]
     }
   ],
