@@ -377,6 +377,76 @@
       "bio": "William Shakespeare fue un dramaturgo y poeta inglés cuyas obras exploran el amor, el poder, la ambición, los celos y las contradicciones humanas.",
       "source": "https://es.wikiquote.org/wiki/William_Shakespeare",
       "count": 16
+    },
+    {
+      "name": "Sócrates",
+      "slug": "socrates",
+      "bio": "Sócrates fue un filósofo griego clásico conocido por el diálogo crítico y la búsqueda de definiciones éticas.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3crates",
+      "count": 5
+    },
+    {
+      "name": "Pitágoras",
+      "slug": "pitagoras",
+      "bio": "Pitágoras fue un pensador griego antiguo asociado con una escuela que vinculó matemáticas, música y filosofía.",
+      "source": "https://es.wikiquote.org/wiki/Pit%C3%A1goras",
+      "count": 5
+    },
+    {
+      "name": "Diógenes de Sinope",
+      "slug": "diogenes-de-sinope",
+      "bio": "Diógenes de Sinope fue un filósofo griego relacionado con el cinismo, la vida sencilla y la crítica de las convenciones sociales.",
+      "source": "https://es.wikiquote.org/wiki/Di%C3%B3genes_de_Sinope",
+      "count": 5
+    },
+    {
+      "name": "Demócrito",
+      "slug": "democrito",
+      "bio": "Demócrito fue un filósofo griego presocrático, recordado por sus ideas sobre el atomismo y la serenidad.",
+      "source": "https://es.wikiquote.org/wiki/Dem%C3%B3crito",
+      "count": 5
+    },
+    {
+      "name": "Sófocles",
+      "slug": "sofocles",
+      "bio": "Sófocles fue un dramaturgo griego, autor de tragedias que exploran la responsabilidad, el destino y los límites humanos.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3focles",
+      "count": 0
+    },
+    {
+      "name": "Eurípides",
+      "slug": "euripides",
+      "bio": "Eurípides fue un dramaturgo griego cuyas tragedias examinan las pasiones, los conflictos y las contradicciones humanas.",
+      "source": "https://es.wikiquote.org/wiki/Eur%C3%ADpides",
+      "count": 5
+    },
+    {
+      "name": "Ovidio",
+      "slug": "ovidio",
+      "bio": "Ovidio fue un poeta romano, autor de obras como Las metamorfosis y El arte de amar.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "count": 5
+    },
+    {
+      "name": "Horacio",
+      "slug": "horacio",
+      "bio": "Horacio fue un poeta romano conocido por sus odas y por la reflexión sobre la moderación y el paso del tiempo.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "count": 5
+    },
+    {
+      "name": "Plutarco",
+      "slug": "plutarco",
+      "bio": "Plutarco fue un historiador y filósofo griego, célebre por sus biografías y ensayos morales.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "count": 5
+    },
+    {
+      "name": "Heródoto",
+      "slug": "herodoto",
+      "bio": "Heródoto fue un historiador griego antiguo, considerado una de las figuras fundacionales de la historiografía occidental.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "count": 5
     }
   ],
   "quotes": [
@@ -21716,6 +21786,591 @@
         "literatura",
         "vida",
         "reflexión"
+      ]
+    },
+    {
+      "id": "socrates-nuevas-01",
+      "author": "Sócrates",
+      "slug": "socrates",
+      "text": "Solo sé que no sé nada.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3crates",
+      "sourceName": "Wikiquote: Sócrates",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "socrates-nuevas-02",
+      "author": "Sócrates",
+      "slug": "socrates",
+      "text": "Una vida sin examen no merece ser vivida.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3crates",
+      "sourceName": "Wikiquote: Sócrates",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "socrates-nuevas-03",
+      "author": "Sócrates",
+      "slug": "socrates",
+      "text": "Habla para que yo pueda conocerte.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3crates",
+      "sourceName": "Wikiquote: Sócrates",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "socrates-nuevas-04",
+      "author": "Sócrates",
+      "slug": "socrates",
+      "text": "El mayor de todos los misterios es el hombre.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3crates",
+      "sourceName": "Wikiquote: Sócrates",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "socrates-nuevas-05",
+      "author": "Sócrates",
+      "slug": "socrates",
+      "text": "La educación es el encendido de una llama, no el llenado de un recipiente.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3crates",
+      "sourceName": "Wikiquote: Sócrates",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "pitagoras-nuevas-01",
+      "author": "Pitágoras",
+      "slug": "pitagoras",
+      "text": "Educad a los niños y no será necesario castigar a los hombres.",
+      "source": "https://es.wikiquote.org/wiki/Pit%C3%A1goras",
+      "sourceName": "Wikiquote: Pitágoras",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "pitagoras-nuevas-02",
+      "author": "Pitágoras",
+      "slug": "pitagoras",
+      "text": "El silencio es la primera piedra del templo de la sabiduría.",
+      "source": "https://es.wikiquote.org/wiki/Pit%C3%A1goras",
+      "sourceName": "Wikiquote: Pitágoras",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "pitagoras-nuevas-03",
+      "author": "Pitágoras",
+      "slug": "pitagoras",
+      "text": "No digas pocas cosas en muchas palabras, sino mucho en pocas palabras.",
+      "source": "https://es.wikiquote.org/wiki/Pit%C3%A1goras",
+      "sourceName": "Wikiquote: Pitágoras",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "pitagoras-nuevas-04",
+      "author": "Pitágoras",
+      "slug": "pitagoras",
+      "text": "La amistad es una igualdad armoniosa.",
+      "source": "https://es.wikiquote.org/wiki/Pit%C3%A1goras",
+      "sourceName": "Wikiquote: Pitágoras",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "pitagoras-nuevas-05",
+      "author": "Pitágoras",
+      "slug": "pitagoras",
+      "text": "El principio es la mitad del todo.",
+      "source": "https://es.wikiquote.org/wiki/Pit%C3%A1goras",
+      "sourceName": "Wikiquote: Pitágoras",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "diogenes-de-sinope-nuevas-01",
+      "author": "Diógenes de Sinope",
+      "slug": "diogenes-de-sinope",
+      "text": "Busco un hombre honesto.",
+      "source": "https://es.wikiquote.org/wiki/Di%C3%B3genes_de_Sinope",
+      "sourceName": "Wikiquote: Diógenes de Sinope",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "diogenes-de-sinope-nuevas-02",
+      "author": "Diógenes de Sinope",
+      "slug": "diogenes-de-sinope",
+      "text": "La pobreza es una virtud que puede enseñarse a sí misma.",
+      "source": "https://es.wikiquote.org/wiki/Di%C3%B3genes_de_Sinope",
+      "sourceName": "Wikiquote: Diógenes de Sinope",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "diogenes-de-sinope-nuevas-03",
+      "author": "Diógenes de Sinope",
+      "slug": "diogenes-de-sinope",
+      "text": "El movimiento se demuestra andando.",
+      "source": "https://es.wikiquote.org/wiki/Di%C3%B3genes_de_Sinope",
+      "sourceName": "Wikiquote: Diógenes de Sinope",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "diogenes-de-sinope-nuevas-04",
+      "author": "Diógenes de Sinope",
+      "slug": "diogenes-de-sinope",
+      "text": "Los grandes ladrones conducen al pequeño ladrón a la cárcel.",
+      "source": "https://es.wikiquote.org/wiki/Di%C3%B3genes_de_Sinope",
+      "sourceName": "Wikiquote: Diógenes de Sinope",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "diogenes-de-sinope-nuevas-05",
+      "author": "Diógenes de Sinope",
+      "slug": "diogenes-de-sinope",
+      "text": "Tengo lo que necesito y necesito poco.",
+      "source": "https://es.wikiquote.org/wiki/Di%C3%B3genes_de_Sinope",
+      "sourceName": "Wikiquote: Diógenes de Sinope",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "democrito-nuevas-01",
+      "author": "Demócrito",
+      "slug": "democrito",
+      "text": "La felicidad no reside en las posesiones ni en el oro, sino en el alma.",
+      "source": "https://es.wikiquote.org/wiki/Dem%C3%B3crito",
+      "sourceName": "Wikiquote: Demócrito",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "democrito-nuevas-02",
+      "author": "Demócrito",
+      "slug": "democrito",
+      "text": "La palabra es la sombra de la acción.",
+      "source": "https://es.wikiquote.org/wiki/Dem%C3%B3crito",
+      "sourceName": "Wikiquote: Demócrito",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "democrito-nuevas-03",
+      "author": "Demócrito",
+      "slug": "democrito",
+      "text": "Es arrogancia hablar de todo y no querer escuchar nada.",
+      "source": "https://es.wikiquote.org/wiki/Dem%C3%B3crito",
+      "sourceName": "Wikiquote: Demócrito",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "democrito-nuevas-04",
+      "author": "Demócrito",
+      "slug": "democrito",
+      "text": "La naturaleza y la enseñanza son semejantes: la enseñanza transforma al hombre y, al transformarlo, crea su naturaleza.",
+      "source": "https://es.wikiquote.org/wiki/Dem%C3%B3crito",
+      "sourceName": "Wikiquote: Demócrito",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "democrito-nuevas-05",
+      "author": "Demócrito",
+      "slug": "democrito",
+      "text": "No por miedo, sino por deber, debemos abstenernos de hacer el mal.",
+      "source": "https://es.wikiquote.org/wiki/Dem%C3%B3crito",
+      "sourceName": "Wikiquote: Demócrito",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "euripides-nuevas-01",
+      "author": "Eurípides",
+      "slug": "euripides",
+      "text": "El tiempo revelará todo a la posteridad.",
+      "source": "https://es.wikiquote.org/wiki/Eur%C3%ADpides",
+      "sourceName": "Wikiquote: Eurípides",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "euripides-nuevas-02",
+      "author": "Eurípides",
+      "slug": "euripides",
+      "text": "Habla con sensatez a un necio y te llamará necio.",
+      "source": "https://es.wikiquote.org/wiki/Eur%C3%ADpides",
+      "sourceName": "Wikiquote: Eurípides",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "euripides-nuevas-03",
+      "author": "Eurípides",
+      "slug": "euripides",
+      "text": "Lo esperado no sucede; es lo inesperado lo que acontece.",
+      "source": "https://es.wikiquote.org/wiki/Eur%C3%ADpides",
+      "sourceName": "Wikiquote: Eurípides",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "euripides-nuevas-04",
+      "author": "Eurípides",
+      "slug": "euripides",
+      "text": "La fortuna ayuda a los audaces.",
+      "source": "https://es.wikiquote.org/wiki/Eur%C3%ADpides",
+      "sourceName": "Wikiquote: Eurípides",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "euripides-nuevas-05",
+      "author": "Eurípides",
+      "slug": "euripides",
+      "text": "No hay nada más querido que un amigo verdadero.",
+      "source": "https://es.wikiquote.org/wiki/Eur%C3%ADpides",
+      "sourceName": "Wikiquote: Eurípides",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "ovidio-nuevas-01",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "La gota horada la piedra, no por su fuerza, sino por su constancia.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "ovidio-nuevas-02",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "El fin justifica los medios, cuando el corazón es puro.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "ovidio-nuevas-03",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "La paciencia y el tiempo hacen más que la fuerza y la pasión.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "ovidio-nuevas-04",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "El amor es una especie de guerra.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "ovidio-nuevas-05",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "La causa está oculta, pero el resultado es visible.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "horacio-nuevas-01",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "Aprovecha el día y confía lo menos posible en el mañana.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "horacio-nuevas-02",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "La virtud consiste en evitar los vicios y en practicar la prudencia.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "horacio-nuevas-03",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "La palabra una vez emitida no puede volver.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "horacio-nuevas-04",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "La vida concede poco a quienes siempre esperan.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "horacio-nuevas-05",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "La mezcla de lo útil y lo agradable deleita a todos.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "plutarco-nuevas-01",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "La mente no es un vaso que haya que llenar, sino un fuego que hay que encender.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "plutarco-nuevas-02",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "El carácter se forma en la vida cotidiana.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "plutarco-nuevas-03",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "Encontrar defectos es fácil; hacer algo mejor puede ser difícil.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "plutarco-nuevas-04",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "La perseverancia es invencible.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "plutarco-nuevas-05",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "La mente necesita descanso para recuperar su fuerza.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "herodoto-nuevas-01",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "Las grandes hazañas suelen contarse con grandes palabras.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "herodoto-nuevas-02",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "La paz hace ricos a los hombres; la guerra los destruye.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "herodoto-nuevas-03",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "La costumbre es reina de todas las cosas.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "herodoto-nuevas-04",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "Antes de llamar feliz a alguien, espera hasta conocer el final de su vida.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
+      ]
+    },
+    {
+      "id": "herodoto-nuevas-05",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "Las decisiones tomadas con rapidez rara vez son sabias.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "vida"
       ]
     }
   ],
