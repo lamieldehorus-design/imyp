@@ -306,14 +306,14 @@
       "slug": "rabindranath-tagore",
       "bio": "Rabindranath Tagore fue un poeta, dramaturgo y pensador bengalí, galardonado con el Nobel de Literatura. Su obra aborda la naturaleza, la educación, la belleza y la vida interior.",
       "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
-      "count": 13
+      "count": 16
     },
     {
       "name": "Ralph Waldo Emerson",
       "slug": "ralph-waldo-emerson",
       "bio": "Ralph Waldo Emerson fue un ensayista, poeta y filósofo estadounidense vinculado al trascendentalismo. Escribió sobre la autonomía, la naturaleza y la confianza en uno mismo.",
       "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
-      "count": 10
+      "count": 14
     },
     {
       "name": "René Descartes",
@@ -726,6 +726,55 @@
       "slug": "rabia-al-adawiyya",
       "bio": "Rabi'a al-Adawiyya fue una mística sufí de Basora, recordada por su enseñanza sobre el amor espiritual desinteresado.",
       "source": "https://es.wikiquote.org/wiki/Rabi%27a_al-Adawiyya",
+      "count": 5
+    },
+    {
+      "name": "William James",
+      "slug": "william-james",
+      "bio": "William James fue un filósofo y psicólogo estadounidense, figura clave del pragmatismo.",
+      "source": "https://es.wikiquote.org/wiki/William_James",
+      "count": 5
+    },
+    {
+      "name": "Bertrand Russell",
+      "slug": "bertrand-russell",
+      "bio": "Bertrand Russell fue un filósofo, lógico y ensayista británico, reconocido por su trabajo en lógica y su activismo pacifista.",
+      "source": "https://es.wikiquote.org/wiki/Bertrand_Russell",
+      "count": 5
+    },
+    {
+      "name": "Carl Gustav Jung",
+      "slug": "carl-gustav-jung",
+      "bio": "Carl Gustav Jung fue un psiquiatra suizo, fundador de la psicología analítica.",
+      "source": "https://es.wikiquote.org/wiki/Carl_Gustav_Jung",
+      "count": 5
+    },
+    {
+      "name": "Hermann Hesse",
+      "slug": "hermann-hesse",
+      "bio": "Hermann Hesse fue un escritor alemán-suizo cuyas novelas exploran la identidad y la búsqueda interior.",
+      "source": "https://es.wikiquote.org/wiki/Hermann_Hesse",
+      "count": 5
+    },
+    {
+      "name": "Antón Chéjov",
+      "slug": "anton-chejov",
+      "bio": "Antón Chéjov fue un dramaturgo y cuentista ruso, maestro de la observación de la vida cotidiana.",
+      "source": "https://es.wikiquote.org/wiki/Ant%C3%B3n_Ch%C3%A9jov",
+      "count": 5
+    },
+    {
+      "name": "George Bernard Shaw",
+      "slug": "george-bernard-shaw",
+      "bio": "George Bernard Shaw fue un dramaturgo y crítico irlandés, ganador del Nobel de Literatura.",
+      "source": "https://es.wikiquote.org/wiki/George_Bernard_Shaw",
+      "count": 5
+    },
+    {
+      "name": "H. G. Wells",
+      "slug": "h-g-wells",
+      "bio": "H. G. Wells fue un escritor inglés, pionero de la ciencia ficción moderna.",
+      "source": "https://es.wikiquote.org/wiki/H._G._Wells",
       "count": 5
     }
   ],
@@ -25225,6 +25274,552 @@
         "filosofía",
         "sabiduría",
         "espiritualidad"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-nuevas-g-01",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "No llores porque el sol se ha ocultado, pues las lágrimas no te dejarán ver las estrellas.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-nuevas-g-03",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "Convertid un árbol en leña y podrá arder para vosotros; pero ya no producirá flores ni frutos.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore-nuevas-g-04",
+      "author": "Rabindranath Tagore",
+      "slug": "rabindranath-tagore",
+      "text": "El amor no reclama posesiones, sino que da libertad.",
+      "source": "https://es.wikiquote.org/wiki/Rabindranath_Tagore",
+      "sourceName": "Wikiquote: Rabindranath Tagore",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-james-nuevas-g-01",
+      "author": "William James",
+      "slug": "william-james",
+      "text": "El mayor descubrimiento de mi generación es que un ser humano puede cambiar su vida cambiando su actitud mental.",
+      "source": "https://es.wikiquote.org/wiki/William_James",
+      "sourceName": "Wikiquote: William James",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-james-nuevas-g-02",
+      "author": "William James",
+      "slug": "william-james",
+      "text": "Actúa como si lo que haces marcara la diferencia. La marca.",
+      "source": "https://es.wikiquote.org/wiki/William_James",
+      "sourceName": "Wikiquote: William James",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-james-nuevas-g-03",
+      "author": "William James",
+      "slug": "william-james",
+      "text": "El arte de ser sabio consiste en saber qué pasar por alto.",
+      "source": "https://es.wikiquote.org/wiki/William_James",
+      "sourceName": "Wikiquote: William James",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-james-nuevas-g-04",
+      "author": "William James",
+      "slug": "william-james",
+      "text": "La aceptación de lo sucedido es el primer paso para superar las consecuencias de cualquier desgracia.",
+      "source": "https://es.wikiquote.org/wiki/William_James",
+      "sourceName": "Wikiquote: William James",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-james-nuevas-g-05",
+      "author": "William James",
+      "slug": "william-james",
+      "text": "La acción parece seguir al sentimiento, pero en realidad acción y sentimiento van juntos.",
+      "source": "https://es.wikiquote.org/wiki/William_James",
+      "sourceName": "Wikiquote: William James",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "bertrand-russell-nuevas-g-01",
+      "author": "Bertrand Russell",
+      "slug": "bertrand-russell",
+      "text": "El problema del mundo es que los estúpidos están seguros de todo y los inteligentes llenos de dudas.",
+      "source": "https://es.wikiquote.org/wiki/Bertrand_Russell",
+      "sourceName": "Wikiquote: Bertrand Russell",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "bertrand-russell-nuevas-g-02",
+      "author": "Bertrand Russell",
+      "slug": "bertrand-russell",
+      "text": "La buena vida es aquella inspirada por el amor y guiada por el conocimiento.",
+      "source": "https://es.wikiquote.org/wiki/Bertrand_Russell",
+      "sourceName": "Wikiquote: Bertrand Russell",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "bertrand-russell-nuevas-g-03",
+      "author": "Bertrand Russell",
+      "slug": "bertrand-russell",
+      "text": "El temor es la principal fuente de superstición y una de las principales fuentes de crueldad.",
+      "source": "https://es.wikiquote.org/wiki/Bertrand_Russell",
+      "sourceName": "Wikiquote: Bertrand Russell",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "bertrand-russell-nuevas-g-04",
+      "author": "Bertrand Russell",
+      "slug": "bertrand-russell",
+      "text": "La ciencia puede establecer límites al conocimiento, pero no debería limitar la imaginación.",
+      "source": "https://es.wikiquote.org/wiki/Bertrand_Russell",
+      "sourceName": "Wikiquote: Bertrand Russell",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "bertrand-russell-nuevas-g-05",
+      "author": "Bertrand Russell",
+      "slug": "bertrand-russell",
+      "text": "Carecer de algunas cosas que deseas es una parte indispensable de la felicidad.",
+      "source": "https://es.wikiquote.org/wiki/Bertrand_Russell",
+      "sourceName": "Wikiquote: Bertrand Russell",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "carl-gustav-jung-nuevas-g-01",
+      "author": "Carl Gustav Jung",
+      "slug": "carl-gustav-jung",
+      "text": "Quien mira hacia afuera, sueña; quien mira hacia adentro, despierta.",
+      "source": "https://es.wikiquote.org/wiki/Carl_Gustav_Jung",
+      "sourceName": "Wikiquote: Carl Gustav Jung",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "carl-gustav-jung-nuevas-g-02",
+      "author": "Carl Gustav Jung",
+      "slug": "carl-gustav-jung",
+      "text": "Hasta que hagas consciente lo inconsciente, dirigirá tu vida y lo llamarás destino.",
+      "source": "https://es.wikiquote.org/wiki/Carl_Gustav_Jung",
+      "sourceName": "Wikiquote: Carl Gustav Jung",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "carl-gustav-jung-nuevas-g-03",
+      "author": "Carl Gustav Jung",
+      "slug": "carl-gustav-jung",
+      "text": "No soy lo que me sucedió, soy lo que elegí ser.",
+      "source": "https://es.wikiquote.org/wiki/Carl_Gustav_Jung",
+      "sourceName": "Wikiquote: Carl Gustav Jung",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "carl-gustav-jung-nuevas-g-04",
+      "author": "Carl Gustav Jung",
+      "slug": "carl-gustav-jung",
+      "text": "La soledad no viene de no tener personas alrededor, sino de no poder comunicar lo que parece importante.",
+      "source": "https://es.wikiquote.org/wiki/Carl_Gustav_Jung",
+      "sourceName": "Wikiquote: Carl Gustav Jung",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "carl-gustav-jung-nuevas-g-05",
+      "author": "Carl Gustav Jung",
+      "slug": "carl-gustav-jung",
+      "text": "El encuentro de dos personalidades es como el contacto de dos sustancias químicas: si hay reacción, ambas se transforman.",
+      "source": "https://es.wikiquote.org/wiki/Carl_Gustav_Jung",
+      "sourceName": "Wikiquote: Carl Gustav Jung",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "hermann-hesse-nuevas-g-01",
+      "author": "Hermann Hesse",
+      "slug": "hermann-hesse",
+      "text": "Para que pueda surgir lo posible es preciso intentar una y otra vez lo imposible.",
+      "source": "https://es.wikiquote.org/wiki/Hermann_Hesse",
+      "sourceName": "Wikiquote: Hermann Hesse",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "hermann-hesse-nuevas-g-02",
+      "author": "Hermann Hesse",
+      "slug": "hermann-hesse",
+      "text": "La felicidad es amor, no otra cosa. Quien sabe amar es feliz.",
+      "source": "https://es.wikiquote.org/wiki/Hermann_Hesse",
+      "sourceName": "Wikiquote: Hermann Hesse",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "hermann-hesse-nuevas-g-03",
+      "author": "Hermann Hesse",
+      "slug": "hermann-hesse",
+      "text": "Algunos creemos que retener nos hace fuertes, pero a veces soltar es lo que nos fortalece.",
+      "source": "https://es.wikiquote.org/wiki/Hermann_Hesse",
+      "sourceName": "Wikiquote: Hermann Hesse",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "hermann-hesse-nuevas-g-04",
+      "author": "Hermann Hesse",
+      "slug": "hermann-hesse",
+      "text": "La sabiduría no es comunicable; la sabiduría que un sabio intenta comunicar suena siempre a locura.",
+      "source": "https://es.wikiquote.org/wiki/Hermann_Hesse",
+      "sourceName": "Wikiquote: Hermann Hesse",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "hermann-hesse-nuevas-g-05",
+      "author": "Hermann Hesse",
+      "slug": "hermann-hesse",
+      "text": "Cada hombre tiene que encontrar por sí mismo lo que está permitido y lo que está prohibido.",
+      "source": "https://es.wikiquote.org/wiki/Hermann_Hesse",
+      "sourceName": "Wikiquote: Hermann Hesse",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "anton-chejov-nuevas-g-01",
+      "author": "Antón Chéjov",
+      "slug": "anton-chejov",
+      "text": "La brevedad es hermana del talento.",
+      "source": "https://es.wikiquote.org/wiki/Ant%C3%B3n_Ch%C3%A9jov",
+      "sourceName": "Wikiquote: Antón Chéjov",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "anton-chejov-nuevas-g-02",
+      "author": "Antón Chéjov",
+      "slug": "anton-chejov",
+      "text": "El conocimiento no tiene valor si no se pone en práctica.",
+      "source": "https://es.wikiquote.org/wiki/Ant%C3%B3n_Ch%C3%A9jov",
+      "sourceName": "Wikiquote: Antón Chéjov",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "anton-chejov-nuevas-g-03",
+      "author": "Antón Chéjov",
+      "slug": "anton-chejov",
+      "text": "La gente no advierte que lo más importante ocurre en silencio.",
+      "source": "https://es.wikiquote.org/wiki/Ant%C3%B3n_Ch%C3%A9jov",
+      "sourceName": "Wikiquote: Antón Chéjov",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "anton-chejov-nuevas-g-04",
+      "author": "Antón Chéjov",
+      "slug": "anton-chejov",
+      "text": "La indiferencia es una parálisis del alma, una muerte prematura.",
+      "source": "https://es.wikiquote.org/wiki/Ant%C3%B3n_Ch%C3%A9jov",
+      "sourceName": "Wikiquote: Antón Chéjov",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "anton-chejov-nuevas-g-05",
+      "author": "Antón Chéjov",
+      "slug": "anton-chejov",
+      "text": "La vida es un momento; no podemos vivir eternamente como si fuéramos a hacerlo.",
+      "source": "https://es.wikiquote.org/wiki/Ant%C3%B3n_Ch%C3%A9jov",
+      "sourceName": "Wikiquote: Antón Chéjov",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "george-bernard-shaw-nuevas-g-01",
+      "author": "George Bernard Shaw",
+      "slug": "george-bernard-shaw",
+      "text": "La vida no consiste en encontrarse a uno mismo, sino en crearse a uno mismo.",
+      "source": "https://es.wikiquote.org/wiki/George_Bernard_Shaw",
+      "sourceName": "Wikiquote: George Bernard Shaw",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "george-bernard-shaw-nuevas-g-02",
+      "author": "George Bernard Shaw",
+      "slug": "george-bernard-shaw",
+      "text": "El progreso es imposible sin cambio; quienes no pueden cambiar sus mentes no pueden cambiar nada.",
+      "source": "https://es.wikiquote.org/wiki/George_Bernard_Shaw",
+      "sourceName": "Wikiquote: George Bernard Shaw",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "george-bernard-shaw-nuevas-g-03",
+      "author": "George Bernard Shaw",
+      "slug": "george-bernard-shaw",
+      "text": "La imaginación es el comienzo de la creación.",
+      "source": "https://es.wikiquote.org/wiki/George_Bernard_Shaw",
+      "sourceName": "Wikiquote: George Bernard Shaw",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "george-bernard-shaw-nuevas-g-04",
+      "author": "George Bernard Shaw",
+      "slug": "george-bernard-shaw",
+      "text": "La libertad significa responsabilidad; por eso la mayoría de los hombres la teme.",
+      "source": "https://es.wikiquote.org/wiki/George_Bernard_Shaw",
+      "sourceName": "Wikiquote: George Bernard Shaw",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "george-bernard-shaw-nuevas-g-05",
+      "author": "George Bernard Shaw",
+      "slug": "george-bernard-shaw",
+      "text": "No dejamos de jugar porque envejecemos; envejecemos porque dejamos de jugar.",
+      "source": "https://es.wikiquote.org/wiki/George_Bernard_Shaw",
+      "sourceName": "Wikiquote: George Bernard Shaw",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "h-g-wells-nuevas-g-01",
+      "author": "H. G. Wells",
+      "slug": "h-g-wells",
+      "text": "La historia humana se convierte cada vez más en una carrera entre la educación y la catástrofe.",
+      "source": "https://es.wikiquote.org/wiki/H._G._Wells",
+      "sourceName": "Wikiquote: H. G. Wells",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "h-g-wells-nuevas-g-02",
+      "author": "H. G. Wells",
+      "slug": "h-g-wells",
+      "text": "Adaptarse o perecer, ahora como siempre, es el imperativo inexorable de la naturaleza.",
+      "source": "https://es.wikiquote.org/wiki/H._G._Wells",
+      "sourceName": "Wikiquote: H. G. Wells",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "h-g-wells-nuevas-g-03",
+      "author": "H. G. Wells",
+      "slug": "h-g-wells",
+      "text": "La civilización es una carrera entre la educación y la destrucción.",
+      "source": "https://es.wikiquote.org/wiki/H._G._Wells",
+      "sourceName": "Wikiquote: H. G. Wells",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "h-g-wells-nuevas-g-04",
+      "author": "H. G. Wells",
+      "slug": "h-g-wells",
+      "text": "La crisis de hoy es el chiste de mañana.",
+      "source": "https://es.wikiquote.org/wiki/H._G._Wells",
+      "sourceName": "Wikiquote: H. G. Wells",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "h-g-wells-nuevas-g-05",
+      "author": "H. G. Wells",
+      "slug": "h-g-wells",
+      "text": "Nuestra verdadera nacionalidad es la humanidad.",
+      "source": "https://es.wikiquote.org/wiki/H._G._Wells",
+      "sourceName": "Wikiquote: H. G. Wells",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-nuevas-g-01",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "La tierra ríe en flores.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-nuevas-g-02",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "La gloria de la amistad no es la mano tendida, ni la sonrisa amable, sino la inspiración espiritual que surge cuando descubres que alguien cree en ti.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-nuevas-g-04",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "Nada externo tiene poder sobre ti si no se lo concedes.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
+      ]
+    },
+    {
+      "id": "ralph-waldo-emerson-nuevas-g-05",
+      "author": "Ralph Waldo Emerson",
+      "slug": "ralph-waldo-emerson",
+      "text": "Haz siempre lo que temes hacer.",
+      "source": "https://es.wikiquote.org/wiki/Ralph_Waldo_Emerson",
+      "sourceName": "Wikiquote: Ralph Waldo Emerson",
+      "tags": [
+        "literatura",
+        "pensamiento",
+        "vida"
       ]
     }
   ],
