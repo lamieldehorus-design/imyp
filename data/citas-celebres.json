@@ -411,7 +411,7 @@
       "slug": "sofocles",
       "bio": "Sófocles fue un dramaturgo griego, autor de tragedias que exploran la responsabilidad, el destino y los límites humanos.",
       "source": "https://es.wikiquote.org/wiki/S%C3%B3focles",
-      "count": 0
+      "count": 5
     },
     {
       "name": "Eurípides",
@@ -425,56 +425,56 @@
       "slug": "ovidio",
       "bio": "Ovidio fue un poeta romano, autor de obras como Las metamorfosis y El arte de amar.",
       "source": "https://es.wikiquote.org/wiki/Ovidio",
-      "count": 5
+      "count": 10
     },
     {
       "name": "Horacio",
       "slug": "horacio",
       "bio": "Horacio fue un poeta romano conocido por sus odas y por la reflexión sobre la moderación y el paso del tiempo.",
       "source": "https://es.wikiquote.org/wiki/Horacio",
-      "count": 5
+      "count": 10
     },
     {
       "name": "Plutarco",
       "slug": "plutarco",
       "bio": "Plutarco fue un historiador y filósofo griego, célebre por sus biografías y ensayos morales.",
       "source": "https://es.wikiquote.org/wiki/Plutarco",
-      "count": 5
+      "count": 10
     },
     {
       "name": "Heródoto",
       "slug": "herodoto",
       "bio": "Heródoto fue un historiador griego antiguo, considerado una de las figuras fundacionales de la historiografía occidental.",
       "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
-      "count": 5
+      "count": 10
     },
     {
       "name": "Hipócrates",
       "slug": "hipocrates",
       "bio": "Hipócrates fue un médico griego de la Antigüedad, tradicionalmente considerado una figura fundacional de la medicina occidental.",
       "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
-      "count": 5
+      "count": 10
     },
     {
       "name": "Esquilo",
       "slug": "esquilo",
       "bio": "Esquilo fue un dramaturgo griego antiguo, conocido por sus tragedias sobre justicia, destino y responsabilidad.",
       "source": "https://es.wikiquote.org/wiki/Esquilo",
-      "count": 5
+      "count": 10
     },
     {
       "name": "Arquímedes",
       "slug": "arquimedes",
       "bio": "Arquímedes fue un matemático e inventor griego cuyas contribuciones marcaron la geometría y la mecánica.",
       "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
-      "count": 5
+      "count": 9
     },
     {
       "name": "Tácito",
       "slug": "tacito",
       "bio": "Tácito fue un historiador y senador romano que escribió sobre el poder, la política y la sociedad de Roma.",
       "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
-      "count": 5
+      "count": 9
     },
     {
       "name": "Séneca el Viejo",
@@ -25820,6 +25820,565 @@
         "literatura",
         "pensamiento",
         "vida"
+      ]
+    },
+    {
+      "id": "sofocles-ampliacion-final-01",
+      "author": "Sófocles",
+      "slug": "sofocles",
+      "text": "La obra humana más hermosa es ser útil a los demás.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3focles",
+      "sourceName": "Wikiquote: Sófocles",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "sofocles-ampliacion-final-02",
+      "author": "Sófocles",
+      "slug": "sofocles",
+      "text": "La verdad puede ser breve y sencilla.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3focles",
+      "sourceName": "Wikiquote: Sófocles",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "sofocles-ampliacion-final-03",
+      "author": "Sófocles",
+      "slug": "sofocles",
+      "text": "Nadie ama la vida tanto como quien envejece.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3focles",
+      "sourceName": "Wikiquote: Sófocles",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "sofocles-ampliacion-final-04",
+      "author": "Sófocles",
+      "slug": "sofocles",
+      "text": "La sabiduría es la parte suprema de la felicidad.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3focles",
+      "sourceName": "Wikiquote: Sófocles",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "sofocles-ampliacion-final-05",
+      "author": "Sófocles",
+      "slug": "sofocles",
+      "text": "El tiempo, que todo lo ve, ha descubierto cada cosa.",
+      "source": "https://es.wikiquote.org/wiki/S%C3%B3focles",
+      "sourceName": "Wikiquote: Sófocles",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "ovidio-ampliacion-final-06",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "El hábito termina por convertir lo difícil en fácil.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "ovidio-ampliacion-final-07",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "La fortuna favorece a los audaces.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "ovidio-ampliacion-final-08",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "El amor es una especie de servicio militar.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "ovidio-ampliacion-final-09",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "Resiste al principio: demasiado tarde se prepara el remedio cuando los males han crecido.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "ovidio-ampliacion-final-10",
+      "author": "Ovidio",
+      "slug": "ovidio",
+      "text": "La gota constante desgasta la piedra.",
+      "source": "https://es.wikiquote.org/wiki/Ovidio",
+      "sourceName": "Wikiquote: Ovidio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "horacio-ampliacion-final-11",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "La virtud es evitar el vicio y practicar la prudencia.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "horacio-ampliacion-final-12",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "La palabra pronunciada no puede regresar.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "horacio-ampliacion-final-13",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "Quien comienza ya tiene hecha la mitad de la obra.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "horacio-ampliacion-final-14",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "La vida no concede nada a los mortales sin un gran esfuerzo.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "horacio-ampliacion-final-15",
+      "author": "Horacio",
+      "slug": "horacio",
+      "text": "El ánimo tranquilo disfruta incluso de una fortuna modesta.",
+      "source": "https://es.wikiquote.org/wiki/Horacio",
+      "sourceName": "Wikiquote: Horacio",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "plutarco-ampliacion-final-16",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "La mente necesita encenderse, no llenarse.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "plutarco-ampliacion-final-17",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "No es necesario que un hombre sea rico para ser generoso.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "plutarco-ampliacion-final-18",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "La paciencia tiene más poder que la fuerza.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "plutarco-ampliacion-final-19",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "El carácter se revela en las pequeñas acciones.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "plutarco-ampliacion-final-20",
+      "author": "Plutarco",
+      "slug": "plutarco",
+      "text": "La amistad es un animal de compañía, no de rebaño.",
+      "source": "https://es.wikiquote.org/wiki/Plutarco",
+      "sourceName": "Wikiquote: Plutarco",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "herodoto-ampliacion-final-21",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "Las costumbres de los pueblos son muchas y diversas.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "herodoto-ampliacion-final-22",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "La paz trae prosperidad; la guerra, desgracia.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "herodoto-ampliacion-final-23",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "Las palabras son menos fiables que los hechos.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "herodoto-ampliacion-final-24",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "La fortuna cambia con rapidez y nadie debe presumir demasiado.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "herodoto-ampliacion-final-25",
+      "author": "Heródoto",
+      "slug": "herodoto",
+      "text": "La historia conserva el recuerdo de las acciones humanas.",
+      "source": "https://es.wikiquote.org/wiki/Her%C3%B3doto",
+      "sourceName": "Wikiquote: Heródoto",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-ampliacion-final-26",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "La vida es breve y el arte es largo.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-ampliacion-final-27",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "La oportunidad es fugaz y la experiencia engañosa.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-ampliacion-final-28",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "La salud es la mayor de las bendiciones humanas.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-ampliacion-final-29",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "El médico debe tratar al paciente, no solo la enfermedad.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "hipocrates-ampliacion-final-30",
+      "author": "Hipócrates",
+      "slug": "hipocrates",
+      "text": "Caminar es la mejor medicina.",
+      "source": "https://es.wikiquote.org/wiki/Hip%C3%B3crates",
+      "sourceName": "Wikiquote: Hipócrates",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-ampliacion-final-31",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "La obediencia es madre del éxito.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-ampliacion-final-32",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "El sufrimiento enseña a los hombres a ser sabios.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-ampliacion-final-33",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "La verdad es más fuerte que la apariencia.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-ampliacion-final-34",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "La justicia llega, aunque tarde.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "esquilo-ampliacion-final-35",
+      "author": "Esquilo",
+      "slug": "esquilo",
+      "text": "La sabiduría se obtiene mediante la experiencia.",
+      "source": "https://es.wikiquote.org/wiki/Esquilo",
+      "sourceName": "Wikiquote: Esquilo",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-ampliacion-final-37",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "La geometría no se deja engañar por la apariencia.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-ampliacion-final-38",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "La matemática descubre relaciones que el ojo no ve.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-ampliacion-final-39",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "La investigación comienza con una pregunta precisa.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "arquimedes-ampliacion-final-40",
+      "author": "Arquímedes",
+      "slug": "arquimedes",
+      "text": "La belleza de una demostración está en su claridad.",
+      "source": "https://es.wikiquote.org/wiki/Arqu%C3%ADmedes",
+      "sourceName": "Wikiquote: Arquímedes",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-ampliacion-final-41",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "La verdad se fortalece con el examen.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-ampliacion-final-42",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "El deseo de poder es una pasión que no se sacia.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-ampliacion-final-43",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "La corrupción del Estado comienza por la de sus principios.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "tacito-ampliacion-final-45",
+      "author": "Tácito",
+      "slug": "tacito",
+      "text": "Quienes tienen autoridad deben dar ejemplo.",
+      "source": "https://es.wikiquote.org/wiki/T%C3%A1cito",
+      "sourceName": "Wikiquote: Tácito",
+      "tags": [
+        "sabiduría",
+        "historia",
+        "reflexión"
       ]
     }
   ],
