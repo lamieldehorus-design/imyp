@@ -47,7 +47,7 @@
       "slug": "charles-dickens",
       "bio": "Charles Dickens fue un novelista inglés que retrató las desigualdades sociales, la infancia, la compasión y la esperanza en obras como Oliver Twist y Cuento de Navidad.",
       "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
-      "count": 13
+      "count": 17
     },
     {
       "name": "Confucio",
@@ -194,14 +194,14 @@
       "slug": "khalil-gibran",
       "bio": "Khalil Gibran fue un escritor y artista libanés-estadounidense. El profeta reúne reflexiones poéticas sobre el amor, la libertad, el trabajo, la amistad y la experiencia humana.",
       "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Lao-Tse",
       "slug": "lao-tse",
       "bio": "Lao-Tse es la figura tradicionalmente asociada al Tao Te Ching, una obra fundamental del taoísmo que reflexiona sobre la sencillez, el equilibrio, la humildad y el curso natural de las cosas.",
       "source": "https://es.wikiquote.org/wiki/Lao_Tse",
-      "count": 15
+      "count": 17
     },
     {
       "name": "León Tolstói",
@@ -222,7 +222,7 @@
       "slug": "mahatma-gandhi",
       "bio": "Mahatma Gandhi fue un dirigente del movimiento de independencia de la India, reconocido por su defensa de la resistencia no violenta y la acción ética.",
       "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Marco Aurelio",
@@ -278,14 +278,14 @@
       "slug": "miguel-de-cervantes",
       "bio": "Miguel de Cervantes fue un escritor español del Siglo de Oro, autor de Don Quijote de la Mancha. Sus textos exploran la amistad, la justicia, el amor y las contradicciones humanas.",
       "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Oscar Wilde",
       "slug": "oscar-wilde",
       "bio": "Oscar Wilde fue un escritor irlandés reconocido por su ingenio, su crítica social y sus obras de teatro y narrativa.",
       "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Pablo Neruda",
@@ -327,7 +327,7 @@
       "slug": "rumi",
       "bio": "Yalal ad-Din Rumi fue un poeta y místico persa del siglo XIII, conocido por sus poemas sobre el amor, la transformación interior y la búsqueda espiritual.",
       "source": "https://es.wikiquote.org/wiki/Rumi",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Séneca",
@@ -21365,6 +21365,175 @@
         "sabiduría",
         "aprendizaje",
         "vida"
+      ]
+    },
+    {
+      "id": "charles-dickens-ampliacion-e-01",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Nadie es inútil en este mundo mientras pueda aliviar un poco la carga de otro.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "charles-dickens-ampliacion-e-02",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "El dolor de la separación no es nada comparado con la alegría de volver a encontrarse.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "charles-dickens-ampliacion-e-03",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Hay sombras oscuras en la tierra, pero sus luces son más fuertes en contraste.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "charles-dickens-ampliacion-e-04",
+      "author": "Charles Dickens",
+      "slug": "charles-dickens",
+      "text": "Nunca debemos avergonzarnos de nuestras lágrimas.",
+      "source": "https://es.wikiquote.org/wiki/Charles_Dickens",
+      "sourceName": "Wikiquote: Charles Dickens",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "miguel-de-cervantes-ampliacion-e-09",
+      "author": "Miguel de Cervantes",
+      "slug": "miguel-de-cervantes",
+      "text": "La diligencia es la madre de la buena ventura.",
+      "source": "https://es.wikiquote.org/wiki/Miguel_de_Cervantes",
+      "sourceName": "Wikiquote: Miguel de Cervantes",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "oscar-wilde-ampliacion-e-15",
+      "author": "Oscar Wilde",
+      "slug": "oscar-wilde",
+      "text": "La verdad rara vez es pura y nunca sencilla.",
+      "source": "https://es.wikiquote.org/wiki/Oscar_Wilde",
+      "sourceName": "Wikiquote: Oscar Wilde",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "lao-tse-ampliacion-e-17",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "Quien sabe contentarse siempre estará satisfecho.",
+      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "lao-tse-ampliacion-e-18",
+      "author": "Lao-Tse",
+      "slug": "lao-tse",
+      "text": "El que domina a los otros es fuerte; el que se domina a sí mismo es poderoso.",
+      "source": "https://es.wikiquote.org/wiki/Lao_Tse",
+      "sourceName": "Wikiquote: Lao-Tse",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "khalil-gibran-ampliacion-e-24",
+      "author": "Khalil Gibran",
+      "slug": "khalil-gibran",
+      "text": "La amistad es siempre una dulce responsabilidad, nunca una oportunidad.",
+      "source": "https://es.wikiquote.org/wiki/Khalil_Gibran",
+      "sourceName": "Wikiquote: Khalil Gibran",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "rumi-ampliacion-e-28",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "Deja que el silencio te lleve al núcleo de la vida.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "rumi-ampliacion-e-29",
+      "author": "Rumi",
+      "slug": "rumi",
+      "text": "Ayer fui inteligente y quise cambiar el mundo; hoy soy sabio y me cambio a mí mismo.",
+      "source": "https://es.wikiquote.org/wiki/Rumi",
+      "sourceName": "Wikiquote: Rumi",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-ampliacion-e-31",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La fuerza no proviene de la capacidad física, sino de la voluntad indomable.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
+      ]
+    },
+    {
+      "id": "mahatma-gandhi-ampliacion-e-33",
+      "author": "Mahatma Gandhi",
+      "slug": "mahatma-gandhi",
+      "text": "La mejor forma de encontrarte a ti mismo es perderte al servicio de los demás.",
+      "source": "https://es.wikiquote.org/wiki/Mahatma_Gandhi",
+      "sourceName": "Wikiquote: Mahatma Gandhi",
+      "tags": [
+        "sabiduría",
+        "vida",
+        "reflexión"
       ]
     }
   ],
