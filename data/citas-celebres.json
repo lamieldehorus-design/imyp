@@ -517,6 +517,76 @@
       "bio": "Miguel de Unamuno fue un escritor y filósofo español que reflexionó sobre la fe, la duda y la existencia.",
       "source": "https://es.wikiquote.org/wiki/Miguel_de_Unamuno",
       "count": 5
+    },
+    {
+      "name": "Alexander Pope",
+      "slug": "alexander-pope",
+      "bio": "Alexander Pope fue un poeta inglés del siglo XVIII, conocido por sus sátiras y poemas didácticos.",
+      "source": "https://es.wikiquote.org/wiki/Alexander_Pope",
+      "count": 5
+    },
+    {
+      "name": "William Blake",
+      "slug": "william-blake",
+      "bio": "William Blake fue un poeta, grabador y artista inglés, reconocido por su imaginación visionaria.",
+      "source": "https://es.wikiquote.org/wiki/William_Blake",
+      "count": 5
+    },
+    {
+      "name": "John Milton",
+      "slug": "john-milton",
+      "bio": "John Milton fue un poeta inglés, autor de El paraíso perdido y defensor de la libertad de expresión.",
+      "source": "https://es.wikiquote.org/wiki/John_Milton",
+      "count": 5
+    },
+    {
+      "name": "Thomas Hobbes",
+      "slug": "thomas-hobbes",
+      "bio": "Thomas Hobbes fue un filósofo inglés, autor de Leviatán y teórico del contrato social.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Hobbes",
+      "count": 4
+    },
+    {
+      "name": "Jean-Jacques Rousseau",
+      "slug": "jean-jacques-rousseau",
+      "bio": "Jean-Jacques Rousseau fue un filósofo y escritor ilustrado cuyas ideas influyeron en la política y la educación modernas.",
+      "source": "https://es.wikiquote.org/wiki/Jean-Jacques_Rousseau",
+      "count": 5
+    },
+    {
+      "name": "Denis Diderot",
+      "slug": "denis-diderot",
+      "bio": "Denis Diderot fue un filósofo y escritor francés, figura central de la Ilustración y editor de la Enciclopedia.",
+      "source": "https://es.wikiquote.org/wiki/Denis_Diderot",
+      "count": 5
+    },
+    {
+      "name": "Montesquieu",
+      "slug": "montesquieu",
+      "bio": "Montesquieu fue un pensador político francés conocido por su análisis de las leyes y la separación de poderes.",
+      "source": "https://es.wikiquote.org/wiki/Montesquieu",
+      "count": 5
+    },
+    {
+      "name": "Edmund Burke",
+      "slug": "edmund-burke",
+      "bio": "Edmund Burke fue un filósofo y político irlandés, conocido por sus reflexiones sobre la sociedad y la política.",
+      "source": "https://es.wikiquote.org/wiki/Edmund_Burke",
+      "count": 5
+    },
+    {
+      "name": "Francisco de Asís",
+      "slug": "francisco-de-asis",
+      "bio": "Francisco de Asís fue un religioso italiano asociado con la sencillez, la fraternidad y el cuidado de la naturaleza.",
+      "source": "https://es.wikiquote.org/wiki/Francisco_de_As%C3%ADs",
+      "count": 5
+    },
+    {
+      "name": "Baltasar Gracián",
+      "slug": "baltasar-gracian",
+      "bio": "Baltasar Gracián fue un escritor y moralista español del Siglo de Oro, autor de aforismos sobre prudencia y conducta.",
+      "source": "https://es.wikiquote.org/wiki/Baltasar_Graci%C3%A1n",
+      "count": 5
     }
   ],
   "quotes": [
@@ -23091,6 +23161,643 @@
         "sabiduría",
         "historia",
         "reflexión"
+      ]
+    },
+    {
+      "id": "alexander-pope-nuevas-01",
+      "author": "Alexander Pope",
+      "slug": "alexander-pope",
+      "text": "Errar es humano; perdonar, divino.",
+      "source": "https://es.wikiquote.org/wiki/Alexander_Pope",
+      "sourceName": "Wikiquote: Alexander Pope",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "alexander-pope-nuevas-02",
+      "author": "Alexander Pope",
+      "slug": "alexander-pope",
+      "text": "La esperanza brota eternamente en el pecho humano.",
+      "source": "https://es.wikiquote.org/wiki/Alexander_Pope",
+      "sourceName": "Wikiquote: Alexander Pope",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "alexander-pope-nuevas-03",
+      "author": "Alexander Pope",
+      "slug": "alexander-pope",
+      "text": "Un poco de aprendizaje es algo peligroso.",
+      "source": "https://es.wikiquote.org/wiki/Alexander_Pope",
+      "sourceName": "Wikiquote: Alexander Pope",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "alexander-pope-nuevas-04",
+      "author": "Alexander Pope",
+      "slug": "alexander-pope",
+      "text": "La naturaleza y sus leyes yacían ocultas en la noche; Dios dijo: que sea Newton, y todo fue luz.",
+      "source": "https://es.wikiquote.org/wiki/Alexander_Pope",
+      "sourceName": "Wikiquote: Alexander Pope",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "alexander-pope-nuevas-05",
+      "author": "Alexander Pope",
+      "slug": "alexander-pope",
+      "text": "El orden es la primera ley del cielo.",
+      "source": "https://es.wikiquote.org/wiki/Alexander_Pope",
+      "sourceName": "Wikiquote: Alexander Pope",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-blake-nuevas-01",
+      "author": "William Blake",
+      "slug": "william-blake",
+      "text": "Ver un mundo en un grano de arena y un cielo en una flor silvestre.",
+      "source": "https://es.wikiquote.org/wiki/William_Blake",
+      "sourceName": "Wikiquote: William Blake",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-blake-nuevas-02",
+      "author": "William Blake",
+      "slug": "william-blake",
+      "text": "La imaginación no es un estado: es la existencia humana misma.",
+      "source": "https://es.wikiquote.org/wiki/William_Blake",
+      "sourceName": "Wikiquote: William Blake",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-blake-nuevas-03",
+      "author": "William Blake",
+      "slug": "william-blake",
+      "text": "Lo que hoy está probado, antes solo se imaginaba.",
+      "source": "https://es.wikiquote.org/wiki/William_Blake",
+      "sourceName": "Wikiquote: William Blake",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-blake-nuevas-04",
+      "author": "William Blake",
+      "slug": "william-blake",
+      "text": "Si las puertas de la percepción fueran depuradas, todo aparecería ante el hombre tal como es: infinito.",
+      "source": "https://es.wikiquote.org/wiki/William_Blake",
+      "sourceName": "Wikiquote: William Blake",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "william-blake-nuevas-05",
+      "author": "William Blake",
+      "slug": "william-blake",
+      "text": "El camino del exceso conduce al palacio de la sabiduría.",
+      "source": "https://es.wikiquote.org/wiki/William_Blake",
+      "sourceName": "Wikiquote: William Blake",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-milton-nuevas-01",
+      "author": "John Milton",
+      "slug": "john-milton",
+      "text": "La mente es su propio lugar y puede hacer del infierno un cielo o del cielo un infierno.",
+      "source": "https://es.wikiquote.org/wiki/John_Milton",
+      "sourceName": "Wikiquote: John Milton",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-milton-nuevas-02",
+      "author": "John Milton",
+      "slug": "john-milton",
+      "text": "La paz tiene sus victorias, no menos célebres que las de la guerra.",
+      "source": "https://es.wikiquote.org/wiki/John_Milton",
+      "sourceName": "Wikiquote: John Milton",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-milton-nuevas-03",
+      "author": "John Milton",
+      "slug": "john-milton",
+      "text": "Quien vence a otros es fuerte; quien se vence a sí mismo es poderoso.",
+      "source": "https://es.wikiquote.org/wiki/John_Milton",
+      "sourceName": "Wikiquote: John Milton",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-milton-nuevas-04",
+      "author": "John Milton",
+      "slug": "john-milton",
+      "text": "La soledad es a veces la mejor compañía.",
+      "source": "https://es.wikiquote.org/wiki/John_Milton",
+      "sourceName": "Wikiquote: John Milton",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "john-milton-nuevas-05",
+      "author": "John Milton",
+      "slug": "john-milton",
+      "text": "La libertad es el mejor regalo que puede recibir una persona.",
+      "source": "https://es.wikiquote.org/wiki/John_Milton",
+      "sourceName": "Wikiquote: John Milton",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "thomas-hobbes-nuevas-02",
+      "author": "Thomas Hobbes",
+      "slug": "thomas-hobbes",
+      "text": "La curiosidad es el deseo de conocer las causas.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Hobbes",
+      "sourceName": "Wikiquote: Thomas Hobbes",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "thomas-hobbes-nuevas-03",
+      "author": "Thomas Hobbes",
+      "slug": "thomas-hobbes",
+      "text": "La ociosidad es la madre de la filosofía.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Hobbes",
+      "sourceName": "Wikiquote: Thomas Hobbes",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "thomas-hobbes-nuevas-04",
+      "author": "Thomas Hobbes",
+      "slug": "thomas-hobbes",
+      "text": "La experiencia no es más que recuerdo; la prudencia, previsión.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Hobbes",
+      "sourceName": "Wikiquote: Thomas Hobbes",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "thomas-hobbes-nuevas-05",
+      "author": "Thomas Hobbes",
+      "slug": "thomas-hobbes",
+      "text": "La razón no es innata, sino adquirida mediante el esfuerzo.",
+      "source": "https://es.wikiquote.org/wiki/Thomas_Hobbes",
+      "sourceName": "Wikiquote: Thomas Hobbes",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "jean-jacques-rousseau-nuevas-01",
+      "author": "Jean-Jacques Rousseau",
+      "slug": "jean-jacques-rousseau",
+      "text": "La paciencia es amarga, pero sus frutos son dulces.",
+      "source": "https://es.wikiquote.org/wiki/Jean-Jacques_Rousseau",
+      "sourceName": "Wikiquote: Jean-Jacques Rousseau",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "jean-jacques-rousseau-nuevas-02",
+      "author": "Jean-Jacques Rousseau",
+      "slug": "jean-jacques-rousseau",
+      "text": "La libertad no consiste en hacer lo que se quiere, sino en querer lo que se debe.",
+      "source": "https://es.wikiquote.org/wiki/Jean-Jacques_Rousseau",
+      "sourceName": "Wikiquote: Jean-Jacques Rousseau",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "jean-jacques-rousseau-nuevas-03",
+      "author": "Jean-Jacques Rousseau",
+      "slug": "jean-jacques-rousseau",
+      "text": "El hombre nace libre, pero en todas partes se encuentra encadenado.",
+      "source": "https://es.wikiquote.org/wiki/Jean-Jacques_Rousseau",
+      "sourceName": "Wikiquote: Jean-Jacques Rousseau",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "jean-jacques-rousseau-nuevas-04",
+      "author": "Jean-Jacques Rousseau",
+      "slug": "jean-jacques-rousseau",
+      "text": "La infancia tiene sus propias maneras de ver, pensar y sentir.",
+      "source": "https://es.wikiquote.org/wiki/Jean-Jacques_Rousseau",
+      "sourceName": "Wikiquote: Jean-Jacques Rousseau",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "jean-jacques-rousseau-nuevas-05",
+      "author": "Jean-Jacques Rousseau",
+      "slug": "jean-jacques-rousseau",
+      "text": "La conciencia es la voz del alma; las pasiones, la voz del cuerpo.",
+      "source": "https://es.wikiquote.org/wiki/Jean-Jacques_Rousseau",
+      "sourceName": "Wikiquote: Jean-Jacques Rousseau",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "denis-diderot-nuevas-01",
+      "author": "Denis Diderot",
+      "slug": "denis-diderot",
+      "text": "El hombre solo será libre cuando el último déspota sea estrangulado con las entrañas del último sacerdote.",
+      "source": "https://es.wikiquote.org/wiki/Denis_Diderot",
+      "sourceName": "Wikiquote: Denis Diderot",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "denis-diderot-nuevas-02",
+      "author": "Denis Diderot",
+      "slug": "denis-diderot",
+      "text": "La ignorancia está menos lejos de la verdad que el prejuicio.",
+      "source": "https://es.wikiquote.org/wiki/Denis_Diderot",
+      "sourceName": "Wikiquote: Denis Diderot",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "denis-diderot-nuevas-03",
+      "author": "Denis Diderot",
+      "slug": "denis-diderot",
+      "text": "El genio es la paciencia eterna.",
+      "source": "https://es.wikiquote.org/wiki/Denis_Diderot",
+      "sourceName": "Wikiquote: Denis Diderot",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "denis-diderot-nuevas-04",
+      "author": "Denis Diderot",
+      "slug": "denis-diderot",
+      "text": "Los errores pasan; la verdad permanece.",
+      "source": "https://es.wikiquote.org/wiki/Denis_Diderot",
+      "sourceName": "Wikiquote: Denis Diderot",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "denis-diderot-nuevas-05",
+      "author": "Denis Diderot",
+      "slug": "denis-diderot",
+      "text": "La pasión destruye más prejuicios que la filosofía.",
+      "source": "https://es.wikiquote.org/wiki/Denis_Diderot",
+      "sourceName": "Wikiquote: Denis Diderot",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "montesquieu-nuevas-01",
+      "author": "Montesquieu",
+      "slug": "montesquieu",
+      "text": "La libertad es el derecho de hacer todo lo que las leyes permiten.",
+      "source": "https://es.wikiquote.org/wiki/Montesquieu",
+      "sourceName": "Wikiquote: Montesquieu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "montesquieu-nuevas-02",
+      "author": "Montesquieu",
+      "slug": "montesquieu",
+      "text": "Para ser realmente grande hay que estar con la gente, no por encima de ella.",
+      "source": "https://es.wikiquote.org/wiki/Montesquieu",
+      "sourceName": "Wikiquote: Montesquieu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "montesquieu-nuevas-03",
+      "author": "Montesquieu",
+      "slug": "montesquieu",
+      "text": "La injusticia hecha a uno solo es una amenaza dirigida a todos.",
+      "source": "https://es.wikiquote.org/wiki/Montesquieu",
+      "sourceName": "Wikiquote: Montesquieu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "montesquieu-nuevas-04",
+      "author": "Montesquieu",
+      "slug": "montesquieu",
+      "text": "La tiranía de un príncipe en una oligarquía no es tan peligrosa para el bienestar público como la apatía de un ciudadano en una democracia.",
+      "source": "https://es.wikiquote.org/wiki/Montesquieu",
+      "sourceName": "Wikiquote: Montesquieu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "montesquieu-nuevas-05",
+      "author": "Montesquieu",
+      "slug": "montesquieu",
+      "text": "La corrupción de cada gobierno comienza casi siempre por la de sus principios.",
+      "source": "https://es.wikiquote.org/wiki/Montesquieu",
+      "sourceName": "Wikiquote: Montesquieu",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "edmund-burke-nuevas-01",
+      "author": "Edmund Burke",
+      "slug": "edmund-burke",
+      "text": "Para que triunfe el mal, basta con que los hombres buenos no hagan nada.",
+      "source": "https://es.wikiquote.org/wiki/Edmund_Burke",
+      "sourceName": "Wikiquote: Edmund Burke",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "edmund-burke-nuevas-02",
+      "author": "Edmund Burke",
+      "slug": "edmund-burke",
+      "text": "La superstición es la religión de las mentes débiles.",
+      "source": "https://es.wikiquote.org/wiki/Edmund_Burke",
+      "sourceName": "Wikiquote: Edmund Burke",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "edmund-burke-nuevas-03",
+      "author": "Edmund Burke",
+      "slug": "edmund-burke",
+      "text": "La costumbre reconcilia con todo.",
+      "source": "https://es.wikiquote.org/wiki/Edmund_Burke",
+      "sourceName": "Wikiquote: Edmund Burke",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "edmund-burke-nuevas-04",
+      "author": "Edmund Burke",
+      "slug": "edmund-burke",
+      "text": "La gente nunca renuncia a sus libertades salvo bajo algún engaño.",
+      "source": "https://es.wikiquote.org/wiki/Edmund_Burke",
+      "sourceName": "Wikiquote: Edmund Burke",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "edmund-burke-nuevas-05",
+      "author": "Edmund Burke",
+      "slug": "edmund-burke",
+      "text": "El miedo es el más ignorante, el más injusto y el más cruel de los consejeros.",
+      "source": "https://es.wikiquote.org/wiki/Edmund_Burke",
+      "sourceName": "Wikiquote: Edmund Burke",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "francisco-de-asis-nuevas-01",
+      "author": "Francisco de Asís",
+      "slug": "francisco-de-asis",
+      "text": "Comienza haciendo lo que es necesario, después lo posible y de pronto estarás haciendo lo imposible.",
+      "source": "https://es.wikiquote.org/wiki/Francisco_de_As%C3%ADs",
+      "sourceName": "Wikiquote: Francisco de Asís",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "francisco-de-asis-nuevas-02",
+      "author": "Francisco de Asís",
+      "slug": "francisco-de-asis",
+      "text": "Predica el evangelio en todo momento y, cuando sea necesario, utiliza palabras.",
+      "source": "https://es.wikiquote.org/wiki/Francisco_de_As%C3%ADs",
+      "sourceName": "Wikiquote: Francisco de Asís",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "francisco-de-asis-nuevas-03",
+      "author": "Francisco de Asís",
+      "slug": "francisco-de-asis",
+      "text": "Donde hay odio, que yo ponga amor.",
+      "source": "https://es.wikiquote.org/wiki/Francisco_de_As%C3%ADs",
+      "sourceName": "Wikiquote: Francisco de Asís",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "francisco-de-asis-nuevas-04",
+      "author": "Francisco de Asís",
+      "slug": "francisco-de-asis",
+      "text": "Es dando como recibimos.",
+      "source": "https://es.wikiquote.org/wiki/Francisco_de_As%C3%ADs",
+      "sourceName": "Wikiquote: Francisco de Asís",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "francisco-de-asis-nuevas-05",
+      "author": "Francisco de Asís",
+      "slug": "francisco-de-asis",
+      "text": "Necesito pocas cosas y las pocas que necesito, las necesito poco.",
+      "source": "https://es.wikiquote.org/wiki/Francisco_de_As%C3%ADs",
+      "sourceName": "Wikiquote: Francisco de Asís",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "baltasar-gracian-nuevas-01",
+      "author": "Baltasar Gracián",
+      "slug": "baltasar-gracian",
+      "text": "Lo bueno, si breve, dos veces bueno.",
+      "source": "https://es.wikiquote.org/wiki/Baltasar_Graci%C3%A1n",
+      "sourceName": "Wikiquote: Baltasar Gracián",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "baltasar-gracian-nuevas-02",
+      "author": "Baltasar Gracián",
+      "slug": "baltasar-gracian",
+      "text": "Nunca abras la puerta a un mal menor, porque otros mayores siempre se cuelan tras él.",
+      "source": "https://es.wikiquote.org/wiki/Baltasar_Graci%C3%A1n",
+      "sourceName": "Wikiquote: Baltasar Gracián",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "baltasar-gracian-nuevas-03",
+      "author": "Baltasar Gracián",
+      "slug": "baltasar-gracian",
+      "text": "El primer paso de la ignorancia es presumir de saber.",
+      "source": "https://es.wikiquote.org/wiki/Baltasar_Graci%C3%A1n",
+      "sourceName": "Wikiquote: Baltasar Gracián",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "baltasar-gracian-nuevas-04",
+      "author": "Baltasar Gracián",
+      "slug": "baltasar-gracian",
+      "text": "Saber y saberlo demostrar es saber dos veces.",
+      "source": "https://es.wikiquote.org/wiki/Baltasar_Graci%C3%A1n",
+      "sourceName": "Wikiquote: Baltasar Gracián",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
+      ]
+    },
+    {
+      "id": "baltasar-gracian-nuevas-05",
+      "author": "Baltasar Gracián",
+      "slug": "baltasar-gracian",
+      "text": "La verdad, cuanto más sencilla, mejor parece.",
+      "source": "https://es.wikiquote.org/wiki/Baltasar_Graci%C3%A1n",
+      "sourceName": "Wikiquote: Baltasar Gracián",
+      "tags": [
+        "filosofía",
+        "sabiduría",
+        "vida"
       ]
     }
   ],
