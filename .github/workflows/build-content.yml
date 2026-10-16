@@ -30,22 +30,24 @@ jobs:
         run: |
           git config user.name "imagenesypostales-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "Sin cambios generados"
-          else
+          # Otros workflows también actualizan HTML en main. En cada intento se
+          # parte de la versión más reciente y se regeneran los archivos para evitar conflictos.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/build_content.py
+            python scripts/build_social_image.py
+            python scripts/update_navigation.py
+            git add -A
+            if git diff --cached --quiet; then
+              echo "Sin cambios generados"
+              exit 0
+            fi
             git commit -m "Actualizar contenido desde TXT"
-            # Otros workflows pueden escribir en main al mismo tiempo.
-            # Reconciliar esos cambios y reintentar para no perder los archivos generados.
-            for attempt in 1 2 3; do
-              git fetch origin main
-              git rebase origin/main
-              if git push origin HEAD:main; then
-                exit 0
-              fi
-              echo "Push rechazado; reintentando ($attempt/3)"
-              sleep 2
-            done
-            echo "No se pudieron publicar los archivos generados tras 3 intentos."
-            exit 1
-          fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rechazado; se regenerará sobre main ($attempt/3)"
+          done
+          echo "No se pudieron publicar los archivos generados tras 3 intentos."
+          exit 1
