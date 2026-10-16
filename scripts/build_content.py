@@ -135,12 +135,12 @@ def render_article_body(text):
     def flush():
         nonlocal para
         if para:
-            pieces.append("<p>"+" ".join(x.strip() for x in para if x.strip())+"</p>")
+            pieces.append("<p>"+html.escape(" ".join(x.strip() for x in para if x.strip()))+"</p>")
             para=[]
     for line in (text or "").splitlines():
         if line.startswith("## "):
             flush()
-            pieces.append("<h2>"+line[3:].strip()+"</h2>")
+            pieces.append("<h2>"+html.escape(line[3:].strip())+"</h2>")
         elif not line.strip():
             flush()
         else:
