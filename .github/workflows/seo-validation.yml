@@ -28,6 +28,8 @@ jobs:
                   json.loads(path.read_text(encoding="utf-8"))
                   print(f"JSON válido: {path}")
           PY
+      - name: Regenerar contenido y sitemap desde el estado actual del sitio
+        run: python scripts/build_content.py
       - name: Validar sitemap y páginas de herramientas
         run: |
           python - <<'PY'
