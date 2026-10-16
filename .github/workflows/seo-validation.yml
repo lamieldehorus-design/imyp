@@ -18,8 +18,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Instalar conversor de imagen social
+        run: pip install cairosvg
       - name: Comprobar sintaxis Python
-        run: python -m py_compile scripts/build_content.py scripts/update_navigation.py
+        run: python -m py_compile scripts/build_content.py scripts/build_social_image.py scripts/update_navigation.py
       - name: Validar catálogos JSON
         run: |
           python - <<'PY'
@@ -33,6 +35,7 @@ jobs:
       - name: Regenerar contenido y sitemap desde el estado actual del sitio
         run: |
           python scripts/build_content.py
+          python scripts/build_social_image.py
           python scripts/update_navigation.py
       - name: Validar sitemap y páginas de herramientas
         run: |
