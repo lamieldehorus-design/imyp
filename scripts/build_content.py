@@ -196,6 +196,36 @@ def article_html(p):
 def postal_category_links():
     return "".join(f'<a class="postal-category-link" href="/postales/{key}/"><strong>{html.escape(label)}</strong><span>→</span></a>' for key,(label,_) in POSTAL_CATEGORIES.items())
 
+def static_postal_cards(category="", limit=12):
+    """Renderizar contenido inicial en HTML para que las postales sean rastreables sin esperar al JS."""
+    data_path=DATA/"postales.json"
+    if not data_path.exists():
+        return ""
+    try:
+        items=json.loads(data_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return ""
+    if category:
+        items=[item for item in items if item.get("category")==category]
+    cards=[]
+    for item in items[:limit]:
+        template=slugify(item.get("template") or "postal-base")
+        title=html.escape(item.get("title") or "Postal para compartir")
+        phrase=html.escape(item.get("phrase") or "")
+        description=html.escape(item.get("description") or "")
+        tags="".join(f'<span class="tag">{html.escape(tag)}</span>' for tag in (item.get("tags") or []))
+        cards.append(
+            f'<article class="postal-card">'
+            f'<div class="visual-postal tpl-{template}" aria-label="{title}">'
+            f'<div class="visual-decoration" aria-hidden="true"></div>'
+            f'<p>{phrase}</p><small>imagenesypostales.com</small></div>'
+            f'<div class="postal-card-body"><h2>{title}</h2>'
+            f'<p class="card-description">{description}</p>'
+            f'<div class="tags">{tags}</div></div></article>'
+        )
+    return "".join(cards)
+
+
 def postales_page(category=""):
     label,desc=POSTAL_CATEGORIES.get(category,("Postales","Elegí una ocasión, personalizá el mensaje y descargá una postal lista para compartir."))
     canonical=f"{SITE}/postales/{category}/" if category else f"{SITE}/postales/"
@@ -204,7 +234,7 @@ def postales_page(category=""):
     category_controls=postal_category_links() if category else '<div id="postalCategories" class="postal-filters" aria-label="Categorías de postales"></div>'
     body_attr=f' data-postal-category="{html.escape(category,quote=True)}"' if category else ""
     schema=json.dumps({"@context":"https://schema.org","@type":"CollectionPage","name":heading,"description":desc,"url":canonical,"isPartOf":{"@type":"WebSite","name":"Imágenes y Postales","url":SITE+"/"}},ensure_ascii=False)
-    return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc,quote=True)}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:title" content="{html.escape(title,quote=True)}"><meta property="og:description" content="{html.escape(desc,quote=True)}"><meta property="og:url" content="{canonical}"><script type="application/ld+json">{schema}</script><link rel="stylesheet" href="/style.css"></head><body{body_attr}><header class="site-header"><a class="brand" href="/"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a><nav class="top-nav"><a href="/frases/">Frases</a><a href="/blog/">Blog</a><a href="/postales/">Postales</a></nav></header><main class="collection-page"><nav class="breadcrumbs"><a href="/">Inicio</a><span>›</span><a href="/postales/">Postales</a>{f'<span>›</span><span>{html.escape(label)}</span>' if category else ''}</nav><section class="collection-hero postal-hero"><p class="eyebrow">POSTALES VISUALES</p><h1>{html.escape(heading)}</h1><p class="hero-copy">{html.escape(desc)}</p>{category_controls}</section><section class="gallery-section collection-gallery"><div class="section-heading"><div><p class="eyebrow">LISTAS PARA DESCARGAR</p><h2>{html.escape(label if category else "Elegí una postal")}</h2></div><p id="postalCount" class="muted"></p></div><div id="postalGrid" class="postal-grid" aria-live="polite"></div><div id="postalSentinel" class="load-sentinel" aria-hidden="true"></div></section></main><footer><strong>imagenesypostales.com</strong><span>Frases, postales y palabras para compartir.</span></footer><script src="/postales.js" defer></script></body></html>'''
+    return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc,quote=True)}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:title" content="{html.escape(title,quote=True)}"><meta property="og:description" content="{html.escape(desc,quote=True)}"><meta property="og:url" content="{canonical}"><script type="application/ld+json">{schema}</script><link rel="stylesheet" href="/style.css"></head><body{body_attr}><header class="site-header"><a class="brand" href="/"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a><nav class="top-nav"><a href="/frases/">Frases</a><a href="/blog/">Blog</a><a href="/postales/">Postales</a></nav></header><main class="collection-page"><nav class="breadcrumbs"><a href="/">Inicio</a><span>›</span><a href="/postales/">Postales</a>{f'<span>›</span><span>{html.escape(label)}</span>' if category else ''}</nav><section class="collection-hero postal-hero"><p class="eyebrow">POSTALES VISUALES</p><h1>{html.escape(heading)}</h1><p class="hero-copy">{html.escape(desc)}</p>{category_controls}</section><section class="gallery-section collection-gallery"><div class="section-heading"><div><p class="eyebrow">LISTAS PARA DESCARGAR</p><h2>{html.escape(label if category else "Elegí una postal")}</h2></div><p id="postalCount" class="muted"></p></div><div id="postalGrid" class="postal-grid" aria-live="polite">{static_postal_cards(category)}</div><div id="postalSentinel" class="load-sentinel" aria-hidden="true"></div></section></main><footer><strong>imagenesypostales.com</strong><span>Frases, postales y palabras para compartir.</span></footer><script src="/postales.js" defer></script></body></html>'''
 
 def build():
     quote_catalog=build_quote_pages()
