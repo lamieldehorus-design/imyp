@@ -151,11 +151,42 @@ def render_article_body(text):
 BLOG_HEADER='''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'''
 
 def blog_index(posts):
-    cards="".join(
+    # Mantener enlazados los artículos editoriales existentes aunque todavía no
+    # estén migrados a data/blog.txt. Los nuevos artículos siguen viniendo del TXT.
+    curated = [
+        {
+            "slug": "crear-postales-personalizadas",
+            "title": "Cómo crear postales personalizadas con fotos y frases",
+            "description": "Descubrí cómo diseñar postales personalizadas con fotos, frases, colores y firmas para cumpleaños, viajes, amistad y otras ocasiones.",
+            "category": "GUÍA PRÁCTICA",
+            "tags": ["postales", "diseño", "frases"],
+        },
+        {
+            "slug": "formatos-jpg-png-webp",
+            "title": "JPG, PNG o WebP: qué formato de imagen elegir",
+            "description": "Conocé las diferencias entre JPG, PNG y WebP para elegir el formato adecuado según la calidad, el peso, la transparencia y el uso de cada imagen.",
+            "category": "IMÁGENES Y FORMATOS",
+            "tags": ["JPG", "PNG", "WebP"],
+        },
+        {
+            "slug": "optimizar-imagenes-para-web",
+            "title": "Cómo optimizar imágenes para una página web",
+            "description": "Aprendé a reducir el peso de las imágenes para una web, elegir formatos adecuados, ajustar dimensiones y cuidar la calidad visual.",
+            "category": "GUÍA PRÁCTICA",
+            "tags": ["optimización", "rendimiento web", "imágenes"],
+        },
+    ]
+    merged = list(posts)
+    known_slugs = {p["slug"] for p in merged}
+    for item in curated:
+        if item["slug"] not in known_slugs and (ROOT / "blog" / item["slug"] / "index.html").exists():
+            merged.append(item)
+            known_slugs.add(item["slug"])
+    cards = "".join(
         f'''<article class="blog-card"><p class="eyebrow">{html.escape(p["category"].upper())}</p><h2><a href="/blog/{p["slug"]}/">{html.escape(p["title"])}</a></h2><p>{html.escape(p["description"])}</p><div class="tags">{"".join(f'<span class="tag">{html.escape(t)}</span>' for t in p["tags"])}</div></article>'''
-        for p in posts
-    ) or '<div class="collection-note"><h2>El blog está preparado</h2><p>Cuando publiques un artículo en <code>data/blog.txt</code>, aparecerá acá automáticamente.</p></div>'
-    return BLOG_HEADER+'''<title>Blog de frases, vínculos y momentos | Imágenes y Postales</title><meta name="description" content="Artículos largos sobre frases, vínculos, emociones, saludos y momentos para encontrar mejores palabras."><link rel="canonical" href="https://imagenesypostales.com/blog/"><link rel="stylesheet" href="/style.css"></head><body><header class="site-header"><a class="brand" href="/"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a><nav class="top-nav"><a href="/frases/">Frases</a><a href="/blog/">Blog</a><a href="/postales/">Postales</a></nav></header><main class="collection-page"><nav class="breadcrumbs"><a href="/">Inicio</a><span>›</span><span>Blog</span></nav><section class="collection-hero"><p class="eyebrow">BLOG</p><h1>Ideas, palabras y situaciones que merecen un poco más de espacio</h1><p class="hero-copy">Artículos largos para profundizar en vínculos, emociones, saludos y maneras de decir lo que importa.</p></section><section class="blog-grid">'''+cards+'''</section></main><footer><strong>imagenesypostales.com</strong><span>Frases, postales y palabras para compartir.</span></footer></body></html>'''
+        for p in merged
+    ) or '<div class="collection-note"><h2>Próximamente, nuevas guías</h2><p>Estamos preparando artículos prácticos sobre frases, postales y herramientas para imágenes.</p></div>'
+    return BLOG_HEADER+'''<title>Blog de imágenes, postales y guías prácticas | Imágenes y Postales</title><meta name="description" content="Guías prácticas para crear postales personalizadas, elegir formatos de imagen y optimizar fotos para la web. Consejos claros para resolver tareas concretas."><link rel="canonical" href="https://imagenesypostales.com/blog/"><link rel="stylesheet" href="/style.css"></head><body><header class="site-header"><a class="brand" href="/"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a><nav class="top-nav" aria-label="Navegación principal"><a href="/herramientas/">Herramientas</a><a href="/crear/">Crear imágenes</a><a href="/frases/">Frases célebres</a><a href="/postales/">Postales</a><a href="/blog/" aria-current="page">Blog</a><a href="/sobre-nosotros/">Qué hacemos</a><a href="/privacidad/">Privacidad</a></nav></header><main class="collection-page"><nav class="breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span>›</span><span>Blog</span></nav><section class="collection-hero"><p class="eyebrow">BLOG Y GUÍAS</p><h1>Guías prácticas para crear, elegir y compartir imágenes</h1><p class="hero-copy">Artículos para crear postales personalizadas, elegir formatos y mejorar imágenes para la web, con pasos concretos y ejemplos útiles.</p></section><section class="blog-grid">'''+cards+'''</section></main><footer><strong>imagenesypostales.com</strong><span>Guías de imágenes, postales y herramientas para crear y compartir.</span></footer></body></html>'''
 
 def article_html(p):
     schema=json.dumps({"@context":"https://schema.org","@type":"Article","headline":p["title"],"description":p["description"],"datePublished":p["date"],"mainEntityOfPage":f'{SITE}/blog/{p["slug"]}/',"publisher":{"@type":"Organization","name":"Imágenes y Postales"}},ensure_ascii=False)
