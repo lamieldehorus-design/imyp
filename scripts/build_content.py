@@ -176,6 +176,7 @@ def postales_page(category=""):
     return f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><meta name="description" content="{html.escape(desc,quote=True)}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:title" content="{html.escape(title,quote=True)}"><meta property="og:description" content="{html.escape(desc,quote=True)}"><meta property="og:url" content="{canonical}"><script type="application/ld+json">{schema}</script><link rel="stylesheet" href="/style.css"></head><body{body_attr}><header class="site-header"><a class="brand" href="/"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a><nav class="top-nav"><a href="/frases/">Frases</a><a href="/blog/">Blog</a><a href="/postales/">Postales</a></nav></header><main class="collection-page"><nav class="breadcrumbs"><a href="/">Inicio</a><span>›</span><a href="/postales/">Postales</a>{f'<span>›</span><span>{html.escape(label)}</span>' if category else ''}</nav><section class="collection-hero postal-hero"><p class="eyebrow">POSTALES VISUALES</p><h1>{html.escape(heading)}</h1><p class="hero-copy">{html.escape(desc)}</p>{category_controls}</section><section class="gallery-section collection-gallery"><div class="section-heading"><div><p class="eyebrow">LISTAS PARA DESCARGAR</p><h2>{html.escape(label if category else "Elegí una postal")}</h2></div><p id="postalCount" class="muted"></p></div><div id="postalGrid" class="postal-grid" aria-live="polite"></div><div id="postalSentinel" class="load-sentinel" aria-hidden="true"></div></section></main><footer><strong>imagenesypostales.com</strong><span>Frases, postales y palabras para compartir.</span></footer><script src="/postales.js" defer></script></body></html>'''
 
 def build():
+    quote_catalog=build_quote_pages()
     phrase_blocks=parse_blocks((DATA/"frases.txt").read_text(encoding="utf-8"),"=== POSTAL ===")
     phrases=[]
     seen=set()
@@ -236,6 +237,9 @@ def build():
 
     fixed=["/","/frases/","/cumpleanos/","/cumpleanos/hermana/","/cumpleanos/amiga/","/buenos-dias/","/amor/","/familia/","/animo/","/viajes/","/humor/","/blog/","/postales/","/crear/","/herramientas/","/herramientas/comprimir-imagenes/","/herramientas/convertir-imagen/","/herramientas/generador-favicon/","/herramientas/girar-imagen/","/herramientas/marca-de-agua/","/herramientas/quitar-fondo/","/herramientas/recortar-imagen/","/herramientas/redimensionar-imagenes/","/herramientas/texto-en-imagen/","/sobre-nosotros/","/privacidad/"]
     fixed += [f"/postales/{key}/" for key in POSTAL_CATEGORIES]
+    if quote_catalog:
+        fixed += [f"/frases/{(topic.get("slug") or slugify(topic.get("name", "")))}/" for topic in quote_catalog.get("topics", []) if (ROOT/"frases"/(topic.get("slug") or slugify(topic.get("name", "")))/"index.html").exists()]
+        fixed += [f"/frases/{(author.get("slug") or slugify(author.get("name", "")))}/" for author in quote_catalog.get("authors", []) if (ROOT/"frases"/(author.get("slug") or slugify(author.get("name", "")))/"index.html").exists()]
     urls=[]
     for path in fixed:
         priority="1.0" if path=="/" else ("0.9" if path in {"/frases/","/blog/","/postales/"} else "0.8")
@@ -245,6 +249,104 @@ def build():
         urls.append(f'  <url><loc>{SITE}/blog/{p["slug"]}/</loc><lastmod>{html.escape(p["date"])}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
     sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"\n".join(urls)+"\n</urlset>\n"
     (ROOT/"sitemap.xml").write_text(sitemap,encoding="utf-8")
+
+
+def sync_quote_index_counts(catalog):
+    """Keep the quote landing page's SEO metadata aligned with the real catalog."""
+    index_path=ROOT/"frases"/"index.html"
+    if not index_path.exists():
+        return
+    quotes=catalog.get("quotes",[])
+    total=len(quotes)
+    originals=sum(1 for q in quotes if q.get("slug")=="imagenes-y-postales" or q.get("author")=="Imágenes y Postales")
+    historic=total-originals
+    fmt=lambda n: f"{n:,}".replace(",",".")
+    content=index_path.read_text(encoding="utf-8")
+    replacements=[
+        (r"\b[\d.]+(?=\s+frases célebres y originales)",fmt(total)),
+        (r"\b[\d.]+(?=\s+frases en total)",fmt(total)),
+        (r"\b[\d.]+(?=\s+frases:)",fmt(total)),
+        (r"\b[\d.]+(?=\s+citas célebres)",fmt(historic)),
+        (r"\b[\d.]+(?=\s+citas históricas)",fmt(historic)),
+        (r"\b[\d.]+(?=\s+célebres\s*[+:])",fmt(historic)),
+        (r"\b[\d.]+(?=\s+frases originales)",fmt(originals)),
+        (r"\b[\d.]+(?=\s+originales\s*[+.:])",fmt(originals)),
+    ]
+    for pattern,value in replacements:
+        content=re.sub(pattern,lambda _m:value,content)
+    if content!=index_path.read_text(encoding="utf-8"):
+        index_path.write_text(content,encoding="utf-8")
+
+
+def quote_collection_page(slug,name,title,description,intro,kind,source="",tags=None,quotes=None):
+    canonical=f"{SITE}/frases/{slug}/"
+    schema=json.dumps({"@context":"https://schema.org","@type":"CollectionPage","name":title,"description":description,"url":canonical,"inLanguage":"es-AR"},ensure_ascii=False)
+    tag_list=tags or []
+    body_attr=f' data-author="{html.escape(slug,quote=True)}"' if kind=="author" else f' data-theme="{html.escape(",".join(tag_list),quote=True)}" data-theme-name="{html.escape(name,quote=True)}"'
+    source_link=f'<a class="author-source" href="{html.escape(source,quote=True)}" target="_blank" rel="noopener noreferrer">Consultar la fuente de referencia ↗</a>' if source.startswith("https://") else ""
+    static_cards=[]
+    for q in (quotes or [])[:6]:
+        qtext=html.escape(q.get("text",""))
+        qauthor=html.escape(q.get("author",""))
+        qslug=slugify(q.get("slug") or q.get("author",""))
+        static_cards.append(f'<article class="quote-card"><blockquote>“{qtext}”</blockquote><p class="quote-author"><a href="/frases/{qslug}/">{qauthor}</a></p></article>')
+    cards="".join(static_cards)
+    breadcrumb=html.escape(name)
+    return f'''<!doctype html><html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{html.escape(title)}</title><meta name="description" content="{html.escape(description,quote=True)}"><link rel="canonical" href="{canonical}"><meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#0b57d0"><meta property="og:type" content="website"><meta property="og:site_name" content="Imágenes y Postales"><meta property="og:title" content="{html.escape(title,quote=True)}"><meta property="og:description" content="{html.escape(description,quote=True)}"><meta property="og:url" content="{canonical}"><meta name="twitter:card" content="summary"><script type="application/ld+json">{schema}</script><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/frases-celebres.css"><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2"><link rel="shortcut icon" href="/favicon.svg?v=2"></head><body class="famous-quotes-page"{body_attr}><header class="site-header"><a class="brand" href="/" aria-label="Imágenes y Postales, inicio"><span class="brand-mark" aria-hidden="true"></span><span>Imágenes y Postales</span></a><nav class="top-nav" aria-label="Navegación principal"><a href="/herramientas/">Herramientas</a><a href="/crear/">Crear imágenes</a><a href="/frases/" aria-current="page">Frases célebres</a><a href="/postales/">Postales</a><a href="/blog/">Blog</a><a href="/sobre-nosotros/">Qué hacemos</a><a href="/privacidad/">Privacidad</a></nav></header><main class="famous-main"><nav class="breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a><span>›</span><a href="/frases/">Frases célebres</a><span>›</span><span>{breadcrumb}</span></nav><section class="author-page-hero"><p class="eyebrow">{"FRASES CÉLEBRES POR AUTOR" if kind=="author" else "COLECCIÓN TEMÁTICA"}</p><h1>{html.escape(title.split(" | ")[0])}</h1><p class="hero-copy">{html.escape(intro)}</p><p>{html.escape(description)}</p>{source_link}<form id="quoteSearchForm" class="famous-search" action="/frases/" method="get"><label class="sr-only" for="quoteSearch">Buscar frases célebres</label><input id="quoteSearch" name="q" type="search" placeholder="Buscar una frase o a otra persona…" autocomplete="off"><button type="submit">Buscar en todas las frases</button></form><p id="quoteStatus" class="famous-status" aria-live="polite">Cargando colección de frases…</p></section><section class="quotes-section" aria-labelledby="quotes-title"><div class="famous-section-heading"><div><p class="eyebrow">COLECCIÓN DE CITAS</p><h2 id="quotes-title">{html.escape(name)}</h2></div><p>Copiá una frase o descargala como imagen.</p></div><div id="quoteResults" class="quote-grid">{cards}</div><p id="quoteEmpty" class="famous-status" hidden>No encontramos frases para esta selección.</p></section><section class="quote-navigation"><p><a href="/frases/">Ver todas las frases célebres y originales</a></p><p><a href="/frases/amor/">Frases de amor</a> · <a href="/frases/vida/">Frases de la vida</a> · <a href="/frases/sabiduria/">Frases de sabiduría</a></p></section></main><footer><div><strong>Imágenes y Postales</strong><p>Frases, postales y herramientas gratuitas para crear y compartir.</p></div><nav aria-label="Información del sitio"><a href="/sobre-nosotros/">Qué hacemos</a><a href="/privacidad/">Privacidad</a></nav></footer><script src="/frases-celebres.js" defer></script><script>var sc_project=13359488;var sc_invisible=1;var sc_security="c65a5a39";</script><script src="https://www.statcounter.com/counter/counter.js" async></script><noscript><img src="https://c.statcounter.com/13359488/0/c65a5a39/1/" alt="Web Analytics" referrerpolicy="no-referrer-when-downgrade"></noscript></body></html>'''
+
+
+def build_quote_pages():
+    """Generate missing author/topic pages from the shared quote catalog without overwriting curated pages."""
+    catalog_path=DATA/"citas-celebres.json"
+    if not catalog_path.exists():
+        return {}
+    catalog=json.loads(catalog_path.read_text(encoding="utf-8"))
+    sync_quote_index_counts(catalog)
+    quotes=catalog.get("quotes",[])
+    counts={}
+    for q in quotes:
+        slug=q.get("slug") or slugify(q.get("author",""))
+        counts[slug]=counts.get(slug,0)+1
+    for author in catalog.get("authors",[]):
+        name=(author.get("name") or "").strip()
+        slug=(author.get("slug") or slugify(name)).strip()
+        if not name or not slug:
+            continue
+        target=ROOT/"frases"/slug/"index.html"
+        if target.exists():
+            continue
+        count=counts.get(slug,0)
+        if not count:
+            continue
+        bio=(author.get("bio") or f"Una colección de frases atribuidas a {name}, con temas para leer, pensar y compartir.").strip()
+        if name=="Imágenes y Postales":
+            title="Frases originales para reflexionar | Imágenes y Postales"
+            description=f"Leé {count} frases originales de Imágenes y Postales sobre la vida, el amor, la libertad, la calma y el crecimiento personal. Copiá o descargá cada frase gratis."
+        else:
+            title=f"Frases de {name}: citas célebres para leer y compartir | Imágenes y Postales"
+            description=f"Leé {count} frases atribuidas a {name}. Explorá citas con fuentes de referencia, copialas o descargalas como imágenes gratis."
+        selected=[q for q in quotes if (q.get("slug") or slugify(q.get("author","")))==slug]
+        page=quote_collection_page(slug,name,title,description,bio,"author",author.get("source",""),quotes=selected)
+        target.parent.mkdir(parents=True,exist_ok=True)
+        target.write_text(page,encoding="utf-8")
+    for topic in catalog.get("topics",[]):
+        slug=(topic.get("slug") or slugify(topic.get("name",""))).strip()
+        name=(topic.get("name") or slug).strip()
+        if not slug:
+            continue
+        target=ROOT/"frases"/slug/"index.html"
+        if target.exists():
+            continue
+        title=(topic.get("title") or name+" célebres para leer y compartir").strip()
+        description=(topic.get("description") or f"Explorá frases sobre {name.lower()}, con citas de autores y temas relacionados.").strip()
+        tags=topic.get("tags") or [slug]
+        intro=(topic.get("intro") or description).strip()
+        selected=[q for q in quotes if any(normalize_tag in [t.lower() for t in (q.get("tags") or [])] for normalize_tag in tags)]
+        page=quote_collection_page(slug,name,title+" | Imágenes y Postales",description,intro,"topic",tags=tags,quotes=selected)
+        target.parent.mkdir(parents=True,exist_ok=True)
+        target.write_text(page,encoding="utf-8")
+    return catalog
+
 
 if __name__=="__main__":
     build()
