@@ -250,10 +250,10 @@ def build():
             continue
         source = page.read_text(encoding="utf-8", errors="ignore")
         # No incluir páginas explícitamente excluidas de indexación.
-        if re.search(r'<meta\\s+name=["\\']robots["\\'][^>]*content=["\\'][^"\\']*noindex', source, re.I):
+        if re.search(r"<meta\s+name=['\"]robots['\"][^>]*content=['\"][^'\"]*noindex", source, re.I):
             continue
         # No incluir duplicados cuyo canonical apunte a otra URL.
-        canonical = re.search(r'<link\\s+rel=["\\']canonical["\\']\\s+href=["\\']([^"\\']+)', source, re.I)
+        canonical = re.search(r"<link\s+rel=['\"]canonical['\"]\s+href=['\"]([^'\"]+)", source, re.I)
         if canonical and canonical.group(1).rstrip("/") != (SITE + ("/" if rel.as_posix() == "index.html" else "/" + rel.as_posix().removesuffix("index.html") if rel.name == "index.html" else "/" + rel.as_posix())).rstrip("/"):
             continue
         if rel.as_posix() == "index.html":
@@ -265,12 +265,11 @@ def build():
         sitemap_urls.add(SITE + path)
 
     entries = "".join(
-        f"  <url><loc>{html.escape(url)}</loc></url>\\n"
+        f"  <url><loc>{html.escape(url)}</loc></url>\n"
         for url in sorted(sitemap_urls)
     )
-    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + entries + "</urlset>\\n"
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + entries + "</urlset>\n"
     (ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
-
 
 def sync_quote_index_counts(catalog):
     """Keep the quote landing page's SEO metadata aligned with the real catalog."""
