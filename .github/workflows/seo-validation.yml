@@ -64,15 +64,16 @@ jobs:
               "herramientas/texto-en-imagen/index.html",
           ]
           for name in tools:
-              html = Path(name).read_text(encoding="utf-8")
-              for label, pattern in [
+              page = Path(name).read_text(encoding="utf-8")
+              checks = [
                   ("title", r"<title[^>]*>.+?</title>"),
-                  ("meta description", r'<meta\s+name=["\\']description["\\']\s+content=["\\'][^"\\']+'),
-                  ("canonical", r'<link\s+rel=["\\']canonical["\\']\s+href=["\\']https://imagenesypostales\\.com/'),
+                  ("meta description", r"<meta\\s+name=\"description\"\\s+content=\"[^\"]+"),
+                  ("canonical", r"<link\\s+rel=\"canonical\"\\s+href=\"https://imagenesypostales\\.com/"),
                   ("H1", r"<h1\\b"),
-                  ("JSON-LD", r'application/ld\\+json'),
-              ]:
-                  if not re.search(pattern, html, re.I | re.S):
+                  ("JSON-LD", r"application/ld\\+json"),
+              ]
+              for label, pattern in checks:
+                  if not re.search(pattern, page, re.I | re.S):
                       raise SystemExit(f"Falta {label} en {name}")
           print(f"Sitemap válido: {len(urls)} URL únicas; {len(tools)} páginas de herramientas comprobadas.")
           PY
