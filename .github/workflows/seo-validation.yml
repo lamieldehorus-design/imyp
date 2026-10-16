@@ -1,6 +1,8 @@
 name: Validación SEO
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:
@@ -29,7 +31,9 @@ jobs:
                   print(f"JSON válido: {path}")
           PY
       - name: Regenerar contenido y sitemap desde el estado actual del sitio
-        run: python scripts/build_content.py
+        run: |
+          python scripts/build_content.py
+          python scripts/update_navigation.py
       - name: Validar sitemap y páginas de herramientas
         run: |
           python - <<'PY'
@@ -107,4 +111,69 @@ jobs:
                   if not re.search(pattern, page, re.I | re.S):
                       raise SystemExit(f"Falta {label} en {name}")
           print(f"Sitemap íntegro: {len(urls)} URL únicas y todas las páginas HTML publicables incluidas; {len(tools)} páginas de herramientas comprobadas.")
+          PY
+      - name: Auditoría SEO técnica de todas las páginas publicables
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          SITE = "https://imagenesypostales.com"
+          excluded = {"google939990971c7be018.html", "pinterest-4667b.html"}
+          sitemap_root = ET.fromstring(Path("sitemap.xml").read_text(encoding="utf-8"))
+          ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          sitemap_urls = {node.text for node in sitemap_root.findall(".//sm:loc", ns)}
+
+          def has_meta(page, key, attr="name"):
+              return bool(re.search(
+                  rf'<meta\b(?=[^>]*{attr}=["\']{re.escape(key)}["\'])',
+                  page, re.I
+              ))
+
+          errors = []
+          pages = []
+          canonicals = {}
+          for path in Path(".").rglob("*.html"):
+              rel = path.as_posix().removeprefix("./")
+              if rel in excluded or any(part.startswith(".") for part in path.parts[:-1]):
+                  continue
+              page = path.read_text(encoding="utf-8", errors="ignore")
+              title = re.search(r"<title\b[^>]*>(.*?)</title>", page, re.I | re.S)
+              description = has_meta(page, "description")
+              canonical = re.search(r'<link\b(?=[^>]*rel=["\']canonical["\'])[^>]*href=["\']([^"\']+)["\']', page, re.I)
+              h1_count = len(re.findall(r"<h1\b", page, re.I))
+              label = rel
+              if not title or not re.sub(r"<[^>]+>", "", title.group(1)).strip():
+                  errors.append(f"{label}: falta title")
+              if not description:
+                  errors.append(f"{label}: falta meta description")
+              if not canonical:
+                  errors.append(f"{label}: falta canonical")
+              else:
+                  url = canonical.group(1)
+                  if not url.startswith(SITE + "/") and url != SITE + "/":
+                      errors.append(f"{label}: canonical fuera del dominio canónico: {url}")
+                  canonicals.setdefault(url, []).append(label)
+              if h1_count != 1:
+                  errors.append(f"{label}: debe tener exactamente un H1; tiene {h1_count}")
+              for key, attr in [("robots", "name"), ("og:title", "property"), ("og:description", "property"), ("og:url", "property"), ("twitter:card", "name")]:
+                  if not has_meta(page, key, attr):
+                      errors.append(f"{label}: falta metadato {key}")
+              if not re.search(r'<script\b[^>]*type=["\']application/ld\+json["\']', page, re.I):
+                  errors.append(f"{label}: falta JSON-LD")
+              if canonical and has_meta(page, "robots"):
+                  robots = re.search(r'<meta\b(?=[^>]*name=["\']robots["\'])[^>]*content=["\']([^"\']*)["\']', page, re.I)
+                  if robots and "noindex" in robots.group(1).lower() and canonical.group(1) in sitemap_urls:
+                      errors.append(f"{label}: página noindex incluida en sitemap")
+              pages.append(label)
+
+          for url, sources in canonicals.items():
+              if len(sources) > 1:
+                  errors.append(f"Canonical duplicado {url}: {', '.join(sources)}")
+
+          if errors:
+              print("\n".join("ERROR: " + error for error in errors))
+              raise SystemExit(f"Auditoría SEO fallida: {len(errors)} problema(s) en {len(pages)} páginas.")
+          print(f"Auditoría SEO técnica correcta: {len(pages)} páginas comprobadas; title, description, canonical, un H1, robots, Open Graph, Twitter Card y JSON-LD; sin canonicals duplicados.")
           PY
