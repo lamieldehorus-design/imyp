@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Normaliza el menú y el pie de página común en todas las páginas HTML."""
 from pathlib import Path
+import html
+import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -15,6 +17,81 @@ NAV_ITEMS = [
 ]
 LEGAL_NAV = '<nav class="legal-footer-links" aria-label="Información del sitio"><a href="/sobre-nosotros/">Qué hacemos</a><a href="/privacidad/">Privacidad</a></nav>'
 FOOTER_DESCRIPTION = '<p class="footer-description">Herramientas online para editar fotos, crear imágenes y diseñar postales. Gratis y sin instalar programas.</p>'
+SITE = "https://imagenesypostales.com"
+
+def meta_content(text: str, key: str, attr: str = "name"):
+    patterns = [
+        rf'<meta\\b(?=[^>]*{attr}=["\\']{re.escape(key)}["\\'])[^>]*content=["\\']([^"\\']*)["\\']',
+        rf'<meta\\b(?=[^>]*content=["\\'][^"\\']*["\\'])[^>]*{attr}=["\\']{re.escape(key)}["\\']',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text, re.I)
+        if match:
+            if pattern == patterns[0]:
+                return html.unescape(match.group(1))
+            tag = match.group(0)
+            content = re.search(r'content=["\\']([^"\\']*)["\\']', tag, re.I)
+            return html.unescape(content.group(1)) if content else ""
+    return None
+
+def canonical_for(path: Path) -> str:
+    rel = path.relative_to(ROOT).as_posix()
+    if rel == "index.html":
+        route = "/"
+    elif rel.endswith("/index.html"):
+        route = "/" + rel.removesuffix("index.html")
+    else:
+        route = "/" + rel
+    return SITE + route
+
+def ensure_seo_metadata(path: Path, text: str) -> str:
+    """Completa metadatos técnicos ausentes sin pisar valores ya definidos."""
+    head_end = re.search(r'</head>', text, re.I)
+    if not head_end:
+        return text
+    title_match = re.search(r'<title[^>]*>([\\s\\S]*?)</title>', text, re.I)
+    title = html.unescape(re.sub(r'<[^>]+>', '', title_match.group(1)).strip()) if title_match else ""
+    description = meta_content(text, "description")
+    canonical_match = re.search(r'<link\\b(?=[^>]*rel=["\\']canonical["\\'])[^>]*href=["\\']([^"\\']+)["\\']', text, re.I)
+    canonical = html.unescape(canonical_match.group(1)) if canonical_match else canonical_for(path)
+    additions = []
+    if not canonical_match:
+        additions.append(f'<link rel="canonical" href="{html.escape(canonical, quote=True)}">')
+    if not meta_content(text, "robots"):
+        additions.append('<meta name="robots" content="index,follow,max-image-preview:large">')
+    if title:
+        if not meta_content(text, "og:title", "property"):
+            additions.append(f'<meta property="og:title" content="{html.escape(title, quote=True)}">')
+        if not meta_content(text, "twitter:title"):
+            additions.append(f'<meta name="twitter:title" content="{html.escape(title, quote=True)}">')
+    if description:
+        if not meta_content(text, "og:description", "property"):
+            additions.append(f'<meta property="og:description" content="{html.escape(description, quote=True)}">')
+        if not meta_content(text, "twitter:description"):
+            additions.append(f'<meta name="twitter:description" content="{html.escape(description, quote=True)}">')
+    if not meta_content(text, "og:type", "property"):
+        og_type = "article" if "/blog/" in canonical and canonical.rstrip("/") != SITE + "/blog" else "website"
+        additions.append(f'<meta property="og:type" content="{og_type}">')
+    if not meta_content(text, "og:site_name", "property"):
+        additions.append('<meta property="og:site_name" content="Imágenes y Postales">')
+    if not meta_content(text, "og:url", "property"):
+        additions.append(f'<meta property="og:url" content="{html.escape(canonical, quote=True)}">')
+    if not meta_content(text, "twitter:card"):
+        additions.append('<meta name="twitter:card" content="summary">')
+    if not re.search(r'<script\\b[^>]*type=["\\']application/ld\\+json["\\']', text, re.I) and title and description:
+        schema = {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": title,
+            "description": description,
+            "url": canonical,
+            "inLanguage": "es-AR",
+            "isPartOf": {"@type": "WebSite", "name": "Imágenes y Postales", "url": SITE + "/"},
+        }
+        additions.append('<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False, separators=(",", ":")) + '</script>')
+    if additions:
+        text = text[:head_end.start()] + "".join(additions) + text[head_end.start():]
+    return text
 
 def current_path(text: str) -> str:
     match = re.search(r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']https?://[^/]+([^"\']*)', text, re.I)
@@ -62,6 +139,7 @@ def update(path: Path) -> bool:
     original = text
     if path.name in {"pinterest-4667b.html", "google939990971c7be018.html"}:
         return False
+    text = ensure_seo_metadata(path, text)
     nav = standard_nav(text)
     pattern = r'<nav\b[^>]*class=["\'][^"\']*\btop-nav\b[^"\']*["\'][^>]*>[\s\S]*?</nav>'
     if re.search(pattern, text, re.I):
