@@ -35,5 +35,17 @@ jobs:
             echo "Sin cambios generados"
           else
             git commit -m "Actualizar contenido desde TXT"
-            git push
+            # Otros workflows pueden escribir en main al mismo tiempo.
+            # Reconciliar esos cambios y reintentar para no perder los archivos generados.
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              echo "Push rechazado; reintentando ($attempt/3)"
+              sleep 2
+            done
+            echo "No se pudieron publicar los archivos generados tras 3 intentos."
+            exit 1
           fi
