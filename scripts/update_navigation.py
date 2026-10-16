@@ -18,7 +18,7 @@ NAV_ITEMS = [
 LEGAL_NAV = '<nav class="legal-footer-links" aria-label="Información del sitio"><a href="/sobre-nosotros/">Qué hacemos</a><a href="/privacidad/">Privacidad</a></nav>'
 FOOTER_DESCRIPTION = '<p class="footer-description">Herramientas online para editar fotos, crear imágenes y diseñar postales. Gratis y sin instalar programas.</p>'
 SITE = "https://imagenesypostales.com"
-SOCIAL_IMAGE = SITE + "/assets/og-imagenesypostales.svg"
+SOCIAL_IMAGE = SITE + "/assets/og-imagenesypostales.png"
 SOCIAL_IMAGE_ALT = "Imágenes y Postales: herramientas online para editar imágenes y crear postales"
 
 def meta_content(text: str, key: str, attr: str = "name"):
