@@ -1,18 +1,10 @@
 name: Compilar contenido TXT
 
 on:
+  # Cualquier cambio en main vuelve a compilar el contenido y sincronizar el sitemap.
+  # El segundo push del bot no genera otro commit si no hay nada nuevo que producir.
   push:
     branches: [main]
-    paths:
-      - "data/frases.txt"
-      - "data/blog.txt"
-      - "data/postales.txt"
-      - "data/citas-celebres.json"
-      - "scripts/build_content.py"
-      - "scripts/update_navigation.py"
-      - "**/*.html"
-      - "**/*.css"
-      - ".github/workflows/build-content.yml"
   workflow_dispatch:
 
 permissions:
