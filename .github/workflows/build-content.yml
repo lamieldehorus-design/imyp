@@ -18,8 +18,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Instalar conversor de imagen social
+        run: pip install cairosvg
       - name: Compilar frases, blog, postales y sitemap
         run: python scripts/build_content.py
+      - name: Generar imagen social PNG compatible
+        run: python scripts/build_social_image.py
       - name: Añadir enlaces legales en todas las páginas
         run: python scripts/update_navigation.py
       - name: Guardar archivos generados
