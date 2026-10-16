@@ -116,6 +116,16 @@ def ensure_seo_metadata(path: Path, text: str) -> str:
             updated_tag = tag[:-1] + ' content="summary_large_image">'
         if updated_tag != tag:
             text = text[:card.start()] + updated_tag + text[card.end():]
+    # Migrar metadatos sociales antiguos de la imagen SVG propia al PNG compatible.
+    # Se reemplaza solo el recurso social anterior del sitio, no imágenes editoriales personalizadas.
+    def migrate_social_image(match):
+        tag = match.group(0)
+        if "og:image:type" in tag:
+            return re.sub(r'content="[^"]*"', 'content="image/png"', tag, count=1, flags=re.I)
+        if re.search(r'(?:og:image|twitter:image)', tag, re.I) and "/assets/og-imagenesypostales.svg" in tag:
+            return re.sub(r'content="[^"]*og-imagenesypostales\.svg"', f'content="{SOCIAL_IMAGE}"', tag, count=1, flags=re.I)
+        return tag
+    text = re.sub(r'<meta\b[^>]*>', migrate_social_image, text, flags=re.I)
     return text
 
 def current_path(text: str) -> str:
