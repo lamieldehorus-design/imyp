@@ -51,6 +51,35 @@ jobs:
               for url, local in missing:
                   print(f"URL sin archivo local: {url} -> {local}")
               raise SystemExit(1)
+
+          # Comprobar integridad: todas las páginas HTML publicables deben estar en el sitemap.
+          excluded_html = {"google939990971c7be018.html", "pinterest-4667b.html"}
+          expected_urls = set()
+          for page in Path(".").rglob("*.html"):
+              rel = page.as_posix().removeprefix("./")
+              if rel in excluded_html or rel.startswith(".git/"):
+                  continue
+              if rel == "index.html":
+                  path = "/"
+              elif rel.endswith("/index.html"):
+                  path = "/" + rel.removesuffix("index.html")
+              else:
+                  path = "/" + rel
+              expected_urls.add("https://imagenesypostales.com" + path)
+
+          actual_urls = set(urls)
+          absent = sorted(expected_urls - actual_urls)
+          unexpected = sorted(actual_urls - expected_urls)
+          if absent:
+              print("Páginas HTML publicables ausentes del sitemap:")
+              for url in absent:
+                  print(f"  - {url}")
+          if unexpected:
+              print("URL del sitemap sin correspondencia en el inventario publicable:")
+              for url in unexpected:
+                  print(f"  - {url}")
+          if absent or unexpected:
+              raise SystemExit(1)
           tools = [
               "herramientas/index.html",
               "herramientas/comprimir-imagenes/index.html",
@@ -75,5 +104,5 @@ jobs:
               for label, pattern in checks:
                   if not re.search(pattern, page, re.I | re.S):
                       raise SystemExit(f"Falta {label} en {name}")
-          print(f"Sitemap válido: {len(urls)} URL únicas; {len(tools)} páginas de herramientas comprobadas.")
+          print(f"Sitemap íntegro: {len(urls)} URL únicas y todas las páginas HTML publicables incluidas; {len(tools)} páginas de herramientas comprobadas.")
           PY
