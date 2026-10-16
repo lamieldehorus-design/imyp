@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Imágenes y Postales</title>
+<desc id="desc">Imagen de presentación de Imágenes y Postales: herramientas para editar imágenes y crear postales para compartir.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f7fbff"/>
+    <stop offset="1" stop-color="#e8f2ff"/>
+  </linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b75e5"/>
+    <stop offset="1" stop-color="#083b8f"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+    <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#17345f" flood-opacity=".13"/>
+  </filter>
+</defs>
+<rect width="1200" height="630" rx="0" fill="url(#bg)"/>
+<circle cx="1090" cy="70" r="170" fill="#d4e8ff" opacity=".55"/>
+<circle cx="90" cy="590" r="160" fill="#d4e8ff" opacity=".55"/>
+<g transform="translate(92 100)">
+  <circle cx="76" cy="76" r="70" fill="#fff" stroke="#1768d8" stroke-width="7"/>
+  <circle cx="100" cy="44" r="14" fill="#ffb32c"/>
+  <path d="M17 108 51 63 77 89 96 71 136 108Z" fill="#0b4fba"/>
+  <path d="M46 108 80 74 105 101 123 88 142 108Z" fill="#2798e8"/>
+  <path d="M18 119 Q46 108 76 119 T138 119" fill="none" stroke="#40b8f4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M22 135 Q50 124 80 135 T134 135" fill="none" stroke="#1768d8" stroke-width="7" stroke-linecap="round"/>
+</g>
+<text x="275" y="155" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" letter-spacing="5" fill="#1768d8">CREÁ · EDITÁ · COMPARTÍ</text>
+<text x="90" y="300" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="800" letter-spacing="-2" fill="#083b8f">Imágenes y Postales</text>
+<text x="94" y="365" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="500" fill="#344054">Herramientas online para tus imágenes</text>
+<g filter="url(#shadow)">
+  <rect x="95" y="425" width="315" height="125" rx="20" fill="#fff" stroke="#d7e5f8" stroke-width="2"/>
+  <rect x="442" y="425" width="315" height="125" rx="20" fill="#fff" stroke="#d7e5f8" stroke-width="2"/>
+  <rect x="789" y="425" width="315" height="125" rx="20" fill="#fff" stroke="#d7e5f8" stroke-width="2"/>
+</g>
+<g transform="translate(122 450)">
+  <rect width="72" height="72" rx="16" fill="#e8f2ff"/>
+  <path d="M15 52 31 29 42 41 51 33 61 52Z" fill="#1768d8"/>
+  <circle cx="49" cy="20" r="7" fill="#ffb32c"/>
+</g>
+<text x="212" y="477" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#083b8f">Editar fotos</text>
+<text x="212" y="510" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#52627a">Ajustá y transformá</text>
+<g transform="translate(469 450)">
+  <rect width="72" height="72" rx="16" fill="#e8f2ff"/>
+  <rect x="15" y="13" width="42" height="47" rx="5" fill="#fff" stroke="#1768d8" stroke-width="3"/>
+  <path d="M24 27 H48 M24 36 H48 M24 45 H42" stroke="#2798e8" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="559" y="477" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#083b8f">Crear postales</text>
+<text x="559" y="510" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#52627a">Mensajes con estilo</text>
+<g transform="translate(816 450)">
+  <rect width="72" height="72" rx="16" fill="#e8f2ff"/>
+  <path d="M18 36 32 49 56 22" fill="none" stroke="#1768d8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="36" cy="36" r="28" fill="none" stroke="#2798e8" stroke-width="3"/>
+</g>
+<text x="906" y="477" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#083b8f">Compartir</text>
+<text x="906" y="510" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#52627a">Gratis y sin instalar</text>
+</svg>
