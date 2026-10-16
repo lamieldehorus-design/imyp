@@ -21,8 +21,8 @@ SITE = "https://imagenesypostales.com"
 
 def meta_content(text: str, key: str, attr: str = "name"):
     patterns = [
-        rf'<meta\\b(?=[^>]*{attr}=["\\']{re.escape(key)}["\\'])[^>]*content=["\\']([^"\\']*)["\\']',
-        rf'<meta\\b(?=[^>]*content=["\\'][^"\\']*["\\'])[^>]*{attr}=["\\']{re.escape(key)}["\\']',
+        rf'<meta\b(?=[^>]*{attr}=["\']{re.escape(key)}["\'])[^>]*content=["\']([^"\']*)["\']',
+        rf'<meta\b(?=[^>]*content=["\'][^"\']*["\'])[^>]*{attr}=["\']{re.escape(key)}["\']',
     ]
     for pattern in patterns:
         match = re.search(pattern, text, re.I)
@@ -30,7 +30,7 @@ def meta_content(text: str, key: str, attr: str = "name"):
             if pattern == patterns[0]:
                 return html.unescape(match.group(1))
             tag = match.group(0)
-            content = re.search(r'content=["\\']([^"\\']*)["\\']', tag, re.I)
+            content = re.search(r'content=["\']([^"\']*)["\']', tag, re.I)
             return html.unescape(content.group(1)) if content else ""
     return None
 
@@ -49,10 +49,10 @@ def ensure_seo_metadata(path: Path, text: str) -> str:
     head_end = re.search(r'</head>', text, re.I)
     if not head_end:
         return text
-    title_match = re.search(r'<title[^>]*>([\\s\\S]*?)</title>', text, re.I)
+    title_match = re.search(r'<title[^>]*>([\s\S]*?)</title>', text, re.I)
     title = html.unescape(re.sub(r'<[^>]+>', '', title_match.group(1)).strip()) if title_match else ""
     description = meta_content(text, "description")
-    canonical_match = re.search(r'<link\\b(?=[^>]*rel=["\\']canonical["\\'])[^>]*href=["\\']([^"\\']+)["\\']', text, re.I)
+    canonical_match = re.search(r'<link\b(?=[^>]*rel=["\']canonical["\'])[^>]*href=["\']([^"\']+)["\']', text, re.I)
     canonical = html.unescape(canonical_match.group(1)) if canonical_match else canonical_for(path)
     additions = []
     if not canonical_match:
@@ -78,7 +78,7 @@ def ensure_seo_metadata(path: Path, text: str) -> str:
         additions.append(f'<meta property="og:url" content="{html.escape(canonical, quote=True)}">')
     if not meta_content(text, "twitter:card"):
         additions.append('<meta name="twitter:card" content="summary">')
-    if not re.search(r'<script\\b[^>]*type=["\\']application/ld\\+json["\\']', text, re.I) and title and description:
+    if not re.search(r'<script\b[^>]*type=["\']application/ld\+json["\']', text, re.I) and title and description:
         schema = {
             "@context": "https://schema.org",
             "@type": "WebPage",
