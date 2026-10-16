@@ -18,6 +18,8 @@ NAV_ITEMS = [
 LEGAL_NAV = '<nav class="legal-footer-links" aria-label="Información del sitio"><a href="/sobre-nosotros/">Qué hacemos</a><a href="/privacidad/">Privacidad</a></nav>'
 FOOTER_DESCRIPTION = '<p class="footer-description">Herramientas online para editar fotos, crear imágenes y diseñar postales. Gratis y sin instalar programas.</p>'
 SITE = "https://imagenesypostales.com"
+SOCIAL_IMAGE = SITE + "/assets/og-imagenesypostales.svg"
+SOCIAL_IMAGE_ALT = "Imágenes y Postales: herramientas online para editar imágenes y crear postales"
 
 def meta_content(text: str, key: str, attr: str = "name"):
     patterns = [
@@ -75,8 +77,22 @@ def ensure_seo_metadata(path: Path, text: str) -> str:
         additions.append('<meta property="og:site_name" content="Imágenes y Postales">')
     if not meta_content(text, "og:url", "property"):
         additions.append(f'<meta property="og:url" content="{html.escape(canonical, quote=True)}">')
+    if not meta_content(text, "og:image", "property"):
+        additions.append(f'<meta property="og:image" content="{SOCIAL_IMAGE}">')
+    if not meta_content(text, "og:image:alt", "property"):
+        additions.append(f'<meta property="og:image:alt" content="{html.escape(SOCIAL_IMAGE_ALT, quote=True)}">')
+    if not meta_content(text, "og:image:type", "property"):
+        additions.append('<meta property="og:image:type" content="image/svg+xml">')
+    if not meta_content(text, "og:image:width", "property"):
+        additions.append('<meta property="og:image:width" content="1200">')
+    if not meta_content(text, "og:image:height", "property"):
+        additions.append('<meta property="og:image:height" content="630">')
+    if not meta_content(text, "twitter:image"):
+        additions.append(f'<meta name="twitter:image" content="{SOCIAL_IMAGE}">')
+    if not meta_content(text, "twitter:image:alt"):
+        additions.append(f'<meta name="twitter:image:alt" content="{html.escape(SOCIAL_IMAGE_ALT, quote=True)}">')
     if not meta_content(text, "twitter:card"):
-        additions.append('<meta name="twitter:card" content="summary">')
+        additions.append('<meta name="twitter:card" content="summary_large_image">')
     if not re.search(r"""<script\b[^>]*type=["']application/ld\+json["']""", text, re.I) and title and description:
         schema = {
             "@context": "https://schema.org",
@@ -90,6 +106,16 @@ def ensure_seo_metadata(path: Path, text: str) -> str:
         additions.append('<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False, separators=(",", ":")) + '</script>')
     if additions:
         text = text[:head_end.start()] + "".join(additions) + text[head_end.start():]
+    # Usar una tarjeta social grande para aprovechar la imagen de vista previa.
+    card = re.search(r'<meta\b(?=[^>]*name=["\']twitter:card["\'])[^>]*>', text, re.I)
+    if card:
+        tag = card.group(0)
+        if re.search(r'content=["\'][^"\']*["\']', tag, re.I):
+            updated_tag = re.sub(r'content=(["\'])[^"\']*\1', 'content="summary_large_image"', tag, count=1, flags=re.I)
+        else:
+            updated_tag = tag[:-1] + ' content="summary_large_image">'
+        if updated_tag != tag:
+            text = text[:card.start()] + updated_tag + text[card.end():]
     return text
 
 def current_path(text: str) -> str:

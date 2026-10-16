@@ -162,6 +162,29 @@ jobs:
                       errors.append(f"{label}: falta metadato {key}")
               if not re.search(r'<script\b[^>]*type=["\']application/ld\+json["\']', page, re.I):
                   errors.append(f"{label}: falta JSON-LD")
+
+              # Auditoría de imágenes: texto alternativo, rutas locales y vista social.
+              for img_tag in re.findall(r"<img\b[^>]*>", page, re.I):
+                  src_match = re.search(r"""\bsrc=["']([^"']+)["']""", img_tag, re.I)
+                  alt_match = re.search(r"""\balt=["']([^"']*)["']""", img_tag, re.I)
+                  if src_match and not alt_match:
+                      errors.append(f"{label}: imagen sin atributo alt: {src_match.group(1)}")
+                  if src_match:
+                      src = src_match.group(1).strip()
+                      if src and not re.match(r"^(?:https?:|//|data:|blob:|#)", src, re.I):
+                          clean_src = src.split("#", 1)[0].split("?", 1)[0]
+                          target = Path(clean_src.lstrip("/")) if clean_src.startswith("/") else Path(rel).parent / clean_src
+                          if not target.is_file():
+                              errors.append(f"{label}: ruta de imagen inexistente: {src}")
+              og_image = re.search(r'<meta\b(?=[^>]*property=["\']og:image["\'])[^>]*content=["\']([^"\']+)["\']', page, re.I)
+              if not og_image:
+                  errors.append(f"{label}: falta og:image")
+              elif og_image.group(1).startswith(SITE + "/"):
+                  image_path = og_image.group(1)[len(SITE) + 1:].split("#", 1)[0].split("?", 1)[0]
+                  if not Path(image_path).is_file():
+                      errors.append(f"{label}: og:image apunta a un archivo inexistente: {image_path}")
+              if not re.search(r'<meta\b(?=[^>]*name=["\']twitter:image["\'])', page, re.I):
+                  errors.append(f"{label}: falta twitter:image")
               if canonical and has_meta(page, "robots"):
                   robots = re.search(r'<meta\b(?=[^>]*name=["\']robots["\'])[^>]*content=["\']([^"\']*)["\']', page, re.I)
                   if robots and "noindex" in robots.group(1).lower() and canonical.group(1) in sitemap_urls:
