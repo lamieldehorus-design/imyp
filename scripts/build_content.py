@@ -234,7 +234,7 @@ def build():
         d.mkdir(parents=True,exist_ok=True)
         (d/"index.html").write_text(postales_page(key),encoding="utf-8")
 
-    fixed=["/","/frases/","/cumpleanos/","/cumpleanos/hermana/","/cumpleanos/amiga/","/buenos-dias/","/amor/","/familia/","/animo/","/viajes/","/humor/","/blog/","/postales/","/crear/","/herramientas/quitar-fondo/","/herramientas/generador-favicon/","/sobre-nosotros/","/privacidad/"]
+    fixed=["/","/frases/","/cumpleanos/","/cumpleanos/hermana/","/cumpleanos/amiga/","/buenos-dias/","/amor/","/familia/","/animo/","/viajes/","/humor/","/blog/","/postales/","/crear/","/herramientas/","/herramientas/comprimir-imagenes/","/herramientas/convertir-imagen/","/herramientas/generador-favicon/","/herramientas/girar-imagen/","/herramientas/marca-de-agua/","/herramientas/quitar-fondo/","/herramientas/recortar-imagen/","/herramientas/redimensionar-imagenes/","/herramientas/texto-en-imagen/","/sobre-nosotros/","/privacidad/"]
     fixed += [f"/postales/{key}/" for key in POSTAL_CATEGORIES]
     urls=[]
     for path in fixed:
