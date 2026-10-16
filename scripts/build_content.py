@@ -238,8 +238,15 @@ def build():
     fixed=["/","/frases/","/cumpleanos/","/cumpleanos/hermana/","/cumpleanos/amiga/","/buenos-dias/","/amor/","/familia/","/animo/","/viajes/","/humor/","/blog/","/postales/","/crear/","/herramientas/","/herramientas/comprimir-imagenes/","/herramientas/convertir-imagen/","/herramientas/generador-favicon/","/herramientas/girar-imagen/","/herramientas/marca-de-agua/","/herramientas/quitar-fondo/","/herramientas/recortar-imagen/","/herramientas/redimensionar-imagenes/","/herramientas/texto-en-imagen/","/sobre-nosotros/","/privacidad/"]
     fixed += [f"/postales/{key}/" for key in POSTAL_CATEGORIES]
     if quote_catalog:
-        fixed += [f"/frases/{(topic.get("slug") or slugify(topic.get("name", "")))}/" for topic in quote_catalog.get("topics", []) if (ROOT/"frases"/(topic.get("slug") or slugify(topic.get("name", "")))/"index.html").exists()]
-        fixed += [f"/frases/{(author.get("slug") or slugify(author.get("name", "")))}/" for author in quote_catalog.get("authors", []) if (ROOT/"frases"/(author.get("slug") or slugify(author.get("name", "")))/"index.html").exists()]
+        for item in quote_catalog.get("topics", []):
+            slug = (item.get("slug") or slugify(item.get("name", ""))).strip()
+            if slug and (ROOT / "frases" / slug / "index.html").exists():
+                fixed.append(f"/frases/{slug}/")
+        for item in quote_catalog.get("authors", []):
+            slug = (item.get("slug") or slugify(item.get("name", ""))).strip()
+            if slug and (ROOT / "frases" / slug / "index.html").exists():
+                fixed.append(f"/frases/{slug}/")
+    fixed = list(dict.fromkeys(fixed))
     urls=[]
     for path in fixed:
         priority="1.0" if path=="/" else ("0.9" if path in {"/frases/","/blog/","/postales/"} else "0.8")
