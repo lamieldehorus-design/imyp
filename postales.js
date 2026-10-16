@@ -23,7 +23,7 @@ async function loadPostales(){
     renderPostales(true);
   }catch(e){
     console.error(e);
-    const root=$("#postalGrid");if(root)root.innerHTML='<p class="empty">No pude cargar las postales en este momento.</p>';
+    const root=$("#postalGrid");if(root&&!root.children.length)root.innerHTML='<p class="empty">No pude cargar las postales en este momento.</p>';
   }
 }
 function renderCategoryButtons(){
