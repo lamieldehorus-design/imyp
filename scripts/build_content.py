@@ -235,27 +235,41 @@ def build():
         d.mkdir(parents=True,exist_ok=True)
         (d/"index.html").write_text(postales_page(key),encoding="utf-8")
 
-    fixed=["/","/frases/","/cumpleanos/","/cumpleanos/hermana/","/cumpleanos/amiga/","/buenos-dias/","/amor/","/familia/","/animo/","/viajes/","/humor/","/blog/","/postales/","/crear/","/herramientas/","/herramientas/comprimir-imagenes/","/herramientas/convertir-imagen/","/herramientas/generador-favicon/","/herramientas/girar-imagen/","/herramientas/marca-de-agua/","/herramientas/quitar-fondo/","/herramientas/recortar-imagen/","/herramientas/redimensionar-imagenes/","/herramientas/texto-en-imagen/","/sobre-nosotros/","/privacidad/"]
-    fixed += [f"/postales/{key}/" for key in POSTAL_CATEGORIES]
-    if quote_catalog:
-        for item in quote_catalog.get("topics", []):
-            slug = (item.get("slug") or slugify(item.get("name", ""))).strip()
-            if slug and (ROOT / "frases" / slug / "index.html").exists():
-                fixed.append(f"/frases/{slug}/")
-        for item in quote_catalog.get("authors", []):
-            slug = (item.get("slug") or slugify(item.get("name", ""))).strip()
-            if slug and (ROOT / "frases" / slug / "index.html").exists():
-                fixed.append(f"/frases/{slug}/")
-    fixed = list(dict.fromkeys(fixed))
-    urls=[]
-    for path in fixed:
-        priority="1.0" if path=="/" else ("0.9" if path in {"/frases/","/blog/","/postales/"} else "0.8")
-        freq="daily" if path=="/" else "weekly"
-        urls.append(f"  <url><loc>{SITE}{path}</loc><changefreq>{freq}</changefreq><priority>{priority}</priority></url>")
-    for p in posts:
-        urls.append(f'  <url><loc>{SITE}/blog/{p["slug"]}/</loc><lastmod>{html.escape(p["date"])}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>')
-    sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"\n".join(urls)+"\n</urlset>\n"
-    (ROOT/"sitemap.xml").write_text(sitemap,encoding="utf-8")
+    # Sitemap automático: se construye desde las páginas HTML que existen en el sitio.
+    # Así las altas, bajas y cambios de páginas no dependen de una lista manual.
+    excluded_files = {
+        "google939990971c7be018.html",
+        "pinterest-4667b.html",
+        "404.html",
+    }
+    excluded_dirs = {".git", ".github", "node_modules", "vendor", "dist", "build"}
+    sitemap_urls = set()
+    for page in ROOT.rglob("*.html"):
+        rel = page.relative_to(ROOT)
+        if rel.as_posix() in excluded_files or any(part in excluded_dirs or part.startswith(".") for part in rel.parts[:-1]):
+            continue
+        source = page.read_text(encoding="utf-8", errors="ignore")
+        # No incluir páginas explícitamente excluidas de indexación.
+        if re.search(r'<meta\\s+name=["\\']robots["\\'][^>]*content=["\\'][^"\\']*noindex', source, re.I):
+            continue
+        # No incluir duplicados cuyo canonical apunte a otra URL.
+        canonical = re.search(r'<link\\s+rel=["\\']canonical["\\']\\s+href=["\\']([^"\\']+)', source, re.I)
+        if canonical and canonical.group(1).rstrip("/") != (SITE + ("/" if rel.as_posix() == "index.html" else "/" + rel.as_posix().removesuffix("index.html") if rel.name == "index.html" else "/" + rel.as_posix())).rstrip("/"):
+            continue
+        if rel.as_posix() == "index.html":
+            path = "/"
+        elif rel.name == "index.html":
+            path = "/" + rel.parent.as_posix().strip("/") + "/"
+        else:
+            path = "/" + rel.as_posix()
+        sitemap_urls.add(SITE + path)
+
+    entries = "".join(
+        f"  <url><loc>{html.escape(url)}</loc></url>\\n"
+        for url in sorted(sitemap_urls)
+    )
+    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\\n' + entries + "</urlset>\\n"
+    (ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
 
 
 def sync_quote_index_counts(catalog):
