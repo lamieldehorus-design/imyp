@@ -67,10 +67,10 @@ jobs:
               page = Path(name).read_text(encoding="utf-8")
               checks = [
                   ("title", r"<title[^>]*>.+?</title>"),
-                  ("meta description", r"<meta\\s+name=\"description\"\\s+content=\"[^\"]+"),
-                  ("canonical", r"<link\\s+rel=\"canonical\"\\s+href=\"https://imagenesypostales\\.com/"),
-                  ("H1", r"<h1\\b"),
-                  ("JSON-LD", r"application/ld\\+json"),
+                  ("meta description", r"<meta\s+name=\"description\"\s+content=\"[^\"]+"),
+                  ("canonical", r"<link\s+rel=\"canonical\"\s+href=\"https://imagenesypostales\.com/"),
+                  ("H1", r"<h1\b"),
+                  ("JSON-LD", r"application/ld\+json"),
               ]
               for label, pattern in checks:
                   if not re.search(pattern, page, re.I | re.S):
