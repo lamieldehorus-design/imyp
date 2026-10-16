@@ -7,6 +7,10 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
 SITE="https://imagenesypostales.com"
 
+# Criterio SEO global: consultar docs/seo-guidelines.md antes de generar o ampliar
+# contenido. La longitud depende de la intención de búsqueda y de la utilidad real;
+# nunca imponer mínimos mágicos de palabras ni añadir texto de relleno.
+
 POSTAL_CATEGORIES={
     "cumpleanos":("Cumpleaños","Postales de cumpleaños listas para personalizar, descargar y compartir."),
     "amor":("Amor","Postales de amor y cariño con diseños visuales para dedicar."),
@@ -131,12 +135,12 @@ def render_article_body(text):
     def flush():
         nonlocal para
         if para:
-            pieces.append("<p>"+html.escape(" ".join(x.strip() for x in para if x.strip()))+"</p>")
+            pieces.append("<p>"+" ".join(x.strip() for x in para if x.strip())+"</p>")
             para=[]
     for line in (text or "").splitlines():
         if line.startswith("## "):
             flush()
-            pieces.append("<h2>"+html.escape(line[3:].strip())+"</h2>")
+            pieces.append("<h2>"+line[3:].strip()+"</h2>")
         elif not line.strip():
             flush()
         else:
