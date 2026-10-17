@@ -115,6 +115,57 @@ jobs:
                       raise SystemExit(f"Falta {label} en {name}")
           print(f"Sitemap íntegro: {len(urls)} URL únicas y todas las páginas HTML publicables incluidas; {len(tools)} páginas de herramientas comprobadas.")
           PY
+      - name: Comprobar enlaces internos en todas las páginas HTML
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          from urllib.parse import unquote, urlsplit
+
+          SITE_HOST = "imagenesypostales.com"
+          errors = []
+          checked_links = 0
+          checked_pages = 0
+
+          for page_path in Path(".").rglob("*.html"):
+              if any(part.startswith(".") for part in page_path.parts[:-1]):
+                  continue
+              page = page_path.read_text(encoding="utf-8", errors="ignore")
+              checked_pages += 1
+              for href in re.findall(r"""\\bhref\\s*=\\s*["']([^"']+)["']""", page, re.I):
+                  href = href.strip()
+                  if not href or href.startswith("#") or re.match(r"^(?:mailto:|tel:|javascript:|data:|blob:)", href, re.I):
+                      continue
+                  parsed = urlsplit(href)
+                  if parsed.scheme and parsed.scheme.lower() not in ("http", "https"):
+                      continue
+                  if parsed.netloc and parsed.netloc.lower() not in (SITE_HOST, "www." + SITE_HOST):
+                      continue
+                  if parsed.netloc and parsed.path == "" and parsed.query:
+                      continue
+
+                  raw_path = unquote(parsed.path)
+                  if not raw_path:
+                      target = Path("index.html") if parsed.netloc or href.startswith("/") else page_path
+                  elif raw_path.startswith("/"):
+                      target = Path(raw_path.lstrip("/"))
+                  else:
+                      target = page_path.parent / raw_path
+
+                  if str(target).endswith("/"):
+                      target = target / "index.html"
+                  elif not target.suffix:
+                      target = target / "index.html"
+
+                  checked_links += 1
+                  if not target.is_file():
+                      errors.append(f"{page_path}: enlace interno sin archivo: {href} -> {target}")
+
+          if errors:
+              print("\\n".join("ERROR: " + error for error in errors))
+              raise SystemExit(f"Auditoría de enlaces fallida: {len(errors)} enlace(s) roto(s) en {checked_pages} páginas.")
+          print(f"Enlaces internos correctos: {checked_links} destinos comprobados en {checked_pages} páginas HTML.")
+          PY
       - name: Auditoría SEO técnica de todas las páginas publicables
         run: |
           python - <<'PY'
