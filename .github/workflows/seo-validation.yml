@@ -132,7 +132,7 @@ jobs:
                   continue
               page = page_path.read_text(encoding="utf-8", errors="ignore")
               checked_pages += 1
-              for href in re.findall(r"""\\bhref\\s*=\\s*["']([^"']+)["']""", page, re.I):
+              for href in re.findall(r"""\bhref\s*=\s*["']([^"']+)["']""", page, re.I):
                   href = href.strip()
                   if not href or href.startswith("#") or re.match(r"^(?:mailto:|tel:|javascript:|data:|blob:)", href, re.I):
                       continue
@@ -162,7 +162,7 @@ jobs:
                       errors.append(f"{page_path}: enlace interno sin archivo: {href} -> {target}")
 
           if errors:
-              print("\\n".join("ERROR: " + error for error in errors))
+              print("\n".join("ERROR: " + error for error in errors))
               raise SystemExit(f"Auditoría de enlaces fallida: {len(errors)} enlace(s) roto(s) en {checked_pages} páginas.")
           print(f"Enlaces internos correctos: {checked_links} destinos comprobados en {checked_pages} páginas HTML.")
           PY
