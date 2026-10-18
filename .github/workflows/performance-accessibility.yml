@@ -1,0 +1,73 @@
+name: Auditoría de rendimiento y accesibilidad
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 8 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  lighthouse:
+    name: Lighthouse móvil y escritorio
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Instalar Lighthouse
+        run: npm install --global lighthouse
+
+      - name: Medir páginas representativas
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          lighthouse "https://imagenesypostales.com/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/inicio-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/inicio-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/frases/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/frases-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/frases/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/frases-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/postales/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/postales-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/postales/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/postales-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/herramientas/quitar-fondo/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/quitar-fondo-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/herramientas/quitar-fondo/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/quitar-fondo-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+
+      - name: Resumir puntuaciones y auditorías fallidas
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in sorted(Path("reports").glob("*.json")):
+              try:
+                  report = json.loads(path.read_text(encoding="utf-8"))
+                  categories = report.get("categories", {})
+                  scores = {name: round((categories.get(name, {}).get("score") or 0) * 100) for name in ("performance", "accessibility", "best-practices", "seo")}
+                  audits = report.get("audits", {})
+                  failures = [
+                      (audit.get("title", key), audit.get("displayValue", ""))
+                      for key, audit in audits.items()
+                      if audit.get("score") == 0 and audit.get("details", {}).get("type") != "opportunity"
+                  ]
+                  print(f"\n## {path.name}: {scores}")
+                  for title, detail in failures[:15]:
+                      print(f"- {title}: {detail}")
+              except Exception as exc:
+                  print(f"No se pudo resumir {path}: {exc}")
+          PY
+
+      - name: Guardar informes Lighthouse
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: informes-lighthouse
+          path: reports/
+          if-no-files-found: warn
+          retention-days: 14
