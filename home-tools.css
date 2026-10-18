@@ -107,3 +107,7 @@
 @media(max-width:900px){.home-hero-layout{grid-template-columns:1fr;gap:1.5rem}.home-hero-copy h1{max-width:800px}.home-hero-visual{width:min(100%,620px);margin:0 auto}.hero-art-photo{min-height:280px}}
 @media(max-width:720px){.portal-hero{padding-top:38px;padding-bottom:28px}.home-hero-layout{gap:1rem}.home-hero-copy h1{font-size:clamp(2.35rem,9vw,3.35rem)}.home-hero-proof{gap:.45rem .75rem}.home-hero-visual{padding:.5rem .35rem 1.2rem}.hero-art-photo{min-height:245px}.hero-art-postcard{width:78%;padding:1.2rem}.hero-floating-quote{right:-3px;bottom:0}.hero-floating-check{top:30px;left:-5px}}
 @media(max-width:440px){.home-quick-actions{display:grid;grid-template-columns:1fr}.home-quick-actions a{width:100%}.hero-art-tool-row{font-size:.68rem}.hero-art-tool-row>span{gap:.25rem}.hero-art-photo{min-height:220px}.hero-art-postcard strong{font-size:1.05rem}.hero-floating-card{padding:.65rem .7rem}.hero-floating-quote{max-width:185px}}
+
+
+/* Auditoría de accesibilidad: contraste AA para texto pequeño de la cabecera ilustrada */
+.hero-art-toolbar-label{color:#667085}
