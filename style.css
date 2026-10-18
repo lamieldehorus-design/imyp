@@ -1156,3 +1156,35 @@ footer .legal-footer-links{display:flex;flex-wrap:wrap;gap:.5rem 1rem}
 footer .legal-footer-links a{color:var(--blue);font-weight:650;text-decoration:none}
 footer .legal-footer-links a:hover{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:720px){footer{align-items:flex-start;flex-direction:column;gap:.45rem}footer .footer-description{flex-basis:auto}}
+
+
+/* Paso 4 SEO: navegación móvil visible y controles cómodos al tacto */
+@media (min-width:481px) and (max-width:720px){
+  .top-nav{
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    overflow-y:hidden;
+    max-width:100%;
+    padding:.15rem 0 .45rem;
+    gap:.35rem;
+    scrollbar-width:thin;
+    -webkit-overflow-scrolling:touch;
+  }
+  .top-nav a{
+    flex:0 0 auto;
+    min-height:44px;
+    display:inline-flex;
+    align-items:center;
+    white-space:nowrap;
+    padding:.55rem .7rem;
+  }
+}
+@media (max-width:480px){
+  .top-nav a{min-height:44px;display:flex;align-items:center;justify-content:center}
+}
+:target{scroll-margin-top:1.25rem}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
