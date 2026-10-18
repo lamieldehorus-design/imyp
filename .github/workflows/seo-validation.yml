@@ -276,9 +276,9 @@ jobs:
                   continue
               html = path.read_text(encoding="utf-8", errors="ignore")
               pages += 1
-              title = re.search(r"<title\\b[^>]*>(.*?)</title>", html, re.I | re.S)
-              desc = re.search(r'<meta\\b(?=[^>]*name=["\\']description["\\'])[^>]*content=["\\']([^"\\']*)["\\']', html, re.I)
-              canonical = re.search(r'<link\\b(?=[^>]*rel=["\\']canonical["\\'])[^>]*href=["\\']([^"\\']+)["\\']', html, re.I)
+              title = re.search(r"<title\b[^>]*>(.*?)</title>", html, re.I | re.S)
+              desc = re.search(r"<meta\b(?=[^>]*name=['\"]description['\"])[^>]*content=['\"]([^'\"]*)['\"]", html, re.I)
+              canonical = re.search(r"<link\b(?=[^>]*rel=['\"]canonical['\"])[^>]*href=['\"]([^'\"]+)['\"]", html, re.I)
               if title:
                   value = re.sub(r"<[^>]+>", "", title.group(1)).strip()
                   if value:
@@ -286,7 +286,7 @@ jobs:
                       if len(value) > 70:
                           issues.append(f"TITLE LARGO ({len(value)}): {rel}: {value}")
               if desc and desc.group(1).strip():
-                  value = re.sub(r"\\s+", " ", desc.group(1)).strip()
+                  value = re.sub(r"\s+", " ", desc.group(1)).strip()
                   descriptions[value.casefold()].append(rel)
                   if len(value) > 170:
                       issues.append(f"DESCRIPTION LARGA ({len(value)}): {rel}")
