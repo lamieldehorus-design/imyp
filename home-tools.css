@@ -111,3 +111,22 @@
 
 /* Auditoría de accesibilidad: contraste AA para texto pequeño de la cabecera ilustrada */
 .hero-art-toolbar-label{color:#667085}
+
+
+/* Rendimiento móvil: reducir capas de composición costosas sin quitar contenido ni funciones. */
+@media (max-width: 720px) {
+  .site-header {
+    background: #fff;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: none;
+  }
+  .hero-art-window,
+  .hero-art-postcard,
+  .hero-floating-card {
+    transform: none;
+    box-shadow: none;
+  }
+  .hero-art-sun { box-shadow: none; }
+  .tool-directory-card { transition: none; box-shadow: none; }
+}
