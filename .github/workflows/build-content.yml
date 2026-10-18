@@ -38,6 +38,7 @@ jobs:
             python scripts/build_content.py
             python scripts/build_social_image.py
             python scripts/update_navigation.py
+            python .github/scripts/inject_statcounter.py
             git add -A
             if git diff --cached --quiet; then
               echo "Sin cambios generados"
