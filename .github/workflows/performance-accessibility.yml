@@ -1,8 +1,6 @@
 name: Auditoría de rendimiento y accesibilidad
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
   schedule:
     - cron: "23 8 * * 1"
