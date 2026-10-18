@@ -254,3 +254,62 @@ jobs:
               raise SystemExit(f"Auditoría SEO fallida: {len(errors)} problema(s) en {len(pages)} páginas.")
           print(f"Auditoría SEO técnica correcta: {len(pages)} páginas comprobadas; title, description, canonical, un H1, robots, Open Graph, Twitter Card y JSON-LD; sin canonicals duplicados.")
           PY
+
+      - name: Auditoría de unicidad de títulos, descripciones y canonicals
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          from collections import defaultdict
+
+          SITE = "https://imagenesypostales.com"
+          excluded = {"google939990971c7be018.html", "pinterest-4667b.html"}
+          titles = defaultdict(list)
+          descriptions = defaultdict(list)
+          canonicals = defaultdict(list)
+          issues = []
+          pages = 0
+
+          for path in Path(".").rglob("*.html"):
+              rel = path.as_posix().removeprefix("./")
+              if rel in excluded or any(part.startswith(".") for part in path.parts[:-1]):
+                  continue
+              html = path.read_text(encoding="utf-8", errors="ignore")
+              pages += 1
+              title = re.search(r"<title\b[^>]*>(.*?)</title>", html, re.I | re.S)
+              desc = re.search(r"<meta\b(?=[^>]*name=['\"]description['\"])[^>]*content=['\"]([^'\"]*)['\"]", html, re.I)
+              canonical = re.search(r"<link\b(?=[^>]*rel=['\"]canonical['\"])[^>]*href=['\"]([^'\"]+)['\"]", html, re.I)
+              if title:
+                  value = re.sub(r"<[^>]+>", "", title.group(1)).strip()
+                  if value:
+                      titles[value.casefold()].append(rel)
+                      if len(value) > 70:
+                          issues.append(f"TITLE LARGO ({len(value)}): {rel}: {value}")
+              if desc and desc.group(1).strip():
+                  value = re.sub(r"\s+", " ", desc.group(1)).strip()
+                  descriptions[value.casefold()].append(rel)
+                  if len(value) > 170:
+                      issues.append(f"DESCRIPTION LARGA ({len(value)}): {rel}")
+              if canonical:
+                  value = canonical.group(1).strip()
+                  canonicals[value].append(rel)
+                  expected_path = "/" if rel == "index.html" else "/" + rel.removesuffix("index.html") if rel.endswith("/index.html") else "/" + rel
+                  expected = SITE + expected_path
+                  if value.rstrip("/") != expected.rstrip("/"):
+                      issues.append(f"CANONICAL NO COINCIDE: {rel}: {value} (esperado {expected})")
+
+          for value, files in titles.items():
+              if len(files) > 1:
+                  issues.append(f"TITLE DUPLICADO: {value}: {', '.join(files)}")
+          for value, files in descriptions.items():
+              if len(files) > 1:
+                  issues.append(f"DESCRIPTION DUPLICADA: {value[:120]}: {', '.join(files)}")
+          for value, files in canonicals.items():
+              if len(files) > 1:
+                  issues.append(f"CANONICAL DUPLICADO: {value}: {', '.join(files)}")
+
+          print(f"Auditoría de metadatos: {pages} páginas analizadas; {len(titles)} títulos distintos; {len(descriptions)} descripciones distintas; {len(canonicals)} canonicals distintos.")
+          print(f"Hallazgos de unicidad, longitud y canonical: {len(issues)}")
+          for issue in issues:
+              print("REVISAR: " + issue)
+          PY
