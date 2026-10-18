@@ -313,3 +313,6 @@ jobs:
           for issue in issues:
               print("REVISAR: " + issue)
           PY
+
+      - name: Auditar calidad de contenido, estructura y enlaces contextuales
+        run: python .github/scripts/content_quality_audit.py
