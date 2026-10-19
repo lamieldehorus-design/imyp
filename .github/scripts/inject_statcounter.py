@@ -35,20 +35,20 @@ def maintain(path: Path) -> bool:
                      '<span class="brand-mark" aria-hidden="true"></span>', updated, flags=re.I)
 
     # Add a keyboard-accessible skip link on pages with a main landmark.
-    main_match = re.search(r'<main\\b([^>]*)>', updated, flags=re.I)
+    main_match = re.search(r'<main\b([^>]*)>', updated, flags=re.I)
     if main_match:
         main_attrs = main_match.group(1)
-        main_id_match = re.search(r'\\bid=[\"\\']([^\"\\']+)[\"\\']', main_attrs, flags=re.I)
+        main_id_match = re.search(r'\bid=["\']([^"\']+)["\']', main_attrs, flags=re.I)
         if main_id_match:
             main_id = main_id_match.group(1)
         else:
             main_id = "main-content"
             updated = updated[:main_match.start()] + '<main id="main-content"' + main_attrs + '>' + updated[main_match.end():]
-        if not re.search(r'class=[\"\\'][^\"\\']*\\bskip-link\\b', updated, flags=re.I):
-            body_match = re.search(r'<body\\b[^>]*>', updated, flags=re.I)
+        if not re.search(r'class=["\'][^"\']*\bskip-link\b', updated, flags=re.I):
+            body_match = re.search(r'<body\b[^>]*>', updated, flags=re.I)
             if body_match:
-                skip_link = f'<a class="skip-link" href="#{main_id}">Saltar al contenido principal</a>\\n'
-                updated = updated[:body_match.end()] + '\\n' + skip_link + updated[body_match.end():]
+                skip_link = f'<a class="skip-link" href="#{main_id}">Saltar al contenido principal</a>\n'
+                updated = updated[:body_match.end()] + '\n' + skip_link + updated[body_match.end():]
 
     # Normalize all existing icon declarations, then insert a single canonical set.
     updated = re.sub(r'<link\b[^>]*rel=["\'](?:icon|shortcut icon|apple-touch-icon)["\'][^>]*>\s*',
