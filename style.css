@@ -1226,3 +1226,20 @@ footer .legal-footer-links a:hover{text-decoration:underline;text-underline-offs
     background:#e8f0fe;
   }
 }
+
+
+/* Accesibilidad: enlace para saltar la navegación con teclado. */
+.skip-link{
+  position:absolute;
+  top:-80px;
+  left:12px;
+  z-index:1000;
+  padding:.75rem 1rem;
+  border:2px solid #0848ad;
+  border-radius:10px;
+  background:#fff;
+  color:#0848ad;
+  font-weight:750;
+  box-shadow:0 3px 12px rgba(16,24,40,.15);
+}
+.skip-link:focus{top:12px}
