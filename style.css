@@ -1188,3 +1188,41 @@ footer .legal-footer-links a:hover{text-decoration:underline;text-underline-offs
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none!important;transition:none!important}
 }
+
+
+/* Punto 4: navegación móvil visible, desplazable y cómoda al tacto. */
+@media(max-width:720px){
+  .site-header{
+    align-items:center;
+    flex-wrap:wrap;
+    gap:.55rem;
+    padding:.65rem 16px;
+  }
+  .top-nav{
+    display:flex;
+    flex:1 0 100%;
+    min-width:0;
+    max-width:100%;
+    gap:.35rem;
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    padding:.15rem 0 .35rem;
+    scrollbar-width:thin;
+    -webkit-overflow-scrolling:touch;
+  }
+  .top-nav a{
+    display:inline-flex;
+    flex:0 0 auto;
+    align-items:center;
+    min-height:44px;
+    padding:.55rem .7rem;
+    border-radius:9px;
+    background:#f4f7fc;
+    font-size:.88rem;
+    white-space:nowrap;
+  }
+  .top-nav a[aria-current="page"]{
+    color:#0848ad;
+    background:#e8f0fe;
+  }
+}
