@@ -1,0 +1,38 @@
+name: Paso 4 · Verificación visual móvil y tablet
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "47 9 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  visual-check:
+    name: Navegación y desbordamiento móvil/tablet
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Instalar Playwright y Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
+      - name: Revisar cinco secciones en móvil y tablet
+        run: node scripts/mobile-visual-audit.mjs
+      - name: Guardar capturas e informe visual
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paso-4-capturas-movil-tablet
+          path: reports/mobile-visual/
+          if-no-files-found: warn
+          retention-days: 14

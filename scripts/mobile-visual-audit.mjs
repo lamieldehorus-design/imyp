@@ -34,9 +34,9 @@ try {
       let status = null;
       let navigationError = null;
       try {
-        const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
+        const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 20000 });
         status = response?.status() ?? null;
-        await page.waitForTimeout(1000);
+        await page.waitForTimeout(500);
       } catch (error) {
         navigationError = error.message;
       }
