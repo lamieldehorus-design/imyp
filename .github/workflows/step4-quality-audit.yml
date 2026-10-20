@@ -1,0 +1,78 @@
+name: Paso 4 · Accesibilidad y rendimiento
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "23 9 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  static-accessibility:
+    name: Auditoría estática de HTML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Revisar accesibilidad básica en todas las páginas
+        run: python scripts/audit_accessibility.py
+
+  lighthouse:
+    name: Lighthouse móvil y escritorio
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Instalar Chrome
+        uses: browser-actions/setup-chrome@v1
+      - name: Crear carpeta para informes
+        run: mkdir -p lighthouse-reports
+      - name: Esperar a que el sitio público responda
+        run: |
+          for attempt in $(seq 1 12); do
+            if curl --fail --silent --show-error --output /dev/null https://imagenesypostales.com/; then
+              echo "El sitio responde."
+              exit 0
+            fi
+            echo "Intento $attempt/12: el sitio todavía no responde; espero 10 segundos."
+            sleep 10
+          done
+          echo "El sitio no respondió a tiempo."
+          exit 1
+      - name: Medir páginas principales en móvil y escritorio
+        run: |
+          set -e
+          urls=(
+            "https://imagenesypostales.com/"
+            "https://imagenesypostales.com/herramientas/"
+            "https://imagenesypostales.com/crear/"
+            "https://imagenesypostales.com/frases/"
+            "https://imagenesypostales.com/postales/"
+          )
+          for i in "${!urls[@]}"; do
+            url="${urls[$i]}"
+            slug=$(printf '%s' "$url" | sed 's#https://imagenesypostales.com##;s#/#-#g;s#^-##;s#-$#home#')
+            [ -n "$slug" ] || slug="home"
+            npx --yes lighthouse "$url" --chrome-path="$(which chrome)" --only-categories=performance,accessibility,best-practices,seo --output=json,html --output-path="lighthouse-reports/${slug}-mobile" --chrome-flags="--headless --no-sandbox" --quiet
+            npx --yes lighthouse "$url" --chrome-path="$(which chrome)" --preset=desktop --only-categories=performance,accessibility,best-practices,seo --output=json,html --output-path="lighthouse-reports/${slug}-desktop" --chrome-flags="--headless --no-sandbox" --quiet
+          done
+      - name: Guardar informes Lighthouse
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-step4-reports
+          path: lighthouse-reports/
+          if-no-files-found: warn
+          retention-days: 30
