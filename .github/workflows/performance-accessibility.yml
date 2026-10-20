@@ -2,6 +2,10 @@ name: Auditoría de rendimiento y accesibilidad
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+    branches: [main]
   schedule:
     - cron: "23 8 * * 1"
 
@@ -11,8 +15,9 @@ permissions:
 jobs:
   lighthouse:
     name: Lighthouse móvil y escritorio
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Preparar Node.js
         uses: actions/setup-node@v4
