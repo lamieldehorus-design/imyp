@@ -24,13 +24,13 @@ class AuditParser(HTMLParser):
         self.text_parts: list[str] = []
 
     def handle_starttag(self, tag: str, attrs) -> None:
-        node = {"tag": tag.lower(), "attrs": dict(attrs), "text": ""}
+        node = {"tag": tag.lower(), "attrs": dict(attrs), "text": "", "parent": self.stack[-1] if self.stack else None}
         self.nodes.append(node)
         if tag.lower() not in VOID:
             self.stack.append(node)
 
     def handle_startendtag(self, tag: str, attrs) -> None:
-        self.nodes.append({"tag": tag.lower(), "attrs": dict(attrs), "text": ""})
+        self.nodes.append({"tag": tag.lower(), "attrs": dict(attrs), "text": "", "parent": self.stack[-1] if self.stack else None})
 
     def handle_data(self, data: str) -> None:
         if self.stack:
@@ -104,6 +104,12 @@ def audit(path: Path) -> tuple[list[str], list[str]]:
             named = bool((a.get("aria-label") or "").strip() or (a.get("aria-labelledby") or "").strip() or (a.get("title") or "").strip())
             if a.get("id") and a["id"] in labels_for:
                 named = True
+            parent = n.get("parent")
+            while parent and not named:
+                if parent["tag"] == "label":
+                    named = True
+                    break
+                parent = parent.get("parent")
             if not named:
                 warnings.append(f"{rel}: control <{n['tag']}> sin etiqueta explícita detectada (id={a.get('id', '')})")
 
@@ -121,6 +127,8 @@ def main() -> int:
     files = sorted(
         p for p in ROOT.rglob("*.html")
         if not any(part in SKIP_DIRS for part in p.parts)
+        and not p.name.lower().startswith("google")
+        and not p.name.lower().startswith("pinterest-")
     )
     if not files:
         print("ERROR: no se encontraron archivos HTML para auditar.")
