@@ -2,6 +2,10 @@ name: Auditoría de rendimiento y accesibilidad
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+    branches: [main]
   schedule:
     - cron: "23 8 * * 1"
 
@@ -11,8 +15,9 @@ permissions:
 jobs:
   lighthouse:
     name: Lighthouse móvil y escritorio
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - name: Preparar Node.js
         uses: actions/setup-node@v4
@@ -22,8 +27,11 @@ jobs:
       - name: Instalar Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: Instalar Lighthouse
-        run: npm install --global lighthouse
+      - name: Instalar Lighthouse y Playwright
+        run: |
+          npm install --global lighthouse
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
 
       - name: Medir páginas representativas
         shell: bash
@@ -32,12 +40,19 @@ jobs:
           mkdir -p reports
           lighthouse "https://imagenesypostales.com/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/inicio-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/inicio-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/herramientas/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/herramientas-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/herramientas/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/herramientas-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/crear/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/crear-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+          lighthouse "https://imagenesypostales.com/crear/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/crear-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/frases/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/frases-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/frases/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/frases-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/postales/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/postales-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/postales/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/postales-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/herramientas/quitar-fondo/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/quitar-fondo-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/herramientas/quitar-fondo/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/quitar-fondo-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+
+      - name: Comprobar visualmente móvil y tablet
+        run: node scripts/mobile-visual-audit.mjs
 
       - name: Resumir puntuaciones y auditorías fallidas
         if: always()

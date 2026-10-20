@@ -1,0 +1,22 @@
+name: Paso 4 · Auditoría estática de accesibilidad
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  static-accessibility:
+    name: Auditoría estática de HTML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Revisar accesibilidad básica en todas las páginas
+        run: python scripts/audit_accessibility.py
