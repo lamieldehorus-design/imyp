@@ -22,8 +22,11 @@ jobs:
       - name: Instalar Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: Instalar Lighthouse
-        run: npm install --global lighthouse
+      - name: Instalar Lighthouse y Playwright
+        run: |
+          npm install --global lighthouse
+          npm install --no-save playwright
+          npx playwright install chromium --with-deps
 
       - name: Medir páginas representativas
         shell: bash
@@ -42,6 +45,9 @@ jobs:
           lighthouse "https://imagenesypostales.com/postales/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/postales-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/herramientas/quitar-fondo/" --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/quitar-fondo-mobile.json" --only-categories=performance,accessibility,best-practices,seo --quiet
           lighthouse "https://imagenesypostales.com/herramientas/quitar-fondo/" --preset=desktop --chrome-flags="--headless --no-sandbox" --output=json --output-path="reports/quitar-fondo-desktop.json" --only-categories=performance,accessibility,best-practices,seo --quiet
+
+      - name: Comprobar visualmente móvil y tablet
+        run: node scripts/mobile-visual-audit.mjs
 
       - name: Resumir puntuaciones y auditorías fallidas
         if: always()
