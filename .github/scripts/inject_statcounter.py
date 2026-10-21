@@ -19,8 +19,7 @@ window.addEventListener("load",function(){window.setTimeout(function(){var s=doc
 </script>
 <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer"><img class="statcounter" src="https://c.statcounter.com/13359488/0/c65a5a39/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->"""
-FAVICON = '''<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2">
-<link rel="shortcut icon" href="/favicon.svg?v=2">'''
+FAVICON = '<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2>'
 SKIP_DIRS = {".git", ".github", "node_modules", "vendor", "_site"}
 
 def is_skipped(path: Path) -> bool:
