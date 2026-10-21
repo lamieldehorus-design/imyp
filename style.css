@@ -1243,3 +1243,13 @@ footer .legal-footer-links a:hover{text-decoration:underline;text-underline-offs
   box-shadow:0 3px 12px rgba(16,24,40,.15);
 }
 .skip-link:focus{top:12px}
+
+/* Paso 4-1: garantizar objetivos táctiles de navegación de al menos 44 px en móvil y tableta. */
+@media (max-width:850px){
+  .top-nav a{
+    min-height:44px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+  }
+}
