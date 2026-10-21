@@ -40,9 +40,10 @@ def defer_link(tag):
         return tag
     href = m.group(2)
     clean = re.sub(r'\s+media=(["\']).*?\1', '', tag, flags=re.I)
+    clean = re.sub(r'\s+media=(["\']).*?\1', '', tag, flags=re.I)
     clean = re.sub(r'\s+onload=(["\']).*?\1', '', clean, flags=re.I)
-    clean = clean[:-1].rstrip() + ' media="print" onload="this.media=\'all\'">'
-    return clean
+    clean = re.sub(r'\s*/?>\s*$', '', clean)
+    return clean + ' media="print" onload="this.media=\'all\'">'
 
 changed = []
 for path in ROOT.rglob("*.html"):
