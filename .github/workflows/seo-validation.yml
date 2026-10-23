@@ -37,6 +37,8 @@ jobs:
           python scripts/build_content.py
           python scripts/build_social_image.py
           python scripts/update_navigation.py
+      - name: Auditar SEO de imágenes en todas las páginas
+        run: python scripts/audit_image_seo.py
       - name: Validar sitemap y páginas de herramientas
         run: |
           python - <<'PY'
