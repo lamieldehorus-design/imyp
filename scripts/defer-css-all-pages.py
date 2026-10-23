@@ -32,16 +32,64 @@ LINK_RE = re.compile(r'<link\b(?=[^>]*\brel=["\']stylesheet["\'])[^>]*>', re.I)
 HREF_RE = re.compile(r'\bhref=(["\'])(.*?)\1', re.I)
 
 def defer_link(tag):
-    # Leave already-deferred links unchanged.
-    if re.search(r'\bmedia=["\']print["\']', tag, re.I) and "onload=" in tag.lower():
+    # Normalize every stylesheet link, including legacy tags with onload but no media.
+    if not HREF_RE.search(tag):
         return tag
-    m = HREF_RE.search(tag)
-    if not m:
-        return tag
-    href = m.group(2)
     clean = re.sub(r'\s+media=(["\']).*?\1', '', tag, flags=re.I)
     clean = re.sub(r'\s+onload=(["\']).*?\1', '', clean, flags=re.I)
-    clean = re.sub(r'\s*/?>\s*$', '', clean)
+    clean = re.sub(r'\s*/?>\s*
+
+changed = []
+for path in ROOT.rglob("*.html"):
+    if any(part.startswith(".") for part in path.parts) or "node_modules" in path.parts:
+        continue
+    original = path.read_text(encoding="utf-8")
+    # The homepage already has its own carefully tailored critical CSS.
+    if path.as_posix() == "index.html" and 'id="critical-home-css"' in original:
+        continue
+    links = list(LINK_RE.finditer(original))
+    if not links:
+        continue
+    updated = LINK_RE.sub(lambda m: defer_link(m.group(0)), original)
+    # Ensure graceful rendering when JavaScript is unavailable.
+    tags = [m.group(0) for m in LINK_RE.finditer(updated)]
+    fallback = '<noscript>' + ''.join(re.sub(r'\s+media=(["\']).*?\1', '', t, flags=re.I) for t in tags) + '</noscript>'
+    if not re.search(r'<noscript>\s*(?:<link\b[^>]*rel=["\']stylesheet["\'])', updated, re.I):
+        first = LINK_RE.search(updated)
+        if first:
+            updated = updated[:first.start()] + fallback + updated[first.start():]
+    # Put shared first-paint styles in the head without changing page content or metadata.
+    if 'id="critical-shared-css"' not in updated:
+        head_end = re.search(r'</head\s*>', updated, re.I)
+        if head_end:
+            updated = updated[:head_end.start()] + CRITICAL + '\n' + updated[head_end.start():]
+    if updated != original:
+        path.write_text(updated, encoding="utf-8")
+        changed.append(path.as_posix())
+
+if changed:
+    print("Modified", len(changed), "HTML files:")
+    print("\n".join(changed))
+else:
+    print("No HTML changes needed.")
+
+# Verify all stylesheet links in processed pages are deferred and have a no-JS fallback.
+errors = []
+for path in ROOT.rglob("*.html"):
+    content = path.read_text(encoding="utf-8")
+    if path.as_posix() == "index.html" and 'id="critical-home-css"' in content:
+        continue
+    if LINK_RE.search(content) and 'id="critical-shared-css"' in content:
+        for m in LINK_RE.finditer(content):
+            tag = m.group(0)
+            if not (re.search(r'\bmedia=["\']print["\']', tag, re.I) and re.search(r'\bonload=', tag, re.I)):
+                errors.append(f"{path}: blocking stylesheet {tag}")
+        if not re.search(r'<noscript>\s*(?:<link\b[^>]*rel=["\']stylesheet["\'])', content, re.I):
+            errors.append(f"{path}: missing noscript fallback")
+if errors:
+    raise SystemExit("\n".join(errors))
+print("Validation passed.")
+, '', clean)
     return clean + ' media="print" onload="this.media=\'all\'">'
 
 changed = []
