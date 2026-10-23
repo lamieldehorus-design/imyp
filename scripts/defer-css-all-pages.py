@@ -81,8 +81,9 @@ for path in ROOT.rglob("*.html"):
     content = path.read_text(encoding="utf-8")
     if path.as_posix() == "index.html" and 'id="critical-home-css"' in content:
         continue
-    if LINK_RE.search(content) and 'id="critical-shared-css"' in content:
-        for m in LINK_RE.finditer(content):
+    active_content = re.sub(r'<noscript\\b.*?</noscript>', '', content, flags=re.I | re.S)
+    if LINK_RE.search(active_content) and 'id="critical-shared-css"' in content:
+        for m in LINK_RE.finditer(active_content):
             tag = m.group(0)
             if not (re.search(r'\bmedia=["\']print["\']', tag, re.I) and re.search(r'\bonload=', tag, re.I)):
                 errors.append(f"{path}: blocking stylesheet {tag}")
