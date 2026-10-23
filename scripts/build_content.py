@@ -221,8 +221,26 @@ def article_html(p):
     }.get(p["slug"], '<h2>Herramientas relacionadas</h2><p>Explorá las <a href="/herramientas/">herramientas para imágenes</a>, las <a href="/postales/">postales para compartir</a> y la <a href="/frases/">biblioteca de frases</a>.</p>')
     return BLOG_HEADER+f'''<title>{html.escape(p["title"])} | Imágenes y Postales</title><meta name="description" content="{html.escape(p["description"],quote=True)}"><link rel="canonical" href="{SITE}/blog/{p["slug"]}/"><meta property="og:type" content="article"><meta property="og:title" content="{html.escape(p["title"],quote=True)}"><meta property="og:description" content="{html.escape(p["description"],quote=True)}"><meta property="og:url" content="{SITE}/blog/{p["slug"]}/"><script type="application/ld+json">{schema}</script><link rel="stylesheet" href="/style.css"></head><body><header class="site-header"><a class="brand" href="/"><span class="brand-mark">IP</span><span>Imágenes y Postales</span></a><nav class="top-nav"><a href="/frases/">Frases</a><a href="/blog/">Blog</a><a href="/postales/">Postales</a></nav></header><main class="article-page"><nav class="breadcrumbs"><a href="/">Inicio</a><span>›</span><a href="/blog/">Blog</a><span>›</span><span>{html.escape(p["title"])}</span></nav><article class="long-article"><p class="eyebrow">{html.escape(p["category"].upper())}</p><h1>{html.escape(p["title"])}</h1><p class="article-lead">{html.escape(p["description"])}</p><div class="tags">{tags}</div><div class="article-content">{render_article_body(p["content"])}</div>{related}</article></main><footer><strong>imagenesypostales.com</strong><span>Frases, postales y palabras para compartir.</span><nav aria-label="Enlaces del sitio"><a href="/herramientas/">Herramientas</a><a href="/crear/">Crear imágenes</a><a href="/frases/">Frases</a><a href="/postales/">Postales</a><a href="/sobre-nosotros/">Qué hacemos</a></nav></footer></body></html>'''
 
-def postal_category_links():
-    return "".join(f'<a class="postal-category-link" href="/postales/{key}/"><strong>{html.escape(label)}</strong><span>→</span></a>' for key,(label,_) in POSTAL_CATEGORIES.items())
+def postal_category_links(category=""):
+    """En la portada muestra todas las categorías; dentro de una categoría prioriza destinos relacionados."""
+    related = {
+        "cumpleanos": ["amor", "amistad", "familia", "buenos-dias"],
+        "amor": ["amistad", "familia", "buenos-dias", "animo"],
+        "amistad": ["familia", "amor", "animo", "buenos-dias"],
+        "familia": ["amistad", "cumpleanos", "amor", "animo"],
+        "buenos-dias": ["animo", "salud", "amistad", "familia"],
+        "viajes": ["animo", "buenos-dias", "salud", "familia"],
+        "animo": ["salud", "familia", "amistad", "buenos-dias"],
+        "salud": ["animo", "familia", "buenos-dias", "amistad"],
+    }
+    keys = related.get(category, list(POSTAL_CATEGORIES))
+    links = "".join(
+        f'<a class="postal-category-link" href="/postales/{key}/"><strong>{html.escape(POSTAL_CATEGORIES[key][0])}</strong><span aria-hidden="true">→</span></a>'
+        for key in keys if key != category
+    )
+    if category:
+        links += '<a class="postal-category-link postal-all-categories" href="/postales/"><strong>Ver todas las categorías</strong><span aria-hidden="true">→</span></a>'
+    return f'<nav class="postal-category-links" aria-label="Categorías de postales relacionadas">{links}</nav>'
 
 def static_postal_cards(category="", limit=12):
     """Renderizar contenido inicial en HTML para que las postales sean rastreables sin esperar al JS."""
