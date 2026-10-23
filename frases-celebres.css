@@ -61,3 +61,9 @@
 
 /* Paginación progresiva de frases: mantiene ligera la carga inicial. */
 .quote-more{display:block;margin:1.5rem auto 0;min-height:46px;padding:.75rem 1.25rem;border:1px solid #0b57d0;border-radius:12px;background:#fff;color:#0b57d0;font:inherit;font-weight:700;cursor:pointer}.quote-more:hover{background:#eef4ff}.quote-more[hidden]{display:none}
+
+
+/* SEO 4-B: acción clara para reutilizar cada cita en un diseño propio */
+.quote-actions .quote-personalize{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:.5rem .7rem;border:1px solid #b7c8e4;border-radius:9px;background:#f2f6ff;color:#0b57d0;font-size:.78rem;font-weight:700;text-decoration:none}
+.quote-actions .quote-personalize:hover,.quote-actions .quote-personalize:focus-visible{background:#e3edff;border-color:#0b57d0;text-decoration:underline}
+.quote-actions a:focus-visible,.quote-actions button:focus-visible{outline:3px solid #9bbcff;outline-offset:2px}
