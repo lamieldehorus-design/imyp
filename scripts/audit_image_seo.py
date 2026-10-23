@@ -19,10 +19,18 @@ class ImageParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__(convert_charrefs=True)
         self.images: list[dict[str, str]] = []
+        self.noscript_depth = 0
 
     def handle_starttag(self, tag: str, attrs) -> None:
-        if tag.lower() == "img":
+        tag = tag.lower()
+        if tag == "noscript":
+            self.noscript_depth += 1
+        if tag == "img" and self.noscript_depth == 0:
             self.images.append({str(k).lower(): (v or "") for k, v in attrs})
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() == "noscript" and self.noscript_depth:
+            self.noscript_depth -= 1
 
 
 def public_html_files() -> list[Path]:
@@ -89,10 +97,12 @@ def main() -> int:
                 warnings.append(f"{label}: alt vacío; confirmar si la imagen es decorativa (src={src or '(vacío)'})")
 
             if not src:
-                if not image.get("srcset"):
-                    counts["sin_src"] += 1
-                    warnings.append(f"{label}: imagen sin src ni srcset; revisar si la crea JavaScript")
-                continue
+                if image.get("srcset"):
+                    src = image.get("srcset", "").split(",")[0].strip().split(" ")[0]
+                else:
+                    # Preview/output nodes populated after a user selects or creates an image.
+                    counts["placeholder_dinamico"] += 1
+                    continue
 
             if not is_external_or_generated(src):
                 target = resolve_local_image(page, src)
