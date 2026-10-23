@@ -23,17 +23,37 @@ jobs:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Añadir Statcounter a todos los HTML
-        run: python .github/scripts/inject_statcounter.py
-
-      - name: Guardar los cambios si hacen falta
+      - name: Sincronizar, añadir Statcounter y publicar sin pisar otros cambios
+        shell: bash
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --all
-          if git diff --cached --quiet; then
-            echo "Todas las páginas HTML ya tienen Statcounter."
-            exit 0
-          fi
-          git commit -m "Add Statcounter tracking to all HTML pages"
-          git push origin HEAD:main
+
+          # Otro workflow puede actualizar main mientras este trabajo corre.
+          # En cada intento se parte del main más reciente y se vuelve a ejecutar
+          # el inyector, evitando un push obsoleto o sobrescribir cambios ajenos.
+          for attempt in 1 2 3 4 5; do
+            echo "Intento $attempt de 5"
+            git fetch origin main
+            git reset --hard origin/main
+            python .github/scripts/inject_statcounter.py
+            git add --all
+
+            if git diff --cached --quiet; then
+              echo "Todas las páginas HTML ya tienen Statcounter."
+              exit 0
+            fi
+
+            git commit -m "Add Statcounter tracking to all HTML pages"
+            if git push origin HEAD:main; then
+              echo "Cambios de Statcounter publicados correctamente."
+              exit 0
+            fi
+
+            echo "main cambió durante el push; se reintentará sobre la versión actual."
+            sleep 2
+          done
+
+          echo "No se pudo publicar tras 5 intentos." >&2
+          exit 1
