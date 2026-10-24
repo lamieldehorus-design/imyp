@@ -21,7 +21,7 @@ jobs:
       - name: Instalar conversor de imagen social
         run: pip install cairosvg
       - name: Comprobar sintaxis Python
-        run: python -m py_compile scripts/build_content.py scripts/build_social_image.py scripts/update_navigation.py
+        run: python -m py_compile scripts/build_content.py scripts/build_social_image.py scripts/update_navigation.py scripts/optimize_seo_metadata.py
       - name: Validar catálogos JSON
         run: |
           python - <<'PY'
@@ -37,6 +37,8 @@ jobs:
           python scripts/build_content.py
           python scripts/build_social_image.py
           python scripts/update_navigation.py
+      - name: Optimizar títulos y descripciones SEO de todas las páginas
+        run: python scripts/optimize_seo_metadata.py
       - name: Auditar SEO de imágenes en todas las páginas
         run: python scripts/audit_image_seo.py
       - name: Validar sitemap y páginas de herramientas
