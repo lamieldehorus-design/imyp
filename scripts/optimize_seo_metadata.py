@@ -20,6 +20,10 @@ def shorten_words(value, limit):
     if len(value) <= limit:
         return value
     clipped = value[: limit + 1].rsplit(" ", 1)[0].rstrip(" ,:;.-")
+    # Avoid titles ending in an article, preposition, or conjunction.
+    stopwords = {"a", "al", "con", "de", "del", "e", "el", "en", "la", "las", "los", "o", "para", "por", "que", "un", "una", "y"}
+    while clipped and clipped.split()[-1].lower() in stopwords:
+        clipped = clipped.rsplit(" ", 1)[0].rstrip(" ,:;.-")
     return clipped
 
 
