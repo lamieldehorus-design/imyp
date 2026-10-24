@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import json, re, html, unicodedata
+import json, re, html, unicodedata, subprocess, sys
 from datetime import date
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -379,6 +379,9 @@ def build():
     )
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + entries + "</urlset>\n"
     (ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+
+    # Normalizar títulos y descripciones también en páginas ya existentes, no solo en páginas nuevas.
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "optimize_seo_metadata.py")], check=True)
 
 def sync_quote_index_counts(catalog):
     """Keep the quote landing page's SEO metadata aligned with the real catalog."""
