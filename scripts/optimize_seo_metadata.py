@@ -29,6 +29,8 @@ def shorten_words(value, limit):
 
 def optimize_title(title):
     title = plain(title)
+    # Repair titles truncated by an earlier pass that left a dangling connector before the brand.
+    title = re.sub(r"\\s+(?:a|al|con|de|del|e|el|en|la|las|los|o|para|por|que|un|una|y)(?= \\| Imágenes y Postales$)", "", title, flags=re.I)
     if len(title) <= TITLE_LIMIT:
         return title
     # Author collection pages share this repetitive suffix; preserve the author name.
