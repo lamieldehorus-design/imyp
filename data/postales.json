@@ -3174,8 +3174,8 @@
   {
     "id": "ir-paso-a-paso-245",
     "title": "Ir paso a paso",
-    "phrase": "Quiero dejarte estas palabras: No tenés que resolverlo todo hoy; elegí el próximo paso posible. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de ir paso a paso para personalizar, descargar y compartir.",
+    "phrase": "No tenés que resolverlo todo hoy; elegí el próximo paso posible.",
+    "description": "Mensaje de ánimo para reducir una tarea abrumadora a un paso concreto.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3186,9 +3186,9 @@
   },
   {
     "id": "ir-paso-a-paso-para-compartir-246",
-    "title": "Ir paso a paso para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que No tenés que resolverlo todo hoy; elegí el próximo paso posible. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de ir paso a paso para personalizar, descargar y compartir.",
+    "title": "Un paso alcanza por hoy",
+    "phrase": "No necesitás ver todo el camino para empezar; concentráte en el tramo que tenés delante.",
+    "description": "Mensaje para avanzar sin exigirse resolver todo a la vez.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3200,8 +3200,8 @@
   {
     "id": "dias-dificiles-247",
     "title": "Días difíciles",
-    "phrase": "Quiero dejarte estas palabras: Que este día complicado no te haga olvidar todo lo que ya pudiste atravesar. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de días difíciles para personalizar, descargar y compartir.",
+    "phrase": "Que este día complicado no te haga olvidar todo lo que ya pudiste atravesar.",
+    "description": "Mensaje para acompañar a alguien en una jornada difícil.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3212,9 +3212,9 @@
   },
   {
     "id": "dias-dificiles-para-compartir-248",
-    "title": "Días difíciles para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Que este día complicado no te haga olvidar todo lo que ya pudiste atravesar. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de días difíciles para personalizar, descargar y compartir.",
+    "title": "Hoy podés ir más despacio",
+    "phrase": "Un día difícil no define toda tu historia ni borra lo que ya superaste.",
+    "description": "Mensaje de compañía para momentos complicados.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3226,8 +3226,8 @@
   {
     "id": "volver-a-intentarlo-249",
     "title": "Volver a intentarlo",
-    "phrase": "Quiero dejarte estas palabras: Podés cambiar de estrategia, descansar y volver a probar cuando estés listo. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de volver a intentarlo para personalizar, descargar y compartir.",
+    "phrase": "Podés cambiar de estrategia, descansar y volver a probar cuando estés listo.",
+    "description": "Mensaje para recordar que cambiar de plan también es avanzar.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3238,9 +3238,9 @@
   },
   {
     "id": "volver-a-intentarlo-para-compartir-250",
-    "title": "Volver a intentarlo para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Podés cambiar de estrategia, descansar y volver a probar cuando estés listo. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de volver a intentarlo para personalizar, descargar y compartir.",
+    "title": "Cambiar el método también vale",
+    "phrase": "Descansar, pedir una mano o probar de otra manera también son formas de seguir.",
+    "description": "Mensaje de ánimo para retomar un intento.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3252,8 +3252,8 @@
   {
     "id": "reconocer-el-esfuerzo-251",
     "title": "Reconocer el esfuerzo",
-    "phrase": "Quiero dejarte estas palabras: Aunque nadie vea todo lo que cuesta, tu esfuerzo también merece reconocimiento. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de reconocer el esfuerzo para personalizar, descargar y compartir.",
+    "phrase": "Aunque nadie vea todo lo que cuesta, tu esfuerzo también merece reconocimiento.",
+    "description": "Mensaje para reconocer el trabajo que otros no ven.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3264,9 +3264,9 @@
   },
   {
     "id": "reconocer-el-esfuerzo-para-compartir-252",
-    "title": "Reconocer el esfuerzo para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Aunque nadie vea todo lo que cuesta, tu esfuerzo también merece reconocimiento. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de reconocer el esfuerzo para personalizar, descargar y compartir.",
+    "title": "Veo cuánto te esforzás",
+    "phrase": "No todo progreso se nota desde afuera; lo que sostenés día a día también importa.",
+    "description": "Mensaje para valorar el esfuerzo silencioso.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3278,8 +3278,8 @@
   {
     "id": "pedir-compania-253",
     "title": "Pedir compañía",
-    "phrase": "Quiero dejarte estas palabras: No hace falta cargar con todo en silencio; apoyarte en alguien también es valentía. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de pedir compañía para personalizar, descargar y compartir.",
+    "phrase": "No hace falta cargar con todo en silencio; apoyarte en alguien también es valentía.",
+    "description": "Mensaje para animar a pedir apoyo.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3290,9 +3290,9 @@
   },
   {
     "id": "pedir-compania-para-compartir-254",
-    "title": "Pedir compañía para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que No hace falta cargar con todo en silencio; apoyarte en alguien también es valentía. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de pedir compañía para personalizar, descargar y compartir.",
+    "title": "No tenés que poder solo",
+    "phrase": "Pedir compañía no te hace menos capaz; te permite atravesar el momento con apoyo.",
+    "description": "Mensaje para recordar que pedir ayuda está bien.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3304,8 +3304,8 @@
   {
     "id": "tener-paciencia-255",
     "title": "Tener paciencia",
-    "phrase": "Quiero dejarte estas palabras: Hay procesos que necesitan tiempo, incluso cuando tenemos muchas ganas de avanzar. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de tener paciencia para personalizar, descargar y compartir.",
+    "phrase": "Hay procesos que necesitan tiempo, incluso cuando tenemos muchas ganas de avanzar.",
+    "description": "Mensaje sobre aceptar los tiempos de un proceso.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3316,9 +3316,9 @@
   },
   {
     "id": "tener-paciencia-para-compartir-256",
-    "title": "Tener paciencia para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Hay procesos que necesitan tiempo, incluso cuando tenemos muchas ganas de avanzar. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de tener paciencia para personalizar, descargar y compartir.",
+    "title": "Tu ritmo también cuenta",
+    "phrase": "Dale tiempo a lo que estás aprendiendo y revisá el avance sin maltratarte.",
+    "description": "Mensaje para practicar paciencia con uno mismo.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3330,8 +3330,8 @@
   {
     "id": "un-descanso-necesario-257",
     "title": "Un descanso necesario",
-    "phrase": "Quiero dejarte estas palabras: Descansar no borra lo que hiciste; te ayuda a recuperar fuerzas para continuar. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de un descanso necesario para personalizar, descargar y compartir.",
+    "phrase": "Descansar no borra lo que hiciste; te ayuda a recuperar fuerzas para continuar.",
+    "description": "Mensaje que invita a descansar sin culpa.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3342,9 +3342,9 @@
   },
   {
     "id": "un-descanso-necesario-para-compartir-258",
-    "title": "Un descanso necesario para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Descansar no borra lo que hiciste; te ayuda a recuperar fuerzas para continuar. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de un descanso necesario para personalizar, descargar y compartir.",
+    "title": "Pausar también es avanzar",
+    "phrase": "No necesitás terminar agotado para demostrar que te esforzaste.",
+    "description": "Mensaje sobre descanso y recuperación de energía.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3356,8 +3356,8 @@
   {
     "id": "confiar-en-el-proceso-259",
     "title": "Confiar en el proceso",
-    "phrase": "Quiero dejarte estas palabras: No siempre se nota el progreso mientras ocurre, pero cada intento deja aprendizaje. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de confiar en el proceso para personalizar, descargar y compartir.",
+    "phrase": "No siempre se nota el progreso mientras ocurre, pero cada intento deja aprendizaje.",
+    "description": "Mensaje para valorar el aprendizaje gradual.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3368,9 +3368,9 @@
   },
   {
     "id": "confiar-en-el-proceso-para-compartir-260",
-    "title": "Confiar en el proceso para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que No siempre se nota el progreso mientras ocurre, pero cada intento deja aprendizaje. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de confiar en el proceso para personalizar, descargar y compartir.",
+    "title": "El progreso a veces es discreto",
+    "phrase": "Aunque todavía no llegues al resultado, revisá qué aprendiste y qué podés ajustar.",
+    "description": "Mensaje para reconocer aprendizajes en el camino.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3382,8 +3382,8 @@
   {
     "id": "empezar-de-nuevo-261",
     "title": "Empezar de nuevo",
-    "phrase": "Quiero dejarte estas palabras: Volver a empezar no te devuelve al mismo lugar: ahora llevás lo que aprendiste. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de empezar de nuevo para personalizar, descargar y compartir.",
+    "phrase": "Volver a empezar no te devuelve al mismo lugar: ahora llevás lo que aprendiste.",
+    "description": "Mensaje para afrontar un nuevo comienzo.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3394,9 +3394,9 @@
   },
   {
     "id": "empezar-de-nuevo-para-compartir-262",
-    "title": "Empezar de nuevo para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Volver a empezar no te devuelve al mismo lugar: ahora llevás lo que aprendiste. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de empezar de nuevo para personalizar, descargar y compartir.",
+    "title": "No empezás desde cero",
+    "phrase": "Lo que aprendiste también viaja con vos cuando cambiás de rumbo.",
+    "description": "Mensaje de ánimo para comenzar otra etapa.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3408,8 +3408,8 @@
   {
     "id": "soltar-la-perfeccion-263",
     "title": "Soltar la perfección",
-    "phrase": "Quiero dejarte estas palabras: Hacerlo posible y con honestidad también puede ser una forma valiosa de hacerlo bien. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de soltar la perfección para personalizar, descargar y compartir.",
+    "phrase": "Hacerlo posible y con honestidad también puede ser una forma valiosa de hacerlo bien.",
+    "description": "Mensaje para bajar la exigencia de perfección.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3420,9 +3420,9 @@
   },
   {
     "id": "soltar-la-perfeccion-para-compartir-264",
-    "title": "Soltar la perfección para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Hacerlo posible y con honestidad también puede ser una forma valiosa de hacerlo bien. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de soltar la perfección para personalizar, descargar y compartir.",
+    "title": "Hecho con cuidado, no perfecto",
+    "phrase": "No hace falta pulir cada detalle para dar un paso útil y sincero.",
+    "description": "Mensaje para avanzar sin quedar atrapado en la perfección.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3434,8 +3434,8 @@
   {
     "id": "un-paso-pequeno-265",
     "title": "Un paso pequeño",
-    "phrase": "Quiero dejarte estas palabras: Un paso pequeño sigue siendo movimiento, especialmente cuando avanzar cuesta. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de un paso pequeño para personalizar, descargar y compartir.",
+    "phrase": "Un paso pequeño sigue siendo movimiento, especialmente cuando avanzar cuesta.",
+    "description": "Mensaje para reconocer un avance pequeño.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3446,9 +3446,9 @@
   },
   {
     "id": "un-paso-pequeno-para-compartir-266",
-    "title": "Un paso pequeño para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Un paso pequeño sigue siendo movimiento, especialmente cuando avanzar cuesta. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de un paso pequeño para personalizar, descargar y compartir.",
+    "title": "El próximo paso posible",
+    "phrase": "Si el objetivo parece enorme, reducí la tarea hasta encontrar una acción que puedas hacer ahora.",
+    "description": "Mensaje para transformar una meta en un primer paso.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3460,8 +3460,8 @@
   {
     "id": "darte-tiempo-267",
     "title": "Darte tiempo",
-    "phrase": "Quiero dejarte estas palabras: No te exijas tener todas las respuestas mientras todavía estás entendiendo lo que pasa. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de darte tiempo para personalizar, descargar y compartir.",
+    "phrase": "No te exijas tener todas las respuestas mientras todavía estás entendiendo lo que pasa.",
+    "description": "Mensaje para dar espacio a la reflexión.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3472,9 +3472,9 @@
   },
   {
     "id": "darte-tiempo-para-compartir-268",
-    "title": "Darte tiempo para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que No te exijas tener todas las respuestas mientras todavía estás entendiendo lo que pasa. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de darte tiempo para personalizar, descargar y compartir.",
+    "title": "No hace falta resolverlo ya",
+    "phrase": "Darte tiempo para pensar también es tomar en serio lo que te está pasando.",
+    "description": "Mensaje sobre la paciencia ante la incertidumbre.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3486,8 +3486,8 @@
   {
     "id": "mirar-lo-recorrido-269",
     "title": "Mirar lo recorrido",
-    "phrase": "Quiero dejarte estas palabras: Date un momento para reconocer cuánto aprendiste desde aquel comienzo. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de mirar lo recorrido para personalizar, descargar y compartir.",
+    "phrase": "Date un momento para reconocer cuánto aprendiste desde aquel comienzo.",
+    "description": "Mensaje para valorar la distancia recorrida.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3498,9 +3498,9 @@
   },
   {
     "id": "mirar-lo-recorrido-para-compartir-270",
-    "title": "Mirar lo recorrido para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Date un momento para reconocer cuánto aprendiste desde aquel comienzo. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de mirar lo recorrido para personalizar, descargar y compartir.",
+    "title": "Mirá cuánto cambió",
+    "phrase": "Reconocer lo aprendido no significa que ya terminaste; significa que el esfuerzo dejó huella.",
+    "description": "Mensaje para reconocer crecimiento personal.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3512,8 +3512,8 @@
   {
     "id": "atravesar-la-incertidumbre-271",
     "title": "Atravesar la incertidumbre",
-    "phrase": "Quiero dejarte estas palabras: No saber exactamente qué viene no significa que no puedas dar el siguiente paso. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de atravesar la incertidumbre para personalizar, descargar y compartir.",
+    "phrase": "No saber exactamente qué viene no significa que no puedas dar el siguiente paso.",
+    "description": "Mensaje para avanzar aunque no haya certezas.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3524,9 +3524,9 @@
   },
   {
     "id": "atravesar-la-incertidumbre-para-compartir-272",
-    "title": "Atravesar la incertidumbre para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que No saber exactamente qué viene no significa que no puedas dar el siguiente paso. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de atravesar la incertidumbre para personalizar, descargar y compartir.",
+    "title": "Avanzar sin tener todo claro",
+    "phrase": "No necesitás garantizar el resultado para dar un paso prudente.",
+    "description": "Mensaje de ánimo para momentos inciertos.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3538,8 +3538,8 @@
   {
     "id": "cuidar-tu-energia-273",
     "title": "Cuidar tu energía",
-    "phrase": "Quiero dejarte estas palabras: Elegí tus prioridades con cariño y dejá algo de energía para vos. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de cuidar tu energía para personalizar, descargar y compartir.",
+    "phrase": "Elegí tus prioridades con cariño y dejá algo de energía para vos.",
+    "description": "Mensaje para recordar límites y prioridades.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3550,9 +3550,9 @@
   },
   {
     "id": "cuidar-tu-energia-para-compartir-274",
-    "title": "Cuidar tu energía para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Elegí tus prioridades con cariño y dejá algo de energía para vos. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de cuidar tu energía para personalizar, descargar y compartir.",
+    "title": "Guardá algo de energía para vos",
+    "phrase": "Poner un límite a tiempo puede ayudarte a cuidar lo que de verdad importa.",
+    "description": "Mensaje sobre límites y autocuidado.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3564,8 +3564,8 @@
   {
     "id": "aceptar-ayuda-275",
     "title": "Aceptar ayuda",
-    "phrase": "Quiero dejarte estas palabras: Dejar que alguien te acompañe puede hacer menos pesado el tramo difícil. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de aceptar ayuda para personalizar, descargar y compartir.",
+    "phrase": "Dejar que alguien te acompañe puede hacer menos pesado el tramo difícil.",
+    "description": "Mensaje para recordar que se puede aceptar apoyo.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3576,9 +3576,9 @@
   },
   {
     "id": "aceptar-ayuda-para-compartir-276",
-    "title": "Aceptar ayuda para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Dejar que alguien te acompañe puede hacer menos pesado el tramo difícil. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de aceptar ayuda para personalizar, descargar y compartir.",
+    "title": "Dejá que te acompañen",
+    "phrase": "A veces compartir la carga permite ver opciones que solo costaba encontrar.",
+    "description": "Mensaje para aceptar compañía en un momento difícil.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3590,8 +3590,8 @@
   {
     "id": "celebrar-avances-277",
     "title": "Celebrar avances",
-    "phrase": "Quiero dejarte estas palabras: No esperes a llegar a la meta para reconocer las pequeñas cosas que lográs. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de celebrar avances para personalizar, descargar y compartir.",
+    "phrase": "No esperes a llegar a la meta para reconocer las pequeñas cosas que lográs.",
+    "description": "Mensaje para celebrar avances durante un proceso.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3602,9 +3602,9 @@
   },
   {
     "id": "celebrar-avances-para-compartir-278",
-    "title": "Celebrar avances para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que No esperes a llegar a la meta para reconocer las pequeñas cosas que lográs. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de celebrar avances para personalizar, descargar y compartir.",
+    "title": "Cada avance merece un lugar",
+    "phrase": "No hace falta esperar al gran resultado para reconocer el trabajo de hoy.",
+    "description": "Mensaje para valorar el progreso paso a paso.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3616,8 +3616,8 @@
   {
     "id": "recuperar-la-confianza-279",
     "title": "Recuperar la confianza",
-    "phrase": "Quiero dejarte estas palabras: La confianza puede volver de a poco, con decisiones pequeñas y coherentes. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de recuperar la confianza para personalizar, descargar y compartir.",
+    "phrase": "La confianza puede volver de a poco, con decisiones pequeñas y coherentes.",
+    "description": "Mensaje para reconstruir confianza con paciencia.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3628,9 +3628,9 @@
   },
   {
     "id": "recuperar-la-confianza-para-compartir-280",
-    "title": "Recuperar la confianza para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que La confianza puede volver de a poco, con decisiones pequeñas y coherentes. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de recuperar la confianza para personalizar, descargar y compartir.",
+    "title": "De a poco se reconstruye",
+    "phrase": "La confianza se fortalece con acciones consistentes, no con promesas apuradas.",
+    "description": "Mensaje sobre reconstruir confianza gradualmente.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3642,8 +3642,8 @@
   {
     "id": "recordar-tu-valor-281",
     "title": "Recordar tu valor",
-    "phrase": "Quiero dejarte estas palabras: Tu valor no depende de que hoy tengas todo resuelto ni de cuánto produzcas. Te mando cariño y mis mejores deseos.",
-    "description": "Postal de recordar tu valor para personalizar, descargar y compartir.",
+    "phrase": "Tu valor no depende de que hoy tengas todo resuelto ni de cuánto produzcas.",
+    "description": "Mensaje de apoyo para no medir el valor personal por la productividad.",
     "category": "animo",
     "tags": [
       "ánimo",
@@ -3654,9 +3654,9 @@
   },
   {
     "id": "recordar-tu-valor-para-compartir-282",
-    "title": "Recordar tu valor para compartir",
-    "phrase": "Para este momento, ojalá recuerdes que Tu valor no depende de que hoy tengas todo resuelto ni de cuánto produzcas. Que no te falten motivos para seguir encontrando cosas buenas.",
-    "description": "Postal de recordar tu valor para personalizar, descargar y compartir.",
+    "title": "No sos solo lo que producís",
+    "phrase": "Un día difícil no mide tu valor como persona.",
+    "description": "Mensaje para recordar el valor personal más allá del rendimiento.",
     "category": "animo",
     "tags": [
       "ánimo",
