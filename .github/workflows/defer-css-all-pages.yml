@@ -1,8 +1,6 @@
 name: Separar CSS crítico en todas las páginas
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
