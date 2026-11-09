@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 100,
-  "remaining": 210,
+  "implemented": 110,
+  "remaining": 200,
   "tools": [
     {
       "id": "resize",
@@ -903,6 +903,96 @@
       "status": "implemented",
       "batch": 10,
       "route": "/herramientas/canvas-resize/",
+      "processing": "browser"
+    },
+    {
+      "id": "selective-blur",
+      "name": "Desenfoque selectivo",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/selective-blur/",
+      "processing": "browser"
+    },
+    {
+      "id": "radial-blur",
+      "name": "Desenfoque radial",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/radial-blur/",
+      "processing": "browser"
+    },
+    {
+      "id": "motion-blur",
+      "name": "Desenfoque de movimiento",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/motion-blur/",
+      "processing": "browser"
+    },
+    {
+      "id": "white-balance",
+      "name": "Balance de blancos",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/white-balance/",
+      "processing": "browser"
+    },
+    {
+      "id": "duotone-custom",
+      "name": "Duotono personalizado",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/duotone-custom/",
+      "processing": "browser"
+    },
+    {
+      "id": "posterize-custom",
+      "name": "Posterizar colores",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/posterize-custom/",
+      "processing": "browser"
+    },
+    {
+      "id": "kaleidoscope-grid",
+      "name": "Mosaico simétrico",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/kaleidoscope-grid/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-grid",
+      "name": "Cuadrícula de fotografías",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/photo-grid/",
+      "processing": "browser"
+    },
+    {
+      "id": "before-after",
+      "name": "Comparación antes y después",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/before-after/",
+      "processing": "browser"
+    },
+    {
+      "id": "rounded-avatar",
+      "name": "Avatar con fondo personalizado",
+      "category": "Redes sociales",
+      "status": "implemented",
+      "batch": 11,
+      "route": "/herramientas/rounded-avatar/",
       "processing": "browser"
     }
   ]

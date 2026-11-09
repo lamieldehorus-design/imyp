@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 100 / 310 (32,3%).
-- **Pendientes:** 210.
+- **Implementadas:** 110 / 310 (35,5%).
+- **Pendientes:** 200.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -143,3 +143,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 98. `poster-layout` · Diseñar un póster (Diseño)
 99. `text-watermark-pattern` · Marca de agua repetida (Diseño)
 100. `canvas-resize` · Cambiar tamaño del lienzo (Imagen)
+
+
+## Lote 11 (10)
+101. `selective-blur` · Desenfoque selectivo (Efectos)
+102. `radial-blur` · Desenfoque radial (Efectos)
+103. `motion-blur` · Desenfoque de movimiento (Efectos)
+104. `white-balance` · Balance de blancos (Color)
+105. `duotone-custom` · Duotono personalizado (Color)
+106. `posterize-custom` · Posterizar colores (Color)
+107. `kaleidoscope-grid` · Mosaico simétrico (Composición)
+108. `photo-grid` · Cuadrícula de fotografías (Composición)
+109. `before-after` · Comparación antes y después (Composición)
+110. `rounded-avatar` · Avatar con fondo personalizado (Redes sociales)
