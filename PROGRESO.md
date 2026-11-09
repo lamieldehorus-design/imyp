@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 182 / 310 (58,7%).
-- **Pendientes:** 128.
+- **Implementadas:** 192 / 310 (61,9%).
+- **Pendientes:** 118.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -249,3 +249,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 180. `photo-film-frame` · Marco de película (Diseño)
 181. `image-threshold` · Umbral blanco y negro (Color)
 182. `photo-color-overlay` · Superposición de color (Color)
+
+
+## Lote 19 (10)
+183. `photo-halation` · Resplandor halation (Efectos)
+184. `film-scratches` · Rayas de película (Efectos)
+185. `light-beam` · Haz de luz (Efectos)
+186. `radial-zoom` · Zoom radial (Efectos)
+187. `pixel-sort` · Pixel sort (Efectos)
+188. `paper-grain` · Textura de papel (Efectos)
+189. `border-shadow-pro` · Marco con sombra (Diseño)
+190. `outlined-caption` · Texto contorneado (Diseño)
+191. `gradient-map-pro` · Mapa de degradado (Color)
+192. `color-negative-pro` · Negativo de color avanzado (Color)

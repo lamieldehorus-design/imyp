@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 182,
-  "remaining": 128,
+  "implemented": 192,
+  "remaining": 118,
   "tools": [
     {
       "id": "resize",
@@ -1641,6 +1641,96 @@
       "status": "implemented",
       "batch": 18,
       "route": "/herramientas/photo-color-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-halation",
+      "name": "Resplandor halation",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/photo-halation/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-scratches",
+      "name": "Rayas de película",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/film-scratches/",
+      "processing": "browser"
+    },
+    {
+      "id": "light-beam",
+      "name": "Haz de luz",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/light-beam/",
+      "processing": "browser"
+    },
+    {
+      "id": "radial-zoom",
+      "name": "Zoom radial",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/radial-zoom/",
+      "processing": "browser"
+    },
+    {
+      "id": "pixel-sort",
+      "name": "Pixel sort",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/pixel-sort/",
+      "processing": "browser"
+    },
+    {
+      "id": "paper-grain",
+      "name": "Textura de papel",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/paper-grain/",
+      "processing": "browser"
+    },
+    {
+      "id": "border-shadow-pro",
+      "name": "Marco con sombra",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/border-shadow-pro/",
+      "processing": "browser"
+    },
+    {
+      "id": "outlined-caption",
+      "name": "Texto contorneado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/outlined-caption/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-map-pro",
+      "name": "Mapa de degradado",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/gradient-map-pro/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-negative-pro",
+      "name": "Negativo de color avanzado",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 19,
+      "route": "/herramientas/color-negative-pro/",
       "processing": "browser"
     }
   ]
