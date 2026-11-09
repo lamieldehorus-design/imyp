@@ -17,8 +17,8 @@
   "summary": {
     "categories": 14,
     "tools": 288,
-    "existing": 8,
-    "proposed": 280
+    "existing": 13,
+    "proposed": 275
   },
   "categories": [
     {
@@ -94,44 +94,44 @@
   ],
   "tools": [
     {
-      "id": "recortar",
+      "id": "recortar-imagen",
       "name": "Recortar",
       "category": "edicion",
       "description": "Herramienta para recortar, con controles claros, vista previa y exportación cuando corresponda.",
       "processing": "local",
-      "status": "proposed",
-      "path": null,
-      "seoStatus": "not-created"
+      "status": "existing",
+      "path": "/herramientas/recortar-imagen/",
+      "seoStatus": "preserve-and-audit"
     },
     {
-      "id": "redimensionar",
+      "id": "redimensionar-imagenes",
       "name": "Redimensionar",
       "category": "edicion",
       "description": "Herramienta para redimensionar, con controles claros, vista previa y exportación cuando corresponda.",
       "processing": "local",
-      "status": "proposed",
-      "path": null,
-      "seoStatus": "not-created"
+      "status": "existing",
+      "path": "/herramientas/redimensionar-imagenes/",
+      "seoStatus": "preserve-and-audit"
     },
     {
-      "id": "comprimir",
+      "id": "comprimir-imagenes",
       "name": "Comprimir",
       "category": "edicion",
       "description": "Herramienta para comprimir, con controles claros, vista previa y exportación cuando corresponda.",
       "processing": "local",
-      "status": "proposed",
-      "path": null,
-      "seoStatus": "not-created"
+      "status": "existing",
+      "path": "/herramientas/comprimir-imagenes/",
+      "seoStatus": "preserve-and-audit"
     },
     {
-      "id": "girar",
+      "id": "girar-imagen",
       "name": "Girar",
       "category": "edicion",
       "description": "Herramienta para girar, con controles claros, vista previa y exportación cuando corresponda.",
       "processing": "local",
-      "status": "proposed",
-      "path": null,
-      "seoStatus": "not-created"
+      "status": "existing",
+      "path": "/herramientas/girar-imagen/",
+      "seoStatus": "preserve-and-audit"
     },
     {
       "id": "voltear",
@@ -144,14 +144,14 @@
       "seoStatus": "not-created"
     },
     {
-      "id": "convertir",
+      "id": "convertir-imagen",
       "name": "Convertir",
       "category": "edicion",
       "description": "Herramienta para convertir, con controles claros, vista previa y exportación cuando corresponda.",
       "processing": "local",
-      "status": "proposed",
-      "path": null,
-      "seoStatus": "not-created"
+      "status": "existing",
+      "path": "/herramientas/convertir-imagen/",
+      "seoStatus": "preserve-and-audit"
     },
     {
       "id": "texto-en-imagen",
