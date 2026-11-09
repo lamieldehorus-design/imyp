@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 160,
-  "remaining": 150,
+  "implemented": 170,
+  "remaining": 140,
   "tools": [
     {
       "id": "resize",
@@ -1443,6 +1443,105 @@
       "status": "implemented",
       "batch": 16,
       "route": "/herramientas/border-color/",
+      "processing": "browser"
+    },
+    {
+      "id": "pixelate-soft",
+      "name": "Pixelado suave",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/pixelate-soft/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-temperature-pro",
+      "name": "Temperatura de color avanzada",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/color-temperature-pro/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-frost",
+      "name": "Efecto vidrio esmerilado",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/photo-frost/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-duotone-advanced",
+      "name": "Duotono avanzado",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/color-duotone-advanced/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-border-inner",
+      "name": "Borde interior",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/photo-border-inner/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-grayscale-tint",
+      "name": "Blanco y negro teñido",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/image-grayscale-tint/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-vhs",
+      "name": "Efecto VHS",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/photo-vhs/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-poster-border",
+      "name": "Póster con margen y título",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/image-poster-border/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-color-isolation",
+      "name": "Aislar color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/photo-color-isolation/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-border-dashed",
+      "name": "Borde discontinuo",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/image-border-dashed/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-glitch",
+      "name": "Glitch digital",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 17,
+      "route": "/herramientas/photo-glitch/",
       "processing": "browser"
     }
   ]
