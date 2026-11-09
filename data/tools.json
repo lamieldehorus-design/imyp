@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 192,
-  "remaining": 118,
+  "implemented": 202,
+  "remaining": 108,
   "tools": [
     {
       "id": "resize",
@@ -1731,6 +1731,96 @@
       "status": "implemented",
       "batch": 19,
       "route": "/herramientas/color-negative-pro/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-bloom",
+      "name": "Resplandor bloom",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/photo-bloom/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-cyanotype",
+      "name": "Cianotipia",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/photo-cyanotype/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-thermal",
+      "name": "Efecto termografía",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/photo-thermal/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-selective-adjust",
+      "name": "Ajuste selectivo de color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/color-selective-adjust/",
+      "processing": "browser"
+    },
+    {
+      "id": "channel-offset",
+      "name": "Desplazamiento de canales",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/channel-offset/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-silhouette",
+      "name": "Crear silueta",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/image-silhouette/",
+      "processing": "browser"
+    },
+    {
+      "id": "curved-caption",
+      "name": "Texto curvo",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/curved-caption/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-card-perspective",
+      "name": "Tarjeta en perspectiva",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/photo-card-perspective/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-poster",
+      "name": "Póster con degradado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/gradient-poster/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-duotone-glow",
+      "name": "Duotono luminoso",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 20,
+      "route": "/herramientas/photo-duotone-glow/",
       "processing": "browser"
     }
   ]

@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 192 / 310 (61,9%).
-- **Pendientes:** 118.
+- **Implementadas:** 202 / 310 (65,2%).
+- **Pendientes:** 108.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -262,3 +262,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 190. `outlined-caption` · Texto contorneado (Diseño)
 191. `gradient-map-pro` · Mapa de degradado (Color)
 192. `color-negative-pro` · Negativo de color avanzado (Color)
+
+
+## Lote 20 (10)
+193. `photo-bloom` · Resplandor bloom (Efectos)
+194. `photo-cyanotype` · Cianotipia (Efectos)
+195. `photo-thermal` · Efecto termografía (Efectos)
+196. `color-selective-adjust` · Ajuste selectivo de color (Color)
+197. `channel-offset` · Desplazamiento de canales (Color)
+198. `image-silhouette` · Crear silueta (Imagen)
+199. `curved-caption` · Texto curvo (Diseño)
+200. `photo-card-perspective` · Tarjeta en perspectiva (Diseño)
+201. `gradient-poster` · Póster con degradado (Diseño)
+202. `photo-duotone-glow` · Duotono luminoso (Color)
