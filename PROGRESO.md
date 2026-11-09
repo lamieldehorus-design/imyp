@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 130 / 310 (41,9%).
-- **Pendientes:** 180.
+- **Implementadas:** 140 / 310 (45,2%).
+- **Pendientes:** 170.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -182,3 +182,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 128. `thumbnail-maker` · Creador de miniaturas (Imagen)
 129. `photo-outline` · Contorno de fotografía (Efectos)
 130. `warmth-control` · Temperatura cálida y fría (Color)
+
+
+## Lote 14 (10)
+131. `photo-mat` · Paspartú fotográfico (Diseño)
+132. `drop-shadow` · Sombra exterior (Diseño)
+133. `film-perforation` · Marco de rollo fotográfico (Diseño)
+134. `corner-ribbon` · Cinta de esquina (Diseño)
+135. `gradient-text` · Texto con degradado (Diseño)
+136. `color-vision` · Simulador de visión cromática (Color)
+137. `poster-frame` · Marco de póster (Diseño)
+138. `polka-dots` · Trama de lunares (Efectos)
+139. `crosshatch` · Trama de rayado (Efectos)
+140. `soft-glow` · Resplandor suave (Efectos)

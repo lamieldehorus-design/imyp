@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 130,
-  "remaining": 180,
+  "implemented": 140,
+  "remaining": 170,
   "tools": [
     {
       "id": "resize",
@@ -1173,6 +1173,96 @@
       "status": "implemented",
       "batch": 13,
       "route": "/herramientas/warmth-control/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-mat",
+      "name": "Paspartú fotográfico",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/photo-mat/",
+      "processing": "browser"
+    },
+    {
+      "id": "drop-shadow",
+      "name": "Sombra exterior",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/drop-shadow/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-perforation",
+      "name": "Marco de rollo fotográfico",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/film-perforation/",
+      "processing": "browser"
+    },
+    {
+      "id": "corner-ribbon",
+      "name": "Cinta de esquina",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/corner-ribbon/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-text",
+      "name": "Texto con degradado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/gradient-text/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-vision",
+      "name": "Simulador de visión cromática",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/color-vision/",
+      "processing": "browser"
+    },
+    {
+      "id": "poster-frame",
+      "name": "Marco de póster",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/poster-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "polka-dots",
+      "name": "Trama de lunares",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/polka-dots/",
+      "processing": "browser"
+    },
+    {
+      "id": "crosshatch",
+      "name": "Trama de rayado",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/crosshatch/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-glow",
+      "name": "Resplandor suave",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 14,
+      "route": "/herramientas/soft-glow/",
       "processing": "browser"
     }
   ]
