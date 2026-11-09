@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 70 / 310 (22,6%).
-- **Pendientes:** 240.
+- **Implementadas:** 80 / 310 (25,8%).
+- **Pendientes:** 230.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -105,3 +105,15 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 68. `soft-light` · Luz suave (Imagen)
 69. `vintage` · Efecto vintage (Efectos)
 70. `rgb-split` · Separación RGB (Color)
+
+## Lote 8 (10)
+71. `add-padding` · Agregar margen a imagen (Diseño)
+72. `square-canvas` · Crear lienzo cuadrado (Redes sociales)
+73. `remove-white` · Hacer transparente el blanco (Imagen)
+74. `jpeg-artifacts` · Efecto compresión JPEG (Efectos)
+75. `noise-reduction` · Reducir ruido (Optimización)
+76. `sharpen-mask` · Máscara de enfoque (Imagen)
+77. `color-splash` · Resaltar un solo color (Color)
+78. `negative-film` · Negativo fotográfico (Efectos)
+79. `grid-overlay` · Superponer cuadrícula (Diseño)
+80. `caption-badge` · Crear etiqueta sobre imagen (Diseño)

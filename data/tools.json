@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 70,
-  "remaining": 240,
+  "implemented": 80,
+  "remaining": 230,
   "tools": [
     {
       "id": "resize",
@@ -633,6 +633,96 @@
       "status": "implemented",
       "batch": 7,
       "route": "/herramientas/rgb-split/",
+      "processing": "browser"
+    },
+    {
+      "id": "add-padding",
+      "name": "Agregar margen a imagen",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/add-padding/",
+      "processing": "browser"
+    },
+    {
+      "id": "square-canvas",
+      "name": "Crear lienzo cuadrado",
+      "category": "Redes sociales",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/square-canvas/",
+      "processing": "browser"
+    },
+    {
+      "id": "remove-white",
+      "name": "Hacer transparente el blanco",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/remove-white/",
+      "processing": "browser"
+    },
+    {
+      "id": "jpeg-artifacts",
+      "name": "Efecto compresión JPEG",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/jpeg-artifacts/",
+      "processing": "browser"
+    },
+    {
+      "id": "noise-reduction",
+      "name": "Reducir ruido",
+      "category": "Optimización",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/noise-reduction/",
+      "processing": "browser"
+    },
+    {
+      "id": "sharpen-mask",
+      "name": "Máscara de enfoque",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/sharpen-mask/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-splash",
+      "name": "Resaltar un solo color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/color-splash/",
+      "processing": "browser"
+    },
+    {
+      "id": "negative-film",
+      "name": "Negativo fotográfico",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/negative-film/",
+      "processing": "browser"
+    },
+    {
+      "id": "grid-overlay",
+      "name": "Superponer cuadrícula",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/grid-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "caption-badge",
+      "name": "Crear etiqueta sobre imagen",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 8,
+      "route": "/herramientas/caption-badge/",
       "processing": "browser"
     }
   ]

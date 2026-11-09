@@ -69,7 +69,17 @@ const tools = [
 ,{id:"color-replace",name:"Reemplazar un color",desc:"Sustituí un color seleccionado por otro según la tolerancia indicada.",cat:"Color",icon:"◉",fields:[["target","Color a reemplazar","color","#ff0000"],["replacement","Nuevo color","color","#2463eb"],["tolerance","Tolerancia","number",70]],needsImage:true}
 ,{id:"soft-light",name:"Luz suave",desc:"Suavizá el contraste con una capa de luz regulable.",cat:"Imagen",icon:"☼",fields:[["opacity","Intensidad","range",0.22]],needsImage:true}
 ,{id:"vintage",name:"Efecto vintage",desc:"Combiná tonos cálidos, contraste suave y una viñeta discreta.",cat:"Efectos",icon:"▣",fields:[["intensity","Intensidad","range",0.55]],needsImage:true}
-,{id:"rgb-split",name:"Separación RGB",desc:"Separá los canales rojo, verde y azul para una estética glitch.",cat:"Color",icon:"▥",fields:[["offset","Desplazamiento (px)","number",6]],needsImage:true}];
+,{id:"rgb-split",name:"Separación RGB",desc:"Separá los canales rojo, verde y azul para una estética glitch.",cat:"Color",icon:"▥",fields:[["offset","Desplazamiento (px)","number",6]],needsImage:true}
+,{id:"add-padding",name:"Agregar margen a imagen",desc:"Ampliá el lienzo con márgenes personalizables alrededor de tu fotografía.",cat:"Diseño",icon:"▣",fields:[["padding","Margen en píxeles","number",40],["color","Color del margen","color","#ffffff"]],needsImage:true}
+,{id:"square-canvas",name:"Crear lienzo cuadrado",desc:"Centrā tu imagen en un lienzo cuadrado ideal para perfiles y publicaciones.",cat:"Redes sociales",icon:"□",fields:[["size","Tamaño del cuadrado","number",1080],["color","Fondo","color","#ffffff"]],needsImage:true}
+,{id:"remove-white",name:"Hacer transparente el blanco",desc:"Convertí los píxeles blancos o casi blancos en transparencia y descargá un PNG.",cat:"Imagen",icon:"◻",fields:[["threshold","Tolerancia del blanco","number",28]],needsImage:true}
+,{id:"jpeg-artifacts",name:"Efecto compresión JPEG",desc:"Simulá artefactos de compresión para crear una estética digital degradada.",cat:"Efectos",icon:"▦",fields:[["quality","Calidad JPEG","range",0.35]],needsImage:true}
+,{id:"noise-reduction",name:"Reducir ruido",desc:"Suavizá pequeñas variaciones de color con un filtro local de reducción de ruido.",cat:"Optimización",icon:"✧",fields:[],needsImage:true}
+,{id:"sharpen-mask",name:"Máscara de enfoque",desc:"Realzá detalles mediante un enfoque de alta frecuencia con intensidad regulable.",cat:"Imagen",icon:"⌖",fields:[["strength","Intensidad","number",1.2]],needsImage:true}
+,{id:"color-splash",name:"Resaltar un solo color",desc:"Conservá un color elegido y convertí el resto de la fotografía a escala de grises.",cat:"Color",icon:"◉",fields:[["target","Color protagonista","color","#e53935"],["tolerance","Tolerancia","number",85]],needsImage:true}
+,{id:"negative-film",name:"Negativo fotográfico",desc:"Invertí los canales de color para crear un negativo de aspecto analógico.",cat:"Efectos",icon:"▤",fields:[],needsImage:true}
+,{id:"grid-overlay",name:"Superponer cuadrícula",desc:"Añadí una cuadrícula de referencia sobre la imagen y exportala.",cat:"Diseño",icon:"▦",fields:[["spacing","Separación de líneas","number",100],["color","Color de líneas","color","#ffffff"],["opacity","Opacidad","range",0.45]],needsImage:true}
+,{id:"caption-badge",name:"Crear etiqueta sobre imagen",desc:"Agregá una etiqueta de texto destacada sobre una esquina de tu imagen.",cat:"Diseño",icon:"▰",fields:[["text","Texto de la etiqueta","textarea","NUEVO"],["color","Color de etiqueta","color","#765ce9"]],needsImage:true}];
 const categories=['Todas','Imagen','Optimización','Diseño','Color','Postales','Web','Efectos','Redes sociales','Composición','Utilidades'];
 const grid=document.getElementById('tool-grid'),filters=document.getElementById('filters'),search=document.getElementById('tool-search');
 const workspace=document.getElementById('workspace'),input=document.getElementById('image-input'),canvas=document.getElementById('result-canvas'),ctx=canvas.getContext('2d');
@@ -126,6 +136,36 @@ if(['auto-enhance','edge-detect','colorize','chromatic','halftone','scanlines','
   const im=ctx.getImageData(0,0,w,h),d=im.data,k=Math.max(0,Math.min(1,Number(option('intensity'))||.55));
   for(let i=0;i<d.length;i+=4){const l=(d[i]*.299+d[i+1]*.587+d[i+2]*.114);d[i]=Math.min(255,d[i]*(1-k*.12)+k*28);d[i+1]=Math.min(255,d[i+1]*(1-k*.08)+k*12);d[i+2]=Math.max(0,d[i+2]*(1-k*.18)-k*8);for(let c=0;c<3;c++)d[i+c]=Math.max(0,Math.min(255,(d[i+c]-128)*(1-k*.18)+128))}
   ctx.putImageData(im,0,0);const g=ctx.createRadialGradient(w/2,h/2,Math.min(w,h)*.2,w/2,h/2,Math.max(w,h)*.75);g.addColorStop(0,'rgba(0,0,0,0)');g.addColorStop(1,'rgba(35,20,5,'+(k*.48)+')');ctx.fillStyle=g;ctx.fillRect(0,0,w,h);
+ }
+ showCanvas('RESULTADO · '+canvas.width+' × '+canvas.height);saveCanvas('image/png',.95,id);message('¡Listo! Tu imagen fue procesada.');return;
+}
+
+
+if(['add-padding','square-canvas','remove-white','jpeg-artifacts','noise-reduction','sharpen-mask','color-splash','negative-film','grid-overlay','caption-badge'].includes(id)){
+ const w=originalImage.width,h=originalImage.height;
+ if(id==='add-padding'){
+  const p=Math.max(0,Math.min(500,Number(option('padding'))||40));canvas.width=w+p*2;canvas.height=h+p*2;ctx.fillStyle=option('color')||'#fff';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(originalImage,p,p);
+ }else if(id==='square-canvas'){
+  const s=Math.max(64,Math.min(3000,Number(option('size'))||1080));canvas.width=s;canvas.height=s;ctx.fillStyle=option('color')||'#fff';ctx.fillRect(0,0,s,s);const scale=Math.min(s/w,s/h),dw=w*scale,dh=h*scale;ctx.drawImage(originalImage,(s-dw)/2,(s-dh)/2,dw,dh);
+ }else{
+  canvas.width=w;canvas.height=h;ctx.drawImage(originalImage,0,0);
+  if(id==='remove-white'){
+   const im=ctx.getImageData(0,0,w,h),d=im.data,t=Math.max(0,Math.min(255,Number(option('threshold'))||28));for(let i=0;i<d.length;i+=4){const v=Math.min(d[i],d[i+1],d[i+2]);if(v>255-t){const f=Math.max(0,Math.min(1,(255-v)/Math.max(1,t)));d[i+3]=Math.round(d[i+3]*f)}}ctx.putImageData(im,0,0);
+  }else if(id==='jpeg-artifacts'){
+   const q=Math.max(.1,Math.min(.95,Number(option('quality'))||.35)),tmp=document.createElement('canvas');tmp.width=w;tmp.height=h;tmp.getContext('2d').drawImage(originalImage,0,0);const url=tmp.toDataURL('image/jpeg',q),img=new Image();img.src=url;await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject});ctx.imageSmoothingEnabled=false;ctx.drawImage(img,0,0,w,h);ctx.imageSmoothingEnabled=true;
+  }else if(id==='noise-reduction'||id==='sharpen-mask'){
+   const src=ctx.getImageData(0,0,w,h),out=ctx.createImageData(w,h),a=src.data,b=out.data,str=Math.max(.1,Math.min(4,Number(option('strength'))||1.2));
+   for(let y=1;y<h-1;y++)for(let x=1;x<w-1;x++){const i=(y*w+x)*4;for(let c=0;c<3;c++){let sum=0;for(let yy=-1;yy<=1;yy++)for(let xx=-1;xx<=1;xx++)sum+=a[((y+yy)*w+x+xx)*4+c];const avg=sum/9;b[i+c]=id==='noise-reduction'?Math.round(avg):Math.max(0,Math.min(255,Math.round(a[i+c]+(a[i+c]-avg)*str)))}b[i+3]=a[i+3]}
+   for(let x=0;x<w;x++){for(const y of [0,h-1]){const i=(y*w+x)*4;b[i]=a[i];b[i+1]=a[i+1];b[i+2]=a[i+2];b[i+3]=a[i+3]}}for(let y=0;y<h;y++)for(const x of [0,w-1]){const i=(y*w+x)*4;b[i]=a[i];b[i+1]=a[i+1];b[i+2]=a[i+2];b[i+3]=a[i+3]}ctx.putImageData(out,0,0);
+  }else if(id==='color-splash'){
+   const im=ctx.getImageData(0,0,w,h),d=im.data,t=hexRgb(option('target')||'#e53935'),tol=Math.max(1,Math.min(441,Number(option('tolerance'))||85));for(let i=0;i<d.length;i+=4){const dist=Math.hypot(d[i]-t[0],d[i+1]-t[1],d[i+2]-t[2]);if(dist>tol){const l=d[i]*.299+d[i+1]*.587+d[i+2]*.114;d[i]=d[i+1]=d[i+2]=l}}ctx.putImageData(im,0,0);
+  }else if(id==='negative-film'){
+   const im=ctx.getImageData(0,0,w,h),d=im.data;for(let i=0;i<d.length;i+=4){d[i]=255-d[i];d[i+1]=255-d[i+1];d[i+2]=255-d[i+2]}ctx.putImageData(im,0,0);
+  }else if(id==='grid-overlay'){
+   const gap=Math.max(10,Math.min(1000,Number(option('spacing'))||100)),alpha=Math.max(.05,Math.min(1,Number(option('opacity'))||.45));ctx.save();ctx.strokeStyle=option('color')||'#fff';ctx.globalAlpha=alpha;ctx.lineWidth=Math.max(1,Math.round(Math.min(w,h)/700));ctx.beginPath();for(let x=gap;x<w;x+=gap){ctx.moveTo(x,0);ctx.lineTo(x,h)}for(let y=gap;y<h;y+=gap){ctx.moveTo(0,y);ctx.lineTo(w,y)}ctx.stroke();ctx.restore();
+  }else if(id==='caption-badge'){
+   const label=String(option('text')||'').trim().slice(0,40);if(label){const size=Math.max(18,Math.min(72,w/18)),pad=size*.55;ctx.font='700 '+size+'px sans-serif';const tw=ctx.measureText(label).width;ctx.fillStyle=option('color')||'#765ce9';ctx.fillRect(0,0,tw+pad*2,size+pad*1.4);ctx.fillStyle='#fff';ctx.textBaseline='middle';ctx.fillText(label,pad,(size+pad*1.4)/2)}
+  }
  }
  showCanvas('RESULTADO · '+canvas.width+' × '+canvas.height);saveCanvas('image/png',.95,id);message('¡Listo! Tu imagen fue procesada.');return;
 }
