@@ -45,3 +45,6 @@ showCanvas('RESULTADO · '+canvas.width+' × '+canvas.height);saveCanvas(type,qu
 catch(e){console.error(e);message('No se pudo procesar la imagen. Probá con otro archivo o valores más pequeños.')}}
 document.getElementById('run-tool').addEventListener('click',runTool);
 renderFilters();renderTools();
+
+const requestedTool=new URLSearchParams(window.location.search).get('tool');
+if(requestedTool&&tools.some(t=>t.id===requestedTool)){openTool(requestedTool);}
