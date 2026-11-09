@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 40 / 310 (12,9%).
-- **Pendientes:** 270.
+- **Implementadas:** 50 / 310 (16,1%).
+- **Pendientes:** 260.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -68,3 +68,15 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 38. `circle-crop` · Recorte circular (Diseño)
 39. `split-image` · Dividir imagen en dos (Imagen)
 40. `gradient-overlay` · Superponer degradado (Diseño)
+
+## Lote 5 (10)
+41. `image-overlay` · Superponer dos imágenes (Composición)
+42. `image-watermark` · Marca de agua con imagen (Diseño)
+43. `mosaic` · Mosaico de fotografías (Composición)
+44. `soft-focus` · Enfoque suave (Efectos)
+45. `color-temperature` · Temperatura de color (Color)
+46. `hue-rotate` · Cambiar matiz de color (Color)
+47. `threshold` · Umbral blanco y negro (Color)
+48. `fade` · Efecto desvanecido (Efectos)
+49. `add-background` · Agregar fondo de color (Diseño)
+50. `image-info` · Información de imagen (Utilidades)
