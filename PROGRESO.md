@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 120 / 310 (38,7%).
-- **Pendientes:** 190.
+- **Implementadas:** 130 / 310 (41,9%).
+- **Pendientes:** 180.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -169,3 +169,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 118. `circle-mask` · Máscara circular (Diseño)
 119. `color-channel-mixer` · Mezclador de canales RGB (Color)
 120. `soft-vignette` · Viñeta suave (Efectos)
+
+
+## Lote 13 (10)
+121. `sepia-strength` · Sepia ajustable (Efectos)
+122. `monochrome-tint` · Monocromo teñido (Color)
+123. `color-overlay` · Capa de color (Color)
+124. `white-background` · Fondo blanco (Diseño)
+125. `black-background` · Fondo negro (Diseño)
+126. `mirror-horizontal-copy` · Duplicado espejo horizontal (Composición)
+127. `mirror-vertical-copy` · Duplicado espejo vertical (Composición)
+128. `thumbnail-maker` · Creador de miniaturas (Imagen)
+129. `photo-outline` · Contorno de fotografía (Efectos)
+130. `warmth-control` · Temperatura cálida y fría (Color)

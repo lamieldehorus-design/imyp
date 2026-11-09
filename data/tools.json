@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 120,
-  "remaining": 190,
+  "implemented": 130,
+  "remaining": 180,
   "tools": [
     {
       "id": "resize",
@@ -1083,6 +1083,96 @@
       "status": "implemented",
       "batch": 12,
       "route": "/herramientas/soft-vignette/",
+      "processing": "browser"
+    },
+    {
+      "id": "sepia-strength",
+      "name": "Sepia ajustable",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/sepia-strength/",
+      "processing": "browser"
+    },
+    {
+      "id": "monochrome-tint",
+      "name": "Monocromo teñido",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/monochrome-tint/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-overlay",
+      "name": "Capa de color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/color-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "white-background",
+      "name": "Fondo blanco",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/white-background/",
+      "processing": "browser"
+    },
+    {
+      "id": "black-background",
+      "name": "Fondo negro",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/black-background/",
+      "processing": "browser"
+    },
+    {
+      "id": "mirror-horizontal-copy",
+      "name": "Duplicado espejo horizontal",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/mirror-horizontal-copy/",
+      "processing": "browser"
+    },
+    {
+      "id": "mirror-vertical-copy",
+      "name": "Duplicado espejo vertical",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/mirror-vertical-copy/",
+      "processing": "browser"
+    },
+    {
+      "id": "thumbnail-maker",
+      "name": "Creador de miniaturas",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/thumbnail-maker/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-outline",
+      "name": "Contorno de fotografía",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/photo-outline/",
+      "processing": "browser"
+    },
+    {
+      "id": "warmth-control",
+      "name": "Temperatura cálida y fría",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 13,
+      "route": "/herramientas/warmth-control/",
       "processing": "browser"
     }
   ]
