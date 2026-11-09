@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 202,
-  "remaining": 108,
+  "implemented": 212,
+  "remaining": 98,
   "tools": [
     {
       "id": "resize",
@@ -1821,6 +1821,96 @@
       "status": "implemented",
       "batch": 20,
       "route": "/herramientas/photo-duotone-glow/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-prism-refraction",
+      "name": "Refracción prisma",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/photo-prism-refraction/",
+      "processing": "browser"
+    },
+    {
+      "id": "motion-trail-maker",
+      "name": "Estelas de movimiento",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/motion-trail-maker/",
+      "processing": "browser"
+    },
+    {
+      "id": "luminous-contours",
+      "name": "Contornos luminosos",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/luminous-contours/",
+      "processing": "browser"
+    },
+    {
+      "id": "warm-cool-balance",
+      "name": "Balance cálido y frío",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/warm-cool-balance/",
+      "processing": "browser"
+    },
+    {
+      "id": "shadow-highlight-toning",
+      "name": "Virado de sombras y luces",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/shadow-highlight-toning/",
+      "processing": "browser"
+    },
+    {
+      "id": "selective-color-swap",
+      "name": "Sustitución selectiva de color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/selective-color-swap/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-grid-layout",
+      "name": "Composición en cuadrícula",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/photo-grid-layout/",
+      "processing": "browser"
+    },
+    {
+      "id": "instant-photo-frame",
+      "name": "Marco de foto instantánea",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/instant-photo-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "miniature-photo-board",
+      "name": "Panel de miniaturas",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/miniature-photo-board/",
+      "processing": "browser"
+    },
+    {
+      "id": "geometric-low-poly",
+      "name": "Geometría low poly",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 21,
+      "route": "/herramientas/geometric-low-poly/",
       "processing": "browser"
     }
   ]

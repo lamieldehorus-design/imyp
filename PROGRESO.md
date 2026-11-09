@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 202 / 310 (65,2%).
-- **Pendientes:** 108.
+- **Implementadas:** 212 / 310 (68,4%).
+- **Pendientes:** 98.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -275,3 +275,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 200. `photo-card-perspective` · Tarjeta en perspectiva (Diseño)
 201. `gradient-poster` · Póster con degradado (Diseño)
 202. `photo-duotone-glow` · Duotono luminoso (Color)
+
+
+## Lote 21 (10)
+203. `photo-prism-refraction` · Refracción prisma (Efectos)
+204. `motion-trail-maker` · Estelas de movimiento (Efectos)
+205. `luminous-contours` · Contornos luminosos (Efectos)
+206. `warm-cool-balance` · Balance cálido y frío (Color)
+207. `shadow-highlight-toning` · Virado de sombras y luces (Color)
+208. `selective-color-swap` · Sustitución selectiva de color (Color)
+209. `photo-grid-layout` · Composición en cuadrícula (Diseño)
+210. `instant-photo-frame` · Marco de foto instantánea (Diseño)
+211. `miniature-photo-board` · Panel de miniaturas (Diseño)
+212. `geometric-low-poly` · Geometría low poly (Efectos)
