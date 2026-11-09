@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 140,
-  "remaining": 170,
+  "implemented": 150,
+  "remaining": 160,
   "tools": [
     {
       "id": "resize",
@@ -1263,6 +1263,96 @@
       "status": "implemented",
       "batch": 14,
       "route": "/herramientas/soft-glow/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-burn",
+      "name": "Quemadura de película",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/film-burn/",
+      "processing": "browser"
+    },
+    {
+      "id": "paper-texture",
+      "name": "Textura de papel",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/paper-texture/",
+      "processing": "browser"
+    },
+    {
+      "id": "torn-paper",
+      "name": "Borde de papel rasgado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/torn-paper/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-caption",
+      "name": "Pie de foto",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/photo-caption/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-frame",
+      "name": "Marco degradado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/gradient-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "radial-rays",
+      "name": "Rayos de luz",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/radial-rays/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-wash",
+      "name": "Baño de color degradado",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/color-wash/",
+      "processing": "browser"
+    },
+    {
+      "id": "safe-crop-guide",
+      "name": "Guías de encuadre",
+      "category": "Utilidades",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/safe-crop-guide/",
+      "processing": "browser"
+    },
+    {
+      "id": "blurred-backdrop",
+      "name": "Fondo desenfocado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/blurred-backdrop/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-grain-color",
+      "name": "Grano de película en color",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 15,
+      "route": "/herramientas/film-grain-color/",
       "processing": "browser"
     }
   ]

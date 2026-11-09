@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 140 / 310 (45,2%).
-- **Pendientes:** 170.
+- **Implementadas:** 150 / 310 (48,4%).
+- **Pendientes:** 160.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -195,3 +195,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 138. `polka-dots` · Trama de lunares (Efectos)
 139. `crosshatch` · Trama de rayado (Efectos)
 140. `soft-glow` · Resplandor suave (Efectos)
+
+
+## Lote 15 (10)
+141. `film-burn` · Quemadura de película (Efectos)
+142. `paper-texture` · Textura de papel (Efectos)
+143. `torn-paper` · Borde de papel rasgado (Diseño)
+144. `photo-caption` · Pie de foto (Diseño)
+145. `gradient-frame` · Marco degradado (Diseño)
+146. `radial-rays` · Rayos de luz (Efectos)
+147. `color-wash` · Baño de color degradado (Color)
+148. `safe-crop-guide` · Guías de encuadre (Utilidades)
+149. `blurred-backdrop` · Fondo desenfocado (Diseño)
+150. `film-grain-color` · Grano de película en color (Efectos)
