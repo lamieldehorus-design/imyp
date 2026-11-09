@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 181,
-  "remaining": 129,
+  "implemented": 182,
+  "remaining": 128,
   "tools": [
     {
       "id": "resize",

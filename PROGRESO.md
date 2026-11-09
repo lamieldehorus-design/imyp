@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 181 / 310 (58,4%).
-- **Pendientes:** 129.
+- **Implementadas:** 182 / 310 (58,7%).
+- **Pendientes:** 128.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -237,7 +237,7 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 171. `photo-glitch` · Glitch digital (Efectos)
 
 
-## Lote 18 (10)
+## Lote 18 (11)
 172. `photo-light-leak` · Fuga de luz (Efectos)
 173. `image-sharpen` · Enfoque y nitidez (Ajustes)
 174. `photo-soft-focus` · Enfoque suave (Efectos)
