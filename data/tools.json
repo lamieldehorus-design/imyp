@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 29,
-  "remaining": 281,
+  "implemented": 30,
+  "remaining": 280,
   "tools": [
     {
       "id": "resize",
@@ -264,6 +264,15 @@
       "status": "implemented",
       "batch": 3,
       "route": "/herramientas/straighten/",
+      "processing": "browser"
+    },
+    {
+      "id": "crop-ratio",
+      "name": "Recortar por proporción",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 3,
+      "route": "/herramientas/crop-ratio/",
       "processing": "browser"
     }
   ]
