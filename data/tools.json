@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 110,
-  "remaining": 200,
+  "implemented": 120,
+  "remaining": 190,
   "tools": [
     {
       "id": "resize",
@@ -993,6 +993,96 @@
       "status": "implemented",
       "batch": 11,
       "route": "/herramientas/rounded-avatar/",
+      "processing": "browser"
+    },
+    {
+      "id": "blend-mode",
+      "name": "Mezclar dos imágenes",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/blend-mode/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-border",
+      "name": "Marco fotográfico personalizado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/photo-border/",
+      "processing": "browser"
+    },
+    {
+      "id": "radial-gradient-overlay",
+      "name": "Degradado radial",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/radial-gradient-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-curves",
+      "name": "Curvas de tono",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/color-curves/",
+      "processing": "browser"
+    },
+    {
+      "id": "duotone-gradient",
+      "name": "Degradado de dos tonos",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/duotone-gradient/",
+      "processing": "browser"
+    },
+    {
+      "id": "mirror-half",
+      "name": "Reflejar mitad de imagen",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/mirror-half/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-tiling",
+      "name": "Repetir imagen en mosaico",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/image-tiling/",
+      "processing": "browser"
+    },
+    {
+      "id": "circle-mask",
+      "name": "Máscara circular",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/circle-mask/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-channel-mixer",
+      "name": "Mezclador de canales RGB",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/color-channel-mixer/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-vignette",
+      "name": "Viñeta suave",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 12,
+      "route": "/herramientas/soft-vignette/",
       "processing": "browser"
     }
   ]

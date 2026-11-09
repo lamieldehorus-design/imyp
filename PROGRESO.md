@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 110 / 310 (35,5%).
-- **Pendientes:** 200.
+- **Implementadas:** 120 / 310 (38,7%).
+- **Pendientes:** 190.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -156,3 +156,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 108. `photo-grid` · Cuadrícula de fotografías (Composición)
 109. `before-after` · Comparación antes y después (Composición)
 110. `rounded-avatar` · Avatar con fondo personalizado (Redes sociales)
+
+
+## Lote 12 (10)
+111. `blend-mode` · Mezclar dos imágenes (Composición)
+112. `photo-border` · Marco fotográfico personalizado (Diseño)
+113. `radial-gradient-overlay` · Degradado radial (Efectos)
+114. `color-curves` · Curvas de tono (Color)
+115. `duotone-gradient` · Degradado de dos tonos (Color)
+116. `mirror-half` · Reflejar mitad de imagen (Composición)
+117. `image-tiling` · Repetir imagen en mosaico (Composición)
+118. `circle-mask` · Máscara circular (Diseño)
+119. `color-channel-mixer` · Mezclador de canales RGB (Color)
+120. `soft-vignette` · Viñeta suave (Efectos)
