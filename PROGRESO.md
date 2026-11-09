@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 80 / 310 (25,8%).
-- **Pendientes:** 230.
+- **Implementadas:** 90 / 310 (29,0%).
+- **Pendientes:** 220.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -117,3 +117,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 78. `negative-film` · Negativo fotográfico (Efectos)
 79. `grid-overlay` · Superponer cuadrícula (Diseño)
 80. `caption-badge` · Crear etiqueta sobre imagen (Diseño)
+
+
+## Lote 9 (10)
+81. `meme-maker` · Crear meme (Diseño)
+82. `speech-bubble` · Agregar globo de diálogo (Diseño)
+83. `avatar-frame` · Crear avatar circular con marco (Redes sociales)
+84. `reflection` · Crear reflejo fotográfico (Efectos)
+85. `film-dust` · Polvo y rayas de película (Efectos)
+86. `gradient-background` · Fondo degradado para imagen (Diseño)
+87. `pixel-art` · Convertir a pixel art (Efectos)
+88. `edge-glow` · Resplandor de contornos (Efectos)
+89. `transparent-padding` · Margen transparente (Diseño)
+90. `border-gradient` · Marco con degradado (Diseño)

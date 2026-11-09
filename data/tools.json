@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 80,
-  "remaining": 230,
+  "implemented": 90,
+  "remaining": 220,
   "tools": [
     {
       "id": "resize",
@@ -723,6 +723,96 @@
       "status": "implemented",
       "batch": 8,
       "route": "/herramientas/caption-badge/",
+      "processing": "browser"
+    },
+    {
+      "id": "meme-maker",
+      "name": "Crear meme",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/meme-maker/",
+      "processing": "browser"
+    },
+    {
+      "id": "speech-bubble",
+      "name": "Agregar globo de diálogo",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/speech-bubble/",
+      "processing": "browser"
+    },
+    {
+      "id": "avatar-frame",
+      "name": "Crear avatar circular con marco",
+      "category": "Redes sociales",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/avatar-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "reflection",
+      "name": "Crear reflejo fotográfico",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/reflection/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-dust",
+      "name": "Polvo y rayas de película",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/film-dust/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-background",
+      "name": "Fondo degradado para imagen",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/gradient-background/",
+      "processing": "browser"
+    },
+    {
+      "id": "pixel-art",
+      "name": "Convertir a pixel art",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/pixel-art/",
+      "processing": "browser"
+    },
+    {
+      "id": "edge-glow",
+      "name": "Resplandor de contornos",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/edge-glow/",
+      "processing": "browser"
+    },
+    {
+      "id": "transparent-padding",
+      "name": "Margen transparente",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/transparent-padding/",
+      "processing": "browser"
+    },
+    {
+      "id": "border-gradient",
+      "name": "Marco con degradado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 9,
+      "route": "/herramientas/border-gradient/",
       "processing": "browser"
     }
   ]
