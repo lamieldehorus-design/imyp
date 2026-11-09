@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 50 / 310 (16,1%).
-- **Pendientes:** 260.
+- **Implementadas:** 60 / 310 (19,4%).
+- **Pendientes:** 250.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -80,3 +80,15 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 48. `fade` · Efecto desvanecido (Efectos)
 49. `add-background` · Agregar fondo de color (Diseño)
 50. `image-info` · Información de imagen (Utilidades)
+
+## Lote 6 (10)
+51. `solarize` · Solarizar imagen (Efectos)
+52. `emboss` · Relieve fotográfico (Efectos)
+53. `sketch` · Efecto dibujo a lápiz (Efectos)
+54. `red-channel` · Canal rojo (Color)
+55. `green-channel` · Canal verde (Color)
+56. `blue-channel` · Canal azul (Color)
+57. `warm-filter` · Filtro cálido (Color)
+58. `cool-filter` · Filtro frío (Color)
+59. `film-frame` · Marco de película (Diseño)
+60. `mirror-tiles` · Composición espejo (Composición)
