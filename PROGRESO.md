@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 90 / 310 (29,0%).
-- **Pendientes:** 220.
+- **Implementadas:** 100 / 310 (32,3%).
+- **Pendientes:** 210.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -130,3 +130,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 88. `edge-glow` · Resplandor de contornos (Efectos)
 89. `transparent-padding` · Margen transparente (Diseño)
 90. `border-gradient` · Marco con degradado (Diseño)
+
+
+## Lote 10 (10)
+91. `redact-area` · Ocultar una zona de la imagen (Utilidades)
+92. `pixelate-area` · Pixelar una zona (Utilidades)
+93. `tilt-shift` · Efecto tilt-shift (Efectos)
+94. `light-leak` · Fuga de luz (Efectos)
+95. `lens-flare` · Destello de lente (Efectos)
+96. `comic-book` · Efecto cómic (Efectos)
+97. `photo-strip` · Tira de fotomatón (Composición)
+98. `poster-layout` · Diseñar un póster (Diseño)
+99. `text-watermark-pattern` · Marca de agua repetida (Diseño)
+100. `canvas-resize` · Cambiar tamaño del lienzo (Imagen)

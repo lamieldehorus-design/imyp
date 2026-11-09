@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 90,
-  "remaining": 220,
+  "implemented": 100,
+  "remaining": 210,
   "tools": [
     {
       "id": "resize",
@@ -813,6 +813,96 @@
       "status": "implemented",
       "batch": 9,
       "route": "/herramientas/border-gradient/",
+      "processing": "browser"
+    },
+    {
+      "id": "redact-area",
+      "name": "Ocultar una zona de la imagen",
+      "category": "Utilidades",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/redact-area/",
+      "processing": "browser"
+    },
+    {
+      "id": "pixelate-area",
+      "name": "Pixelar una zona",
+      "category": "Utilidades",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/pixelate-area/",
+      "processing": "browser"
+    },
+    {
+      "id": "tilt-shift",
+      "name": "Efecto tilt-shift",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/tilt-shift/",
+      "processing": "browser"
+    },
+    {
+      "id": "light-leak",
+      "name": "Fuga de luz",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/light-leak/",
+      "processing": "browser"
+    },
+    {
+      "id": "lens-flare",
+      "name": "Destello de lente",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/lens-flare/",
+      "processing": "browser"
+    },
+    {
+      "id": "comic-book",
+      "name": "Efecto cómic",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/comic-book/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-strip",
+      "name": "Tira de fotomatón",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/photo-strip/",
+      "processing": "browser"
+    },
+    {
+      "id": "poster-layout",
+      "name": "Diseñar un póster",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/poster-layout/",
+      "processing": "browser"
+    },
+    {
+      "id": "text-watermark-pattern",
+      "name": "Marca de agua repetida",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/text-watermark-pattern/",
+      "processing": "browser"
+    },
+    {
+      "id": "canvas-resize",
+      "name": "Cambiar tamaño del lienzo",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 10,
+      "route": "/herramientas/canvas-resize/",
       "processing": "browser"
     }
   ]
