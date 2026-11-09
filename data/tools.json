@@ -1,0 +1,252 @@
+{
+  "project": "ImagenesYPostales.com",
+  "catalogVersion": "1.0.0",
+  "plannedTotal": 310,
+  "implemented": 27,
+  "remaining": 283,
+  "tools": [
+    {
+      "id": "resize",
+      "name": "Redimensionar imagen",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/resize/",
+      "processing": "browser"
+    },
+    {
+      "id": "crop",
+      "name": "Recortar imagen",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/crop/",
+      "processing": "browser"
+    },
+    {
+      "id": "rotate",
+      "name": "Rotar y voltear",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/rotate/",
+      "processing": "browser"
+    },
+    {
+      "id": "convert",
+      "name": "Convertir formato",
+      "category": "Optimización",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/convert/",
+      "processing": "browser"
+    },
+    {
+      "id": "compress",
+      "name": "Comprimir imagen",
+      "category": "Optimización",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/compress/",
+      "processing": "browser"
+    },
+    {
+      "id": "text",
+      "name": "Agregar texto",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/text/",
+      "processing": "browser"
+    },
+    {
+      "id": "collage",
+      "name": "Crear collage",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/collage/",
+      "processing": "browser"
+    },
+    {
+      "id": "colors",
+      "name": "Extraer paleta de colores",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/colors/",
+      "processing": "browser"
+    },
+    {
+      "id": "favicon",
+      "name": "Crear favicon",
+      "category": "Web",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/favicon/",
+      "processing": "browser"
+    },
+    {
+      "id": "postcard",
+      "name": "Crear una postal",
+      "category": "Postales",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/postcard/",
+      "processing": "browser"
+    },
+    {
+      "id": "grayscale",
+      "name": "Blanco y negro",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/grayscale/",
+      "processing": "browser"
+    },
+    {
+      "id": "mirror",
+      "name": "Espejar imagen",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 1,
+      "route": "/herramientas/mirror/",
+      "processing": "browser"
+    },
+    {
+      "id": "brightness",
+      "name": "Ajustar brillo",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/brightness/",
+      "processing": "browser"
+    },
+    {
+      "id": "contrast",
+      "name": "Ajustar contraste",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/contrast/",
+      "processing": "browser"
+    },
+    {
+      "id": "saturation",
+      "name": "Ajustar saturación",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/saturation/",
+      "processing": "browser"
+    },
+    {
+      "id": "exposure",
+      "name": "Ajustar exposición",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/exposure/",
+      "processing": "browser"
+    },
+    {
+      "id": "sepia",
+      "name": "Aplicar efecto sepia",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/sepia/",
+      "processing": "browser"
+    },
+    {
+      "id": "invert",
+      "name": "Invertir colores",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/invert/",
+      "processing": "browser"
+    },
+    {
+      "id": "blur",
+      "name": "Desenfocar imagen",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/blur/",
+      "processing": "browser"
+    },
+    {
+      "id": "pixelate",
+      "name": "Pixelar imagen",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/pixelate/",
+      "processing": "browser"
+    },
+    {
+      "id": "vignette",
+      "name": "Viñeta fotográfica",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/vignette/",
+      "processing": "browser"
+    },
+    {
+      "id": "round-corners",
+      "name": "Redondear esquinas",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/round-corners/",
+      "processing": "browser"
+    },
+    {
+      "id": "border",
+      "name": "Agregar bordes",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/border/",
+      "processing": "browser"
+    },
+    {
+      "id": "watermark",
+      "name": "Añadir marca de agua",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/watermark/",
+      "processing": "browser"
+    },
+    {
+      "id": "date-stamp",
+      "name": "Añadir fecha a fotografía",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/date-stamp/",
+      "processing": "browser"
+    },
+    {
+      "id": "transparency",
+      "name": "Ajustar transparencia",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/transparency/",
+      "processing": "browser"
+    },
+    {
+      "id": "sharpen",
+      "name": "Enfocar imagen",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 2,
+      "route": "/herramientas/sharpen/",
+      "processing": "browser"
+    }
+  ]
+}
