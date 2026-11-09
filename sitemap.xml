@@ -41,4 +41,14 @@
   <url><loc>https://imagenesypostales.com/herramientas/circle-crop/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/split-image/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/gradient-overlay/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/image-overlay/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/image-watermark/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/mosaic/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/soft-focus/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/color-temperature/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/hue-rotate/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/threshold/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/fade/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/add-background/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/image-info/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
