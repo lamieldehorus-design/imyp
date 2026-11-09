@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 171 / 310 (55,2%).
-- **Pendientes:** 139.
+- **Implementadas:** 181 / 310 (58,4%).
+- **Pendientes:** 129.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -235,3 +235,17 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 169. `photo-color-isolation` · Aislar color (Color)
 170. `image-border-dashed` · Borde discontinuo (Diseño)
 171. `photo-glitch` · Glitch digital (Efectos)
+
+
+## Lote 18 (10)
+172. `photo-light-leak` · Fuga de luz (Efectos)
+173. `image-sharpen` · Enfoque y nitidez (Ajustes)
+174. `photo-soft-focus` · Enfoque suave (Efectos)
+175. `color-split-toning` · Virado de sombras y luces (Color)
+176. `photo-contact-sheet` · Hoja de contactos (Diseño)
+177. `image-polar-coordinates` · Efecto planeta (Efectos)
+178. `photo-edge-glow` · Resplandor de bordes (Efectos)
+179. `image-color-balance` · Balance de color (Color)
+180. `photo-film-frame` · Marco de película (Diseño)
+181. `image-threshold` · Umbral blanco y negro (Color)
+182. `photo-color-overlay` · Superposición de color (Color)

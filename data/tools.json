@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 171,
-  "remaining": 139,
+  "implemented": 181,
+  "remaining": 129,
   "tools": [
     {
       "id": "resize",
@@ -1542,6 +1542,105 @@
       "status": "implemented",
       "batch": 17,
       "route": "/herramientas/photo-glitch/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-light-leak",
+      "name": "Fuga de luz",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/photo-light-leak/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-sharpen",
+      "name": "Enfoque y nitidez",
+      "category": "Ajustes",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/image-sharpen/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-soft-focus",
+      "name": "Enfoque suave",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/photo-soft-focus/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-split-toning",
+      "name": "Virado de sombras y luces",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/color-split-toning/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-contact-sheet",
+      "name": "Hoja de contactos",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/photo-contact-sheet/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-polar-coordinates",
+      "name": "Efecto planeta",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/image-polar-coordinates/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-edge-glow",
+      "name": "Resplandor de bordes",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/photo-edge-glow/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-color-balance",
+      "name": "Balance de color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/image-color-balance/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-film-frame",
+      "name": "Marco de película",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/photo-film-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-threshold",
+      "name": "Umbral blanco y negro",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/image-threshold/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-color-overlay",
+      "name": "Superposición de color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 18,
+      "route": "/herramientas/photo-color-overlay/",
       "processing": "browser"
     }
   ]
