@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 29 / 310 (9,4%).
-- **Pendientes:** 281.
+- **Implementadas:** 30 / 310 (9,7%).
+- **Pendientes:** 280.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** en curso, con 1 herramienta incorporada.
@@ -45,6 +45,7 @@
 ## Lote 3 (en curso)
 28. `flip-vertical` · Voltear imagen verticalmente (Imagen)
 29. `straighten` · Enderezar imagen (Imagen)
+30. `crop-ratio` · Recortar por proporción (Imagen)
 
 ## Criterio de conteo
 Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica operativa. No contamos ideas, enlaces vacíos ni formularios decorativos. Las funciones se siguen sometiendo a pruebas y mejoras de calidad.
