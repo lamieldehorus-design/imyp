@@ -1,0 +1,2977 @@
+{
+  "schemaVersion": "1.0.0",
+  "project": "ImagenesYPostales.com",
+  "language": "es-AR",
+  "created": "2026-11-09",
+  "policy": {
+    "access": "free-with-advertising",
+    "accountRequired": false,
+    "defaultProcessing": "client-side-when-feasible",
+    "neverClaimLiveUntilImplemented": true,
+    "statusDefinitions": {
+      "existing": "Ruta o función detectada en el repositorio; verificar su funcionamiento antes de modificarla.",
+      "proposed": "Propuesta de catálogo, aún no implementada ni publicada.",
+      "planned": "Aprobada para desarrollo, aún no desplegada."
+    }
+  },
+  "summary": {
+    "categories": 14,
+    "tools": 288,
+    "existing": 8,
+    "proposed": 280
+  },
+  "categories": [
+    {
+      "id": "edicion",
+      "name": "Edición y manipulación",
+      "toolCount": 30
+    },
+    {
+      "id": "formatos",
+      "name": "Formatos, conversión y optimización",
+      "toolCount": 25
+    },
+    {
+      "id": "composicion",
+      "name": "Diseño, composición y collage",
+      "toolCount": 23
+    },
+    {
+      "id": "fotografia",
+      "name": "Fotografía, restauración y mejora",
+      "toolCount": 20
+    },
+    {
+      "id": "postales",
+      "name": "Postales, tarjetas y ocasiones",
+      "toolCount": 25
+    },
+    {
+      "id": "fondos",
+      "name": "Fondos, wallpapers y recursos",
+      "toolCount": 20
+    },
+    {
+      "id": "tipografia",
+      "name": "Tipografía, frases y texto visual",
+      "toolCount": 20
+    },
+    {
+      "id": "redes",
+      "name": "Redes sociales y formatos digitales",
+      "toolCount": 20
+    },
+    {
+      "id": "marca",
+      "name": "Marca, color e identidad visual",
+      "toolCount": 20
+    },
+    {
+      "id": "ia",
+      "name": "IA y asistencia creativa",
+      "toolCount": 20
+    },
+    {
+      "id": "tecnico",
+      "name": "Análisis técnico e impresión",
+      "toolCount": 20
+    },
+    {
+      "id": "animacion",
+      "name": "GIF, animación y movimiento",
+      "toolCount": 15
+    },
+    {
+      "id": "generadores",
+      "name": "Generadores visuales y patrones",
+      "toolCount": 20
+    },
+    {
+      "id": "catalogo",
+      "name": "Biblioteca y gestión de recursos",
+      "toolCount": 10
+    }
+  ],
+  "tools": [
+    {
+      "id": "recortar",
+      "name": "Recortar",
+      "category": "edicion",
+      "description": "Herramienta para recortar, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "redimensionar",
+      "name": "Redimensionar",
+      "category": "edicion",
+      "description": "Herramienta para redimensionar, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprimir",
+      "name": "Comprimir",
+      "category": "edicion",
+      "description": "Herramienta para comprimir, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "girar",
+      "name": "Girar",
+      "category": "edicion",
+      "description": "Herramienta para girar, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "voltear",
+      "name": "Voltear",
+      "category": "edicion",
+      "description": "Herramienta para voltear, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "convertir",
+      "name": "Convertir",
+      "category": "edicion",
+      "description": "Herramienta para convertir, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-en-imagen",
+      "name": "Texto en imagen",
+      "category": "edicion",
+      "description": "Herramienta para texto en imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "existing",
+      "path": "/herramientas/texto-en-imagen/",
+      "seoStatus": "preserve-and-audit"
+    },
+    {
+      "id": "marca-de-agua",
+      "name": "Marca de agua",
+      "category": "edicion",
+      "description": "Herramienta para marca de agua, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "existing",
+      "path": "/herramientas/marca-de-agua/",
+      "seoStatus": "preserve-and-audit"
+    },
+    {
+      "id": "quitar-fondo",
+      "name": "Quitar fondo",
+      "category": "edicion",
+      "description": "Herramienta para quitar fondo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "existing",
+      "path": "/herramientas/quitar-fondo/",
+      "seoStatus": "preserve-and-audit"
+    },
+    {
+      "id": "recorte-circular",
+      "name": "Recorte circular",
+      "category": "edicion",
+      "description": "Herramienta para recorte circular, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "recorte-con-formas",
+      "name": "Recorte con formas",
+      "category": "edicion",
+      "description": "Herramienta para recorte con formas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "ajustar-brillo",
+      "name": "Ajustar brillo",
+      "category": "edicion",
+      "description": "Herramienta para ajustar brillo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "ajustar-contraste",
+      "name": "Ajustar contraste",
+      "category": "edicion",
+      "description": "Herramienta para ajustar contraste, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "ajustar-saturacion",
+      "name": "Ajustar saturación",
+      "category": "edicion",
+      "description": "Herramienta para ajustar saturación, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "temperatura-de-color",
+      "name": "Temperatura de color",
+      "category": "edicion",
+      "description": "Herramienta para temperatura de color, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "ajustar-tinte",
+      "name": "Ajustar tinte",
+      "category": "edicion",
+      "description": "Herramienta para ajustar tinte, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "blanco-y-negro",
+      "name": "Blanco y negro",
+      "category": "edicion",
+      "description": "Herramienta para blanco y negro, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "invertir-colores",
+      "name": "Invertir colores",
+      "category": "edicion",
+      "description": "Herramienta para invertir colores, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "sepia",
+      "name": "Sepia",
+      "category": "edicion",
+      "description": "Herramienta para sepia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "desenfocar",
+      "name": "Desenfocar",
+      "category": "edicion",
+      "description": "Herramienta para desenfocar, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "enfocar",
+      "name": "Enfocar",
+      "category": "edicion",
+      "description": "Herramienta para enfocar, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "pixelar",
+      "name": "Pixelar",
+      "category": "edicion",
+      "description": "Herramienta para pixelar, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "redondear-esquinas",
+      "name": "Redondear esquinas",
+      "category": "edicion",
+      "description": "Herramienta para redondear esquinas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "anadir-bordes",
+      "name": "Añadir bordes",
+      "category": "edicion",
+      "description": "Herramienta para añadir bordes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "marcos-para-fotos",
+      "name": "Marcos para fotos",
+      "category": "edicion",
+      "description": "Herramienta para marcos para fotos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "efecto-polaroid",
+      "name": "Efecto Polaroid",
+      "category": "edicion",
+      "description": "Herramienta para efecto polaroid, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "superponer-imagenes",
+      "name": "Superponer imágenes",
+      "category": "edicion",
+      "description": "Herramienta para superponer imágenes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fusionar-imagenes",
+      "name": "Fusionar imágenes",
+      "category": "edicion",
+      "description": "Herramienta para fusionar imágenes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "eliminar-metadatos",
+      "name": "Eliminar metadatos",
+      "category": "edicion",
+      "description": "Herramienta para eliminar metadatos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "procesar-imagenes-por-lotes",
+      "name": "Procesar imágenes por lotes",
+      "category": "edicion",
+      "description": "Herramienta para procesar imágenes por lotes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "jpg-a-png",
+      "name": "JPG a PNG",
+      "category": "formatos",
+      "description": "Herramienta para jpg a png, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "png-a-jpg",
+      "name": "PNG a JPG",
+      "category": "formatos",
+      "description": "Herramienta para png a jpg, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "jpg-a-webp",
+      "name": "JPG a WebP",
+      "category": "formatos",
+      "description": "Herramienta para jpg a webp, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "png-a-webp",
+      "name": "PNG a WebP",
+      "category": "formatos",
+      "description": "Herramienta para png a webp, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "webp-a-jpg",
+      "name": "WebP a JPG",
+      "category": "formatos",
+      "description": "Herramienta para webp a jpg, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "webp-a-png",
+      "name": "WebP a PNG",
+      "category": "formatos",
+      "description": "Herramienta para webp a png, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "avif-a-jpg",
+      "name": "AVIF a JPG",
+      "category": "formatos",
+      "description": "Herramienta para avif a jpg, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "jpg-a-avif",
+      "name": "JPG a AVIF",
+      "category": "formatos",
+      "description": "Herramienta para jpg a avif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "bmp-a-png",
+      "name": "BMP a PNG",
+      "category": "formatos",
+      "description": "Herramienta para bmp a png, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "extraer-imagen-de-gif",
+      "name": "Extraer imagen de GIF",
+      "category": "formatos",
+      "description": "Herramienta para extraer imagen de gif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-a-data-uri",
+      "name": "Imagen a Data URI",
+      "category": "formatos",
+      "description": "Herramienta para imagen a data uri, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-a-base64",
+      "name": "Imagen a Base64",
+      "category": "formatos",
+      "description": "Herramienta para imagen a base64, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "base64-a-imagen",
+      "name": "Base64 a imagen",
+      "category": "formatos",
+      "description": "Herramienta para base64 a imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprimir-jpg",
+      "name": "Comprimir JPG",
+      "category": "formatos",
+      "description": "Herramienta para comprimir jpg, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprimir-png",
+      "name": "Comprimir PNG",
+      "category": "formatos",
+      "description": "Herramienta para comprimir png, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprimir-webp",
+      "name": "Comprimir WebP",
+      "category": "formatos",
+      "description": "Herramienta para comprimir webp, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprimir-a-kb",
+      "name": "Comprimir a KB",
+      "category": "formatos",
+      "description": "Herramienta para comprimir a kb, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprimir-varias-imagenes",
+      "name": "Comprimir varias imágenes",
+      "category": "formatos",
+      "description": "Herramienta para comprimir varias imágenes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "convertir-imagenes-por-lotes",
+      "name": "Convertir imágenes por lotes",
+      "category": "formatos",
+      "description": "Herramienta para convertir imágenes por lotes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "descargar-resultados-en-zip",
+      "name": "Descargar resultados en ZIP",
+      "category": "formatos",
+      "description": "Herramienta para descargar resultados en zip, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "optimizar-imagen-para-web",
+      "name": "Optimizar imagen para web",
+      "category": "formatos",
+      "description": "Herramienta para optimizar imagen para web, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "optimizar-imagen-para-email",
+      "name": "Optimizar imagen para email",
+      "category": "formatos",
+      "description": "Herramienta para optimizar imagen para email, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "renombrar-archivos-de-imagen",
+      "name": "Renombrar archivos de imagen",
+      "category": "formatos",
+      "description": "Herramienta para renombrar archivos de imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comparar-formatos",
+      "name": "Comparar formatos",
+      "category": "formatos",
+      "description": "Herramienta para comparar formatos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "identificar-formato-de-imagen",
+      "name": "Identificar formato de imagen",
+      "category": "formatos",
+      "description": "Herramienta para identificar formato de imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-collage",
+      "name": "Crear collage",
+      "category": "composicion",
+      "description": "Herramienta para crear collage, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "existing",
+      "path": "/crear/collage/",
+      "seoStatus": "preserve-and-audit"
+    },
+    {
+      "id": "crear-meme",
+      "name": "Crear meme",
+      "category": "composicion",
+      "description": "Herramienta para crear meme, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "existing",
+      "path": "/crear/meme/",
+      "seoStatus": "preserve-and-audit"
+    },
+    {
+      "id": "crear-postal",
+      "name": "Crear postal",
+      "category": "composicion",
+      "description": "Herramienta para crear postal, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "existing",
+      "path": "/crear/postal/",
+      "seoStatus": "preserve-and-audit"
+    },
+    {
+      "id": "frase-en-imagen",
+      "name": "Frase en imagen",
+      "category": "composicion",
+      "description": "Herramienta para frase en imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "existing",
+      "path": "/crear/frase-en-imagen/",
+      "seoStatus": "preserve-and-audit"
+    },
+    {
+      "id": "editor-visual-integrado",
+      "name": "Editor visual integrado",
+      "category": "composicion",
+      "description": "Herramienta para editor visual integrado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "unir-fotos-horizontalmente",
+      "name": "Unir fotos horizontalmente",
+      "category": "composicion",
+      "description": "Herramienta para unir fotos horizontalmente, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "unir-fotos-verticalmente",
+      "name": "Unir fotos verticalmente",
+      "category": "composicion",
+      "description": "Herramienta para unir fotos verticalmente, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-cuadricula-de-fotos",
+      "name": "Crear cuadrícula de fotos",
+      "category": "composicion",
+      "description": "Herramienta para crear cuadrícula de fotos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-mosaico",
+      "name": "Crear mosaico",
+      "category": "composicion",
+      "description": "Herramienta para crear mosaico, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "hoja-de-contactos",
+      "name": "Hoja de contactos",
+      "category": "composicion",
+      "description": "Herramienta para hoja de contactos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "marco-personalizado",
+      "name": "Marco personalizado",
+      "category": "composicion",
+      "description": "Herramienta para marco personalizado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-banner",
+      "name": "Crear banner",
+      "category": "composicion",
+      "description": "Herramienta para crear banner, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-portada",
+      "name": "Crear portada",
+      "category": "composicion",
+      "description": "Herramienta para crear portada, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-miniatura",
+      "name": "Crear miniatura",
+      "category": "composicion",
+      "description": "Herramienta para crear miniatura, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-fondo-degradado",
+      "name": "Crear fondo degradado",
+      "category": "composicion",
+      "description": "Herramienta para crear fondo degradado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-patron-repetible",
+      "name": "Crear patrón repetible",
+      "category": "composicion",
+      "description": "Herramienta para crear patrón repetible, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-textura",
+      "name": "Crear textura",
+      "category": "composicion",
+      "description": "Herramienta para crear textura, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "composicion-geometrica",
+      "name": "Composición geométrica",
+      "category": "composicion",
+      "description": "Herramienta para composición geométrica, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fotomontaje-basico",
+      "name": "Fotomontaje básico",
+      "category": "composicion",
+      "description": "Herramienta para fotomontaje básico, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tarjeta-digital",
+      "name": "Tarjeta digital",
+      "category": "composicion",
+      "description": "Herramienta para tarjeta digital, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "invitacion-visual",
+      "name": "Invitación visual",
+      "category": "composicion",
+      "description": "Herramienta para invitación visual, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tira-fotografica",
+      "name": "Tira fotográfica",
+      "category": "composicion",
+      "description": "Herramienta para tira fotográfica, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "lienzo-transparente",
+      "name": "Lienzo transparente",
+      "category": "composicion",
+      "description": "Herramienta para lienzo transparente, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "mejorar-fotografia",
+      "name": "Mejorar fotografía",
+      "category": "fotografia",
+      "description": "Herramienta para mejorar fotografía, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "restaurar-foto-antigua",
+      "name": "Restaurar foto antigua",
+      "category": "fotografia",
+      "description": "Herramienta para restaurar foto antigua, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "hybrid",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "colorear-foto-en-blanco-y-negro",
+      "name": "Colorear foto en blanco y negro",
+      "category": "fotografia",
+      "description": "Herramienta para colorear foto en blanco y negro, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "hybrid",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "aumentar-resolucion",
+      "name": "Aumentar resolución",
+      "category": "fotografia",
+      "description": "Herramienta para aumentar resolución, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "hybrid",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "reducir-ruido-fotografico",
+      "name": "Reducir ruido fotográfico",
+      "category": "fotografia",
+      "description": "Herramienta para reducir ruido fotográfico, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "mejorar-foto-oscura",
+      "name": "Mejorar foto oscura",
+      "category": "fotografia",
+      "description": "Herramienta para mejorar foto oscura, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "corregir-ojos-rojos",
+      "name": "Corregir ojos rojos",
+      "category": "fotografia",
+      "description": "Herramienta para corregir ojos rojos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "eliminar-objeto-de-foto",
+      "name": "Eliminar objeto de foto",
+      "category": "fotografia",
+      "description": "Herramienta para eliminar objeto de foto, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "hybrid",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "desenfocar-fondo",
+      "name": "Desenfocar fondo",
+      "category": "fotografia",
+      "description": "Herramienta para desenfocar fondo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "hybrid",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "mejorar-detalle-facial",
+      "name": "Mejorar detalle facial",
+      "category": "fotografia",
+      "description": "Herramienta para mejorar detalle facial, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "hybrid",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "foto-a-dibujo",
+      "name": "Foto a dibujo",
+      "category": "fotografia",
+      "description": "Herramienta para foto a dibujo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "foto-a-pintura",
+      "name": "Foto a pintura",
+      "category": "fotografia",
+      "description": "Herramienta para foto a pintura, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "foto-a-boceto",
+      "name": "Foto a boceto",
+      "category": "fotografia",
+      "description": "Herramienta para foto a boceto, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "foto-a-comic",
+      "name": "Foto a cómic",
+      "category": "fotografia",
+      "description": "Herramienta para foto a cómic, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "foto-a-pixel-art",
+      "name": "Foto a pixel art",
+      "category": "fotografia",
+      "description": "Herramienta para foto a pixel art, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "estilo-vintage",
+      "name": "Estilo vintage",
+      "category": "fotografia",
+      "description": "Herramienta para estilo vintage, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comparar-antes-y-despues",
+      "name": "Comparar antes y después",
+      "category": "fotografia",
+      "description": "Herramienta para comparar antes y después, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "analizar-histograma",
+      "name": "Analizar histograma",
+      "category": "fotografia",
+      "description": "Herramienta para analizar histograma, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "detectar-colores-dominantes",
+      "name": "Detectar colores dominantes",
+      "category": "fotografia",
+      "description": "Herramienta para detectar colores dominantes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "analizar-nitidez",
+      "name": "Analizar nitidez",
+      "category": "fotografia",
+      "description": "Herramienta para analizar nitidez, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-cumpleanos",
+      "name": "Postal de cumpleaños",
+      "category": "postales",
+      "description": "Herramienta para postal de cumpleaños, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-amor",
+      "name": "Postal de amor",
+      "category": "postales",
+      "description": "Herramienta para postal de amor, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-amistad",
+      "name": "Postal de amistad",
+      "category": "postales",
+      "description": "Herramienta para postal de amistad, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-buenos-dias",
+      "name": "Postal de buenos días",
+      "category": "postales",
+      "description": "Herramienta para postal de buenos días, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-buenas-noches",
+      "name": "Postal de buenas noches",
+      "category": "postales",
+      "description": "Herramienta para postal de buenas noches, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-buenas-tardes",
+      "name": "Postal de buenas tardes",
+      "category": "postales",
+      "description": "Herramienta para postal de buenas tardes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-navidad",
+      "name": "Postal de Navidad",
+      "category": "postales",
+      "description": "Herramienta para postal de navidad, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-ano-nuevo",
+      "name": "Postal de Año Nuevo",
+      "category": "postales",
+      "description": "Herramienta para postal de año nuevo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-del-dia-de-la-madre",
+      "name": "Postal del Día de la Madre",
+      "category": "postales",
+      "description": "Herramienta para postal del día de la madre, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-del-dia-del-padre",
+      "name": "Postal del Día del Padre",
+      "category": "postales",
+      "description": "Herramienta para postal del día del padre, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-aniversario",
+      "name": "Postal de aniversario",
+      "category": "postales",
+      "description": "Herramienta para postal de aniversario, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-agradecimiento",
+      "name": "Postal de agradecimiento",
+      "category": "postales",
+      "description": "Herramienta para postal de agradecimiento, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-felicitaciones",
+      "name": "Postal de felicitaciones",
+      "category": "postales",
+      "description": "Herramienta para postal de felicitaciones, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-pronta-recuperacion",
+      "name": "Postal de pronta recuperación",
+      "category": "postales",
+      "description": "Herramienta para postal de pronta recuperación, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-de-condolencias",
+      "name": "Postal de condolencias",
+      "category": "postales",
+      "description": "Herramienta para postal de condolencias, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "invitacion-personalizada",
+      "name": "Invitación personalizada",
+      "category": "postales",
+      "description": "Herramienta para invitación personalizada, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tarjeta-de-bautismo",
+      "name": "Tarjeta de bautismo",
+      "category": "postales",
+      "description": "Herramienta para tarjeta de bautismo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tarjeta-de-boda",
+      "name": "Tarjeta de boda",
+      "category": "postales",
+      "description": "Herramienta para tarjeta de boda, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tarjeta-de-graduacion",
+      "name": "Tarjeta de graduación",
+      "category": "postales",
+      "description": "Herramienta para tarjeta de graduación, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tarjeta-de-nacimiento",
+      "name": "Tarjeta de nacimiento",
+      "category": "postales",
+      "description": "Herramienta para tarjeta de nacimiento, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-para-la-distancia",
+      "name": "Postal para la distancia",
+      "category": "postales",
+      "description": "Herramienta para postal para la distancia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-con-nombre",
+      "name": "Postal con nombre",
+      "category": "postales",
+      "description": "Herramienta para postal con nombre, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-con-firma",
+      "name": "Postal con firma",
+      "category": "postales",
+      "description": "Herramienta para postal con firma, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-para-whatsapp",
+      "name": "Postal para WhatsApp",
+      "category": "postales",
+      "description": "Herramienta para postal para whatsapp, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "postal-imprimible",
+      "name": "Postal imprimible",
+      "category": "postales",
+      "description": "Herramienta para postal imprimible, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondos-de-pantalla",
+      "name": "Fondos de pantalla",
+      "category": "fondos",
+      "description": "Herramienta para fondos de pantalla, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-para-escritorio",
+      "name": "Fondo para escritorio",
+      "category": "fondos",
+      "description": "Herramienta para fondo para escritorio, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-para-movil",
+      "name": "Fondo para móvil",
+      "category": "fondos",
+      "description": "Herramienta para fondo para móvil, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-para-tablet",
+      "name": "Fondo para tablet",
+      "category": "fondos",
+      "description": "Herramienta para fondo para tablet, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-virtual-para-videollamada",
+      "name": "Fondo virtual para videollamada",
+      "category": "fondos",
+      "description": "Herramienta para fondo virtual para videollamada, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-para-productos",
+      "name": "Fondo para productos",
+      "category": "fondos",
+      "description": "Herramienta para fondo para productos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-degradados",
+      "name": "Generador de degradados",
+      "category": "fondos",
+      "description": "Herramienta para generador de degradados, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-patrones",
+      "name": "Generador de patrones",
+      "category": "fondos",
+      "description": "Herramienta para generador de patrones, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-texturas",
+      "name": "Generador de texturas",
+      "category": "fondos",
+      "description": "Herramienta para generador de texturas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "papel-cuadriculado",
+      "name": "Papel cuadriculado",
+      "category": "fondos",
+      "description": "Herramienta para papel cuadriculado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "papel-rayado",
+      "name": "Papel rayado",
+      "category": "fondos",
+      "description": "Herramienta para papel rayado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "papel-punteado",
+      "name": "Papel punteado",
+      "category": "fondos",
+      "description": "Herramienta para papel punteado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "papel-milimetrado",
+      "name": "Papel milimetrado",
+      "category": "fondos",
+      "description": "Herramienta para papel milimetrado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-con-confeti",
+      "name": "Fondo con confeti",
+      "category": "fondos",
+      "description": "Herramienta para fondo con confeti, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-de-estrellas",
+      "name": "Fondo de estrellas",
+      "category": "fondos",
+      "description": "Herramienta para fondo de estrellas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-de-corazones",
+      "name": "Fondo de corazones",
+      "category": "fondos",
+      "description": "Herramienta para fondo de corazones, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-bokeh",
+      "name": "Fondo bokeh",
+      "category": "fondos",
+      "description": "Herramienta para fondo bokeh, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-abstracto",
+      "name": "Fondo abstracto",
+      "category": "fondos",
+      "description": "Herramienta para fondo abstracto, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-inspirado-en-naturaleza",
+      "name": "Fondo inspirado en naturaleza",
+      "category": "fondos",
+      "description": "Herramienta para fondo inspirado en naturaleza, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "fondo-minimalista",
+      "name": "Fondo minimalista",
+      "category": "fondos",
+      "description": "Herramienta para fondo minimalista, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-frases-para-imagenes",
+      "name": "Generador de frases para imágenes",
+      "category": "tipografia",
+      "description": "Herramienta para generador de frases para imágenes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-curvo",
+      "name": "Texto curvo",
+      "category": "tipografia",
+      "description": "Herramienta para texto curvo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-vertical",
+      "name": "Texto vertical",
+      "category": "tipografia",
+      "description": "Herramienta para texto vertical, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-con-contorno",
+      "name": "Texto con contorno",
+      "category": "tipografia",
+      "description": "Herramienta para texto con contorno, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-con-sombra",
+      "name": "Texto con sombra",
+      "category": "tipografia",
+      "description": "Herramienta para texto con sombra, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-con-degradado",
+      "name": "Texto con degradado",
+      "category": "tipografia",
+      "description": "Herramienta para texto con degradado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-efecto-neon",
+      "name": "Texto efecto neón",
+      "category": "tipografia",
+      "description": "Herramienta para texto efecto neón, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-con-efecto-3d",
+      "name": "Texto con efecto 3D",
+      "category": "tipografia",
+      "description": "Herramienta para texto con efecto 3d, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-estilo-maquina-de-escribir",
+      "name": "Texto estilo máquina de escribir",
+      "category": "tipografia",
+      "description": "Herramienta para texto estilo máquina de escribir, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "combinador-de-tipografias",
+      "name": "Combinador de tipografías",
+      "category": "tipografia",
+      "description": "Herramienta para combinador de tipografías, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "vista-previa-de-fuentes",
+      "name": "Vista previa de fuentes",
+      "category": "tipografia",
+      "description": "Herramienta para vista previa de fuentes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "texto-decorativo",
+      "name": "Texto decorativo",
+      "category": "tipografia",
+      "description": "Herramienta para texto decorativo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-citas-visuales",
+      "name": "Generador de citas visuales",
+      "category": "tipografia",
+      "description": "Herramienta para generador de citas visuales, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "frase-con-fondo-personalizado",
+      "name": "Frase con fondo personalizado",
+      "category": "tipografia",
+      "description": "Herramienta para frase con fondo personalizado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "ajustar-texto-al-lienzo",
+      "name": "Ajustar texto al lienzo",
+      "category": "tipografia",
+      "description": "Herramienta para ajustar texto al lienzo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprobar-contraste-de-texto",
+      "name": "Comprobar contraste de texto",
+      "category": "tipografia",
+      "description": "Herramienta para comprobar contraste de texto, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "firma-visual",
+      "name": "Firma visual",
+      "category": "tipografia",
+      "description": "Herramienta para firma visual, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "sello-grafico",
+      "name": "Sello gráfico",
+      "category": "tipografia",
+      "description": "Herramienta para sello gráfico, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "etiquetas-visuales",
+      "name": "Etiquetas visuales",
+      "category": "tipografia",
+      "description": "Herramienta para etiquetas visuales, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "stickers-de-texto",
+      "name": "Stickers de texto",
+      "category": "tipografia",
+      "description": "Herramienta para stickers de texto, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tamano-para-instagram-post",
+      "name": "Tamaño para Instagram post",
+      "category": "redes",
+      "description": "Herramienta para tamaño para instagram post, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tamano-para-instagram-story",
+      "name": "Tamaño para Instagram Story",
+      "category": "redes",
+      "description": "Herramienta para tamaño para instagram story, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tamano-para-reel",
+      "name": "Tamaño para Reel",
+      "category": "redes",
+      "description": "Herramienta para tamaño para reel, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "portada-de-facebook",
+      "name": "Portada de Facebook",
+      "category": "redes",
+      "description": "Herramienta para portada de facebook, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "publicacion-de-facebook",
+      "name": "Publicación de Facebook",
+      "category": "redes",
+      "description": "Herramienta para publicación de facebook, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tamano-para-pinterest",
+      "name": "Tamaño para Pinterest",
+      "category": "redes",
+      "description": "Herramienta para tamaño para pinterest, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "estado-de-whatsapp",
+      "name": "Estado de WhatsApp",
+      "category": "redes",
+      "description": "Herramienta para estado de whatsapp, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "foto-de-perfil",
+      "name": "Foto de perfil",
+      "category": "redes",
+      "description": "Herramienta para foto de perfil, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "miniatura-de-youtube",
+      "name": "Miniatura de YouTube",
+      "category": "redes",
+      "description": "Herramienta para miniatura de youtube, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "banner-de-youtube",
+      "name": "Banner de YouTube",
+      "category": "redes",
+      "description": "Herramienta para banner de youtube, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "banner-de-linkedin",
+      "name": "Banner de LinkedIn",
+      "category": "redes",
+      "description": "Herramienta para banner de linkedin, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-para-linkedin",
+      "name": "Imagen para LinkedIn",
+      "category": "redes",
+      "description": "Herramienta para imagen para linkedin, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tarjeta-para-x",
+      "name": "Tarjeta para X",
+      "category": "redes",
+      "description": "Herramienta para tarjeta para x, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-open-graph",
+      "name": "Imagen Open Graph",
+      "category": "redes",
+      "description": "Herramienta para imagen open graph, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-destacada-para-blog",
+      "name": "Imagen destacada para blog",
+      "category": "redes",
+      "description": "Herramienta para imagen destacada para blog, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "kit-de-tamanos-para-redes",
+      "name": "Kit de tamaños para redes",
+      "category": "redes",
+      "description": "Herramienta para kit de tamaños para redes, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "dividir-imagen-en-carrusel",
+      "name": "Dividir imagen en carrusel",
+      "category": "redes",
+      "description": "Herramienta para dividir imagen en carrusel, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "vista-previa-de-perfil",
+      "name": "Vista previa de perfil",
+      "category": "redes",
+      "description": "Herramienta para vista previa de perfil, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "banner-publicitario",
+      "name": "Banner publicitario",
+      "category": "redes",
+      "description": "Herramienta para banner publicitario, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "miniatura-de-articulo",
+      "name": "Miniatura de artículo",
+      "category": "redes",
+      "description": "Herramienta para miniatura de artículo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-favicon",
+      "name": "Generador de favicon",
+      "category": "marca",
+      "description": "Herramienta para generador de favicon, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "existing",
+      "path": "/herramientas/generador-favicon/",
+      "seoStatus": "preserve-and-audit"
+    },
+    {
+      "id": "creador-de-logotipo-basico",
+      "name": "Creador de logotipo básico",
+      "category": "marca",
+      "description": "Herramienta para creador de logotipo básico, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-paletas",
+      "name": "Generador de paletas",
+      "category": "marca",
+      "description": "Herramienta para generador de paletas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "extraer-paleta-de-imagen",
+      "name": "Extraer paleta de imagen",
+      "category": "marca",
+      "description": "Herramienta para extraer paleta de imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "selector-de-color-de-imagen",
+      "name": "Selector de color de imagen",
+      "category": "marca",
+      "description": "Herramienta para selector de color de imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "convertidor-hex-rgb-hsl",
+      "name": "Convertidor HEX RGB HSL",
+      "category": "marca",
+      "description": "Herramienta para convertidor hex rgb hsl, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprobador-de-contraste-wcag",
+      "name": "Comprobador de contraste WCAG",
+      "category": "marca",
+      "description": "Herramienta para comprobador de contraste wcag, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-degradado-css",
+      "name": "Generador de degradado CSS",
+      "category": "marca",
+      "description": "Herramienta para generador de degradado css, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-sombras-css",
+      "name": "Generador de sombras CSS",
+      "category": "marca",
+      "description": "Herramienta para generador de sombras css, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-bordes-css",
+      "name": "Generador de bordes CSS",
+      "category": "marca",
+      "description": "Herramienta para generador de bordes css, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "mockups-sencillos",
+      "name": "Mockups sencillos",
+      "category": "marca",
+      "description": "Herramienta para mockups sencillos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tarjeta-de-presentacion",
+      "name": "Tarjeta de presentación",
+      "category": "marca",
+      "description": "Herramienta para tarjeta de presentación, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "firma-visual-para-email",
+      "name": "Firma visual para email",
+      "category": "marca",
+      "description": "Herramienta para firma visual para email, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "iconos-para-aplicaciones",
+      "name": "Iconos para aplicaciones",
+      "category": "marca",
+      "description": "Herramienta para iconos para aplicaciones, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "iconos-pwa",
+      "name": "Iconos PWA",
+      "category": "marca",
+      "description": "Herramienta para iconos pwa, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-placeholder",
+      "name": "Imagen placeholder",
+      "category": "marca",
+      "description": "Herramienta para imagen placeholder, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-de-muestra",
+      "name": "Imagen de muestra",
+      "category": "marca",
+      "description": "Herramienta para imagen de muestra, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-codigos-qr",
+      "name": "Generador de códigos QR",
+      "category": "marca",
+      "description": "Herramienta para generador de códigos qr, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-codigo-de-barras",
+      "name": "Generador de código de barras",
+      "category": "marca",
+      "description": "Herramienta para generador de código de barras, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "paleta-accesible",
+      "name": "Paleta accesible",
+      "category": "marca",
+      "description": "Herramienta para paleta accesible, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-imagenes-con-ia",
+      "name": "Generador de imágenes con IA",
+      "category": "ia",
+      "description": "Herramienta para generador de imágenes con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "editor-de-imagenes-con-ia",
+      "name": "Editor de imágenes con IA",
+      "category": "ia",
+      "description": "Herramienta para editor de imágenes con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-prompts-visuales",
+      "name": "Generador de prompts visuales",
+      "category": "ia",
+      "description": "Herramienta para generador de prompts visuales, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-a-prompt",
+      "name": "Imagen a prompt",
+      "category": "ia",
+      "description": "Herramienta para imagen a prompt, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "ideas-para-postales",
+      "name": "Ideas para postales",
+      "category": "ia",
+      "description": "Herramienta para ideas para postales, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-fondos-con-ia",
+      "name": "Generador de fondos con IA",
+      "category": "ia",
+      "description": "Herramienta para generador de fondos con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "expandir-imagen-con-ia",
+      "name": "Expandir imagen con IA",
+      "category": "ia",
+      "description": "Herramienta para expandir imagen con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "borrar-objeto-con-ia",
+      "name": "Borrar objeto con IA",
+      "category": "ia",
+      "description": "Herramienta para borrar objeto con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "reemplazar-fondo-con-ia",
+      "name": "Reemplazar fondo con IA",
+      "category": "ia",
+      "description": "Herramienta para reemplazar fondo con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "variaciones-de-imagen-con-ia",
+      "name": "Variaciones de imagen con IA",
+      "category": "ia",
+      "description": "Herramienta para variaciones de imagen con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "transferir-estilo-visual-con-ia",
+      "name": "Transferir estilo visual con IA",
+      "category": "ia",
+      "description": "Herramienta para transferir estilo visual con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "mejorar-resolucion-con-ia",
+      "name": "Mejorar resolución con IA",
+      "category": "ia",
+      "description": "Herramienta para mejorar resolución con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "colorizar-foto-con-ia",
+      "name": "Colorizar foto con IA",
+      "category": "ia",
+      "description": "Herramienta para colorizar foto con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "restaurar-foto-con-ia",
+      "name": "Restaurar foto con IA",
+      "category": "ia",
+      "description": "Herramienta para restaurar foto con ia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-texto-alternativo",
+      "name": "Generador de texto alternativo",
+      "category": "ia",
+      "description": "Herramienta para generador de texto alternativo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "api",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-titulos-de-imagen",
+      "name": "Generador de títulos de imagen",
+      "category": "ia",
+      "description": "Herramienta para generador de títulos de imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "descripciones-de-postales",
+      "name": "Descripciones de postales",
+      "category": "ia",
+      "description": "Herramienta para descripciones de postales, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "asistente-de-diseno-visual",
+      "name": "Asistente de diseño visual",
+      "category": "ia",
+      "description": "Herramienta para asistente de diseño visual, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "biblioteca-de-estilos-para-prompts",
+      "name": "Biblioteca de estilos para prompts",
+      "category": "ia",
+      "description": "Herramienta para biblioteca de estilos para prompts, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "inspeccionar-metadatos-y-credenciales",
+      "name": "Inspeccionar metadatos y credenciales",
+      "category": "ia",
+      "description": "Herramienta para inspeccionar metadatos y credenciales, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "inspector-de-metadatos",
+      "name": "Inspector de metadatos",
+      "category": "tecnico",
+      "description": "Herramienta para inspector de metadatos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "visor-exif",
+      "name": "Visor EXIF",
+      "category": "tecnico",
+      "description": "Herramienta para visor exif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "quitar-exif",
+      "name": "Quitar EXIF",
+      "category": "tecnico",
+      "description": "Herramienta para quitar exif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "calculadora-dpi",
+      "name": "Calculadora DPI",
+      "category": "tecnico",
+      "description": "Herramienta para calculadora dpi, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "pixeles-a-pulgadas",
+      "name": "Píxeles a pulgadas",
+      "category": "tecnico",
+      "description": "Herramienta para píxeles a pulgadas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "pixeles-a-centimetros",
+      "name": "Píxeles a centímetros",
+      "category": "tecnico",
+      "description": "Herramienta para píxeles a centímetros, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "calculadora-de-relacion-de-aspecto",
+      "name": "Calculadora de relación de aspecto",
+      "category": "tecnico",
+      "description": "Herramienta para calculadora de relación de aspecto, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "calculadora-de-megapixeles",
+      "name": "Calculadora de megapíxeles",
+      "category": "tecnico",
+      "description": "Herramienta para calculadora de megapíxeles, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "estimador-de-tamano-de-imagen",
+      "name": "Estimador de tamaño de imagen",
+      "category": "tecnico",
+      "description": "Herramienta para estimador de tamaño de imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "inspector-de-transparencia",
+      "name": "Inspector de transparencia",
+      "category": "tecnico",
+      "description": "Herramienta para inspector de transparencia, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "visor-svg-seguro",
+      "name": "Visor SVG seguro",
+      "category": "tecnico",
+      "description": "Herramienta para visor svg seguro, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "optimizar-svg",
+      "name": "Optimizar SVG",
+      "category": "tecnico",
+      "description": "Herramienta para optimizar svg, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "convertir-svg-a-png",
+      "name": "Convertir SVG a PNG",
+      "category": "tecnico",
+      "description": "Herramienta para convertir svg a png, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "imagen-a-pdf",
+      "name": "Imagen a PDF",
+      "category": "tecnico",
+      "description": "Herramienta para imagen a pdf, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "pdf-a-imagen",
+      "name": "PDF a imagen",
+      "category": "tecnico",
+      "description": "Herramienta para pdf a imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "preparar-imagen-para-imprimir",
+      "name": "Preparar imagen para imprimir",
+      "category": "tecnico",
+      "description": "Herramienta para preparar imagen para imprimir, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "hoja-de-contactos-imprimible",
+      "name": "Hoja de contactos imprimible",
+      "category": "tecnico",
+      "description": "Herramienta para hoja de contactos imprimible, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comparar-resoluciones",
+      "name": "Comparar resoluciones",
+      "category": "tecnico",
+      "description": "Herramienta para comparar resoluciones, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprobar-dimensiones",
+      "name": "Comprobar dimensiones",
+      "category": "tecnico",
+      "description": "Herramienta para comprobar dimensiones, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "inspector-de-perfil-de-color",
+      "name": "Inspector de perfil de color",
+      "category": "tecnico",
+      "description": "Herramienta para inspector de perfil de color, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-gif-animado",
+      "name": "Crear GIF animado",
+      "category": "animacion",
+      "description": "Herramienta para crear gif animado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "convertir-gif-a-video",
+      "name": "Convertir GIF a video",
+      "category": "animacion",
+      "description": "Herramienta para convertir gif a video, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "extraer-fotogramas-de-gif",
+      "name": "Extraer fotogramas de GIF",
+      "category": "animacion",
+      "description": "Herramienta para extraer fotogramas de gif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "redimensionar-gif",
+      "name": "Redimensionar GIF",
+      "category": "animacion",
+      "description": "Herramienta para redimensionar gif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comprimir-gif",
+      "name": "Comprimir GIF",
+      "category": "animacion",
+      "description": "Herramienta para comprimir gif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "cambiar-velocidad-de-gif",
+      "name": "Cambiar velocidad de GIF",
+      "category": "animacion",
+      "description": "Herramienta para cambiar velocidad de gif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "invertir-gif",
+      "name": "Invertir GIF",
+      "category": "animacion",
+      "description": "Herramienta para invertir gif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "crear-foto-animada",
+      "name": "Crear foto animada",
+      "category": "animacion",
+      "description": "Herramienta para crear foto animada, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "presentacion-de-fotos",
+      "name": "Presentación de fotos",
+      "category": "animacion",
+      "description": "Herramienta para presentación de fotos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "extraer-fotograma-de-video",
+      "name": "Extraer fotograma de video",
+      "category": "animacion",
+      "description": "Herramienta para extraer fotograma de video, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "convertir-video-a-gif",
+      "name": "Convertir video a GIF",
+      "category": "animacion",
+      "description": "Herramienta para convertir video a gif, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "animar-texto",
+      "name": "Animar texto",
+      "category": "animacion",
+      "description": "Herramienta para animar texto, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "banner-animado",
+      "name": "Banner animado",
+      "category": "animacion",
+      "description": "Herramienta para banner animado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "sticker-animado",
+      "name": "Sticker animado",
+      "category": "animacion",
+      "description": "Herramienta para sticker animado, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "previsualizar-animacion",
+      "name": "Previsualizar animación",
+      "category": "animacion",
+      "description": "Herramienta para previsualizar animación, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-mandalas",
+      "name": "Generador de mandalas",
+      "category": "generadores",
+      "description": "Herramienta para generador de mandalas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-simetrias",
+      "name": "Generador de simetrías",
+      "category": "generadores",
+      "description": "Herramienta para generador de simetrías, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-fractales",
+      "name": "Generador de fractales",
+      "category": "generadores",
+      "description": "Herramienta para generador de fractales, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-pixel-art",
+      "name": "Generador de pixel art",
+      "category": "generadores",
+      "description": "Herramienta para generador de pixel art, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-laberintos",
+      "name": "Generador de laberintos",
+      "category": "generadores",
+      "description": "Herramienta para generador de laberintos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "calendario-visual",
+      "name": "Calendario visual",
+      "category": "generadores",
+      "description": "Herramienta para calendario visual, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "planificador-visual",
+      "name": "Planificador visual",
+      "category": "generadores",
+      "description": "Herramienta para planificador visual, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "mapa-estelar-decorativo",
+      "name": "Mapa estelar decorativo",
+      "category": "generadores",
+      "description": "Herramienta para mapa estelar decorativo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "qr-con-colores-y-logo",
+      "name": "QR con colores y logo",
+      "category": "generadores",
+      "description": "Herramienta para qr con colores y logo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "cuadricula-de-pixeles",
+      "name": "Cuadrícula de píxeles",
+      "category": "generadores",
+      "description": "Herramienta para cuadrícula de píxeles, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "mapa-de-calor-visual",
+      "name": "Mapa de calor visual",
+      "category": "generadores",
+      "description": "Herramienta para mapa de calor visual, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "diagrama-visual-sencillo",
+      "name": "Diagrama visual sencillo",
+      "category": "generadores",
+      "description": "Herramienta para diagrama visual sencillo, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tarjeta-de-datos",
+      "name": "Tarjeta de datos",
+      "category": "generadores",
+      "description": "Herramienta para tarjeta de datos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "infografia-sencilla",
+      "name": "Infografía sencilla",
+      "category": "generadores",
+      "description": "Herramienta para infografía sencilla, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "rueda-cromatica",
+      "name": "Rueda cromática",
+      "category": "generadores",
+      "description": "Herramienta para rueda cromática, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "escala-de-grises",
+      "name": "Escala de grises",
+      "category": "generadores",
+      "description": "Herramienta para escala de grises, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "tabla-de-colores",
+      "name": "Tabla de colores",
+      "category": "generadores",
+      "description": "Herramienta para tabla de colores, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "coleccion-de-degradados",
+      "name": "Colección de degradados",
+      "category": "generadores",
+      "description": "Herramienta para colección de degradados, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "placeholder-responsive",
+      "name": "Placeholder responsive",
+      "category": "generadores",
+      "description": "Herramienta para placeholder responsive, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "generador-de-mosaicos",
+      "name": "Generador de mosaicos",
+      "category": "generadores",
+      "description": "Herramienta para generador de mosaicos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "local",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "buscador-de-herramientas",
+      "name": "Buscador de herramientas",
+      "category": "catalogo",
+      "description": "Herramienta para buscador de herramientas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "guia-visual-de-formatos",
+      "name": "Guía visual de formatos",
+      "category": "catalogo",
+      "description": "Herramienta para guía visual de formatos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "galeria-de-plantillas",
+      "name": "Galería de plantillas",
+      "category": "catalogo",
+      "description": "Herramienta para galería de plantillas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "favoritos-locales",
+      "name": "Favoritos locales",
+      "category": "catalogo",
+      "description": "Herramienta para favoritos locales, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "historial-local-de-trabajos",
+      "name": "Historial local de trabajos",
+      "category": "catalogo",
+      "description": "Herramienta para historial local de trabajos, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "comparador-de-herramientas",
+      "name": "Comparador de herramientas",
+      "category": "catalogo",
+      "description": "Herramienta para comparador de herramientas, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "sugerir-herramienta",
+      "name": "Sugerir herramienta",
+      "category": "catalogo",
+      "description": "Herramienta para sugerir herramienta, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "guia-de-tamanos-de-imagen",
+      "name": "Guía de tamaños de imagen",
+      "category": "catalogo",
+      "description": "Herramienta para guía de tamaños de imagen, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "guia-de-formatos-web",
+      "name": "Guía de formatos web",
+      "category": "catalogo",
+      "description": "Herramienta para guía de formatos web, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    },
+    {
+      "id": "guia-de-imagen-para-impresion",
+      "name": "Guía de imagen para impresión",
+      "category": "catalogo",
+      "description": "Herramienta para guía de imagen para impresión, con controles claros, vista previa y exportación cuando corresponda.",
+      "processing": "site",
+      "status": "proposed",
+      "path": null,
+      "seoStatus": "not-created"
+    }
+  ]
+}
