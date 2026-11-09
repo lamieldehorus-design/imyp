@@ -7,7 +7,7 @@
 - **Pendientes:** 280.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
-- **Lote 3:** en curso, con 1 herramienta incorporada.
+- **Lote 3:** en curso, con 3 herramientas incorporadas.
 - **Páginas individuales SEO:** objetivo inmediato, una por herramienta.
 - **Procesamiento:** local en el navegador siempre que sea viable.
 
