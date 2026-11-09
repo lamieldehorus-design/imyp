@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 150 / 310 (48,4%).
-- **Pendientes:** 160.
+- **Implementadas:** 160 / 310 (51,6%).
+- **Pendientes:** 150.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -208,3 +208,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 148. `safe-crop-guide` · Guías de encuadre (Utilidades)
 149. `blurred-backdrop` · Fondo desenfocado (Diseño)
 150. `film-grain-color` · Grano de película en color (Efectos)
+
+
+## Lote 16 (10)
+151. `pixel-block-mosaic` · Mosaico de píxeles (Efectos)
+152. `color-posterize-pro` · Posterizado por niveles (Color)
+153. `invert-colors` · Invertir colores (Color)
+154. `exposure-control` · Control de exposición (Color)
+155. `contrast-control` · Control de contraste (Color)
+156. `saturation-control` · Control de saturación (Color)
+157. `hue-shift` · Giro de tono (Color)
+158. `pixel-dimensions` · Lienzo de dimensiones exactas (Utilidades)
+159. `rounded-corners` · Esquinas redondeadas (Diseño)
+160. `border-color` · Borde de color (Diseño)

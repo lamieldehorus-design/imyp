@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 150,
-  "remaining": 160,
+  "implemented": 160,
+  "remaining": 150,
   "tools": [
     {
       "id": "resize",
@@ -1353,6 +1353,96 @@
       "status": "implemented",
       "batch": 15,
       "route": "/herramientas/film-grain-color/",
+      "processing": "browser"
+    },
+    {
+      "id": "pixel-block-mosaic",
+      "name": "Mosaico de píxeles",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/pixel-block-mosaic/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-posterize-pro",
+      "name": "Posterizado por niveles",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/color-posterize-pro/",
+      "processing": "browser"
+    },
+    {
+      "id": "invert-colors",
+      "name": "Invertir colores",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/invert-colors/",
+      "processing": "browser"
+    },
+    {
+      "id": "exposure-control",
+      "name": "Control de exposición",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/exposure-control/",
+      "processing": "browser"
+    },
+    {
+      "id": "contrast-control",
+      "name": "Control de contraste",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/contrast-control/",
+      "processing": "browser"
+    },
+    {
+      "id": "saturation-control",
+      "name": "Control de saturación",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/saturation-control/",
+      "processing": "browser"
+    },
+    {
+      "id": "hue-shift",
+      "name": "Giro de tono",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/hue-shift/",
+      "processing": "browser"
+    },
+    {
+      "id": "pixel-dimensions",
+      "name": "Lienzo de dimensiones exactas",
+      "category": "Utilidades",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/pixel-dimensions/",
+      "processing": "browser"
+    },
+    {
+      "id": "rounded-corners",
+      "name": "Esquinas redondeadas",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/rounded-corners/",
+      "processing": "browser"
+    },
+    {
+      "id": "border-color",
+      "name": "Borde de color",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 16,
+      "route": "/herramientas/border-color/",
       "processing": "browser"
     }
   ]
