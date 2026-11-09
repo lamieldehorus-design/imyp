@@ -1,0 +1,47 @@
+name: Validar portal de herramientas visuales
+on:
+  push:
+    branches:
+      - "rebuild/**"
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validar sintaxis JavaScript
+        run: |
+          node --check assets/js/catalog.js
+          node --check assets/js/app.js
+          node --check assets/js/tool-engine.js
+      - name: Validar catálogo JSON y sitemap
+        run: |
+          python - <<'PY'
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          catalog = json.loads(Path("data/catalogo-maestro.json").read_text(encoding="utf-8"))
+          assert len(catalog["categories"]) == 12, "Se esperaban 12 categorías"
+          assert len(catalog["tools"]) == 9, "Se esperaban 9 herramientas iniciales"
+          for tool in catalog["tools"]:
+              page = Path("herramientas") / tool["slug"] / "index.html"
+              assert page.exists(), f"Falta la página: {page}"
+          ET.parse("sitemap.xml")
+          print(f"OK: {len(catalog['categories'])} categorías y {len(catalog['tools'])} páginas de herramientas.")
+          PY
+      - name: Validar rutas esenciales
+        run: |
+          test -f index.html
+          test -f herramientas/index.html
+          test -f CNAME
+          grep -q "imagenesypostales.com" CNAME
+          grep -q "Sitemap: https://imagenesypostales.com/sitemap.xml" robots.txt
