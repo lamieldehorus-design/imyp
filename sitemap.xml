@@ -28,4 +28,5 @@
   <url><loc>https://imagenesypostales.com/herramientas/transparency/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/sharpen/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/flip-vertical/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
