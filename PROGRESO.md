@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 170 / 310 (54,8%).
-- **Pendientes:** 140.
+- **Implementadas:** 171 / 310 (55,2%).
+- **Pendientes:** 139.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -223,7 +223,7 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 160. `border-color` · Borde de color (Diseño)
 
 
-## Lote 17 (10)
+## Lote 17 (11)
 161. `pixelate-soft` · Pixelado suave (Efectos)
 162. `color-temperature-pro` · Temperatura de color avanzada (Color)
 163. `photo-frost` · Efecto vidrio esmerilado (Efectos)
