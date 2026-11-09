@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 27,
-  "remaining": 283,
+  "implemented": 28,
+  "remaining": 282,
   "tools": [
     {
       "id": "resize",
@@ -246,6 +246,15 @@
       "status": "implemented",
       "batch": 2,
       "route": "/herramientas/sharpen/",
+      "processing": "browser"
+    },
+    {
+      "id": "flip-vertical",
+      "name": "Voltear imagen verticalmente",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 3,
+      "route": "/herramientas/flip-vertical/",
       "processing": "browser"
     }
   ]
