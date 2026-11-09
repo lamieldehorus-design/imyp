@@ -59,7 +59,17 @@ const tools = [
 ,{id:'warm-filter',name:'Filtro cálido',desc:'Añadí una dominante cálida para dar calidez a tus fotos.',cat:'Color',icon:'☀',fields:[['value','Intensidad','number',25]],needsImage:true}
 ,{id:'cool-filter',name:'Filtro frío',desc:'Aplicá tonos fríos para cambiar la atmósfera de la fotografía.',cat:'Color',icon:'❄',fields:[['value','Intensidad','number',25]],needsImage:true}
 ,{id:'film-frame',name:'Marco de película',desc:'Enmarcá tu fotografía con un borde inspirado en el cine.',cat:'Diseño',icon:'▥',fields:[['color','Color del marco','color','#171717'],['size','Grosor del marco','number',42]],needsImage:true}
-,{id:'mirror-tiles',name:'Composición espejo',desc:'Creá una composición simétrica reflejando los cuatro cuadrantes.',cat:'Composición',icon:'▦',fields:[],needsImage:true}];
+,{id:'mirror-tiles',name:'Composición espejo',desc:'Creá una composición simétrica reflejando los cuatro cuadrantes.',cat:'Composición',icon:'▦',fields:[],needsImage:true}
+,{id:"auto-enhance",name:"Mejorar imagen automáticamente",desc:"Equilibrá el contraste y aprovechá mejor el rango tonal de tu fotografía.",cat:"Imagen",icon:"✧",fields:[],needsImage:true}
+,{id:"edge-detect",name:"Detectar contornos",desc:"Convertí los bordes y detalles principales en un gráfico monocromático.",cat:"Efectos",icon:"▧",fields:[["strength","Intensidad","number",1.5]],needsImage:true}
+,{id:"colorize",name:"Colorear con dos tonos",desc:"Aplicá una transición cromática desde las sombras hasta las luces.",cat:"Color",icon:"◒",fields:[["shadow","Color de sombras","color","#182848"],["highlight","Color de luces","color","#f8b36b"]],needsImage:true}
+,{id:"chromatic",name:"Aberración cromática",desc:"Creá un desplazamiento RGB para un efecto óptico y digital.",cat:"Efectos",icon:"✳",fields:[["offset","Desplazamiento (px)","number",4]],needsImage:true}
+,{id:"halftone",name:"Trama de semitono",desc:"Transformá la fotografía en una trama de puntos de impresión.",cat:"Efectos",icon:"⠿",fields:[["size","Tamaño de punto","number",8]],needsImage:true}
+,{id:"scanlines",name:"Líneas de pantalla",desc:"Añadí líneas horizontales para una estética de monitor retro.",cat:"Efectos",icon:"▤",fields:[["spacing","Separación (px)","number",4],["opacity","Intensidad","range",0.25]],needsImage:true}
+,{id:"color-replace",name:"Reemplazar un color",desc:"Sustituí un color seleccionado por otro según la tolerancia indicada.",cat:"Color",icon:"◉",fields:[["target","Color a reemplazar","color","#ff0000"],["replacement","Nuevo color","color","#2463eb"],["tolerance","Tolerancia","number",70]],needsImage:true}
+,{id:"soft-light",name:"Luz suave",desc:"Suavizá el contraste con una capa de luz regulable.",cat:"Imagen",icon:"☼",fields:[["opacity","Intensidad","range",0.22]],needsImage:true}
+,{id:"vintage",name:"Efecto vintage",desc:"Combiná tonos cálidos, contraste suave y una viñeta discreta.",cat:"Efectos",icon:"▣",fields:[["intensity","Intensidad","range",0.55]],needsImage:true}
+,{id:"rgb-split",name:"Separación RGB",desc:"Separá los canales rojo, verde y azul para una estética glitch.",cat:"Color",icon:"▥",fields:[["offset","Desplazamiento (px)","number",6]],needsImage:true}];
 const categories=['Todas','Imagen','Optimización','Diseño','Color','Postales','Web','Efectos','Redes sociales','Composición','Utilidades'];
 const grid=document.getElementById('tool-grid'),filters=document.getElementById('filters'),search=document.getElementById('tool-search');
 const workspace=document.getElementById('workspace'),input=document.getElementById('image-input'),canvas=document.getElementById('result-canvas'),ctx=canvas.getContext('2d');
@@ -80,6 +90,45 @@ function saveCanvas(type='image/png',quality=.92,name='resultado'){canvas.toBlob
 function drawCollagePreview(){const cols=Math.max(1,Math.min(5,Number(option('columns'))||2)),gap=Math.max(0,Number(option('gap'))||12),rows=Math.ceil(sourceImages.length/cols),cellW=360,cellH=260;canvas.width=cols*cellW+(cols+1)*gap;canvas.height=rows*cellH+(rows+1)*gap;ctx.fillStyle='#f0edf5';ctx.fillRect(0,0,canvas.width,canvas.height);sourceImages.forEach((im,i)=>{const x=gap+(i%cols)*(cellW+gap),y=gap+Math.floor(i/cols)*(cellH+gap),scale=Math.max(cellW/im.width,cellH/im.height),w=im.width*scale,h=im.height*scale;ctx.save();ctx.beginPath();ctx.rect(x,y,cellW,cellH);ctx.clip();ctx.drawImage(im,x+(cellW-w)/2,y+(cellH-h)/2,w,h);ctx.restore()});showCanvas('COLLAGE · '+sourceImages.length+' FOTOS')}
 function hexRgb(hex){const s=String(hex||'#000000').replace('#','');return [0,2,4].map(i=>parseInt(s.slice(i,i+2),16)||0)}
 function runTool(){if(!activeTool)return;if(activeTool.needsImage&&!originalImage){message('Primero elegí una imagen para continuar.');return}try{const id=activeTool.id;let type='image/png',quality=.92,name=id;
+
+
+if(['auto-enhance','edge-detect','colorize','chromatic','halftone','scanlines','color-replace','soft-light','vintage','rgb-split'].includes(id)){
+ const w=originalImage.width,h=originalImage.height;canvas.width=w;canvas.height=h;ctx.drawImage(originalImage,0,0);
+ if(id==='auto-enhance'){
+  const im=ctx.getImageData(0,0,w,h),d=im.data;
+  for(let c=0;c<3;c++){let mn=255,mx=0;for(let i=c;i<d.length;i+=4){if(d[i]<mn)mn=d[i];if(d[i]>mx)mx=d[i]}const span=Math.max(1,mx-mn);for(let i=c;i<d.length;i+=4)d[i]=Math.max(0,Math.min(255,Math.round((d[i]-mn)*255/span)))}
+  ctx.putImageData(im,0,0);
+ }else if(id==='edge-detect'){
+  const src=ctx.getImageData(0,0,w,h),out=ctx.createImageData(w,h),a=src.data,b=out.data,str=Math.max(.2,Math.min(4,Number(option('strength'))||1.5));
+  const lum=(x,y)=>{const i=(y*w+x)*4;return a[i]*.299+a[i+1]*.587+a[i+2]*.114};
+  for(let y=1;y<h-1;y++)for(let x=1;x<w-1;x++){const gx=-lum(x-1,y-1)-2*lum(x-1,y)-lum(x-1,y+1)+lum(x+1,y-1)+2*lum(x+1,y)+lum(x+1,y+1),gy=-lum(x-1,y-1)-2*lum(x,y-1)-lum(x+1,y-1)+lum(x-1,y+1)+2*lum(x,y+1)+lum(x+1,y+1),v=Math.min(255,Math.hypot(gx,gy)*str),i=(y*w+x)*4;b[i]=b[i+1]=b[i+2]=v;b[i+3]=255}
+  ctx.putImageData(out,0,0);
+ }else if(id==='colorize'){
+  const im=ctx.getImageData(0,0,w,h),d=im.data,a=hexRgb(option('shadow')),b=hexRgb(option('highlight'));
+  for(let i=0;i<d.length;i+=4){const l=(d[i]*.299+d[i+1]*.587+d[i+2]*.114)/255;for(let c=0;c<3;c++)d[i+c]=Math.round(a[c]+(b[c]-a[c])*l)}
+  ctx.putImageData(im,0,0);
+ }else if(id==='chromatic'||id==='rgb-split'){
+  const src=ctx.getImageData(0,0,w,h),out=ctx.createImageData(w,h),a=src.data,b=out.data,off=Math.max(1,Math.min(30,Number(option('offset'))||5));
+  for(let y=0;y<h;y++)for(let x=0;x<w;x++){const i=(y*w+x)*4,rx=Math.max(0,Math.min(w-1,x-off)),bx=Math.max(0,Math.min(w-1,x+off)),ri=(y*w+rx)*4,bi=(y*w+bx)*4;b[i]=a[ri];b[i+1]=a[i+1];b[i+2]=a[bi+2];b[i+3]=a[i+3]}
+  ctx.putImageData(out,0,0);
+ }else if(id==='halftone'){
+  const src=ctx.getImageData(0,0,w,h),d=src.data,step=Math.max(3,Math.min(32,Number(option('size'))||8));ctx.fillStyle='#fff';ctx.fillRect(0,0,w,h);
+  for(let y=0;y<h;y+=step)for(let x=0;x<w;x+=step){const i=(y*w+x)*4,l=(d[i]*.299+d[i+1]*.587+d[i+2]*.114)/255,r=(1-l)*step*.48;ctx.beginPath();ctx.arc(x+step/2,y+step/2,r,0,Math.PI*2);ctx.fillStyle='#111';ctx.fill()}
+ }else if(id==='scanlines'){
+  const spacing=Math.max(2,Math.min(20,Number(option('spacing'))||4)),alpha=Math.max(0,Math.min(1,Number(option('opacity'))||.25));ctx.fillStyle='rgba(0,0,0,'+alpha+')';for(let y=0;y<h;y+=spacing*2)ctx.fillRect(0,y,w,spacing);
+ }else if(id==='color-replace'){
+  const im=ctx.getImageData(0,0,w,h),d=im.data,t=hexRgb(option('target')),r=hexRgb(option('replacement')),tol=Math.max(0,Math.min(441,Number(option('tolerance'))||70));
+  for(let i=0;i<d.length;i+=4){const dist=Math.hypot(d[i]-t[0],d[i+1]-t[1],d[i+2]-t[2]);if(dist<=tol){const f=1-dist/(tol+1);for(let c=0;c<3;c++)d[i+c]=Math.round(d[i+c]*(1-f)+r[c]*f)}}
+  ctx.putImageData(im,0,0);
+ }else if(id==='soft-light'){
+  ctx.save();ctx.globalAlpha=Math.max(0,Math.min(1,Number(option('opacity'))||.22));ctx.globalCompositeOperation='screen';ctx.fillStyle='#fff';ctx.fillRect(0,0,w,h);ctx.restore();
+ }else if(id==='vintage'){
+  const im=ctx.getImageData(0,0,w,h),d=im.data,k=Math.max(0,Math.min(1,Number(option('intensity'))||.55));
+  for(let i=0;i<d.length;i+=4){const l=(d[i]*.299+d[i+1]*.587+d[i+2]*.114);d[i]=Math.min(255,d[i]*(1-k*.12)+k*28);d[i+1]=Math.min(255,d[i+1]*(1-k*.08)+k*12);d[i+2]=Math.max(0,d[i+2]*(1-k*.18)-k*8);for(let c=0;c<3;c++)d[i+c]=Math.max(0,Math.min(255,(d[i+c]-128)*(1-k*.18)+128))}
+  ctx.putImageData(im,0,0);const g=ctx.createRadialGradient(w/2,h/2,Math.min(w,h)*.2,w/2,h/2,Math.max(w,h)*.75);g.addColorStop(0,'rgba(0,0,0,0)');g.addColorStop(1,'rgba(35,20,5,'+(k*.48)+')');ctx.fillStyle=g;ctx.fillRect(0,0,w,h);
+ }
+ showCanvas('RESULTADO · '+canvas.width+' × '+canvas.height);saveCanvas('image/png',.95,id);message('¡Listo! Tu imagen fue procesada.');return;
+}
 
 if(id==='tint'){canvas.width=originalImage.width;canvas.height=originalImage.height;ctx.drawImage(originalImage,0,0);ctx.save();ctx.globalAlpha=Math.max(0,Math.min(1,Number(option('opacity'))||.35));ctx.globalCompositeOperation='source-atop';ctx.fillStyle=option('color')||'#765ce9';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.restore()}
 if(id==='duotone'||id==='posterize'||id==='grain'){canvas.width=originalImage.width;canvas.height=originalImage.height;ctx.drawImage(originalImage,0,0);const im=ctx.getImageData(0,0,canvas.width,canvas.height),d=im.data;if(id==='duotone'){const a=hexRgb(option('shadow')||'#202040'),b=hexRgb(option('highlight')||'#f5c96b');for(let i=0;i<d.length;i+=4){const lum=(d[i]*.299+d[i+1]*.587+d[i+2]*.114)/255;for(let c=0;c<3;c++)d[i+c]=Math.round(a[c]+(b[c]-a[c])*lum)}}else if(id==='posterize'){const levels=Math.max(2,Math.min(16,Number(option('levels'))||5)),step=255/(levels-1);for(let i=0;i<d.length;i+=4)for(let c=0;c<3;c++)d[i+c]=Math.round(d[i+c]/step)*step}else{const amount=Math.max(0,Math.min(1,Number(option('value'))||.18))*70;for(let i=0;i<d.length;i+=4){const n=(Math.random()-.5)*amount;for(let c=0;c<3;c++)d[i+c]=Math.max(0,Math.min(255,d[i+c]+n))}}ctx.putImageData(im,0,0)}

@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 60 / 310 (19,4%).
-- **Pendientes:** 250.
+- **Implementadas:** 70 / 310 (22,6%).
+- **Pendientes:** 240.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -92,3 +92,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 58. `cool-filter` · Filtro frío (Color)
 59. `film-frame` · Marco de película (Diseño)
 60. `mirror-tiles` · Composición espejo (Composición)
+
+
+## Lote 7 (10)
+61. `auto-enhance` · Mejorar imagen automáticamente (Imagen)
+62. `edge-detect` · Detectar contornos (Efectos)
+63. `colorize` · Colorear con dos tonos (Color)
+64. `chromatic` · Aberración cromática (Efectos)
+65. `halftone` · Trama de semitono (Efectos)
+66. `scanlines` · Líneas de pantalla (Efectos)
+67. `color-replace` · Reemplazar un color (Color)
+68. `soft-light` · Luz suave (Imagen)
+69. `vintage` · Efecto vintage (Efectos)
+70. `rgb-split` · Separación RGB (Color)

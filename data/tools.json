@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 60,
-  "remaining": 250,
+  "implemented": 70,
+  "remaining": 240,
   "tools": [
     {
       "id": "resize",
@@ -543,6 +543,96 @@
       "status": "implemented",
       "batch": 6,
       "route": "/herramientas/mirror-tiles/",
+      "processing": "browser"
+    },
+    {
+      "id": "auto-enhance",
+      "name": "Mejorar imagen automáticamente",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/auto-enhance/",
+      "processing": "browser"
+    },
+    {
+      "id": "edge-detect",
+      "name": "Detectar contornos",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/edge-detect/",
+      "processing": "browser"
+    },
+    {
+      "id": "colorize",
+      "name": "Colorear con dos tonos",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/colorize/",
+      "processing": "browser"
+    },
+    {
+      "id": "chromatic",
+      "name": "Aberración cromática",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/chromatic/",
+      "processing": "browser"
+    },
+    {
+      "id": "halftone",
+      "name": "Trama de semitono",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/halftone/",
+      "processing": "browser"
+    },
+    {
+      "id": "scanlines",
+      "name": "Líneas de pantalla",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/scanlines/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-replace",
+      "name": "Reemplazar un color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/color-replace/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-light",
+      "name": "Luz suave",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/soft-light/",
+      "processing": "browser"
+    },
+    {
+      "id": "vintage",
+      "name": "Efecto vintage",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/vintage/",
+      "processing": "browser"
+    },
+    {
+      "id": "rgb-split",
+      "name": "Separación RGB",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 7,
+      "route": "/herramientas/rgb-split/",
       "processing": "browser"
     }
   ]
