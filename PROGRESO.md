@@ -3,11 +3,12 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 30 / 310 (9,7%).
-- **Pendientes:** 280.
+- **Implementadas:** 40 / 310 (12,9%).
+- **Pendientes:** 270.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
-- **Lote 3:** en curso, con 3 herramientas incorporadas.
+- **Lote 3:** 3 herramientas incorporadas.
+- **Lote 4:** 10 herramientas nuevas de color, diseño y formatos sociales.
 - **Páginas individuales SEO:** objetivo inmediato, una por herramienta.
 - **Procesamiento:** local en el navegador siempre que sea viable.
 
@@ -55,3 +56,15 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 2. Conversión por formatos, optimización avanzada y procesamiento por lotes.
 3. Diseño, postales, plantillas y composición.
 4. Recursos para web, redes sociales, tipografía, marca e IA.
+
+## Lote 4 (10)
+31. `tint` · Teñir imagen (Color)
+32. `duotone` · Efecto duotono (Color)
+33. `posterize` · Posterizar imagen (Color)
+34. `grain` · Agregar grano fotográfico (Efectos)
+35. `polaroid` · Marco Polaroid (Diseño)
+36. `social-size` · Adaptar a redes sociales (Redes sociales)
+37. `shadow` · Agregar sombra (Diseño)
+38. `circle-crop` · Recorte circular (Diseño)
+39. `split-image` · Dividir imagen en dos (Imagen)
+40. `gradient-overlay` · Superponer degradado (Diseño)
