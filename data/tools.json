@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 50,
-  "remaining": 260,
+  "implemented": 60,
+  "remaining": 250,
   "tools": [
     {
       "id": "resize",
@@ -453,6 +453,96 @@
       "status": "implemented",
       "batch": 5,
       "route": "/herramientas/image-info/",
+      "processing": "browser"
+    },
+    {
+      "id": "solarize",
+      "name": "Solarizar imagen",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/solarize/",
+      "processing": "browser"
+    },
+    {
+      "id": "emboss",
+      "name": "Relieve fotográfico",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/emboss/",
+      "processing": "browser"
+    },
+    {
+      "id": "sketch",
+      "name": "Efecto dibujo a lápiz",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/sketch/",
+      "processing": "browser"
+    },
+    {
+      "id": "red-channel",
+      "name": "Canal rojo",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/red-channel/",
+      "processing": "browser"
+    },
+    {
+      "id": "green-channel",
+      "name": "Canal verde",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/green-channel/",
+      "processing": "browser"
+    },
+    {
+      "id": "blue-channel",
+      "name": "Canal azul",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/blue-channel/",
+      "processing": "browser"
+    },
+    {
+      "id": "warm-filter",
+      "name": "Filtro cálido",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/warm-filter/",
+      "processing": "browser"
+    },
+    {
+      "id": "cool-filter",
+      "name": "Filtro frío",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/cool-filter/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-frame",
+      "name": "Marco de película",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/film-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "mirror-tiles",
+      "name": "Composición espejo",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 6,
+      "route": "/herramientas/mirror-tiles/",
       "processing": "browser"
     }
   ]
