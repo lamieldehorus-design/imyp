@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 28,
-  "remaining": 282,
+  "implemented": 29,
+  "remaining": 281,
   "tools": [
     {
       "id": "resize",
@@ -255,6 +255,15 @@
       "status": "implemented",
       "batch": 3,
       "route": "/herramientas/flip-vertical/",
+      "processing": "browser"
+    },
+    {
+      "id": "straighten",
+      "name": "Enderezar imagen",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 3,
+      "route": "/herramientas/straighten/",
       "processing": "browser"
     }
   ]
