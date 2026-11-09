@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 30,
-  "remaining": 280,
+  "implemented": 40,
+  "remaining": 270,
   "tools": [
     {
       "id": "resize",
@@ -273,6 +273,96 @@
       "status": "implemented",
       "batch": 3,
       "route": "/herramientas/crop-ratio/",
+      "processing": "browser"
+    },
+    {
+      "id": "tint",
+      "name": "Teñir imagen",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/tint/",
+      "processing": "browser"
+    },
+    {
+      "id": "duotone",
+      "name": "Efecto duotono",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/duotone/",
+      "processing": "browser"
+    },
+    {
+      "id": "posterize",
+      "name": "Posterizar imagen",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/posterize/",
+      "processing": "browser"
+    },
+    {
+      "id": "grain",
+      "name": "Agregar grano fotográfico",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/grain/",
+      "processing": "browser"
+    },
+    {
+      "id": "polaroid",
+      "name": "Marco Polaroid",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/polaroid/",
+      "processing": "browser"
+    },
+    {
+      "id": "social-size",
+      "name": "Adaptar a redes sociales",
+      "category": "Redes sociales",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/social-size/",
+      "processing": "browser"
+    },
+    {
+      "id": "shadow",
+      "name": "Agregar sombra",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/shadow/",
+      "processing": "browser"
+    },
+    {
+      "id": "circle-crop",
+      "name": "Recorte circular",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/circle-crop/",
+      "processing": "browser"
+    },
+    {
+      "id": "split-image",
+      "name": "Dividir imagen en dos",
+      "category": "Imagen",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/split-image/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-overlay",
+      "name": "Superponer degradado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 4,
+      "route": "/herramientas/gradient-overlay/",
       "processing": "browser"
     }
   ]
