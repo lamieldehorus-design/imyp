@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 232 / 310 (74,8%).
-- **Pendientes:** 78.
+- **Implementadas:** 242 / 310 (78,1%).
+- **Pendientes:** 68.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -314,3 +314,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 230. `photo-strip-layout` · Tira de fotogramas (Diseño)
 231. `torn-edge-border` · Borde de papel rasgado (Diseño)
 232. `radial-zoom-blur` · Desenfoque zoom radial (Efectos)
+
+
+## Lote 24 (10)
+233. `duotone-gradient-pro` · Duotono degradado (Color)
+234. `film-frame-perforated` · Marco cinematográfico perforado (Diseño)
+235. `light-leak-orbs` · Fugas de luz circulares (Efectos)
+236. `color-channel-glitch` · Glitch de canales RGB (Efectos)
+237. `radial-vignette-pro` · Viñeta radial avanzada (Efectos)
+238. `paper-cutout-effect` · Efecto recorte de papel (Diseño)
+239. `photo-negative-warm` · Negativo cálido (Color)
+240. `comic-book-ink` · Tinta de cómic (Efectos)
+241. `mirror-kaleidoscope` · Espejo caleidoscópico (Composición)
+242. `soft-glow-overlay` · Resplandor suave (Efectos)

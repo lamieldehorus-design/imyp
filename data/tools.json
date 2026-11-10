@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 232,
-  "remaining": 78,
+  "implemented": 242,
+  "remaining": 68,
   "tools": [
     {
       "id": "resize",
@@ -2091,6 +2091,96 @@
       "status": "implemented",
       "batch": 23,
       "route": "/herramientas/radial-zoom-blur/",
+      "processing": "browser"
+    },
+    {
+      "id": "duotone-gradient-pro",
+      "name": "Duotono degradado",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/duotone-gradient-pro/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-frame-perforated",
+      "name": "Marco cinematográfico perforado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/film-frame-perforated/",
+      "processing": "browser"
+    },
+    {
+      "id": "light-leak-orbs",
+      "name": "Fugas de luz circulares",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/light-leak-orbs/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-channel-glitch",
+      "name": "Glitch de canales RGB",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/color-channel-glitch/",
+      "processing": "browser"
+    },
+    {
+      "id": "radial-vignette-pro",
+      "name": "Viñeta radial avanzada",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/radial-vignette-pro/",
+      "processing": "browser"
+    },
+    {
+      "id": "paper-cutout-effect",
+      "name": "Efecto recorte de papel",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/paper-cutout-effect/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-negative-warm",
+      "name": "Negativo cálido",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/photo-negative-warm/",
+      "processing": "browser"
+    },
+    {
+      "id": "comic-book-ink",
+      "name": "Tinta de cómic",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/comic-book-ink/",
+      "processing": "browser"
+    },
+    {
+      "id": "mirror-kaleidoscope",
+      "name": "Espejo caleidoscópico",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/mirror-kaleidoscope/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-glow-overlay",
+      "name": "Resplandor suave",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 24,
+      "route": "/herramientas/soft-glow-overlay/",
       "processing": "browser"
     }
   ]
