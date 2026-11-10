@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://imagenesypostales.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://imagenesypostales.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
 <url><loc>https://imagenesypostales.com/herramientas/resize/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://imagenesypostales.com/herramientas/crop/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://imagenesypostales.com/herramientas/rotate/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -253,4 +253,14 @@
 <url><loc>https://imagenesypostales.com/herramientas/color-poster-art/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://imagenesypostales.com/herramientas/radial-color-burst/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://imagenesypostales.com/herramientas/soft-focus-halo/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/lens-distortion/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/color-halation/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/glitch-scan-displace/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/paper-fold-frame/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/gradient-glass-overlay/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/prism-rainbow-overlay/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/film-gate-weave/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/pixel-outline-art/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/soft-vignette-color/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://imagenesypostales.com/herramientas/lightning-bolt-overlay/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

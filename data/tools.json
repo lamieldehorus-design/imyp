@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 252,
-  "remaining": 58,
+  "implemented": 262,
+  "remaining": 48,
   "tools": [
     {
       "id": "resize",
@@ -2271,6 +2271,96 @@
       "status": "implemented",
       "batch": 25,
       "route": "/herramientas/soft-focus-halo/",
+      "processing": "browser"
+    },
+    {
+      "id": "lens-distortion",
+      "name": "Distorsión de lente",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/lens-distortion/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-halation",
+      "name": "Halation de color",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/color-halation/",
+      "processing": "browser"
+    },
+    {
+      "id": "glitch-scan-displace",
+      "name": "Desplazamiento glitch",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/glitch-scan-displace/",
+      "processing": "browser"
+    },
+    {
+      "id": "paper-fold-frame",
+      "name": "Marco de papel plegado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/paper-fold-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-glass-overlay",
+      "name": "Cristal degradado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/gradient-glass-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "prism-rainbow-overlay",
+      "name": "Prisma arcoíris",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/prism-rainbow-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-gate-weave",
+      "name": "Vibración de película",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/film-gate-weave/",
+      "processing": "browser"
+    },
+    {
+      "id": "pixel-outline-art",
+      "name": "Contorno pixelado",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/pixel-outline-art/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-vignette-color",
+      "name": "Viñeta cromática suave",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/soft-vignette-color/",
+      "processing": "browser"
+    },
+    {
+      "id": "lightning-bolt-overlay",
+      "name": "Rayos eléctricos",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 26,
+      "route": "/herramientas/lightning-bolt-overlay/",
       "processing": "browser"
     }
   ]

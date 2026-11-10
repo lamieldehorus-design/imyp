@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 252 / 310 (81,3%).
-- **Pendientes:** 58.
+- **Implementadas:** 262 / 310 (84,5%).
+- **Pendientes:** 48.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -340,3 +340,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 250. `color-poster-art` · Póster de color plano (Efectos)
 251. `radial-color-burst` · Explosión radial de color (Efectos)
 252. `soft-focus-halo` · Halo de enfoque suave (Efectos)
+
+
+## Lote 26 (10)
+253. `lens-distortion` · Distorsión de lente (Efectos)
+254. `color-halation` · Halation de color (Efectos)
+255. `glitch-scan-displace` · Desplazamiento glitch (Efectos)
+256. `paper-fold-frame` · Marco de papel plegado (Diseño)
+257. `gradient-glass-overlay` · Cristal degradado (Diseño)
+258. `prism-rainbow-overlay` · Prisma arcoíris (Efectos)
+259. `film-gate-weave` · Vibración de película (Efectos)
+260. `pixel-outline-art` · Contorno pixelado (Efectos)
+261. `soft-vignette-color` · Viñeta cromática suave (Color)
+262. `lightning-bolt-overlay` · Rayos eléctricos (Efectos)
