@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://imagenesypostales.com/</loc><lastmod>2026-11-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/imagen/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/optimizacion/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/diseno/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/color/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/web/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/postales/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/efectos/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/redes-sociales/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/composicion/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/utilidades/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+<url><loc>https://imagenesypostales.com/categorias/ajustes/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 <url><loc>https://imagenesypostales.com/herramientas/resize/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://imagenesypostales.com/herramientas/crop/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 <url><loc>https://imagenesypostales.com/herramientas/rotate/</loc><lastmod>2026-11-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
