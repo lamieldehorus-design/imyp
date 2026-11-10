@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 292 / 310 (94,2%).
-- **Pendientes:** 18.
+- **Implementadas:** 302 / 310 (97,4%).
+- **Pendientes:** 8.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -392,3 +392,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 290. `color-noise-overlay` · Ruido de color (Efectos)
 291. `circular-wave-ripple` · Ondas circulares (Efectos)
 292. `layered-gradient-frame` · Marco de degradados en capas (Diseño)
+
+
+## Lote 30 (10)
+293. `holographic-foil` · Lámina holográfica (Efectos)
+294. `color-glitch-poster` · Póster glitch cromático (Efectos)
+295. `light-leak-gradient` · Degradado de fuga de luz (Efectos)
+296. `shattered-glass-mosaic` · Mosaico de vidrio roto (Efectos)
+297. `vintage-paper-border` · Borde de papel vintage (Diseño)
+298. `luminance-glow` · Resplandor de luminancia (Efectos)
+299. `wave-line-overlay` · Trama de ondas (Diseño)
+300. `soft-chromatic-blur` · Desenfoque cromático (Efectos)
+301. `color-bloom-overlay` · Bloom de color (Efectos)
+302. `photo-depth-frame` · Marco con profundidad (Diseño)

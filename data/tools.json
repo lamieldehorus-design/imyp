@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 292,
-  "remaining": 18,
+  "implemented": 302,
+  "remaining": 8,
   "tools": [
     {
       "id": "resize",
@@ -2631,6 +2631,96 @@
       "status": "implemented",
       "batch": 29,
       "route": "/herramientas/layered-gradient-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "holographic-foil",
+      "name": "Lámina holográfica",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/holographic-foil/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-glitch-poster",
+      "name": "Póster glitch cromático",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/color-glitch-poster/",
+      "processing": "browser"
+    },
+    {
+      "id": "light-leak-gradient",
+      "name": "Degradado de fuga de luz",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/light-leak-gradient/",
+      "processing": "browser"
+    },
+    {
+      "id": "shattered-glass-mosaic",
+      "name": "Mosaico de vidrio roto",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/shattered-glass-mosaic/",
+      "processing": "browser"
+    },
+    {
+      "id": "vintage-paper-border",
+      "name": "Borde de papel vintage",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/vintage-paper-border/",
+      "processing": "browser"
+    },
+    {
+      "id": "luminance-glow",
+      "name": "Resplandor de luminancia",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/luminance-glow/",
+      "processing": "browser"
+    },
+    {
+      "id": "wave-line-overlay",
+      "name": "Trama de ondas",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/wave-line-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-chromatic-blur",
+      "name": "Desenfoque cromático",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/soft-chromatic-blur/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-bloom-overlay",
+      "name": "Bloom de color",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/color-bloom-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-depth-frame",
+      "name": "Marco con profundidad",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 30,
+      "route": "/herramientas/photo-depth-frame/",
       "processing": "browser"
     }
   ]
