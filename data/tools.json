@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 242,
-  "remaining": 68,
+  "implemented": 252,
+  "remaining": 58,
   "tools": [
     {
       "id": "resize",
@@ -2181,6 +2181,96 @@
       "status": "implemented",
       "batch": 24,
       "route": "/herramientas/soft-glow-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "prismatic-light-leak",
+      "name": "Fuga de luz prismática",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/prismatic-light-leak/",
+      "processing": "browser"
+    },
+    {
+      "id": "halftone-color-screen",
+      "name": "Semitono de color",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/halftone-color-screen/",
+      "processing": "browser"
+    },
+    {
+      "id": "cinematic-letterbox",
+      "name": "Encuadre cinematográfico",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/cinematic-letterbox/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-matte-finish",
+      "name": "Acabado mate suave",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/soft-matte-finish/",
+      "processing": "browser"
+    },
+    {
+      "id": "duotone-split-tone",
+      "name": "Virado dividido",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/duotone-split-tone/",
+      "processing": "browser"
+    },
+    {
+      "id": "glow-edge-outline",
+      "name": "Contorno con resplandor",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/glow-edge-outline/",
+      "processing": "browser"
+    },
+    {
+      "id": "contact-sheet-layout",
+      "name": "Hoja de contactos",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/contact-sheet-layout/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-poster-art",
+      "name": "Póster de color plano",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/color-poster-art/",
+      "processing": "browser"
+    },
+    {
+      "id": "radial-color-burst",
+      "name": "Explosión radial de color",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/radial-color-burst/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-focus-halo",
+      "name": "Halo de enfoque suave",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 25,
+      "route": "/herramientas/soft-focus-halo/",
       "processing": "browser"
     }
   ]

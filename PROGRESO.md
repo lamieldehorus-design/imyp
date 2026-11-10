@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 242 / 310 (78,1%).
-- **Pendientes:** 68.
+- **Implementadas:** 252 / 310 (81,3%).
+- **Pendientes:** 58.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -327,3 +327,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 240. `comic-book-ink` · Tinta de cómic (Efectos)
 241. `mirror-kaleidoscope` · Espejo caleidoscópico (Composición)
 242. `soft-glow-overlay` · Resplandor suave (Efectos)
+
+
+## Lote 25 (10)
+243. `prismatic-light-leak` · Fuga de luz prismática (Efectos)
+244. `halftone-color-screen` · Semitono de color (Efectos)
+245. `cinematic-letterbox` · Encuadre cinematográfico (Diseño)
+246. `soft-matte-finish` · Acabado mate suave (Efectos)
+247. `duotone-split-tone` · Virado dividido (Color)
+248. `glow-edge-outline` · Contorno con resplandor (Efectos)
+249. `contact-sheet-layout` · Hoja de contactos (Diseño)
+250. `color-poster-art` · Póster de color plano (Efectos)
+251. `radial-color-burst` · Explosión radial de color (Efectos)
+252. `soft-focus-halo` · Halo de enfoque suave (Efectos)
