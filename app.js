@@ -323,7 +323,37 @@ const workspace=document.getElementById('workspace'),input=document.getElementBy
 let activeTool=null,sourceImages=[],originalImage=null;
 document.getElementById('year').textContent=new Date().getFullYear();
 function renderFilters(selected='Todas'){filters.innerHTML='';categories.forEach(cat=>{const b=document.createElement('button');b.className='filter-chip'+(cat===selected?' active':'');b.textContent=cat;b.addEventListener('click',()=>{renderFilters(cat);renderTools(cat)});filters.appendChild(b)})}
-function renderTools(cat='Todas'){const q=search.value.trim().toLocaleLowerCase();const shown=tools.filter(t=>(cat==='Todas'||t.cat===cat)&&(t.name+' '+t.desc+' '+t.cat).toLocaleLowerCase().includes(q));grid.innerHTML='';shown.forEach(t=>{const b=document.createElement('button');b.className='tool-card';b.innerHTML='<span class="tool-icon">'+t.icon+'</span><strong>'+t.name+'</strong><small>'+t.desc+'</small><span class="tool-arrow">↗</span>';b.addEventListener('click',()=>openTool(t.id));grid.appendChild(b)});document.getElementById('empty-state').hidden=shown.length>0}
+function renderTools(cat='Todas'){
+ const q=search.value.trim().toLocaleLowerCase();
+ const shown=tools.filter(t=>(cat==='Todas'||t.cat===cat)&&(t.name+' '+t.desc+' '+t.cat).toLocaleLowerCase().includes(q));
+ grid.innerHTML='';
+ const makeCard=t=>{const a=document.createElement('a');a.className='tool-card';a.href='/herramientas/'+t.id+'/';a.innerHTML='<span class="tool-icon">'+t.icon+'</span><strong>'+t.name+'</strong><small>'+t.desc+'</small><span class="tool-arrow" aria-hidden="true">↗</span>';return a};
+ if(q||cat!=='Todas'){
+   shown.forEach(t=>grid.appendChild(makeCard(t)));
+ }else{
+   categories.filter(c=>c!=='Todas').forEach(catName=>{
+     const items=shown.filter(t=>t.cat===catName);
+     if(!items.length)return;
+     const section=document.createElement('section');section.className='catalog-category';
+     const heading=document.createElement('div');heading.className='catalog-category-heading';
+     const title=document.createElement('h3');title.textContent=catName;
+     const count=document.createElement('span');count.textContent=items.length+' herramientas';
+     heading.append(title,count);section.appendChild(heading);
+     const preview=document.createElement('div');preview.className='tool-grid catalog-preview';
+     items.slice(0,6).forEach(t=>preview.appendChild(makeCard(t)));
+     section.appendChild(preview);
+     if(items.length>6){
+       const more=document.createElement('details');more.className='catalog-more';
+       const summary=document.createElement('summary');summary.textContent='Ver las '+(items.length-6)+' herramientas restantes de '+catName;
+       const rest=document.createElement('div');rest.className='tool-grid catalog-rest';
+       items.slice(6).forEach(t=>rest.appendChild(makeCard(t)));
+       more.append(summary,rest);section.appendChild(more);
+     }
+     grid.appendChild(section);
+   });
+ }
+ document.getElementById('empty-state').hidden=shown.length>0;
+}
 function openTool(id){activeTool=tools.find(t=>t.id===id);sourceImages=[];originalImage=null;document.getElementById('workspace-title').textContent=activeTool.name;document.getElementById('workspace-description').textContent=activeTool.desc;document.getElementById('tool-message').textContent='';document.getElementById('download-result').hidden=true;canvas.hidden=true;document.getElementById('palette-output').hidden=true;document.querySelector('.preview-placeholder').hidden=false;document.getElementById('preview-meta').textContent='ESPERANDO IMAGEN';input.value='';input.multiple=!!activeTool.multiple;document.getElementById('upload-zone').hidden=!activeTool.needsImage;document.getElementById('tool-options').innerHTML='';activeTool.fields.forEach(f=>{const [id,label,type,def]=f;const wrap=document.createElement('div');wrap.className='option-field'+(type==='textarea'?' full':'');const lab=document.createElement('label');lab.textContent=label;lab.htmlFor='opt-'+id;let el;if(type==='select'){el=document.createElement('select');def.forEach(([v,l])=>{const o=document.createElement('option');o.value=v;o.textContent=l;el.appendChild(o)})}else if(type==='textarea'){el=document.createElement('textarea');el.value=def}else{el=document.createElement('input');el.type=type;if(type==='checkbox')el.checked=def;else el.value=def;if(type==='range'){el.min='0.1';el.max='1';el.step='0.01';if(['brightness','contrast','saturation','exposure'].includes(activeTool.id)){el.min='0.1';el.max='2.5';el.step='0.05'}if(activeTool.id==='blur'){el.min='0.2';el.max='20';el.step='0.2'}if(activeTool.id==='straighten'){el.min='-45';el.max='45';el.step='0.5'}if(activeTool.id==='pixelate'){el.min='2';el.max='80';el.step='1'}}}el.id='opt-'+id;wrap.append(lab,el);document.getElementById('tool-options').appendChild(wrap)});document.getElementById('run-tool').textContent=activeTool.needsImage?'Procesar imagen →':'Crear postal →';workspace.hidden=false;workspace.scrollIntoView({behavior:'smooth',block:'start'})}
 document.getElementById('close-workspace').addEventListener('click',()=>{workspace.hidden=true;document.getElementById('herramientas').scrollIntoView({behavior:'smooth'})});
 search.addEventListener('input',()=>{const selected=filters.querySelector('.active')?.textContent||'Todas';renderTools(selected)});

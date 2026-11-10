@@ -54,3 +54,21 @@ footer{gap:18px}
 @media(max-width:650px){.seo-tool-list{columns:1}.seo-catalog{padding:18px!important}.seo-catalog summary{font-size:13px}.tool-card{border-radius:8px}.tool-card small{font-size:10px}.workspace-panel,.preview-panel{padding:16px}.tool-section h2{font-size:25px!important;letter-spacing:-.7px}}
 @media(prefers-reduced-motion:reduce){.tool-card:hover,.button:hover,.top-cta:hover,main .tool-section div[style*="grid-template-columns"]>a[href^="/herramientas/"]:hover{transform:none}}
 
+
+/* Catálogo principal: todas las herramientas, ordenadas por categoría */
+.catalog-intro{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:18px 0 28px;color:#77798a;font-size:13px;line-height:1.7}
+.catalog-intro p{max-width:680px;margin:0}.catalog-intro span{font:10px 'DM Mono',monospace;white-space:nowrap;color:#6d57df}
+.catalog-category{padding:25px 0 30px;border-top:1px solid var(--line)}
+.catalog-category-heading{display:flex;align-items:baseline;justify-content:space-between;gap:15px;margin-bottom:17px}
+.catalog-category-heading h3{margin:0;font:600 21px 'Space Grotesk';letter-spacing:-.5px}
+.catalog-category-heading span{font:10px 'DM Mono',monospace;color:#888998}
+.catalog-preview{grid-template-columns:repeat(3,minmax(0,1fr))}
+.catalog-more{margin-top:15px;border-top:1px dashed #dedbe7;padding-top:12px}
+.catalog-more summary{cursor:pointer;color:#6d57df;font-size:12px;font-weight:600;list-style:none}
+.catalog-more summary::-webkit-details-marker{display:none}
+.catalog-more summary:after{content:' +';font-size:16px}
+.catalog-more[open] summary:after{content:' −'}
+.catalog-rest{margin-top:15px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.catalog-category .tool-card{text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:8px}
+@media(max-width:900px){.catalog-preview,.catalog-rest{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.catalog-intro{display:block}.catalog-intro span{display:block;margin-top:8px}.catalog-preview,.catalog-rest{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-category-heading h3{font-size:18px}}
