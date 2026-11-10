@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 272 / 310 (87,7%).
-- **Pendientes:** 38.
+- **Implementadas:** 282 / 310 (91,0%).
+- **Pendientes:** 28.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -366,3 +366,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 270. `split-tone-diagonal` · Virado diagonal (Color)
 271. `soft-cloud-overlay` · Nubes suaves (Efectos)
 272. `geometric-shard-mosaic` · Mosaico de fragmentos (Composición)
+
+
+## Lote 28 (10)
+273. `color-spectral-split` · Separación espectral (Color)
+274. `vaporwave-sunset` · Atardecer vaporwave (Efectos)
+275. `film-negative-tint` · Negativo teñido (Color)
+276. `glossy-reflection` · Reflejo brillante (Diseño)
+277. `soft-shadow-depth` · Profundidad con sombra (Diseño)
+278. `contour-map-lines` · Líneas topográficas (Efectos)
+279. `glitter-dust` · Polvo de purpurina (Efectos)
+280. `thermal-gradient` · Mapa térmico (Color)
+281. `layered-paper-cut` · Capas de papel recortado (Diseño)
+282. `wave-distortion` · Distorsión ondulada (Efectos)

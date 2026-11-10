@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 272,
-  "remaining": 38,
+  "implemented": 282,
+  "remaining": 28,
   "tools": [
     {
       "id": "resize",
@@ -2451,6 +2451,96 @@
       "status": "implemented",
       "batch": 27,
       "route": "/herramientas/geometric-shard-mosaic/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-spectral-split",
+      "name": "Separación espectral",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/color-spectral-split/",
+      "processing": "browser"
+    },
+    {
+      "id": "vaporwave-sunset",
+      "name": "Atardecer vaporwave",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/vaporwave-sunset/",
+      "processing": "browser"
+    },
+    {
+      "id": "film-negative-tint",
+      "name": "Negativo teñido",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/film-negative-tint/",
+      "processing": "browser"
+    },
+    {
+      "id": "glossy-reflection",
+      "name": "Reflejo brillante",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/glossy-reflection/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-shadow-depth",
+      "name": "Profundidad con sombra",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/soft-shadow-depth/",
+      "processing": "browser"
+    },
+    {
+      "id": "contour-map-lines",
+      "name": "Líneas topográficas",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/contour-map-lines/",
+      "processing": "browser"
+    },
+    {
+      "id": "glitter-dust",
+      "name": "Polvo de purpurina",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/glitter-dust/",
+      "processing": "browser"
+    },
+    {
+      "id": "thermal-gradient",
+      "name": "Mapa térmico",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/thermal-gradient/",
+      "processing": "browser"
+    },
+    {
+      "id": "layered-paper-cut",
+      "name": "Capas de papel recortado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/layered-paper-cut/",
+      "processing": "browser"
+    },
+    {
+      "id": "wave-distortion",
+      "name": "Distorsión ondulada",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 28,
+      "route": "/herramientas/wave-distortion/",
       "processing": "browser"
     }
   ]
