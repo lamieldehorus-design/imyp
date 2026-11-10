@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 222,
-  "remaining": 88,
+  "implemented": 232,
+  "remaining": 78,
   "tools": [
     {
       "id": "resize",
@@ -2001,6 +2001,96 @@
       "status": "implemented",
       "batch": 22,
       "route": "/herramientas/image-dither/",
+      "processing": "browser"
+    },
+    {
+      "id": "halftone-print",
+      "name": "Impresión de semitonos",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/halftone-print/",
+      "processing": "browser"
+    },
+    {
+      "id": "chromatic-fringe",
+      "name": "Aberración cromática",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/chromatic-fringe/",
+      "processing": "browser"
+    },
+    {
+      "id": "lens-flare-overlay",
+      "name": "Destello de lente",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/lens-flare-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "bokeh-lights",
+      "name": "Luces bokeh",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/bokeh-lights/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-map-color",
+      "name": "Mapa de degradado",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/gradient-map-color/",
+      "processing": "browser"
+    },
+    {
+      "id": "monochrome-color-wash",
+      "name": "Virado monocromático",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/monochrome-color-wash/",
+      "processing": "browser"
+    },
+    {
+      "id": "scanline-effect",
+      "name": "Líneas de escaneo",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/scanline-effect/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-strip-layout",
+      "name": "Tira de fotogramas",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/photo-strip-layout/",
+      "processing": "browser"
+    },
+    {
+      "id": "torn-edge-border",
+      "name": "Borde de papel rasgado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/torn-edge-border/",
+      "processing": "browser"
+    },
+    {
+      "id": "radial-zoom-blur",
+      "name": "Desenfoque zoom radial",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 23,
+      "route": "/herramientas/radial-zoom-blur/",
       "processing": "browser"
     }
   ]

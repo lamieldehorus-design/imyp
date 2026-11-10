@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 222 / 310 (71,6%).
-- **Pendientes:** 88.
+- **Implementadas:** 232 / 310 (74,8%).
+- **Pendientes:** 78.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -301,3 +301,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 220. `photo-border-filmstrip` · Marco tira de película (Diseño)
 221. `text-arc-layout` · Texto en arco (Diseño)
 222. `image-dither` · Tramado dithering (Efectos)
+
+
+## Lote 23 (10)
+223. `halftone-print` · Impresión de semitonos (Efectos)
+224. `chromatic-fringe` · Aberración cromática (Efectos)
+225. `lens-flare-overlay` · Destello de lente (Efectos)
+226. `bokeh-lights` · Luces bokeh (Efectos)
+227. `gradient-map-color` · Mapa de degradado (Color)
+228. `monochrome-color-wash` · Virado monocromático (Color)
+229. `scanline-effect` · Líneas de escaneo (Efectos)
+230. `photo-strip-layout` · Tira de fotogramas (Diseño)
+231. `torn-edge-border` · Borde de papel rasgado (Diseño)
+232. `radial-zoom-blur` · Desenfoque zoom radial (Efectos)
