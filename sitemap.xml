@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://imagenesypostales.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/resize/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/crop/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/rotate/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -27,7 +28,6 @@
   <url><loc>https://imagenesypostales.com/herramientas/date-stamp/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/transparency/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/sharpen/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/flip-vertical/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/straighten/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/crop-ratio/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -183,34 +183,44 @@
   <url><loc>https://imagenesypostales.com/herramientas/photo-film-frame/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/image-threshold/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://imagenesypostales.com/herramientas/photo-color-overlay/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://imagenesypostales.comundefined</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-halation/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/film-scratches/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/light-beam/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/radial-zoom/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/pixel-sort/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/paper-grain/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/border-shadow-pro/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/outlined-caption/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/gradient-map-pro/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/color-negative-pro/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-bloom/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-cyanotype/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-thermal/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/color-selective-adjust/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/channel-offset/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/image-silhouette/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/curved-caption/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-card-perspective/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/gradient-poster/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-duotone-glow/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-prism-refraction/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/motion-trail-maker/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/luminous-contours/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/warm-cool-balance/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/shadow-highlight-toning/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/selective-color-swap/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-grid-layout/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/instant-photo-frame/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/miniature-photo-board/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/geometric-low-poly/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/color-grading-wheels/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/selective-luminance/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/double-exposure-portrait/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/duotone-noir/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-depth-blur/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/vignette-color/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/light-painting-streaks/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/photo-border-filmstrip/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/text-arc-layout/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://imagenesypostales.com/herramientas/image-dither/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

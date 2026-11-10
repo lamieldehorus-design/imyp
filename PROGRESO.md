@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 212 / 310 (68,4%).
-- **Pendientes:** 98.
+- **Implementadas:** 222 / 310 (71,6%).
+- **Pendientes:** 88.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -288,3 +288,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 210. `instant-photo-frame` · Marco de foto instantánea (Diseño)
 211. `miniature-photo-board` · Panel de miniaturas (Diseño)
 212. `geometric-low-poly` · Geometría low poly (Efectos)
+
+
+## Lote 22 (10)
+213. `color-grading-wheels` · Ruedas de gradación de color (Color)
+214. `selective-luminance` · Ajuste selectivo de luminancia (Color)
+215. `double-exposure-portrait` · Doble exposición (Composición)
+216. `duotone-noir` · Duotono noir (Efectos)
+217. `photo-depth-blur` · Desenfoque de profundidad (Efectos)
+218. `vignette-color` · Viñeta de color (Efectos)
+219. `light-painting-streaks` · Estelas de luz (Efectos)
+220. `photo-border-filmstrip` · Marco tira de película (Diseño)
+221. `text-arc-layout` · Texto en arco (Diseño)
+222. `image-dither` · Tramado dithering (Efectos)

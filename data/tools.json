@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 212,
-  "remaining": 98,
+  "implemented": 222,
+  "remaining": 88,
   "tools": [
     {
       "id": "resize",
@@ -1911,6 +1911,96 @@
       "status": "implemented",
       "batch": 21,
       "route": "/herramientas/geometric-low-poly/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-grading-wheels",
+      "name": "Ruedas de gradación de color",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/color-grading-wheels/",
+      "processing": "browser"
+    },
+    {
+      "id": "selective-luminance",
+      "name": "Ajuste selectivo de luminancia",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/selective-luminance/",
+      "processing": "browser"
+    },
+    {
+      "id": "double-exposure-portrait",
+      "name": "Doble exposición",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/double-exposure-portrait/",
+      "processing": "browser"
+    },
+    {
+      "id": "duotone-noir",
+      "name": "Duotono noir",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/duotone-noir/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-depth-blur",
+      "name": "Desenfoque de profundidad",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/photo-depth-blur/",
+      "processing": "browser"
+    },
+    {
+      "id": "vignette-color",
+      "name": "Viñeta de color",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/vignette-color/",
+      "processing": "browser"
+    },
+    {
+      "id": "light-painting-streaks",
+      "name": "Estelas de luz",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/light-painting-streaks/",
+      "processing": "browser"
+    },
+    {
+      "id": "photo-border-filmstrip",
+      "name": "Marco tira de película",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/photo-border-filmstrip/",
+      "processing": "browser"
+    },
+    {
+      "id": "text-arc-layout",
+      "name": "Texto en arco",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/text-arc-layout/",
+      "processing": "browser"
+    },
+    {
+      "id": "image-dither",
+      "name": "Tramado dithering",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 22,
+      "route": "/herramientas/image-dither/",
       "processing": "browser"
     }
   ]
