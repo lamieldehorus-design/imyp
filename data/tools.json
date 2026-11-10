@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 282,
-  "remaining": 28,
+  "implemented": 292,
+  "remaining": 18,
   "tools": [
     {
       "id": "resize",
@@ -2541,6 +2541,96 @@
       "status": "implemented",
       "batch": 28,
       "route": "/herramientas/wave-distortion/",
+      "processing": "browser"
+    },
+    {
+      "id": "chromatic-glass-prism",
+      "name": "Prisma de cristal cromático",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/chromatic-glass-prism/",
+      "processing": "browser"
+    },
+    {
+      "id": "retro-tv-distortion",
+      "name": "Distorsión de televisión retro",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/retro-tv-distortion/",
+      "processing": "browser"
+    },
+    {
+      "id": "sunbeam-rays",
+      "name": "Rayos de sol",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/sunbeam-rays/",
+      "processing": "browser"
+    },
+    {
+      "id": "ink-stamp-texture",
+      "name": "Textura de sello de tinta",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/ink-stamp-texture/",
+      "processing": "browser"
+    },
+    {
+      "id": "duotone-gradient-lines",
+      "name": "Duotono con líneas",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/duotone-gradient-lines/",
+      "processing": "browser"
+    },
+    {
+      "id": "frosted-glass-frame",
+      "name": "Marco de vidrio esmerilado",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/frosted-glass-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "glow-particle-field",
+      "name": "Campo de partículas luminosas",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/glow-particle-field/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-noise-overlay",
+      "name": "Ruido de color",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/color-noise-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "circular-wave-ripple",
+      "name": "Ondas circulares",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/circular-wave-ripple/",
+      "processing": "browser"
+    },
+    {
+      "id": "layered-gradient-frame",
+      "name": "Marco de degradados en capas",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 29,
+      "route": "/herramientas/layered-gradient-frame/",
       "processing": "browser"
     }
   ]

@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 282 / 310 (91,0%).
-- **Pendientes:** 28.
+- **Implementadas:** 292 / 310 (94,2%).
+- **Pendientes:** 18.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -379,3 +379,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 280. `thermal-gradient` · Mapa térmico (Color)
 281. `layered-paper-cut` · Capas de papel recortado (Diseño)
 282. `wave-distortion` · Distorsión ondulada (Efectos)
+
+
+## Lote 29 (10)
+283. `chromatic-glass-prism` · Prisma de cristal cromático (Efectos)
+284. `retro-tv-distortion` · Distorsión de televisión retro (Efectos)
+285. `sunbeam-rays` · Rayos de sol (Efectos)
+286. `ink-stamp-texture` · Textura de sello de tinta (Efectos)
+287. `duotone-gradient-lines` · Duotono con líneas (Color)
+288. `frosted-glass-frame` · Marco de vidrio esmerilado (Diseño)
+289. `glow-particle-field` · Campo de partículas luminosas (Efectos)
+290. `color-noise-overlay` · Ruido de color (Efectos)
+291. `circular-wave-ripple` · Ondas circulares (Efectos)
+292. `layered-gradient-frame` · Marco de degradados en capas (Diseño)
