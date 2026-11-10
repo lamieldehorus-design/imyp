@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 262,
-  "remaining": 48,
+  "implemented": 272,
+  "remaining": 38,
   "tools": [
     {
       "id": "resize",
@@ -2361,6 +2361,96 @@
       "status": "implemented",
       "batch": 26,
       "route": "/herramientas/lightning-bolt-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "ink-bleed-effect",
+      "name": "Tinta expandida",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/ink-bleed-effect/",
+      "processing": "browser"
+    },
+    {
+      "id": "neon-tube-frame",
+      "name": "Marco de neón",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/neon-tube-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "color-glass-refraction",
+      "name": "Refracción de cristal",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/color-glass-refraction/",
+      "processing": "browser"
+    },
+    {
+      "id": "starlight-sparkle-overlay",
+      "name": "Destellos estelares",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/starlight-sparkle-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "gradient-mesh-overlay",
+      "name": "Degradado de malla",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/gradient-mesh-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "paper-emboss-texture",
+      "name": "Papel gofrado",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/paper-emboss-texture/",
+      "processing": "browser"
+    },
+    {
+      "id": "glow-pulse-rings",
+      "name": "Anillos luminosos",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/glow-pulse-rings/",
+      "processing": "browser"
+    },
+    {
+      "id": "split-tone-diagonal",
+      "name": "Virado diagonal",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/split-tone-diagonal/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-cloud-overlay",
+      "name": "Nubes suaves",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/soft-cloud-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "geometric-shard-mosaic",
+      "name": "Mosaico de fragmentos",
+      "category": "Composición",
+      "status": "implemented",
+      "batch": 27,
+      "route": "/herramientas/geometric-shard-mosaic/",
       "processing": "browser"
     }
   ]

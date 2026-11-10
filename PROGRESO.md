@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 262 / 310 (84,5%).
-- **Pendientes:** 48.
+- **Implementadas:** 272 / 310 (87,7%).
+- **Pendientes:** 38.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -353,3 +353,16 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 260. `pixel-outline-art` · Contorno pixelado (Efectos)
 261. `soft-vignette-color` · Viñeta cromática suave (Color)
 262. `lightning-bolt-overlay` · Rayos eléctricos (Efectos)
+
+
+## Lote 27 (10)
+263. `ink-bleed-effect` · Tinta expandida (Efectos)
+264. `neon-tube-frame` · Marco de neón (Diseño)
+265. `color-glass-refraction` · Refracción de cristal (Efectos)
+266. `starlight-sparkle-overlay` · Destellos estelares (Efectos)
+267. `gradient-mesh-overlay` · Degradado de malla (Color)
+268. `paper-emboss-texture` · Papel gofrado (Efectos)
+269. `glow-pulse-rings` · Anillos luminosos (Efectos)
+270. `split-tone-diagonal` · Virado diagonal (Color)
+271. `soft-cloud-overlay` · Nubes suaves (Efectos)
+272. `geometric-shard-mosaic` · Mosaico de fragmentos (Composición)
