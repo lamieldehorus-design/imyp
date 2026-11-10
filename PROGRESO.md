@@ -3,8 +3,8 @@
 **Catálogo maestro planificado:** 310 herramientas potenciales.
 
 ## Estado actual
-- **Implementadas:** 302 / 310 (97,4%).
-- **Pendientes:** 8.
+- **Implementadas:** 310 / 310 (100%).
+- **Pendientes:** 0.
 - **Lote 1:** 12 herramientas iniciales.
 - **Lote 2:** 15 herramientas nuevas de edición y efectos.
 - **Lote 3:** 3 herramientas incorporadas.
@@ -405,3 +405,14 @@ Una herramienta cuenta cuando está en el catálogo, tiene interfaz y lógica op
 300. `soft-chromatic-blur` · Desenfoque cromático (Efectos)
 301. `color-bloom-overlay` · Bloom de color (Efectos)
 302. `photo-depth-frame` · Marco con profundidad (Diseño)
+
+
+## Lote 31 (8) · Catálogo completo
+303. `rainbow-edge-glow` · Resplandor arcoíris de bordes (Efectos)
+304. `cinema-film-grain` · Grano cinematográfico (Efectos)
+305. `radial-gradient-frame` · Marco de degradado radial (Diseño)
+306. `chromatic-light-rays` · Rayos cromáticos (Efectos)
+307. `soft-pastel-overlay` · Superposición pastel (Color)
+308. `paper-texture-emboss-pro` · Relieve de papel avanzado (Efectos)
+309. `digital-glitch-lines` · Líneas glitch digitales (Efectos)
+310. `prismatic-duotone` · Duotono prismático (Color)

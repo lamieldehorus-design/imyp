@@ -2,8 +2,8 @@
   "project": "ImagenesYPostales.com",
   "catalogVersion": "1.0.0",
   "plannedTotal": 310,
-  "implemented": 302,
-  "remaining": 8,
+  "implemented": 310,
+  "remaining": 0,
   "tools": [
     {
       "id": "resize",
@@ -2721,6 +2721,78 @@
       "status": "implemented",
       "batch": 30,
       "route": "/herramientas/photo-depth-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "rainbow-edge-glow",
+      "name": "Resplandor arcoíris de bordes",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 31,
+      "route": "/herramientas/rainbow-edge-glow/",
+      "processing": "browser"
+    },
+    {
+      "id": "cinema-film-grain",
+      "name": "Grano cinematográfico",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 31,
+      "route": "/herramientas/cinema-film-grain/",
+      "processing": "browser"
+    },
+    {
+      "id": "radial-gradient-frame",
+      "name": "Marco de degradado radial",
+      "category": "Diseño",
+      "status": "implemented",
+      "batch": 31,
+      "route": "/herramientas/radial-gradient-frame/",
+      "processing": "browser"
+    },
+    {
+      "id": "chromatic-light-rays",
+      "name": "Rayos cromáticos",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 31,
+      "route": "/herramientas/chromatic-light-rays/",
+      "processing": "browser"
+    },
+    {
+      "id": "soft-pastel-overlay",
+      "name": "Superposición pastel",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 31,
+      "route": "/herramientas/soft-pastel-overlay/",
+      "processing": "browser"
+    },
+    {
+      "id": "paper-texture-emboss-pro",
+      "name": "Relieve de papel avanzado",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 31,
+      "route": "/herramientas/paper-texture-emboss-pro/",
+      "processing": "browser"
+    },
+    {
+      "id": "digital-glitch-lines",
+      "name": "Líneas glitch digitales",
+      "category": "Efectos",
+      "status": "implemented",
+      "batch": 31,
+      "route": "/herramientas/digital-glitch-lines/",
+      "processing": "browser"
+    },
+    {
+      "id": "prismatic-duotone",
+      "name": "Duotono prismático",
+      "category": "Color",
+      "status": "implemented",
+      "batch": 31,
+      "route": "/herramientas/prismatic-duotone/",
       "processing": "browser"
     }
   ]
