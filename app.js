@@ -821,5 +821,6 @@ catch(e){console.error(e);message('No se pudo procesar la imagen. Probá con otr
 document.getElementById('run-tool').addEventListener('click',runTool);
 renderFilters();renderTools();
 
+if(new URLSearchParams(window.location.search).get('embed')==='1')document.body.classList.add('tool-embed');
 const requestedTool=new URLSearchParams(window.location.search).get('tool');
 if(requestedTool&&tools.some(t=>t.id===requestedTool)){openTool(requestedTool);}

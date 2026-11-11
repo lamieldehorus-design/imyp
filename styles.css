@@ -72,3 +72,19 @@ footer{gap:18px}
 .catalog-category .tool-card{text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:8px}
 @media(max-width:900px){.catalog-preview,.catalog-rest{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.catalog-intro{display:block}.catalog-intro span{display:block;margin-top:8px}.catalog-preview,.catalog-rest{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-category-heading h3{font-size:18px}}
+
+
+/* Corrección estructural del catálogo: cada categoría ocupa toda la fila */
+.catalog-category{grid-column:1/-1;min-width:0;width:100%}
+.catalog-preview,.catalog-rest{width:100%;min-width:0}
+.catalog-category-heading{width:100%}
+
+/* Modo integrado para abrir el editor desde cada página individual */
+body.tool-embed .topbar,body.tool-embed .hero,body.tool-embed #herramientas,body.tool-embed .manifesto,body.tool-embed .categories-section,body.tool-embed footer{display:none!important}
+body.tool-embed main{display:block!important}
+body.tool-embed #workspace{display:block!important;min-height:0;padding:28px 24px;background:#f5f4f8}
+body.tool-embed .workspace-heading{margin-bottom:20px}
+body.tool-embed .workspace-heading h2{font-size:32px}
+body.tool-embed .close-workspace{display:none}
+body.tool-embed .workspace{grid-template-columns:minmax(260px,.8fr) 1.2fr}
+@media(max-width:650px){body.tool-embed #workspace{padding:22px 14px}body.tool-embed .workspace{grid-template-columns:1fr}}
