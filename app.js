@@ -322,6 +322,7 @@ const grid=document.getElementById('tool-grid'),filters=document.getElementById(
 const workspace=document.getElementById('workspace'),input=document.getElementById('image-input'),canvas=document.getElementById('result-canvas'),ctx=canvas.getContext('2d');
 let activeTool=null,sourceImages=[],originalImage=null;
 document.getElementById('year').textContent=new Date().getFullYear();
+if(new URLSearchParams(window.location.search).get('embed')==='1')document.body.classList.add('tool-embed');
 function renderFilters(selected='Todas'){filters.innerHTML='';categories.forEach(cat=>{const b=document.createElement('button');b.className='filter-chip'+(cat===selected?' active':'');b.textContent=cat;b.addEventListener('click',()=>{renderFilters(cat);renderTools(cat)});filters.appendChild(b)})}
 function renderTools(cat='Todas'){
  const q=search.value.trim().toLocaleLowerCase();
@@ -352,7 +353,7 @@ function renderTools(cat='Todas'){
      grid.appendChild(section);
    });
  }
- document.getElementById('empty-state').hidden=shown.length>0;
+ const emptyState=document.getElementById('empty-state');if(emptyState)emptyState.hidden=shown.length>0;
 }
 function openTool(id){activeTool=tools.find(t=>t.id===id);sourceImages=[];originalImage=null;document.getElementById('workspace-title').textContent=activeTool.name;document.getElementById('workspace-description').textContent=activeTool.desc;document.getElementById('tool-message').textContent='';document.getElementById('download-result').hidden=true;canvas.hidden=true;document.getElementById('palette-output').hidden=true;document.querySelector('.preview-placeholder').hidden=false;document.getElementById('preview-meta').textContent='ESPERANDO IMAGEN';input.value='';input.multiple=!!activeTool.multiple;document.getElementById('upload-zone').hidden=!activeTool.needsImage;document.getElementById('tool-options').innerHTML='';activeTool.fields.forEach(f=>{const [id,label,type,def]=f;const wrap=document.createElement('div');wrap.className='option-field'+(type==='textarea'?' full':'');const lab=document.createElement('label');lab.textContent=label;lab.htmlFor='opt-'+id;let el;if(type==='select'){el=document.createElement('select');def.forEach(([v,l])=>{const o=document.createElement('option');o.value=v;o.textContent=l;el.appendChild(o)})}else if(type==='textarea'){el=document.createElement('textarea');el.value=def}else{el=document.createElement('input');el.type=type;if(type==='checkbox')el.checked=def;else el.value=def;if(type==='range'){el.min='0.1';el.max='1';el.step='0.01';if(['brightness','contrast','saturation','exposure'].includes(activeTool.id)){el.min='0.1';el.max='2.5';el.step='0.05'}if(activeTool.id==='blur'){el.min='0.2';el.max='20';el.step='0.2'}if(activeTool.id==='straighten'){el.min='-45';el.max='45';el.step='0.5'}if(activeTool.id==='pixelate'){el.min='2';el.max='80';el.step='1'}}}el.id='opt-'+id;wrap.append(lab,el);document.getElementById('tool-options').appendChild(wrap)});document.getElementById('run-tool').textContent=activeTool.needsImage?'Procesar imagen →':'Crear postal →';workspace.hidden=false;workspace.scrollIntoView({behavior:'smooth',block:'start'})}
 document.getElementById('close-workspace').addEventListener('click',()=>{workspace.hidden=true;document.getElementById('herramientas').scrollIntoView({behavior:'smooth'})});
@@ -821,6 +822,6 @@ catch(e){console.error(e);message('No se pudo procesar la imagen. Probá con otr
 document.getElementById('run-tool').addEventListener('click',runTool);
 renderFilters();renderTools();
 
-if(new URLSearchParams(window.location.search).get('embed')==='1')document.body.classList.add('tool-embed');
+
 const requestedTool=new URLSearchParams(window.location.search).get('tool');
 if(requestedTool&&tools.some(t=>t.id===requestedTool)){openTool(requestedTool);}
