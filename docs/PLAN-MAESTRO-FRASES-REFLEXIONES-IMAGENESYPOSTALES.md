@@ -143,25 +143,25 @@ No mover /frases/imagenes-y-postales/ ni crear una ruta alternativa de frases or
 
 ## 8. Malla de enlaces internos
 
-| Origen | Destino | Criterio |
-|---|---|---|
-| Portada | Hubs principales | Colecciones prioritarias |
-| Hub | Temas y subcolecciones | Páginas existentes y diferenciadas |
-| Tema | Frases, reflexiones y autores | Relación temática real |
-| Autor | Temas y otros autores | Contexto compartido |
-| Cita | Autor y tema | Atribución y clasificación |
-| Reflexión | Pensamientos/dedicatorias | Relación conceptual concreta |
-| Postal | Frase o colección de origen | Facilitar lectura y creación |
-| Herramienta | Colecciones y postales | Cuando ayude a usarla |
-| Blog | Recursos pertinentes | Enlaces editoriales útiles |
+Los interlinks deben ser contextuales y útiles. Migas de pan para ubicar la página; frases conectadas con autor y temas pertinentes; autores con sus citas; hubs con subtemas y colecciones relacionadas; reflexiones con 3 a 6 lecturas relacionadas; postales con su frase/colección y herramienta de creación. La portada enlaza a las colecciones principales y a una selección acotada de temas.
 
-No imponer siete enlaces por página. La cantidad depende del contenido. Usar anchors descriptivos y variados; no repetir bloques automáticos sin contexto; no enlazar páginas inexistentes, vacías o irrelevantes. Mantener profundidad razonable y auditar huérfanas.
+Usar anchors descriptivos y naturales. No imponer una cuota fija de enlaces, no repetir bloques automáticos sin contexto y no enlazar páginas inexistentes, vacías o irrelevantes. Auditar enlaces entrantes/salientes y páginas huérfanas. No crear enlaces masivos entre las 351 categorías: cada relación debe tener sentido editorial.
+
+La especificación UX define componentes y criterios de aceptación para breadcrumbs, tarjetas, enlaces relacionados, paginación y feedback.
 
 ## 9. Diseño, mobile-first y rendimiento
 
-Mantener la identidad visual existente y dejar que el contenido sea protagonista. En móvil: navegación usable, controles accesibles, contraste, foco visible, áreas táctiles adecuadas y ninguna función esencial dependiente de hover. Contenido y metadatos equivalentes en escritorio y móvil.
+La dirección visual es minimalista y editorial: fondo blanco, títulos azules de la identidad actual, texto negro/gris legible, una familia tipográfica principal, jerarquía clara, bordes discretos y contenido protagonista. Evitar sombras pesadas, gradientes decorativos, carruseles automáticos, animaciones constantes y bloques repetidos.
 
-HTML principal disponible sin JavaScript crítico; CSS/JS mínimos y diferidos cuando corresponda; imágenes optimizadas con dimensiones; lazy loading fuera de pantalla; evitar fuentes externas innecesarias. Medir Core Web Vitals y Lighthouse en móvil y escritorio. Priorizar LCP, INP, CLS y accesibilidad antes de animaciones.
+La navegación debe ser compacta, con acceso claro a Frases, Reflexiones, Pensamientos, Dedicatorias, Postales y Herramientas. Las 351 categorías no van todas en el menú: se exploran desde sus pilares y hubs. La portada orienta con buscador, accesos directos y selecciones acotadas.
+
+**No implementar scroll infinito.** Los listados usan paginación numerada con enlaces reales, anterior/siguiente y un tamaño inicial de 12 a 18 elementos por página, a validar con pruebas. No cargar resultados automáticamente al llegar al final. Cualquier “Ver más” debe ser explícito, limitado y no sustituir la paginación rastreable.
+
+La experiencia debe ser mobile-first real: navegación usable, controles accesibles, contraste, foco visible, áreas táctiles cómodas y ninguna función esencial dependiente de hover. Contenido y metadatos equivalentes en escritorio y móvil.
+
+HTML principal disponible sin JavaScript crítico; CSS/JS mínimos y progresivos; imágenes optimizadas con dimensiones; lazy loading fuera del primer viewport; evitar fuentes externas innecesarias. Medir Core Web Vitals y Lighthouse en móvil y escritorio. Priorizar LCP, INP, CLS y accesibilidad antes de animaciones.
+
+Ver especificación completa: `docs/UX-DISENO-MINIMALISTA-INTERACTIVIDAD.md`.
 
 ## 10. Funcionalidades
 
