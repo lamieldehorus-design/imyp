@@ -1,0 +1,27 @@
+/* Editor de imágenes compartido por las páginas de herramientas */
+.editor-section{margin:1.7rem 0 2.4rem;scroll-margin-top:90px}
+.editor-section>h2{margin-bottom:.6rem}
+.editor-section>.editor-intro{margin:0 0 1rem;color:#536075}
+.editor{padding:1.1rem;border:1px solid #dbe3ee;border-radius:18px;background:#f7f9fc}
+.upload{padding:2rem;border:2px dashed #b7c8e4;border-radius:14px;text-align:center;background:#fff}
+.upload p{color:#667085}
+.upload input{display:block;margin:1rem auto;max-width:100%}
+.work{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.8fr);gap:1rem;margin-top:1rem}
+.work[hidden]{display:none}
+.work img{max-width:100%;max-height:480px;object-fit:contain;display:block;margin:auto}
+.preview{background:#fff;border:1px solid #dbe3ee;border-radius:12px;padding:1rem;min-width:0}
+.controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}
+.controls label{display:flex;flex-direction:column;gap:.3rem;font-size:.88rem;font-weight:650}
+.controls input,.controls select,.mode-selector select{width:100%;min-height:42px;padding:.6rem;border:1px solid #cfd8e6;border-radius:9px;background:#fff}
+.controls .full{grid-column:1/-1}
+.controls input[type=checkbox]{width:auto;min-height:0}
+.mode-selector{margin-bottom:.8rem}
+.mode-selector label{display:block;margin-bottom:.3rem;font-size:.88rem;font-weight:700}
+.btns{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem;align-items:center}
+.btns button,.btns .download{display:inline-block;border:0;border-radius:10px;padding:.8rem 1rem;background:#0b57d0;color:#fff;font-weight:700;text-decoration:none;cursor:pointer}
+.btns .secondary{background:#fff;border:1px solid #b7c8e4;color:#0b57d0}
+.status{color:#667085;font-size:.9rem;min-height:1.4em}
+.tool-specific .mode-selector{display:none}
+.tool-specific .work{grid-template-columns:minmax(0,1fr) minmax(250px,.8fr)}
+@media(max-width:760px){.work{grid-template-columns:1fr}}
+@media(max-width:520px){.upload{padding:1rem}.controls{grid-template-columns:1fr}.controls .full{grid-column:auto}.btns>*{flex:1 1 100%;text-align:center}}

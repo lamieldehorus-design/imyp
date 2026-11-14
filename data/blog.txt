@@ -1,0 +1,23 @@
+# BLOG DE IMÁGENES Y POSTALES
+# Cada artículo empieza con === ARTICULO ===
+# Para publicar cambiá ESTADO: borrador por ESTADO: publicado
+# CONTENIDO acepta párrafos y subtítulos con ##.
+
+=== ARTICULO ===
+TITULO: Ejemplo de artículo
+SLUG: ejemplo-articulo
+DESCRIPCION: Este bloque sirve de plantilla para tus futuros artículos largos.
+CATEGORIA: ideas
+ETIQUETAS: ejemplo, guia
+FECHA: 2026-10-03
+ESTADO: borrador
+CONTENIDO:
+## Primer subtítulo
+
+Escribí acá el contenido largo del artículo.
+
+Podés agregar todos los párrafos que quieras.
+
+## Otro subtítulo
+
+Al guardar y subir este TXT, GitHub generará automáticamente la página del artículo.

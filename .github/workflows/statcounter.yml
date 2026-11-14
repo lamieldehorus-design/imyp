@@ -1,0 +1,39 @@
+name: Instalar Statcounter en todas las páginas
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: statcounter-main
+  cancel-in-progress: false
+
+jobs:
+  inject-statcounter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener el sitio
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Añadir Statcounter a todos los HTML
+        run: python .github/scripts/inject_statcounter.py
+
+      - name: Guardar los cambios si hacen falta
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          if git diff --cached --quiet; then
+            echo "Todas las páginas HTML ya tienen Statcounter."
+            exit 0
+          fi
+          git commit -m "Add Statcounter tracking to all HTML pages"
+          git push origin HEAD:main
