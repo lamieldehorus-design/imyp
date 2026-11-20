@@ -1,8 +1,0 @@
-{
-  "name": "Imágenes y Postales",
-  "short_name": "IYP",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#245eea"
-}
