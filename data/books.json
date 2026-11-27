@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "description": "Catálogo inicial de obras. Las relaciones temáticas son orientativas y no sustituyen la verificación de pasajes.",
+  "books": [
+    {
+      "id": "doctrina-secreta-tomo-i",
+      "title": "Doctrina secreta, tomo I",
+      "author": "Helena Petrovna Blavatsky",
+      "status": "reviewed_structurally",
+      "themes": [
+        "conocimiento-oculto-esoterismo",
+        "dimensiones-universo",
+        "geometria-sagrada-simbolos",
+        "dioses-mitologias-seres-antiguos"
+      ],
+      "note": "Texto extraíble; revisar el pasaje y su contexto antes de citar."
+    },
+    {
+      "id": "la-vida-interna-tomo-ii",
+      "title": "La vida interna, tomo II",
+      "author": "Charles Webster Leadbeater",
+      "status": "reviewed_structurally",
+      "themes": [
+        "conciencia-despertar",
+        "mente-pensamiento-percepcion",
+        "espiritualidad-evolucion-interior",
+        "chakras-energia-cuerpo-sutil"
+      ],
+      "note": "Texto extraíble; las afirmaciones pertenecen al marco doctrinal de la obra salvo corroboración independiente."
+    },
+    {
+      "id": "formas-de-pensamiento",
+      "title": "Formas de pensamiento",
+      "author": "Annie Besant y Charles W. Leadbeater",
+      "status": "reviewed_structurally",
+      "themes": [
+        "mente-pensamiento-percepcion",
+        "chakras-energia-cuerpo-sutil",
+        "conciencia-despertar"
+      ],
+      "note": "Las descripciones esotéricas de la obra no deben presentarse como hechos científicos demostrados."
+    },
+    {
+      "id": "el-libro-perdido-de-enki",
+      "title": "El libro perdido de Enki",
+      "author": "Zecharia Sitchin",
+      "status": "reviewed_structurally",
+      "themes": [
+        "dioses-mitologias-seres-antiguos",
+        "civilizaciones-antiguas-origenes",
+        "universo-extraterrestres-enigmas"
+      ],
+      "note": "La recreación narrativa atribuida a fuentes antiguas debe distinguirse de los documentos históricos conservados."
+    },
+    {
+      "id": "abrazando-el-universo",
+      "title": "Abrazando el universo: Desde la paz del sentimiento",
+      "author": null,
+      "status": "pending_readable_copy",
+      "themes": [],
+      "note": "Extracción de texto dañada; no asignar temas ni atribuir ideas hasta obtener una copia legible."
+    },
+    {
+      "id": "el-guardian-del-genesis",
+      "title": "El guardián del Génesis",
+      "author": "Robert Bauval y Graham Hancock",
+      "status": "partial_ocr",
+      "themes": [
+        "civilizaciones-antiguas-origenes",
+        "dioses-mitologias-seres-antiguos"
+      ],
+      "note": "PDF escaneado con OCR parcial. Las asignaciones son preliminares y requieren lectura completa."
+    },
+    {
+      "id": "el-libro-de-cocina-del-anarquista",
+      "title": "El libro de cocina del anarquista",
+      "author": "William Powell",
+      "status": "excluded_from_editorial_line",
+      "themes": [],
+      "note": "No corresponde a la línea temática aprobada. No desarrollar ni reproducir instrucciones peligrosas."
+    },
+    {
+      "id": "el-libro-de-oro-volumen-i",
+      "title": "El libro de oro, volumen 1",
+      "author": "Atribuido a Saint Germain",
+      "status": "reviewed_structurally",
+      "themes": [
+        "espiritualidad-evolucion-interior",
+        "conciencia-despertar"
+      ],
+      "note": "Identificar como enseñanza espiritual atribuida; no prometer resultados materiales o terapéuticos."
+    },
+    {
+      "id": "el-planeta-enigma-el-mensaje",
+      "title": "El Planeta Enigma: El mensaje",
+      "author": null,
+      "status": "pending_readable_copy",
+      "themes": [],
+      "note": "Extracción codificada o dañada; no inferir autoría ni contenido por el nombre del archivo."
+    },
+    {
+      "id": "la-escalera-al-cielo",
+      "title": "La escalera al cielo",
+      "author": "Zecharia Sitchin",
+      "status": "reviewed_structurally",
+      "themes": [
+        "dioses-mitologias-seres-antiguos",
+        "civilizaciones-antiguas-origenes",
+        "universo-extraterrestres-enigmas"
+      ],
+      "note": "Separar mitos, fuentes históricas, interpretación del autor y estudios actuales."
+    },
+    {
+      "id": "la-cuarta-dimension",
+      "title": "La cuarta dimensión",
+      "author": "Bob Frissell",
+      "status": "reviewed_structurally",
+      "themes": [
+        "dimensiones-universo",
+        "conciencia-despertar",
+        "geometria-sagrada-simbolos"
+      ],
+      "note": "Las afirmaciones extraordinarias requieren contraste independiente y atribución explícita."
+    },
+    {
+      "id": "dianetica",
+      "title": "Dianética: El poder del pensamiento sobre el cuerpo",
+      "author": "L. Ronald Hubbard",
+      "status": "reviewed_structurally",
+      "themes": [
+        "mente-pensamiento-percepcion",
+        "conciencia-despertar"
+      ],
+      "note": "No presentar afirmaciones de salud o eficacia como hechos establecidos sin evidencia científica independiente."
+    },
+    {
+      "id": "soy-yo-soy-libre",
+      "title": "Soy yo, soy libre",
+      "author": "David Icke",
+      "status": "reviewed_structurally",
+      "themes": [
+        "matrix-realidad-simulacion",
+        "poder-elites-sociedades-secretas",
+        "conspiraciones-falsa-bandera",
+        "civilizaciones-antiguas-origenes"
+      ],
+      "note": "Distinguir la tesis del autor, los hechos verificables, las controversias y las hipótesis."
+    },
+    {
+      "id": "esoterismo-y-simbolismo",
+      "title": "Esoterismo y simbolismo",
+      "author": "R. A. Schwaller de Lubicz",
+      "status": "reviewed_structurally",
+      "themes": [
+        "conocimiento-oculto-esoterismo",
+        "geometria-sagrada-simbolos",
+        "filosofia-existencia"
+      ],
+      "note": "Lectura conceptual y simbólica; explicar las interpretaciones sin presentarlas como únicas."
+    },
+    {
+      "id": "manual-de-astrologia",
+      "title": "Manual de astrología",
+      "author": "Compilación de varios autores; recopilación de Rafael A. Reverte Pérez",
+      "status": "reviewed_structurally",
+      "themes": [
+        "astrologia-alquimia-cosmos"
+      ],
+      "note": "Es una compilación; identificar la fuente específica de cada regla o afirmación. Presentar astrología como sistema simbólico."
+    },
+    {
+      "id": "el-antiguo-secreto-de-la-flor-de-la-vida",
+      "title": "El antiguo secreto de la Flor de la Vida, volumen I",
+      "author": "Drunvalo Melchizedek",
+      "status": "reviewed_structurally",
+      "themes": [
+        "geometria-sagrada-simbolos",
+        "dimensiones-universo",
+        "espiritualidad-evolucion-interior"
+      ],
+      "note": "Distinguir propiedades matemáticas verificables de interpretaciones espirituales y simbólicas."
+    },
+    {
+      "id": "mercurio-el-alquimista",
+      "title": "Mercurio, el alquimista",
+      "author": "K. Parvathi Kumar",
+      "status": "reviewed_structurally",
+      "themes": [
+        "astrologia-alquimia-cosmos",
+        "conocimiento-oculto-esoterismo"
+      ],
+      "note": "Explicar las correspondencias dentro de su tradición y evitar convertir metáforas en afirmaciones literales."
+    },
+    {
+      "id": "la-guerra-de-los-dioses-y-los-hombres",
+      "title": "La guerra de los dioses y los hombres",
+      "author": "Zecharia Sitchin",
+      "status": "reviewed_structurally",
+      "themes": [
+        "dioses-mitologias-seres-antiguos",
+        "civilizaciones-antiguas-origenes",
+        "universo-extraterrestres-enigmas"
+      ],
+      "note": "Separar texto antiguo, traducción, interpretación de Sitchin y consenso académico."
+    },
+    {
+      "id": "el-codigo-cosmico",
+      "title": "El código cósmico",
+      "author": "Zecharia Sitchin",
+      "status": "reviewed_structurally",
+      "themes": [
+        "dioses-mitologias-seres-antiguos",
+        "civilizaciones-antiguas-origenes",
+        "universo-extraterrestres-enigmas"
+      ],
+      "note": "Explicar el método de búsqueda de patrones, ejemplos que encajan, contraejemplos y límites de la hipótesis."
+    }
+  ]
+}
