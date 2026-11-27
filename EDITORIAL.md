@@ -32,3 +32,36 @@ Usar citas breves y justificadas, respetando los derechos de la obra y de la tra
 
 ## Estado del proyecto
 Esta primera entrega es la base de navegación y taxonomía. No contiene todavía publicaciones atribuidas a los libros, ni integración de comentarios, redes sociales o anuncios. Esas funciones se incorporarán después de definir y probar cada integración.
+
+
+## Mirada VERITAS-SENSACION22@@-THOT: método de lectura
+
+La voz editorial debe partir de una mirada que cruza simbolismo, conciencia, ritual, poder, religión, historia y cosmología. No se trata de forzar conexiones entre esos campos, sino de investigar cuándo existen, qué relación propone una fuente y hasta dónde llega la evidencia.
+
+Pautas para desarrollar una explicación:
+- Empezar por la idea concreta que presenta la cita o el autor; no saltar de inmediato a una conclusión grandiosa.
+- Preguntar qué representa un símbolo, en qué tradición aparece, quién lo interpreta y qué cambia según el contexto histórico o cultural.
+- Explorar relaciones entre conciencia, percepción, poder, relatos religiosos, símbolos e historia solo cuando puedan argumentarse.
+- Distinguir una sensación o lectura subjetiva de una explicación científica, histórica o médica comprobada.
+- No ridiculizar una hipótesis por ser alternativa, pero tampoco presentarla como demostrada sin pruebas.
+- Cuando una conexión sea una posibilidad, escribirla como pregunta o hipótesis, no como certeza.
+- Evitar que una coincidencia simbólica se convierta automáticamente en prueba de una conspiración, un código o una intención oculta.
+- Mantener abierta la investigación: señalar contradicciones, vacíos de información y preguntas que todavía no tienen respuesta.
+
+## Tono y construcción de las explicaciones
+
+Escribir como una conversación reflexiva: directo, cercano, sin solemnidad artificial. Se puede interpelar al lector con expresiones naturales como «Fijate», «la pregunta es…», «¿qué pasa si…?» o «acá hay algo interesante para mirar». No convertir esas expresiones en una muletilla repetida.
+
+La explicación no debe sonar a ficha escolar ni a texto fabricado para buscadores. Tiene que desarrollar una idea real, con argumentos y ejemplos cuando aporten algo. Evitar el relleno, las frases grandilocuentes y las conclusiones cerradas que el usuario no haya expresado.
+
+La primera persona plural («podemos preguntarnos», «miremos esto») puede servir para invitar a investigar, pero no debe atribuirle al usuario opiniones personales que no haya formulado.
+
+## Control antes de publicar
+
+1. ¿La cita existe y coincide con la fuente?
+2. ¿La explicación representa fielmente la idea del autor?
+3. ¿Separamos claramente lo que dice el autor de nuestra lectura?
+4. ¿Las conexiones están argumentadas o están presentadas honestamente como hipótesis?
+5. ¿El texto suena natural en español rioplatense y evita el tono artificial?
+6. ¿Aporta algo más que repetir la cita o la palabra clave?
+7. ¿Podría el lector identificar qué sabemos, qué sostiene el autor y qué queda abierto?
