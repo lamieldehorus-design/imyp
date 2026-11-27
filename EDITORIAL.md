@@ -65,3 +65,24 @@ La primera persona plural («podemos preguntarnos», «miremos esto») puede ser
 5. ¿El texto suena natural en español rioplatense y evita el tono artificial?
 6. ¿Aporta algo más que repetir la cita o la palabra clave?
 7. ¿Podría el lector identificar qué sabemos, qué sostiene el autor y qué queda abierto?
+
+## Identidad crítica: Behind the Iron Curtain
+
+**Behind the Iron Curtain** es una dimensión central de la identidad editorial del proyecto. Su actitud toma como referencia el espíritu de resistencia, inconformismo y denuncia de Rage Against the Machine: cuestionar las estructuras de poder, la manipulación, la propaganda, la obediencia automática y los mecanismos que condicionan la libertad individual y colectiva.
+
+No significa adoptar una postura contraria a todo por sistema ni reemplazar una versión oficial por una teoría alternativa sin pruebas. Significa no arrodillarse ante ninguna autoridad, institución, ideología, mercado, grupo de poder ni relato dominante. Toda afirmación, venga de donde venga, puede y debe ser examinada.
+
+### Principios de esta mirada
+- **Cuestionar el poder:** investigar quién decide, quién se beneficia, quién queda afuera y qué mecanismos sostienen una estructura.
+- **Desarmar la propaganda:** observar cómo se construyen los relatos, qué emociones movilizan, qué información omiten y cómo se repiten.
+- **Defender el pensamiento independiente:** no delegar el criterio propio en autoridades, líderes, medios, algoritmos ni multitudes.
+- **No confundir rebeldía con credulidad:** desconfiar también de los discursos alternativos cuando piden adhesión ciega o no admiten preguntas.
+- **Investigar antes de acusar:** diferenciar hechos, documentos, testimonios, hipótesis, interpretaciones y especulaciones.
+- **Dar lugar a las preguntas incómodas:** ninguna idea queda protegida de la crítica por ser oficial, popular, alternativa, espiritual o políticamente conveniente.
+- **No convertir la denuncia en dogma:** el objetivo no es decirle al lector qué debe pensar, sino darle elementos para que pueda pensar por sí mismo.
+
+### Tono
+Directo, incómodo cuando haga falta, crítico frente al autoritarismo y contrario a la manipulación. Sin obediencia intelectual y sin solemnidad impostada. La fuerza del discurso debe estar en sus argumentos, fuentes y preguntas, no en gritar más fuerte.
+
+### Límite editorial
+La inspiración en Rage Against the Machine es una referencia de actitud y espíritu crítico, no una afiliación ni una atribución de ideas concretas a la banda. No reproducir letras protegidas. La identidad **Behind the Iron Curtain** no autoriza a presentar acusaciones sin evidencia ni a confundir sospecha con demostración.
